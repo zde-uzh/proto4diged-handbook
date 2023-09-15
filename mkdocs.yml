@@ -1,4 +1,5 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition
+site_dir: public
 nav:
   - "Home": "index.md"
   - "Schritte":
