@@ -1,0 +1,32 @@
+site_name: Handbuch zur Erstellung einer digitalen Edition
+nav:
+  - "Home": "index.md"
+  - "Schritte":
+      - "steps/atr.md"
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+
+  palette:
+    primary: green
+    accent: yellow
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - glightbox
+  - search
