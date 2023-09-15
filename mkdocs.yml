@@ -28,5 +28,4 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
-  - glightbox
   - search
