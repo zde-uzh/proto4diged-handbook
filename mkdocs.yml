@@ -4,6 +4,14 @@ nav:
   - "Home": "index.md"
   - "Schritte":
       - "steps/atr.md"
+      - "steps/critical_annotation.md"
+      - "steps/converting.md"
+      - "steps/commenting.md"
+      - "steps/semantic_annotation.md"
+  - "Publikationsplattform":
+      - "publication/introduction.md"
+  - "Langzeitarchivierung":
+      - "preservation/introduction.md"
 
 theme:
   name: material
