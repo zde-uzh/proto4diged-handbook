@@ -12,6 +12,8 @@ nav:
       - "publication/introduction.md"
   - "Langzeitarchivierung":
       - "preservation/introduction.md"
+  - "Themen":
+      - "topics/authority.md"
 
 theme:
   name: material
