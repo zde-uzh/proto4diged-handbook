@@ -8,7 +8,7 @@
 - Geonames: Orte
 - GND: Gemeinsame Normdatei
 - KBGA: Karl-Barth-Gesamtausgabe
-- Metagrid 
+- Metagrid
 - Reconciliation: Interne Daten?
 
 Out of the box kann für die Annotation von Personen GND oder Metagrad (mit GND und Helveticat) verwendet werden.
@@ -44,4 +44,19 @@ Die Daten im Index-Eintrag können auf der Seite zur Person oder in einem Dropdo
 
 ## Mapping auf weitere Normdateien
 
+Über VIAF lassen sich die Normdaten verschiedener Quellen aufeinander mappen.
+Ein Mapping kann auf [VIAF Dataset](https://viaf.org/viaf/data/) heruntergeladen werden.
 
+Die Anreicherung eines bereits mit GND-Daten angereicherten Indexes geht am einfachsten mit einem Python-Skript.
+Einträge, für die keine Identifier gefunden werden, können manuell nachbearbeitet werden.
+
+Ideen für die Sicherung der Datenqualität:
+
+- nicht-eindeutige Einträge (GND zu VIAF, VIAF zu GND, IdRef zu VIAF etc.) können manuell ergänzt werden.
+- Mappings mit Kurzansichten der verlinkten Einträge machen das Überprüfen einfacher
+
+## Beispiele
+
+- [Gaston Paris bei GND](https://d-nb.info/gnd/118789627)
+- [Gaston Paris bei IdRef](https://www.idref.fr/027058352)
+- [Gaston Paris bei VIAF](http://viaf.org/viaf/39382261)
