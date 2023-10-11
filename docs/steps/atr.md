@@ -33,7 +33,22 @@ Im Client ist diese als Vorauswahl zu finden. Stand September 2023 scheint es ni
 In der Webversion muss die Layoutanalyse vor der Handschriftenerkennung nicht gesondert angesteuert werden.
 Im Client dagegen ist eine der Fallen, dass man Seiten ohne Textregionen analysiert und damit auch keine Transkriptionen bekommt.
 
+## Korrektur der Layoutanalyse
+
+Nach der Layoutanalyse empfiehlt sich eine Kontrolle der Zeilen, besonders wenn Zeilen zerstückelt erkannt wurden oder Zeilen fehlen.
+Mehr zur [Korrektur](../topics/transkribus.md).
+
+Einzelne Korrekturen wie das Verlängern einer Zeile können auch hier vorgenommen werden.
+Auf eine komplette Überarbeitung der Zeilen sollte verzichtet werden.
+
 ## Handschriftenerkennung
 
 Bei der Handschriftenerkennung triagiert Transkribus mit einer Warteliste.
 Es ist nicht gewährleistet, dass man direkt nach dem Auftrag weiterarbeiten kann.
+Bezahlte Credits führen jedoch zu einer Bevorzugung.
+
+# Korrektur der Transkription
+
+Fehler in der Transkription können ganz einfach in den Zeilen gemacht werden.
+
+Falsche Zeilenregionen können ebenfalls in diesem Schritt behoben werden.
