@@ -15,6 +15,7 @@ nav:
   - "Themen":
       - "topics/authority.md"
       - "topics/transkribus.md"
+      - "topics/tei.md"
 
 theme:
   name: material

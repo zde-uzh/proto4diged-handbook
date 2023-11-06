@@ -47,8 +47,14 @@ Bei der Handschriftenerkennung triagiert Transkribus mit einer Warteliste.
 Es ist nicht gewährleistet, dass man direkt nach dem Auftrag weiterarbeiten kann.
 Bezahlte Credits führen jedoch zu einer Bevorzugung.
 
-# Korrektur der Transkription
+## Korrektur der Transkription
 
 Fehler in der Transkription können ganz einfach in den Zeilen gemacht werden.
 
 Falsche Zeilenregionen können ebenfalls in diesem Schritt behoben werden.
+
+## Annotation von Textregionen
+
+Einer der letzten Schritte in Transkribus ist die Auszeichnung der Textregionen mit Funktionen.
+Damit können Titel, Absätze usw. unterschieden werden und ergeben sich bei der Konvertierung nicht einfach anonyme Blöcke (`<ab>`).
+Die wichtigsten Elemente werden standardmässig von Skripten wie Page2TEI erkannt und in die entsprechenden Elemente überführt.
