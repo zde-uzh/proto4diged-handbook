@@ -9,10 +9,21 @@ Wenn bereits geeignete Daten bestehen, können die ersten Schritte übersprungen
 
 ## Trainingsdaten
 
+Es besteht die Möglichkeit, projektspezifische Modelle zu trainieren.
+Die von Transkribus gepflegten Standard-Transkriptionsmodelle werden allerdings immer besser und es ist am besten, vor allen Entscheidungen einen Testdurchlauf mit diesen Modellen zu machen.
+Wenn im Projekt spezifische Transkriptionsregeln bestehen oder das Material für eine Schreiberhand viel Material hat, kann ein spezifisches Modell natürlich einen Mehrwert bringen.
+
+Als Trainingsset für Transkriptionsmodelle empfiehlt Transkribus mindestens 75 Seiten.
+Dies können bestehende Transkriptionen sein, die in Transkribus importiert werden oder Seiten, die mit den Standardmodellen transkribiert und anschliessend korrigiert wurden.
+
+Das Aufbereiten bestehender Transkriptionen ging in der Vergangenheit mit der Funktion "text2image". Gegenwärtig ist der ideale Weg unklar.
+Für die Handschrift von Gaston Paris erwies sich das Standardmodell "The Text Titan I" als geeignet für die Anwendungen auf die Editionsdaten und eine anschliessende Korrekturrunde.
+Ab 75 Seiten korrigierten Materials können eigene Modelle darauf trainiert und die Qualität mit dem Standardmodell verglichen werden.
+
+Ein manuelles Einfügen von Transkriptionen in die Trainingsdaten ist nur sinnvoll, wenn der Weg über die Standardmodelle und eine Korrektur nicht möglich ist.
+
 Für ein Transkriptionsmodell sind nur die Zeilen relevant.
 Komplexe Anordnungen von Zeilen können zwar für Trainingsdaten verwendet werden, der Mehraufwand bringt aber keine Vorteile.
-
-Transkribus empfiehlt Trainingsdaten im Umfang von mindestens 75 Seiten.
 
 ## Re-Training
 
