@@ -16,6 +16,7 @@ nav:
       - "topics/authority.md"
       - "topics/transkribus.md"
       - "topics/tei.md"
+      - "topics/tei-publisher-annotations.md"
 
 theme:
   name: material
