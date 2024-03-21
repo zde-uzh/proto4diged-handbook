@@ -3,7 +3,9 @@
 Das Ziel bei der automatischen Texterkennung ist, den Korrekturaufwand möglichst gering, aber auf jeden Fall unter dem Aufwand einer
 manuellen Korrektur zu halten.
 Dies versucht man üblicherweise mit der schrittweisen Erweiterung der Trainingsdaten durch korrigierte Transkriptionen und dem Trainieren
-neuer Modelle für den nächsten Datensatz zu erreichen.
+neuer Texterkennungs-Modelle für den nächsten Datensatz zu erreichen.
+
+Das derzeit am häufigsten Eingesetzte Programm für ATR ist Transkribus, alternativen stellen eScriptorium und OCR4All dar.
 
 Wenn bereits geeignete Daten bestehen, können die ersten Schritte übersprungen werden.
 
