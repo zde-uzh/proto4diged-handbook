@@ -3,6 +3,7 @@ site_dir: public
 nav:
   - "Home": "index.md"
   - "Schritte":
+      - "steps/introduction.md"
       - "steps/atr.md"
       - "steps/critical_annotation.md"
       - "steps/converting.md"
