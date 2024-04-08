@@ -5,11 +5,11 @@ manuellen Korrektur zu halten.
 Dies versucht man üblicherweise mit der schrittweisen Erweiterung der Trainingsdaten durch korrigierte Transkriptionen und dem Trainieren
 neuer Texterkennungs-Modelle für den nächsten Datensatz zu erreichen.
 
-Das derzeit am häufigsten Eingesetzte Programm für ATR ist Transkribus, alternativen stellen eScriptorium und OCR4All dar.
+Das derzeit am häufigsten Eingesetzte Programm für ATR ist Transkribus, Alternativen stellen eScriptorium und OCR4All dar.
 
 Wenn bereits geeignete Daten bestehen, können die ersten Schritte übersprungen werden.
 
-## Trainingsdaten
+## Trainingsdaten
 
 Es besteht die Möglichkeit, projektspezifische Modelle zu trainieren.
 Die von Transkribus gepflegten Standard-Transkriptionsmodelle werden allerdings immer besser und es ist am besten, vor allen Entscheidungen einen Testdurchlauf mit diesen Modellen zu machen.
