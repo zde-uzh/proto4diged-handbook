@@ -18,8 +18,10 @@ nav:
       - "topics/transkribus.md"
       - "topics/tei.md"
       - "topics/tei-publisher-annotations.md"
+      - "04_topics/accessibility.md"
 
 theme:
+  language: de
   name: material
   features:
     - content.code.copy
