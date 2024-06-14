@@ -2,22 +2,26 @@ site_name: Handbuch zur Erstellung einer digitalen Edition
 site_dir: public
 nav:
   - "Home": "index.md"
-  - "Schritte":
-      - "steps/introduction.md"
-      - "steps/atr.md"
-      - "steps/critical_annotation.md"
-      - "steps/converting.md"
-      - "steps/commenting.md"
-      - "steps/semantic_annotation.md"
-  - "Publikationsplattform":
-      - "publication/introduction.md"
-  - "Langzeitarchivierung":
-      - "preservation/introduction.md"
-  - "Themen":
-      - "topics/authority.md"
-      - "topics/transkribus.md"
-      - "topics/tei.md"
-      - "topics/tei-publisher-annotations.md"
+  - "00_Planung": 
+      - "00_Planung/01_Projektziele_und_-ressourcen.md"
+      - "00_Planung/02_Vorbildhafte_Editionen.md"
+      - "00_Planung/03_Vernetzung.md"
+  - "01_Editionsarbeit":
+      - "01_Editionsarbeit/01_Einleitung_in_die_digitale Editionsarbeit.md"
+      - "01_Editionsarbeit/02_Textkonstitution.md"
+      - "01_Editionsarbeit/03_Transkription.md"
+      - "01_Editionsarbeit/04_converting.md"
+      - "01_Editionsarbeit/06_semantic_annotation.md"
+      - "01_Editionsarbeit/07_commenting.md"
+  - "02_Publikationsplattform":
+      - "02_Publikationsplattform/introduction_preservation.md"
+  - "03_Langzeitarchivierung":
+      - "preservation/01_introduction.md"
+  - "04_Themen":
+      - "04_Themen/authority.md"
+      - "04_Themen/transkribus.md"
+      - "04_Themen/tei.md"
+      - "04_Themen/tei-publisher-annotations.md"
 
 theme:
   name: material

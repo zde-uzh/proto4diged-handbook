@@ -1,4 +1,4 @@
-# ATR – Automatische Texterkennung
+# Transkription (ATR – Automatische Texterkennung)
 
 Das Ziel bei der automatischen Texterkennung ist, den Korrekturaufwand möglichst gering, aber auf jeden Fall unter dem Aufwand einer
 manuellen Korrektur zu halten.
