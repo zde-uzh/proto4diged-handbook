@@ -1,23 +1,29 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition
 site_dir: public
 nav:
-  - "Home": "index.md"
-  - "Schritte":
-      - "steps/introduction.md"
-      - "steps/atr.md"
-      - "steps/critical_annotation.md"
-      - "steps/converting.md"
-      - "steps/commenting.md"
-      - "steps/semantic_annotation.md"
-  - "Publikationsplattform":
-      - "publication/introduction.md"
-  - "Langzeitarchivierung":
-      - "preservation/introduction.md"
+  - "Einleitung": "Startseite.md"
+  - "1. Planung":
+    - "1. Planung/01_Projektziele_und_-ressourcen.md" 
+    - "1. Planung/02_Vorbildhafte_Editionen.md"
+    - "1. Planung/03_Vernetzung.md"
+  - "2. Editionsarbeit":
+      - "2. Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit.md"
+      - "2. Editionsarbeit/02_Textkonstitution.md"
+      - "2. Editionsarbeit/03_Transkription.md"
+      - "2. Editionsarbeit/04_converting.md"
+      - "2. Editionsarbeit/05_critical_annotation.md"
+      - "2. Editionsarbeit/06_semantic_annotation.md"
+      - "2. Editionsarbeit/07_commenting.md"
+  - "3. Publikationsplattform":
+      - "3. Publikationsplattform/01_introduction_publication.md"
+  - "4. Langzeitarchivierung":
+      - "4. Langzeitarchivierung/01_introduction_preservation.md"
   - "Themen":
-      - "topics/authority.md"
-      - "topics/transkribus.md"
-      - "topics/tei.md"
-      - "topics/tei-publisher-annotations.md"
+      - "Themen/accesibility.md"
+      - "Themen/authority.md"
+      - "Themen/transkribus.md"
+      - "Themen/tei.md"
+      - "Themen/tei-publisher-annotations.md"
 
 theme:
   language: de
@@ -31,7 +37,7 @@ theme:
 
   palette:
     primary: green
-    accent: yellow
+    accent: red
 
 markdown_extensions:
   - pymdownx.highlight:

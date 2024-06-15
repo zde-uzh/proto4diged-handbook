@@ -1,4 +1,4 @@
-# Projektziele und -ressourcen einer DSE
+# Projektziele und -ressourcen 
 
 Anders als - zumindest ideell - ergebnisoffene Forschung müssen DSE von ihrem Endprodukt aus gedacht werden. Die Planung hat sich am einem Modell der fertigen Edition und ihren Verwendungszwecken zu orientieren und  vom angestrebten Ergebnis aus die notwendigen Workflow-Schritte zurückzugehen - freilich nicht, ohne dieses Ergebnis im Planungsprozess kontinuierlich anzupassen.
 
