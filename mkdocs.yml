@@ -1,21 +1,21 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition
 site_dir: public
 nav:
-  - "Einleitung": "Startseite.md"
+  - "Einleitung": "index.md"
   - "1. Planung":
-    - "1. Planung/01_Projektziele_und_-ressourcen.md" 
-    - "1. Planung/02_Vorbildhafte_Editionen.md"
-    - "1. Planung/03_Vernetzung.md"
+    - "1_Planung/01_Projektziele_und_-ressourcen.md" 
+    - "1_Planung/02_Vorbildhafte_Editionen.md"
+    - "1_Planung/03_Vernetzung.md"
   - "2. Editionsarbeit":
-      - "2. Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit.md"
-      - "2. Editionsarbeit/02_Textkonstitution.md"
-      - "2. Editionsarbeit/03_Transkription.md"
-      - "2. Editionsarbeit/04_converting.md"
-      - "2. Editionsarbeit/05_critical_annotation.md"
-      - "2. Editionsarbeit/06_semantic_annotation.md"
-      - "2. Editionsarbeit/07_commenting.md"
-  - "3. Publikationsplattform":
-      - "3. Publikationsplattform/01_introduction_publication.md"
+      - "2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit.md"
+      - "2_Editionsarbeit/02_Textkonstitution.md"
+      - "2_Editionsarbeit/03_Transkription.md"
+      - "2_Editionsarbeit/04_converting.md"
+      - "2_Editionsarbeit/05_critical_annotation.md"
+      - "2_Editionsarbeit/06_semantic_annotation.md"
+      - "2_Editionsarbeit/07_commenting.md"
+  - "3. Publikation":
+      - "3_Publikation/01_introduction_publication.md"
   - "4. Langzeitarchivierung":
       - "4. Langzeitarchivierung/01_introduction_preservation.md"
   - "Themen":
@@ -51,3 +51,4 @@ markdown_extensions:
 
 plugins:
   - search
+  - tags
