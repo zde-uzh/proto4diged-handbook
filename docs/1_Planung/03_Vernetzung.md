@@ -13,7 +13,6 @@ Das [**internationale  Institut für Dokumentologie und Editorik i-d-e**]() kann
 Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das KONDE Weißbuch: https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10
 
 
-
 ## Digital Humanities Interessengemeinschaften
 
 Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im folgenden aufgeführt. 

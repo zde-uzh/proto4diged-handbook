@@ -4,7 +4,7 @@
 
 ### Anwendungsbereiche
 
-Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften  in der Planung von digitalen wissenschaftlichen Editionen (digital scientific editions: DSE) in ihrer ganzen Dauer, d.h. von der Texktonstitution bis zur Langzeitsicherung. Sein Fokus auf Texteditionen verdankt sich dem Open Research Data Projekt [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html) (untersützt durch swissuniversities, 2023-2024). In ihm haben Vertreter:innen der Literatur- und Geschichtschwissenschaften, der Digital Humanities sowie des Bibliothekswesens Edition-Workflows anhand eines Teilkorpus' der Korrespondenz des französischen Philologen Gaston Paris getestet und evaluiert. Im Zentrum standen dabei die Tools **Transkribus** (zur Texterkennung und Transkription) und **TEI-Publisher** (zur Annotation, Kommentierung und Publikation). 
+Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften  in der Erstellung von digitalen wissenschaftlichen Editionen (digital scientific editions: DSE) in ihrer ganzen Dauer, d.h. von der Planungsphase bis zur Langzeitsicherung. Sein Fokus auf Texteditionen verdankt sich der romanistischen Modelleditin des Open Research Data Projekts [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html) (untersützt durch swissuniversities, 2023-2024). In ihm haben Vertreter:innen der Literatur- und Geschichtschwissenschaften, der Digital Humanities sowie des Bibliothekswesens Edition-Workflows anhand eines Teilkorpus' der Korrespondenz des französischen Philologen Gaston Paris getestet und evaluiert. Im Zentrum standen dabei die Tools **Transkribus** (zur Texterkennung und Transkription) und **TEI-Publisher** (zur Annotation, Kommentierung und Publikation). 
 
 Das Handbuch dokumentiert jedoch nicht nur besagte Tools, seine grundsätzlichen editionswissenschaftlichen Überlegungen zur Planung von Workflows lassen sich mit Einschränkungen auf Editionen nicht-textueller oder multimedialer Medien übertragen. Um auch Forschenden zugänglich zu sein, die bisher an gedruckten Editionen gearbeitet haben, verwendet es bewährte **editorische Begriffe** (Textkonstitution, Kollation, diplomatische Umschrift etc.), reflektiert jedoch deren Übertragung ins Digitale, die zu Bedeutungsverschiebungen oder Erweiterungen führen kann.   
 
@@ -18,7 +18,7 @@ Die hier dokumentierten, prototypischen, d.h. vorbild- und beispielhaften, Schri
 
 Das Handbuch reflektiert deshalb immer eine **Mehrzahl der Möglichkeiten** und hilft DSE-Projekten, diese abzuwägen. Ziel der Dokumentation ist es nicht, *den* perfekten Weg bzw. Workflow für jedes Projekt vorzuzeichnen. Sie gibt stattdessen Hinweise zur  Planung und Umsetzung von DSE, die dem Projektrahmen angemessenen sind. Diese Faktoren haben grundsätzliche Auswirkungen auf die [Planung](1. Planung/01_Projektziele_und_-ressourcen.md). 
 
-## 3. Workflows
+## 2. Workflows
 
 Unter einem **Workflow** verstehen wir die Folge aufeinander aufbauender Arbeitsschritte, deren Abschluss bzw. Vollständigkeit jeweils ein editorischer Entscheid zugrunde liegt. So ist der Abschluss der [Textkonsitution](02_Textkonsitution.md) eine - auf der Gesamtplanung beruhende - editorische Entscheidung, die es erlaubt, zur [Transkription](03_Transkription.md) des Korpus voranzuschreiten. Für diese Arbeitsschritte besteht im Handbuch je ein eigener Eintrag. Sie  lassen sich  per se auf verschiedene Mitarbeitende oder Teams aufteilen im Gegensatz zu Unterschritten, die das oftmals verbieten (u.a. weil ihre Abschliessbarkeit weniger von editorischen als von technischen Erwägungen abhängt). Die **Arbeitsteilung** innerhalb des Workflows bedarf jedoch immer genauer Planung und Koordination; sie ist nicht in jedem Fall sinnvoll. Auf besonders eng Verzahnungen von Arbeitsschritten wird im Handbuch hingewiesen.
 
@@ -38,7 +38,7 @@ Andererseits steht dem Kompexitätszuwachs an verfügbaren Tools und Plattformen
     -  Wir verweien auf 'haute couture' Lösungen, d.h. 'maßgeschneiderte' Funktionalitäten, für die keine Standardisierung vorliegen   
 
 
-## 4. Tools und Plattformen
+## 3. Tools und Plattformen
 
 Unter einem **Tool** zur Erstellung einer DSE versteht das vorliegende Handbuch jegliche relevanten technische Werkzeuge und Hilfsmittel; dies können neben Desktop- oder webbasierten Programmen auch Add-Ons oder Code-Skripts sein, die in der Anwendung unterschiedliches technisches Vorwissen benötigen. Das Handbuch bietet Hinweise darauf, in welchen Fällen wieviel Vorwissen notwendig ist. In seinem Zentrum stehen die weitverbreiteten Tools [Transkribus](https://app.transkribus.org/) und [TEI-Publisher](https://teipublisher.com/).
 
