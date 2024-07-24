@@ -49,7 +49,7 @@ Im Client dagegen ist eine der Fallen, dass man Seiten ohne Textregionen analysi
 ## Korrektur der Layoutanalyse
 
 Nach der Layoutanalyse empfiehlt sich eine Kontrolle der Zeilen, besonders wenn Zeilen zerstückelt erkannt wurden oder Zeilen fehlen.
-Mehr zur [Korrektur](../topics/transkribus.md).
+Mehr zur [Korrektur](../Themen/transkribus.md).
 
 Einzelne Korrekturen wie das Verlängern einer Zeile können auch hier vorgenommen werden.
 Auf eine komplette Überarbeitung der Zeilen sollte verzichtet werden.
