@@ -33,10 +33,10 @@ Wann wollen wir mit neuen Daten bessere Modelle trainieren?
 
 Faktoren sind:
 
-- Qualitätsverbesserung
-- Korrekturaufwand
-- Verfügbare Zeit der Projektmitglieder
-- Zeit, die für das Trainieren gebraucht wird
+-   Qualitätsverbesserung
+-   Korrekturaufwand
+-   Verfügbare Zeit der Projektmitglieder
+-   Zeit, die für das Trainieren gebraucht wird
 
 ## Layoutanalyse
 

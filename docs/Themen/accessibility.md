@@ -28,11 +28,11 @@ Die Barrierefreiheit einer digitalen Edition beginnt bereits bei den Daten und z
 
 -   Unterstreichungen, Additionen, Streichungen, Hochstellungen
 
-    - Vermeidung von Interpretation von Markup und blosse visuelle Nachbildung kann dieses unsichtbar machen.
+    -   Vermeidung von Interpretation von Markup und blosse visuelle Nachbildung kann dieses unsichtbar machen.
 
 -   Parallele Texte
 
-    - Je nach Intention der Edition und Länge der parallelen Texte sind Tabellen oder Kapitel geeignet.
+    -   Je nach Intention der Edition und Länge der parallelen Texte sind Tabellen oder Kapitel geeignet.
 
 -   Konkurrierende Hierarchien: Darstellung in der digitalen Edition vs. Struktur des Originaldokuments
 

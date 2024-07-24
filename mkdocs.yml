@@ -3,9 +3,9 @@ site_dir: public
 nav:
   - "Einleitung": "index.md"
   - "1. Planung":
-    - "1_Planung/01_Projektziele_und_-ressourcen.md" 
-    - "1_Planung/02_Vorbildhafte_Editionen.md"
-    - "1_Planung/03_Vernetzung.md"
+      - "1_Planung/01_Projektziele_und_-ressourcen.md"
+      - "1_Planung/02_Vorbildhafte_Editionen.md"
+      - "1_Planung/03_Vernetzung.md"
   - "2. Editionsarbeit":
       - "2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit.md"
       - "2_Editionsarbeit/02_Textkonstitution.md"
