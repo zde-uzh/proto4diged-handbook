@@ -1,4 +1,4 @@
-# Vorbildhafte Editionen 
+# Vorbildhafte Editionen
 
 Ein wichtiger Schritt im Planungsprozess ist es, die eigenen Vorstellung des Endproduktus mit bestehenden Lösungen zu vergleichen, insbesondere mit vorbildhaften Editionen. Es ist ratsam,  auf allen Ebenen - vom Grobkonzept bis zur Funktionalität und Gesaltung des Frontends - erste Überlegungen anhand dieser Beispiele zu machen. In vielen Fällen sind die Editor:innen der so vorbildhaft gewordenen Editionen bereit, ihr Wissen auch im persönlichen Austausch weiterzugeben. 
 
@@ -28,7 +28,10 @@ Das Handbuch evaluiert selbst keine DSE, sondern verweist lediglich - ohne Anspr
 
 - Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net).
 
-Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst  Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
+-   Kulturwissenschaftlich bzw. interdisziplijnär ausgerichtete DSE von unterschiedlichen Quellen (Print, Manuskripte, Briefe, Skizzen)
+-   Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise
+
+Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
 
 ### Übersichten und Sammlungen von DSE
 
