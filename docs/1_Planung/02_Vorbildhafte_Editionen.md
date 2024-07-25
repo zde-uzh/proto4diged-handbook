@@ -24,7 +24,7 @@ Das Handbuch evaluiert selbst keine DSE, sondern verweist lediglich - ohne Anspr
 
 [edition humboldt digital](https://edition-humboldt.de/) (2016-2024f.)
 
-- Kulturwissenschaftlich bzw. interdisziplijnär ausgerichtete DSE von unterschiedlichen Quellen (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen)
+- Kulturwissenschaftlich bzw. interdisziplinär ausgerichtete DSE von unterschiedlichen Quellen (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen)
 
 - Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net).
 
