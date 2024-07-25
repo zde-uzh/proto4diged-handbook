@@ -6,7 +6,6 @@ Wir skizzieren im Folgenden Fragen, die ein Projekt in der Planungsphase für si
 
 => Die Folgenden Abschnitte werden nach finalisierung des Handbuchs noch mit den relevanten Kapiteln verknüpft
 
-## Ausgangslage: Projektrahmen und Ressourcen
 ## 1. Ausgangslage:  Projektrahmen und Ressourcen
 
 Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktoren evaluiert werden:
@@ -15,14 +14,8 @@ Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktor
 -   Beschaffenheit und Quantität der zu edierende Medien
 -   Projektdauer
 
-- Teamgröße und -fähigkeiten
-
-- Beschaffenheit und Quantität der zu edierende Medien
-
-- Projektdauer
-
 Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen Projektantrags möglich.
-Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen Projektantrags möglich.
+
 
 ## 2. Fragekatalog
 
@@ -36,21 +29,14 @@ Im folgenden führen wir in einem unvollständigen Fragekatalog auf, welche Them
 ### Rolle des Frontends
 
 - Muss am Schluss eine statische Publikation der Oberfläche vorliegen?
-
 - Werden physische Prints vorgesehen? Ist das Frontend eine Zwischenstufe?
 
-
-# Verschiedene Formen des Outputs (Publikation und Nachnutzung)
-
--   Wie sollen die Daten der Edition gentutz werden?
-
-    -   Zur qualitativen Analyse (literaturwissenschaftlich)
 ### Verschiedene Formen des Outputs (Publikation und Nachnutzung)
-- Wie sollen die Daten der Edition gentutz werden? 
-    - Zur qualitativen Analyse?
-    - zur quantitativen Analyse (weitere Bearbeitung zur späteren qualitativen Analyse oder für korpuslinguistische und statistische Fragesellungen)? 
 
-    -   zur quantitativen Analyse (weitere Bearbeitung zur qualitativen Analyse oder koruslinguistische und statistische Fragesellungen)
+-   Wie sollen die Daten der Edition genutz werden?
+
+    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, literaturwissenschaftliche textenetische Methoden oder close-readings)
+    - Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, literaturwissenschaftliche distant-readings, statistische Fragestellungen)
 
 ### Wo lohnen sich Automatisierungen?
 

@@ -6,16 +6,23 @@ Dies mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigk
 
 ## DSE Kompetenzzentren
 
-Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das ZDE: https://www.zde.uzh.ch/de/analytics.html
-
+### Deutschsprachiger Raum
 Das [**internationale Institut für Dokumentologie und Editorik i-d-e**]() kann als Anlaufstelle für verschiedene Fragestellung dienen kann und führt selbst eine Liste ihrer Kooperationspartnerschaften (https://www.i-d-e.de/aktivitaeten/kooperationen/) und Mitglieder (https://www.i-d-e.de/uber-uns-about-us/mitglieder/).
 
+### Österreich
+
 Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das KONDE Weißbuch: https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10
+
+### Schweiz
+
+Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das ZDE: https://www.zde.uzh.ch/de/analytics.html
+
+
 
 
 ## Digital Humanities Interessengemeinschaften
 
-Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im folgenden aufgeführt.
+Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im folgenden aufgeführt. Es handelt sich dabei nicht um DSE-spezifische Interessegemeinschaften, sie weisen jedoch verschiedene Kompetenzen zu diesem Themenbereich auf.  
 
 DARIAH_CH
 
