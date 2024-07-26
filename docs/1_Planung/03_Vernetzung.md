@@ -7,25 +7,26 @@ Dies mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigk
 ## DSE Kompetenzzentren
 
 ### Deutschsprachiger Raum
-Das [**internationale Institut für Dokumentologie und Editorik i-d-e**]() kann als Anlaufstelle für verschiedene Fragestellung dienen kann und führt selbst eine Liste ihrer Kooperationspartnerschaften (https://www.i-d-e.de/aktivitaeten/kooperationen/) und Mitglieder (https://www.i-d-e.de/uber-uns-about-us/mitglieder/).
+Das [**internationale Institut für Dokumentologie und Editorik i-d-e**](https://www.i-d-e.de) kann als Anlaufstelle für verschiedene Fragestellung dienen kann und führt  eine [Liste ihrer Kooperationspartnerschaften](https://www.i-d-e.de/aktivitaeten/kooperationen/) und [Mitglieder](https://www.i-d-e.de/uber-uns-about-us/mitglieder/).
 
 ### Österreich
 
-Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das KONDE Weißbuch: https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10
+Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KONDE Weißbuch](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10)
 
 ### Schweiz
 
-Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das ZDE: https://www.zde.uzh.ch/de/analytics.html
+Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das [Zentrum Digitale Editionen & Editionsanalytik ZDE der Universität Zürich](https://www.zde.uzh.ch/de/analytics.html).
 
-
+!!! note "Erfahrung aus der Modell-Edition"
+    Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Modell-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifische Tagungen wie die ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html) haben das Projekt wesentlich vorangebracht.  
 
 
 ## Digital Humanities Interessengemeinschaften
 
 Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im folgenden aufgeführt. Es handelt sich dabei nicht um DSE-spezifische Interessegemeinschaften, sie weisen jedoch verschiedene Kompetenzen zu diesem Themenbereich auf.  
 
-DARIAH_CH
+[DARIAH-CH](https://www.dariah.ch/): The Swiss Digital Research Infrastructure for arts and humanities 
 
-DARIAH_EU
+[DARIAH-EU](https://www.dariah.eu/)
 
-digital humanities im deutschsprachigen raum: https://dig-hum.de/
+[digital humanities im deutschsprachigen raum](https://dig-hum.de/)
