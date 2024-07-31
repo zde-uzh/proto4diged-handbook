@@ -1,7 +1,17 @@
 # Inhaltliche Annotation
 
-## Was bedeutet es digitales inhaltliches Annotieren?
-Unter der _inhaltlichen Annotation_ verstehen wir die Auszeichnung eines Wortes oder einer Wortfolge hinsichtlich ihrer semantischen Referenzen. Diese können sich auf denselben Text (intrareferenziell), andere Texte/Werke (intertextuell) oder beliebiege Fakten (kontextuell) beziehen, das heisst z.B. historische, geografische, biographische Kontexte.
+## Was bedeutet digitales inhaltliches Annotieren?
+Unter der _inhaltlichen Annotation_ verstehen wir die Auszeichnung eines Wortes oder einer Wortfolge hinsichtlich ihrer semantischen Referenzen. Diese können sich auf denselben Text (intrareferenziell), andere Texte/Werke (intertextuell) oder beliebiege Fakten (kontextuell) beziehen. 
+Beispiele
+    - Intrareferenzielle inhaltliche Annotationen: 
+        - Verweis einer Briefpassage auf den darin angesprochenen Briefanhang
+        - Verweis eines Inhaltsverzeichnises auf die darin angegebenen Kapitel 
+    - Intertextuelle inhaltliche Annotationen: 
+        - Verweis eines in einem Brief implizit oder explizit thematisierten Werkes auf einen bibliographischen Eintrag im DSE-Register oder einer Bibliotheksdatenbank.
+        - Verweis eines Textes auf einen anderen Text in derselben DSE oder auf einen Text, der in einer anderen DSE ediert wurde. 
+    - Kontextuelle inhaltliche Annotation: 
+        - 
+
 
 Das digitale inhaltliche Annotieren ist eine Editionsarbeit, die spezifisch durch digitale Werkzeuge, insbesondere die Möglichkeit der Verlinkung entsthet. Im Gegensatz  zur textkritischen Annotation, die oft schon während der [Transkription](03_Transkription.md) (siehe dort 3.5) gemacht wird, erscheint das inhaltlich annotierte Wort als Link, der diese Referenz durch einen Klick zugänglich macht (alternativ kann sie auch durch einen Hoover-Text kenntlich werden). Im Gegensatz zur [Kommentierung](06_commenting.md) ist eine inhaltliche Annotation ein einfacher Verweis, der selbsterklärend sein sollte oder zumindest erklärt wird durch die Weiterleitung zu einer editionsinternen Ressource (z.B. einer Karte oder einem Personeneintrag) oder einer externen Ressource (z.B. einer Normdatenbank wie GND oder Metagrid).
 
