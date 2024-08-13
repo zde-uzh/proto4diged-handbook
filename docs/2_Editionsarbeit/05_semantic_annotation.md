@@ -27,13 +27,14 @@ Zwei technische Standardlösung stehen zur Verfügung und werden im nächsten Un
 1. Die Nutzung eines TEI-XML-Editors wie Oxygen: Er stellt in diesem Fall ein Verbindungsglied zwischen Transkriptionstool und Publikationstool dar. 
 2. Die Nutzung eines Tools, das sowohl Edition und Publikation erlaubt. Die hierfür im Detail getestete Lösung ist der TEI-Publisher. 
 
-Beide Standardlösungen erlauben die Einbindung von Konnektoren, d.h. die halb-automatisierte Verlinkung der Annotation im TEI-XML mit einer Normdatenbank. Die Edierenden können aus den Vorschlägen des Konnektors den korrekten Normdatensatz auswählen und müssen die Verlinkung nicht selbst recherchieren und im TEI-XML verfassen. 
 
 ## 2. Standard-Workflow-Schritte 
 
 ### 2.1. Erstellen der Editionsrichtlinien
-Weitgehend unabhängig vom verwendeten Tool sollte am Anfang des Arbeitsschrittes geklärt werden, welche Inhalte zu welchem Zweck ausgezeichnet werden müssen. Anleitend sollte die Frage sein, welche Nutzungsszenarien die DSE zu erfüllen hat: Soll sie möglichst viele inhaltliche Daten möglichst breit sammeln oder sind ganz spezifische Daten im Vordergrund? Sind vor allem der DSE-eigene Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt? Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen?
+Weitgehend unabhängig vom verwendeten Tool sollte am Anfang des Arbeitsschrittes geklärt werden, welche Inhalte zu welchem Zweck ausgezeichnet werden müssen. Anleitend sollte die Frage sein, welche Nutzungsszenarien die DSE zu erfüllen hat: Soll sie möglichst viele inhaltliche Daten möglichst breit sammeln oder sind ganz spezifische Daten im Vordergrund? Sind vor allem der DSE-eigene Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt? Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen? 
+Beide Standardlösungen erlauben die Einbindung von Konnektoren, d.h. die halb-automatisierte Verlinkung der Annotation im TEI-XML mit einer Normdatenbank. Die Edierenden können aus den Vorschlägen des Konnektors den korrekten Normdatensatz auswählen und müssen die Verlinkung nicht selbst recherchieren und im TEI-XML verfassen. Sollte jedoch die Aussicht klein sein, überhaupt externe Normdaten zu finden, so ist die Anwendung von Konnektoren zweitrangig. 
 
+Im Detail sollte auch erwägt werden, wie oft welche Daten in einem Text ausgezeichnet werden müssen/sollen. 
 
 !!! abstract "Modell-Editionsrichtlinien: Inhaltliche Annotation"
 
