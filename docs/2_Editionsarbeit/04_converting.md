@@ -8,7 +8,7 @@ Wie bereits im Zusammenhang der Transkription beschriebenn, sind ALTO- und PAGE-
 
 ### Transkribus (Exports)
 Transkribus bietet eine Vielzahl Exportmöglichkeiten (PDF, Textfile, Docx, Excel/CSV, PAGE-XML, ALTO-XML, TEI-XML); nur die drei letztgenannten lassen sich jedoch für die Entwicklung einer DSE nach heutigen Standards weiterverwenden. Während PAGE-XML und ALTO-XML selbst noch in ein TEI-XML umgewandelt werden müssen, entspricht das durch einen Transkribus Export zur Verfügung gestellte TEI-XML leider noch nicht der angestrebten Qualität, wenn in Transkribus viele Tags vergeben wurden, und muss deshalb selbst noch überarbeitet werden.
-=> @Reto: Könntest Du hier bitte ergänzen, warum der TEI-XML Exoport (auch derjenige mit trans2tei) aus technischer Sicht nicht zufriedenstellend ist?
+=> @Reto: Könntest Du hier bitte ergänzen, warum der TEI-XML Export (auch derjenige mit trans2tei) aus technischer Sicht nicht zufriedenstellend ist?
 
 ### eScriptorium (PAGE, ALTO)
 
@@ -19,7 +19,7 @@ Transkribus bietet eine Vielzahl Exportmöglichkeiten (PDF, Textfile, Docx, Exce
 
 Wenn kein oder nur ein minimalstes Tag-Set vorliegt, benötigt der TEI-XML Export in Transkribus kaum Nachjustierung. In diesem Fall fällt jedoch eine wichtige Funktion des Tools weg: Die Annotation von Text oder Textregionen. 
 
-Noch gravierender ist, dass die **Verknüpfung zur Handschrift**, die mittlerweile zum Standard von vielen DSE gehört fehlt, da auch die Koordinaten in diesem Fall wegfallen. Ob das sinnvoll ist, kann mit einem anfänglichen Mock-Up hergeleitet werden.
+Noch gravierender ist, dass die **Verknüpfung zur Handschrift**, die mittlerweile zum Standard von vielen DSE gehört, fehlt, da auch die Koordinaten in diesem Fall wegfallen. Ob das sinnvoll ist, kann mit einem anfänglichen Mock-Up hergeleitet werden.
 => @Reto: Ist es korrekt, dass die Koordinaten wegfallen müssen? Ich ging bislang davon aus, dass Koordinaten und Tags völlig unabhängig voneinander sind und Koordinaten in einem minimal ausgezeichneten TEI-XML kein Problem darstellen.
 
 Als Lösung dieses Problems können **manuelle Nachjustierungen** durchgeführt werden, umn die Übereinstimmung mit dem angestrebten TEI-Schema zu erreichen. Solche manuelle Überarbeitungen können je nach Komplexität des Schemas jedoch aufwändig werden. 

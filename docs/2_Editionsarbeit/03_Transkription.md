@@ -6,7 +6,7 @@ Das Transkribieren in nicht-digitalen Editionen erfolgte nach Transkriptionsrege
 
 Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomaticher Umschrift**, d.h. Genauigkeitsgrad der Umschrift. Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. 
 
-??? abstract "Modell-Editionsrichtlinien: Tranksription"
+!!! abstract "Modell-Editionsrichtlinien: Tranksription"
 
     Die Modell-Edition versteht sich als hypothetische Vorarbeit zu einer wesentlich größeren Edition der Korrespondenz von Gaston Paris, die 27.000 Seiten umfasst und sich - falls in späteren Projekten umgesetzt - primär an ein **Forschungspublikum** wendet. Da die entwickelten prototypischen Workflows einereseits wissenschaftliche Standards diplomatischer Editionen erfüllen sollen, anderersetits im Umfang skalierbar bleiben müssen, konzentriert sie sich um **größtmöglich Texttreue bei gleichzeitiger Einfachheit textkritischer und inhaltlicher Auszeichnung**. 
 
@@ -40,7 +40,7 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 DSE-spezifische Transkriptionsrichtlinien betreffen die **Verknüpfung von Digitalisat und Transkriptionen** im Frontend, d.h. die Einblendung von visuellen Wort- oder Zeilenkorrespondenzen zwischen Faksimile und Text. Diese wird idealerweise bereits im Schritt der Transkription vorbereitet, alle unten erwähnten Tools weisen einfache Formen dieser Verknüpfung auf. Der Zeilen-genaue Text-Bild-Verweis, der den autoptischen Vergleich vereinfacht z.B. durch Aufblinken der Textzeile im Digitalisat, hat sich zum Standard von DSE entwickelt, und wird im Folgenden zu den dokumentierten Standardlösungen gezählt. 
 
 !!! success "Best Practice" 
-    ![alt text](image-3.png){ width="400" align=right } 
+    ![screenshot Escher](image-3.png){ width="400" align=right } 
     Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, die den TEI-Publisher verwenden, ist die [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html). 
     
     Die Modell-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher) nachgenutzt. 
