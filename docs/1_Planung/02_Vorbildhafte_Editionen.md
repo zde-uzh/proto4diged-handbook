@@ -26,7 +26,7 @@ Das Handbuch evaluiert selbst keine DSE, sondern verweist lediglich - ohne Anspr
 
 - Kulturwissenschaftlich bzw. interdisziplinär ausgerichtete DSE von unterschiedlichen Quellen (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen)
 
-- Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net).
+- Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum]/(https://www.ediarum.org), die unter anderem auf den TEI-XML-Editor Oxygen aufbaut. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net).
 
 Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
 
