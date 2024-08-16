@@ -1,4 +1,4 @@
-# Transkription und automatische Texterkennung (ATR)
+# 2.2 Transkription und automatische Texterkennung (ATR)
 
 ## Was bedeutet digitales Transkribieren?
 
@@ -121,13 +121,13 @@ Der letzte, bereits optionale Schritte in Transkribus und ähnlichen Transkripti
 
  ![alt text](image-2.png){align=right width="250" }**'Textual Tags'** erlauben das Auszeichnen auf der Wortebene der Tranksription und werden deshalb am Transkriptionstext auf der rechten Seite der Benutzeroberfläche angebracht. 'Textual Tags' können neben formalen Aspekten (Unterstreichungen, fremde Hände) auch bereits inhaltliche Aspekte (Tagging von Ortsbezeichnungen oder Schlagwörtern beinhalten). Wir raten jedoch dazu, die komplexere inhaltliche Annotation erst im TEI-XML vorzunehmen, um den Konversionsaufwand zu minimieren (s.u.). 
 
- Transkriptionstools bieten also bereits eine Auszeichnung in PAGE-XML oder ALTO-XML an, die bei der Konversion in TEI-XML berücksichtigt werden muss. 
+Transkriptionstools bieten also bereits eine Auszeichnung in PAGE-XML oder ALTO-XML an, die bei der Konversion in TEI-XML berücksichtigt werden muss. 
 Es ist deshalb empfehlenswert, sich in der Auszeichnung im Transkriptionstool an der Nomenklatur des angestrebten TEI-XML zu orientieren. So entstehen bei der Konvertierung in TEI-XML  TEI-Syntax-konforme Elemente statt frei erfundene Ausdrücke oder - bei Nichtauszeichnung - anonyme Blöcke (`<ab>`). Die wichtigsten Elemente werden standardmässig von Skripten wie Page2TEI erkannt und in die entsprechenden Elemente überführt. Dies stellt ein Komplexitätszuwachs dar, der einen engermaschigen technischen Support des Projektes benötigt. 
 
 Der Vorteil von Annotationen in Transkriptionstools ist, dass in der ersten, oberflächlichen Auseinandersetzung mit dem Text bereits die wichtigsten formalen Aspekte geklärt werden können. In den nächsten Schritten nach der Konvertierung, der kritischen Annotation und KOmmentierung, - die hier primär anhand des TEI-Publishers beschreiben werden - können sich die Mitarbeitenden dann verstärkt mit den inhaltlichen Aspekten auseinandersetzen. 
 Ob und wie eingehend mit den einfach zu bedienenden, aber im Konversionsprozess anspruchsvollen Tags der Transkriptionstools gearbeitet werden soll, sollten Projekte möglichst früh abwägen.   
 
-!!! note "Erfahrung aus der Modell-Edition"
+!!! note "Erfahrung aus der Showcase-Edition"
     Wir haben uns entschieden, mit 'Structual' und 'Textual' Tags in Transkribus nur textkritische Aspekte auszuzeichnen (siehe Modell-Editionsrichtlinien oben). In dieser Auszeichnung der Briefe von Gaston Paris halten wir uns an die Element-Namen, die das [deutsche Textarchiv](https://www.deutschestextarchiv.de/) als [Basisformat zur Auszeichnung von Briefen](https://deutschestextarchiv.de/doku/basisformat/brief.html) vorschlägt. Hierfür haben wir z.T. eigene Tags in Transkribus geschaffen und in der Auszeichnung der Textregionen auf dem Digitalisat angewendet: Der Briefkopf ist beispielsweise als die Textregion 'opener' definiert, in dieser Textregion zeichnen wir die Zeile mit Datum und ggfls. Ort als 'dateline' aus. Der Textkörper selbst ist in verschiedene Paragraphen (= 'paragraph') unterteilt.
     
     ![alt text](image-1.png)
@@ -142,6 +142,7 @@ Die großen Hoffnungen, die in wissenschaftliche Anwendungen von KI gesetzt werd
 Auch bei der Anwendung der besten verfügbaren ATR-Modelle kann der Korrekturaufwand eine von Beginn an manuelle Transkription übersteigen. Das Training von eigenen Modellen ist zeitintensiv und führt nicht zwingend zu besseren Resultaten. Projekte müssen deshalb zwingend eine Testphase einplanen, in der sie die Optionen sondieren, bevor große Ground Truth Sammlungen erstellt und trainiert werden. 
 
 ### Annotieren in Transkriptionstools?
-Auch die Frage, wie viel bereits in PAGE-XML oder ALTO-XML ausgezeichnet werden soll, hängt vom verfügabren technischen Support ab. Uns sind Projekte bekannt, deren Workflow extensive, nicht nur textkritische, sondern auch inhaltliche Annotationen in Transkribus vorsahen und aufgrund Konversionsschwierigkeiten große Verzögerungen und Anpassungen im Workflow hinnehmen mussten. Schon bei Projektbeginn muss deshalb klar werden, wo welche Auszeichnungen stattfinden können, um die Komplexität der Datenkonversion an die Projektressourcen anzupassen. 
+Auch die Frage, wie viel bereits in PAGE-XML oder ALTO-XML ausgezeichnet werden soll, hängt vom verfügabren technischen Support ab. Uns sind Projekte bekannt, deren Workflow extensive, nicht nur textkritische, sondern auch inhaltliche Annotationen in Transkribus vorsahen und aufgrund Konversionsschwierigkeiten große Verzögerungen und Anpassungen im Workflow hinnehmen mussten. Schon bei Projektbeginn muss deshalb klar werden, wo welche Auszeichnungen stattfinden können, um die Komplexität der Datenkonversion an die Projektressourcen anzupassen.
+Die Showcase-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [Inhaltliche Annotation](05_semantic_annotation.md) beschrieben. 
 
 

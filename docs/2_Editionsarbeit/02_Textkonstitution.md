@@ -1,4 +1,4 @@
-# Textkonstitution
+# 2.1 Textkonstitution
 
 Die Textkonsitution bezeichnet das Zusammenstellen der zu edierenden Texte. Falls es sich um eine textgenetisch ausgerichtete Edition handelt, d.h. falls die Entstehungs- und Publikationsgeschichte eines Werkes nachvollziehbar gemacht werden soll, umfasst die Textkonstitution das **Auffinden und die Auswahl aller zu edierenden Textstufen** (Manu- oder Typoskripte und Korrekturfahnen, die im Schaffensprozess entstanden sind) und der **Textausgaben** (verschiedene autorisierte oder nichtautorisierte Drucke, ggfls. ebenfalls mit händischen Notizen oder Korrekturen von Autor:innen, Lektor:innen und Herausgeber:innen).
 
@@ -23,7 +23,7 @@ Hierbei handelt es sich um den anstrebenswerten Standard beziehungsweise die *be
 
  Solche öffentliche Datenbanken werden meist von einen Verbund von Gedächtnisinstitutionen betrieben, für die Schweiz z.B. im Kanton Waadt [Patrinum](https://patrinum.ch/?ln=fr) oder in der Deutschschweiz [e-manuscripta](https://www.e-manuscripta.ch). Dort werden die Bilddaten mit dem [IIIF-Standard](https://www.digitale-edition.at/o:konde.123) zugänglich gemacht. D.h. jedes Bild des digitalisierten Textträgers erhält einen persistente Identifikator (URI) und kann über entsprechende Schnittstellen angesteuert werden.
 
-!!! note "Erfahrung aus der Modell-Edition"
+!!! note "Erfahrung aus der Showcase-Edition"
     In der Textkonstitution der exemplarischen Brief-Edition Gaston Paris' konnte auf langjährige Forschungserfahrung und Übersicht über das Korpus zurückgegriffen werden. Deshalb konnten schnell [die relevanten Digitalisate in der Datenbank Gallica](https://gallica.bnf.fr/ark:/12148/btv1b525187862) der Französischen Nationalbibliothek BnF gefunden und zur Weiterverarbeitung heruntergeladen werden. 
     
     Aufgrund Download-Restriktionen von Gallica konnten die Bilder nicht über das entsprechende IIIF-angesteuert werden, was für die Projektgröße unproblematisch war. Im Falle von größeren Bild-Mengen, die über IIIF angesteuert werden müssen, empfehlen wir in solchen Fällen die Kontaktaufnahme mit der Administration der Datenbanken. 

@@ -1,4 +1,4 @@
-# Vernetzung mit DSE-Spezialist:innen
+# 1.3 Vernetzung mit DSE-Spezialist:innen
 
 Ebenso wie die Orientierung an vorbildhaften Editionen ist es wichtig, sich mit den DSE Forschungscommunities zu vernetzen, sei dies auf lokaler, nationaler oder internationaler Ebene.
 
@@ -17,7 +17,7 @@ Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KOND
 
 Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das [Zentrum Digitale Editionen & Editionsanalytik ZDE der Universität Zürich](https://www.zde.uzh.ch/de/analytics.html).
 
-!!! note "Erfahrung aus der Modell-Edition"
+!!! note "Erfahrung aus der Showcase-Edition"
     Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Modell-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifische Tagungen wie die ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html) haben das Projekt wesentlich vorangebracht.  
 
 

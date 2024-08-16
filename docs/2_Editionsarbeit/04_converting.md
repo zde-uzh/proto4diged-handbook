@@ -1,4 +1,4 @@
-# Konvertierung von PAGE nach TEI
+# 2.3 Konvertierung von PAGE nach TEI
 
 ## 1. Warum Konvertierung?
 

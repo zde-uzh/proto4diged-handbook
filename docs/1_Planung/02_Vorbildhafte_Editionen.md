@@ -1,4 +1,4 @@
-# Vorbildhafte Editionen
+# 1.2 Vorbildhafte Editionen
 
 Ein wichtiger Schritt im Planungsprozess ist es, die eigenen Vorstellung des Endproduktus mit bestehenden Lösungen zu vergleichen, insbesondere mit vorbildhaften Editionen. Es ist ratsam,  auf allen Ebenen - vom Grobkonzept bis zur Funktionalität und Gesaltung des Frontends - erste Überlegungen anhand dieser Beispiele zu machen. In vielen Fällen sind die Editor:innen der so vorbildhaft gewordenen Editionen bereit, ihr Wissen auch im persönlichen Austausch weiterzugeben. 
 

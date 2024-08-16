@@ -1,4 +1,4 @@
-# Festlegung der Projektziele
+# 1.1 Festlegung der Projektziele
 
 Anders als - zumindest ideell - ergebnisoffene geisteswissenschaftliche Forschung müssen DSE von ihrem Endprodukt aus gedacht werden. Die Planung hat sich am einem Modell der fertigen Edition und ihren Verwendungszwecken zu orientieren und vom angestrebten Ergebnis aus die notwendigen Workflow-Schritte zurückzugehen - freilich nicht, ohne dieses Ergebnis im Planungsprozess kontinuierlich anzupassen.
 

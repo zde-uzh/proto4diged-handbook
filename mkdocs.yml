@@ -13,10 +13,17 @@ nav:
       - "2_Editionsarbeit/04_converting.md"
       - "2_Editionsarbeit/05_semantic_annotation.md"
       - "2_Editionsarbeit/06_commenting.md"
-  - "3. Publikation":
-      - "3_Publikation/01_introduction_publication.md"
-  - "4. Langzeitarchivierung":
-      - "4_Langzeitarchivierung/01_introduction_preservation.md"
+  - "3. Präsentation":
+      - "3_presentation/01_introduction_presentation.md"
+      - "3_presentation/02_access.md"
+      - "3_presentation/03_edition_views.md"
+      - "3_presentation/04_indexes.md"
+      - "3_presentation/05_timelines_maps.md"
+      - "3_presentation/06_documentation.md"
+  - "4. Langzeitsicherung":
+      - "4_longterm_preservation/01_introduction_preservation.md"
+      - "4_longterm_preservation/02_static_presentation.md"
+      - "4_longterm_preservation/03_archiving_data.md"      
   - "Themen":
       - "Themen/accessibility.md"
       - "Themen/authority.md"
