@@ -2,18 +2,19 @@
 
 ## 1. Warum Konvertierung?
 
-Wie bereits im Zusammenhang der Transkription beschriebenn, sind ALTO- und PAGE-XML Standards von ATR. Sie geben ein XML Dokument pro transkribierte Seit aus, im Gegensatz zu TEI-XML, das eine unbegrenzte Anzahl von Seiten umfassen kann. TEI-XML ist deshalb der Editionsstandard, der es erlaubt beliebig lange Edition zu annotieren und zu publizieren. Alle XML-Formate sind maschinenlesbar, TEI-XML zudem einfacher für Menschen zu lesen und zu manipulieren, weshalb DSE-Projekte auch die Möglichkeit haben, ihre TEI-XML Daten direkt in XML-Editoren wie [Oxygen](https://www.oxygenxml.com/) aufzubereiten. Auch in letzterem Fall ist eine Konversion nötig. 
+Wie bereits im Zusammenhang der Transkription beschriebenn, sind ALTO- und PAGE-XML Standards von ATR. Sie geben ein XML Dokument pro transkribierte Seit aus, im Gegensatz zu TEI/XML, das eine unbegrenzte Anzahl von Seiten umfassen kann. TEI/XML ist deshalb der Editionsstandard, der es erlaubt beliebig lange Edition zu annotieren und zu publizieren. Alle XML-Formate sind maschinenlesbar, TEI/XML zudem einfacher für Menschen zu lesen und zu manipulieren, weshalb DSE-Projekte auch die Möglichkeit haben, ihre TEI/XML Daten direkt in XML-Editoren wie [Oxygen](https://www.oxygenxml.com/) aufzubereiten. Auch in letzterem Fall ist eine Konversion nötig. 
 
 ## 2. Standard-Konvertierungsmöglichkeiten
 
 ### Transkribus (Exports)
-Transkribus bietet eine Vielzahl Exportmöglichkeiten (PDF, Textfile, Docx, Excel/CSV, PAGE-XML, ALTO-XML, TEI-XML); nur die drei letztgenannten lassen sich jedoch für die Entwicklung einer DSE nach heutigen Standards weiterverwenden. Während PAGE-XML und ALTO-XML selbst noch in ein TEI-XML umgewandelt werden müssen, entspricht das durch einen Transkribus Export zur Verfügung gestellte TEI-XML leider noch nicht der angestrebten Qualität, wenn in Transkribus viele Tags vergeben wurden, und muss deshalb selbst noch überarbeitet werden.
+Transkribus bietet eine Vielzahl Exportmöglichkeiten (PDF, Textfile, Docx, Excel/CSV, PAGE-XML, ALTO-XML, TEI/XML); nur die drei letztgenannten lassen sich jedoch für die Entwicklung einer DSE nach heutigen Standards weiterverwenden. Während PAGE-XML und ALTO-XML selbst noch in ein TEI/XML umgewandelt werden müssen, entspricht das durch einen Transkribus Export zur Verfügung gestellte TEI/XML leider noch nicht der angestrebten Qualität, wenn in Transkribus viele Tags vergeben wurden, und muss deshalb selbst noch überarbeitet werden.
 => @Reto: Könntest Du hier bitte ergänzen, warum der TEI-XML Export (auch derjenige mit trans2tei) aus technischer Sicht nicht zufriedenstellend ist?
 
 ### eScriptorium (PAGE, ALTO)
-
+eScriptorium hat zurzeit zwei Exportmöglichkeiten: PAGE-XML und ALTO-XML.
 
 ### Vorhandene Scripts (trans2tei, page2tei)
+=> HIerzu kann ich zu 
 
 ## 3. Limitationen
 
