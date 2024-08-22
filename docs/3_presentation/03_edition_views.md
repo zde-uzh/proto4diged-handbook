@@ -1,6 +1,6 @@
 # 3.2 Editionsansichten
 
-Das Herzstück jeder DSE ist die Präsentation des edierten Textes. 
+Das Herzstück jeder DSE ist die Präsentation des edierten Textes. Über die Minimal-Standards (zweiteiliges Layout und XML-Downloads) scheint sich die DSE-Community in den letzten Jahren einig geworden zu sein, darüber hinaus gibt es jedoch weitere Ansichts- und Downlaud-Funktionen, die im Folgenden diskutiert werden. 
 
 ## Das zweiteilige Layout
 
