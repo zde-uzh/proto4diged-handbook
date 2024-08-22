@@ -45,3 +45,8 @@ Das KONDE Weißbuch bietet einen Überblick über österreichische Projekte, die
 - [Umfeld Universität Zürich](https://www.zde.uzh.ch/de/projects.html): 
 Eine Übersicht zu Editionen, die im Umfeld der Universtität Zürich durchgeführt werden bzw. wurden, bietet das Zentrum Digitale Edionen & Editionsanalytik ZDE (Stand Juni 2024: 18 DSE). 
 
+- [DiScholEd - Digital Scholarly Editions](https://discholed.huma-num.fr/exist/apps/discholed/index.html)
+Eine Sammelplattform mehrheitlich frankophoner historischer Editionsprojekte auf Basis des TEI-Publishers, die von der französischen DH-Infrastruktur [humanum](https://www.huma-num.fr/) betrieben wird (Stand August 2024: 7 DSE).
+
+- [edview, DSE des DLA Marbach](https://edview.dla-marbach.de/)
+Eine Plattform für DSE aus dem Deutschen Literaturarchiv Marbach (Stand August 2024: 2 DSE, weitere 4 DSE sind [angekündigt](https://www.dla-marbach.de/forschung/editionen-und-digital-humanities/)). 

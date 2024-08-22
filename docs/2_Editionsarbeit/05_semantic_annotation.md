@@ -73,7 +73,7 @@ Nach dem Importieren der TEI-XML-Daten in den TEI Publisher können diese mithil
 
 #### Annotatons-Editor
 
-Der TEI-Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Die dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3). 
+Der TEI-Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Die dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); wichtige Hinweise haben wir zudem im Kapitel "Themen "im Unterkapitel ["Annotationen mit TEI-Publisher"](../Themen/tei-publisher-annotations/) zusammengefasst. 
 
 !!! note "Erfahrungen aus der Showcase-Edition"
     Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Faksimile, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, grösser rechts vom annotierten Text einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksilie nötig ist, nachgetragen werden. 
@@ -85,7 +85,7 @@ Der TEI-Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Übera
 
 Nach dem Import der TEI-XML-Daten in den Editor wird mithilfe der Arbeitsumgebung [ediarum](https://www.ediarum.org) die Auszeichnung durchgeführt. Ediarum stellt TEI-XML-Daten ähnlich wie eine Word-Datei dar und hat entsprechende Formatierungs-Buttons. Eine ausführliche ediarum-[Dokumentation](https://www.ediarum.org/docs.html) existiert für das [Aufsetzen](https://www.ediarum.org/docs/set-up/), [Konfigurieren](https://github.com/ediarum/ediarum.SKOS.edit?tab=readme-ov-file#installation) und [Verwenden]( https://www.ediarum.org/docs/ediarum.BASE.manual) der Editionsumgebung und wird vom ediarum-Team regelmässig ergänzt. 
 
-=> Dieser Punkt wird durch Erfahrungen aus dem Schwarzenbach-Projekt angereichert, wobei die Benutzung von ediarum noch nicht definitiv ist. 
+=> Dieser Punkt wird durch Erfahrungen aus dem Schwarzenbach-Projekt angereichert, wobei die Benutzung von ediarum sich voraussichtlich auf sehr wenige Funktionen beschränkt. 
 
 ## 4. Limitationen
 

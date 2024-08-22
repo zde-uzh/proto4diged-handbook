@@ -17,9 +17,8 @@ nav:
       - "3_presentation/01_introduction_presentation.md"
       - "3_presentation/02_access.md"
       - "3_presentation/03_edition_views.md"
-      - "3_presentation/04_indexes.md"
-      - "3_presentation/05_timelines_maps.md"
-      - "3_presentation/06_documentation.md"
+      - "3_presentation/04_timelines_maps.md"
+      - "3_presentation/05_documentation.md"
   - "4. Langzeitsicherung":
       - "4_longterm_preservation/01_introduction_preservation.md"
       - "4_longterm_preservation/02_static_presentation.md"
