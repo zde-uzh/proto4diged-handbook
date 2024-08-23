@@ -2,7 +2,7 @@
 
 ## Formen der Kommentierung in DSE
 
-Der Kommentar erlaubt es in gedruckten und digitalen Editionen, über textkritische und inhaltliche Annotationen hinaus Texte mit Kontextinformationen anzureichern. Kommentare stellen meistens das Resultat von Forschung dar, seien es Recherchen, die eng mit der [*Textkonsitution*](02_Textkonstitution.md) verbunden sind und damit keinen größeren Zusatzaufwand darstellen, oder Recherchen, die parallel zum Editionsvorhaben als eigenständige Forschungsarbeit stattfindet und z.B. auch in Aufsätzen oder Monographien weitergenutzt werden. 
+Der Kommentar erlaubt es in gedruckten und digitalen Editionen über textkritische und inhaltliche Annotationen hinaus Texte mit Kontextinformationen anzureichern. Kommentare stellen meistens das Resultat von Forschung dar, seien es Recherchen, die eng mit der [*Textkonsitution*](02_Textkonstitution.md) verbunden sind und damit keinen größeren Zusatzaufwand darstellen, oder Recherchen, die parallel zum Editionsvorhaben als eigenständige Forschungsarbeit stattfindet und z.B. auch in Aufsätzen oder Monographien weitergenutzt werden. 
 
 In der klassischen Print-Editorik kennt man drei verschiedene Grundformen des Kommentars, die in anderer Form alle auch in DSE zur Anwendung kommen:
 
@@ -30,9 +30,9 @@ Die Codierung in TEI/XML sagt freilich noch nichts darüber aus, **wie der Stell
 
 ![Kommentierung im TEI Publisher in Endnoten mit TEI-XML](image-5.png)
 
-Da Stellenkommentare auf Seiten der Codierung einfach **als Annotationen zu handhaben** sind, lassen sie sich im TEI-Publisher im Annotations-Editor einfügen. Zurzeit lassen sie sich jedoch im Editor nicht löschen, sondern müssen manuell aus der TEI-XML-Datei gelöscht werden. Um nicht zu oft im TEI/XML arbeiten zu müssen, hat sich die Showcase-Edition dafür entschieden, solche Löschungen zunächst mit einer To-Do-Annotation zu markieren und sie später gebündelt durchzuführen.
+Da Stellenkommentare auf Seiten der Codierung einfach **als Annotationen zu handhaben** sind, lassen sie sich im TEI-Publisher im Annotations-Editor einfügen. Zurzeit lassen sie sich jedoch im Editor nicht löschen, sondern müssen manuell aus der TEI/XML-Datei gelöscht werden. Um nicht zu oft im TEI/XML arbeiten zu müssen, hat sich die Showcase-Edition dafür entschieden, solche Löschungen zunächst mit einer To-Do-Annotation zu markieren und sie später gebündelt durchzuführen.
 
 Zur einheitlichen Anwendung von Stellenkommentaren ist es sinnvoll, diese in Editionsrichtlinien festzuschreiben. 
 
 !!! abstract "Showcase-Editionsrichtlinien: Kommentierung"
-    => Eigentliche Kommentar-Richtlinien haben wir noch nicht festgelegt. Warum soll wann was kommentiert werden?
+    => @ Ursula: Eigentliche Kommentar-Richtlinien haben wir noch nicht festgelegt, das Kommentieren fällt v.a. in Deine Expertise. Warum soll wann was kommentiert werden?
