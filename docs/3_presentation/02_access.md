@@ -41,18 +41,19 @@ Je komplexer die Edition, desto mehr Suchfunktionen sind sinnvoll. Neben der Hau
 
 Neben einer Liste der Dokumente und der Suchfunktion stellen Register den wichtigsten Zugang zur Edition dar. Wie bereits im Zusammenhang mit der [*inhaltlichen Annotation*](../2_Editionsarbeit/05_semantic_annotation.md) gesehen, sind die üblichsten Register diejenigen für Orte, Personen und Schlagworte. Zwar  gehören auch Zeitdaten zur Standard-Kategorie der inhaltlichen Auszeichnung, diese werden in der Regel jedoch nicht als Register, sondern als [*Zeitstrahl*](04_timelines_maps.md) dargestellt. Der TEI Publisher erlaubt es, diesen Zeitstrahl auf der Hauptseite einzublenden. Von dieser Lösung macht z.B. die St. Galler [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1) Gebrauch.
 
-**Einfache Register** sind in der Regel alphabetisch nach Eintrag (Ortsnamen, Nachname einer Person etc.) geordnet, dies gilt auch für die Standard Register im TEI-Publisher (unten das Beispiel der Namensregister der St.Galler Missiven Edition).
-![Namensregister Missiven](image-4.png)
+!!! info "Beispielhafte DSE" 
+    **Einfache Register** sind in der Regel alphabetisch nach Eintrag (Ortsnamen, Nachname einer Person etc.) geordnet, dies gilt auch für die Standard Register im TEI-Publisher (unten das Beispiel der Namensregister der St.Galler Missiven Edition).
+    ![Namensregister Missiven](image-4.png)
+
+    **Komplexere Register** wie diejenige von [hallernet](https://hallernet.org/), die nicht mit Standard-Tools erstellt sind,  erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Chrakter einer Forschungdatenbank, deshlab sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
+    ![Personenregister hallernet](image-3.png) 
+
+!!! info "Beispielhafte DSE" 
+    Jeder **Registereintrag** ist mit einer spezifischen Registerseite verknüpft. Diese können wie das Register selbst unterschiedlich komplex ausgestaltet sein; im Standard-Fall (die auch für den TEI Publisher gilt) sind **auf einer Registerseite alle Vorkommnisse des Eintrags in der Edition sowie eine Verlinkung zu Ressourcen und Normdaten-Einträge außerhalb der Edition** aufgeführt (unten das Beispiel einer Namensregister-Seite der Missiven-Edition).
+    ![Namensregister-Seite der Missiven-Edition](image-6.png)
 
 
-**Komplexere Register** wie diejenige von [hallernet](https://hallernet.org/), die nicht mit Standard-Tools erstellt sind,  erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Chrakter einer Forschungdatenbank, deshlab sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
-![Personenregister hallernet](image-3.png) 
-
-Jeder Registereintrag ist mit einer spezifischen Registerseite verknüpft. Diese können wie das Register selbst unterschiedlich komplex ausgestaltet sein; im Standard-Fall (die auch für den TEI Publisher gilt) sind **auf einer Registerseite alle Vorkommnisse des Eintrags in der Edition sowie eine Verlinkung zu Ressourcen und Normdaten-Einträge außerhalb der Edition** aufgeführt (unten das Beispiel einer Namensregister-Seite der Missiven-Edition).
-![Namensregister-Seite der Missiven-Edition](image-6.png)
-
-
-Wo wie in hallernet die Datenbank-Struktur zentral ist, sind Registerseiten auch mit weiteren Informationen zur Entität angereichert sein, im Falle einer Person z.B. Metadaten über Publikationen oder beruflichen Funktionen. Solche 'haute-couture'-Lösungen benötigen eine **komplexe Datenbank im Hintergrund** und entsprechendes technisches Know-How über die Erstellung und Wartung von Datenbanken.
-![Personenregister-Seite hallernet](image-5.png) 
+    Wo wie in hallernet die Datenbank-Struktur zentral ist, sind Registerseiten auch mit weiteren Informationen zur Entität angereichert sein, im Falle einer Person z.B. Metadaten über Publikationen oder beruflichen Funktionen. Solche 'haute-couture'-Lösungen benötigen eine **komplexe Datenbank im Hintergrund** und entsprechendes technisches Know-How über die Erstellung und Wartung von Datenbanken.
+    ![Personenregister-Seite hallernet](image-5.png) 
 
 

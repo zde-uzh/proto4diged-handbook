@@ -1,4 +1,4 @@
-# 2.1 Textkonstitution
+# 2.1 Textkonstitution (Corpuswahl und -Digitalisierung)
 
 Die Textkonsitution bezeichnet das Zusammenstellen der zu edierenden Texte. Falls es sich um eine textgenetisch ausgerichtete Edition handelt, d.h. falls die Entstehungs- und Publikationsgeschichte eines Werkes nachvollziehbar gemacht werden soll, umfasst die Textkonstitution das **Auffinden und die Auswahl aller zu edierenden Textstufen** (Manu- oder Typoskripte und Korrekturfahnen, die im Schaffensprozess entstanden sind) und der **Textausgaben** (verschiedene autorisierte oder nichtautorisierte Drucke, ggfls. ebenfalls mit händischen Notizen oder Korrekturen von Autor:innen, Lektor:innen und Herausgeber:innen).
 

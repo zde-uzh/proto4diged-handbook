@@ -1,4 +1,4 @@
-# 2.2 Transkription und automatische Texterkennung (ATR)
+# 2.2 Transkription, ATR und Annotation
 
 ## Was bedeutet digitales Transkribieren?
 
@@ -159,14 +159,14 @@ Ob und wie eingehend mit den einfach zu bedienenden, aber im Konversionsprozess 
 
 ## 4. Limitationen
 
-### Das ideale Transkriptionstool?
+### 4.1 Das ideale Transkriptionstool?
 Zurzeit gibt es nicht *die* Lösung zur Transkription. Die oben aufgeführten Tools benötigen vor allem **unterschiedlich viel Support und technisches Wissen**, haben aber ähnliche Funktionalitäten. Es erscheint uns ratsam, in der Wahl des Tools zunächst stärker vom vorhandenen institutionellen Know-How und den technischen Ressourcen auszugehen. Sind diese sehr limitiert und erlaubt die finanzielle Lage ein Transkribus-Abonnement, so würden wir für ein solches plädieren.  
 
-### ATR als Lösung?
+### 4.2 ATR als Lösung?
 Die großen Hoffnungen, die in wissenschaftliche Anwendungen von KI gesetzt werden, gelten auch für ATR-Modelle, die zuweilen auf derselben Technologie wie große Sprachmodelle (z.B. ChatGPT) basieren. Zwar sind die Fortschritte der ATR zurzeit sehr groß, trotzdem sind sie v.a. bezüglich älterer und/oder schwieriger Handschriften noch nicht groß genug, als dass ihre Anwendung in jedem DSE-Projekt sinnvoll erscheint. 
 Auch bei der Anwendung der besten verfügbaren ATR-Modelle kann der Korrekturaufwand eine von Beginn an manuelle Transkription übersteigen. Das Training von eigenen Modellen ist zeitintensiv und führt nicht zwingend zu besseren Resultaten. Projekte müssen deshalb zwingend eine **Testphase** einplanen, in der sie die Optionen sondieren, bevor große Ground Truth Sammlungen erstellt und trainiert werden. 
 
-### Annotieren in Transkriptionstools?
+### 4.3 Annotieren in Transkriptionstools?
 Auch die Frage, wie viel bereits in PAGE-XML oder ALTO-XML ausgezeichnet werden soll, hängt vom verfügabren technischen Support ab. Uns sind Projekte bekannt, deren Workflow extensive, nicht nur textkritische, sondern auch inhaltliche Annotationen in Transkribus vorsahen und aufgrund Konversionsschwierigkeiten große Verzögerungen und Anpassungen im Workflow hinnehmen mussten. Schon bei Projektbeginn muss deshalb klar werden, **wo welche Auszeichnungen stattfinden** können, um die Komplexität der Datenkonversion an die Projektressourcen anzupassen.
 Die Showcase-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [*inhaltliche Annotation*](05_semantic_annotation.md) beschrieben. 
 

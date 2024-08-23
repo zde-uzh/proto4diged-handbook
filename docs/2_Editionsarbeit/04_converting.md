@@ -11,10 +11,10 @@ Transkribus bietet eine Vielzahl Exportmöglichkeiten (PDF, Textfile, Docx, Exce
 => @Reto: Könntest Du hier bitte ergänzen, warum der TEI-XML Export (auch derjenige mit trans2tei) aus technischer Sicht nicht zufriedenstellend ist?
 
 ### eScriptorium (PAGE, ALTO)
-eScriptorium hat zurzeit zwei Exportmöglichkeiten: PAGE-XML und ALTO-XML.
+eScriptorium hat zurzeit zwei Exportmöglichkeiten: PAGE-XML und ALTO-XML.   
 
 ### Vorhandene Scripts (trans2tei, page2tei)
-=> HIerzu kann ich zu 
+=> Hierzu kann ich wenig beitragen.
 
 ## 3. Limitationen
 
