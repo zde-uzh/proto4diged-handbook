@@ -1,0 +1,46 @@
+# 1.1 Festlegung der Projektziele
+
+Anders als zumindest ideell ergebnisoffene geisteswissenschaftliche Forschung müssen DSE **von ihrem Endprodukt aus gedacht** werden. Die Planung hat sich am einem Modell der fertigen Edition und ihren Verwendungszwecken zu orientieren und vom angestrebten Ergebnis aus die notwendigen Workflow-Schritte zurückzugehen - freilich nicht, ohne dieses Ergebnis im Planungsprozess kontinuierlich anzupassen.
+
+Wir skizzieren im Folgenden Fragen und Herausforderungen, die ein Projekt in der Planungsphase für sich im Sinne einer **Requirement Prüfung** klären sollte. Die provisorischen Antworten sollen mithilfe dieses Handbuchs in der Planungsphase konkretisiert werden. 
+
+### 1. Ausgangslage:  Projektrahmen und Ressourcen
+
+Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktoren evaluiert werden:
+
+-   Beschaffenheit und Quantität der zu edierende Medien (siehe [*Textkonstitution*](../2_Editionsarbeit/02_Textkonstitution.md))
+-   Teamgröße und -fähigkeiten
+
+-   Projektdauer
+
+Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen [Projektantrags beim Schweizer Nationalfonds](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen) möglich.
+
+### 2. Zusammenspiel der technischen Komponenten
+
+Ein technischer Grundsatz von DSE ist die **modulare Logik**, den Betrieb und die Sicherung der verschiedenen DSE-Bestandteile voneinander unabhängig zu gestalten.  Insbesondere Bilddaten, Editions-Datenbank (TEI/XML-Daten) und Editions-Frontend sollten voneinander getrennt gehalten werden, so dass sie bei Bedarf anderen Institutionen übergeben oder mit neuen technischen Lösungen ersetzt oder ergänzt werden können. 
+
+Bevor Tools und Plattformen festgelegt werden, sollten sich DSE-Projekte Gedanken über das Zusammenspiel der technischen Komponenten machen.
+
+- Gibt es eine **technische Leitung**, die sich mit allen Komponenten auskennt?
+    - Falls nicht, wie wird das Zusammenspiel koordiniert?
+
+- Werden alle verfügbaren **technischen Komponenten wirklich benötigt**? 
+    - Kleine Projekte können z.B. auf Metadaten-Datenbanken verzichten und ihre Metadaten in Excel- bzw. CSS-Files kuratieren. 
+
+### 3. Rolle des Frontends
+
+- Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [*statische Präsentation*](../4_longterm_preservation/02_static_presentation.md))?
+- Werden physische Prints vorgesehen, die auf einer [*Lesefassung*](../3_presentation/03_edition_views.md) aufbauen? Ist das Frontend eine Zwischenstufe?
+
+### 4. Verschiedene Formen des Outputs (Publikation und Nachnutzung)
+
+-   Wie sollen die **Daten** der Edition genutz werden?
+
+    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, literaturwissenschaftliche textenetische Methoden oder close-readings)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine komplexe [*digitale Präsentation*](../3_presentation/). 
+    - Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, literaturwissenschaftliche distant-readings, statistische Fragestellungen)? Dann steht die [*Langzeitsicherung in Datenbanken*](../4_longterm_preservation/03_archiving_data.md) im Vordergrund. 
+
+### 5. Wo lohnen sich für das Projekt Automatisierungen?
+
+Repetitive Arbeiten sind für **Automatisierung** prädestiniert, aber nicht jede repetitive Arbeit lohnt sich zu automatisieren (konkret: was dauert länger: das anpassen/neu schreiben eines python scripts oder die repetitive Arbeit einer wissenschaftlichen Hilfsassistenz?). Entsprechend technisches Wissen muss für das Projekt angeworben werden. 
+
+

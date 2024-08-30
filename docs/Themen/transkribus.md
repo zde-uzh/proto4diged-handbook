@@ -25,10 +25,10 @@ Zeilen können einfach mittels Auswahl und der Taste `Delete` gelöscht werden.
 
 Mit der Taste `+ BL` können Grundzeilen (Baselines) hinzugefügt werden:
 
-- Aktivieren des Modus über die Taste
-- Klicken am unteren linken Rand der Zeile
-- Setzen einzelner Punkte dazwischen mit Klicken
-- Beenden der Zeile mit Doppelklick
+-   Aktivieren des Modus über die Taste
+-   Klicken am unteren linken Rand der Zeile
+-   Setzen einzelner Punkte dazwischen mit Klicken
+-   Beenden der Zeile mit Doppelklick
 
 Transkribus ergänzt die nötige Zeilenregion.
 

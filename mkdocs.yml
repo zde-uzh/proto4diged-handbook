@@ -1,25 +1,37 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition
 site_dir: public
 nav:
-  - "Home": "index.md"
-  - "Schritte":
-      - "steps/introduction.md"
-      - "steps/atr.md"
-      - "steps/critical_annotation.md"
-      - "steps/converting.md"
-      - "steps/commenting.md"
-      - "steps/semantic_annotation.md"
-  - "Publikationsplattform":
-      - "publication/introduction.md"
-  - "Langzeitarchivierung":
-      - "preservation/introduction.md"
+  - "Einleitung": "index.md"
+  - "1. Planung":
+      - "1_Planung/01_Projektziele_und_-ressourcen.md"
+      - "1_Planung/02_Vorbildhafte_Editionen.md"
+      - "1_Planung/03_Vernetzung.md"
+  - "2. Editionsarbeit":
+      - "2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit.md"
+      - "2_Editionsarbeit/02_Textkonstitution.md"
+      - "2_Editionsarbeit/03_Transkription.md"
+      - "2_Editionsarbeit/04_converting.md"
+      - "2_Editionsarbeit/05_semantic_annotation.md"
+      - "2_Editionsarbeit/06_commenting.md"
+  - "3. Präsentation":
+      - "3_presentation/01_introduction_presentation.md"
+      - "3_presentation/02_access.md"
+      - "3_presentation/03_edition_views.md"
+      - "3_presentation/04_timelines_maps.md"
+      - "3_presentation/05_documentation.md"
+  - "4. Langzeitsicherung":
+      - "4_longterm_preservation/01_introduction_preservation.md"
+      - "4_longterm_preservation/02_static_presentation.md"
+      - "4_longterm_preservation/03_archiving_data.md"      
   - "Themen":
-      - "topics/authority.md"
-      - "topics/transkribus.md"
-      - "topics/tei.md"
-      - "topics/tei-publisher-annotations.md"
+      - "Themen/accessibility.md"
+      - "Themen/authority.md"
+      - "Themen/transkribus.md"
+      - "Themen/tei.md"
+      - "Themen/tei-publisher-annotations.md"
 
 theme:
+  language: de
   name: material
   features:
     - content.code.copy
@@ -30,7 +42,7 @@ theme:
 
   palette:
     primary: green
-    accent: yellow
+    accent: red
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -44,3 +56,5 @@ markdown_extensions:
 
 plugins:
   - search
+  - tags
+  - glightbox
