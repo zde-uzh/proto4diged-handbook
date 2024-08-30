@@ -1,41 +1,28 @@
 # Annotationen mit TEI-Publisher
 
-## Dateien, die für einen neuen Annotationstyp angepasst werden müssen (am Beispiel `person`)
+TEI Publisher bietet eine Grundkonfiguration für die Annotation von XML-Daten an, die von reinen Layoutannotationen über die Verlinkung mit Registereinträgen bis zur Erstellung eines Registers gehen.
+Die mitgelieferte Konfiguration kann direkt verwendet werden oder als Beispiel für Erweiterungen an die Bedürfnisse eines Projekts dienen.
 
--   `resources/odd/annotations.odd`: Markierung der Annotationen im Annotationsviewer
-    -   Model für die Annotation im Text ergänzen:
-        -   Model für den Elementnamen (`persName`)
-        -   CSS-Klassen: `annotation` (Annotationsmöglichkeit), `annotation-person` (Unterscheidung), `authority` (bei Verlinkung mit Index)
-    -   (bei Verlinkung) Zweites Model für die Anzeige des Indexeintrags (`person`) im Dropdown erstellen
--   `templates/pages/annotate.html`: Layout des Annotationsviewers
-    -   Button im Menü hinzufügen: Wichtig sind die Attribute `data-type` für die Funktionalität und `icon` für die Abbildung.
-    -   Formular für Attribute in der Annotation: Eintrag in `iron-form#edit-form`
-    -   (Bei Verlinkung) Falls ein Formular für den Index-Eintrag verwendet wird: `<authority-forms>person</authority-forms>` (?)
-    -   (Bei Verlinkung) Bei verschiedenen Keys (`@ref`, `@corresp`) können diese bei `pb-view-annotate` im Attribut `key-map` genauer definiert werden.
--   `modules/annotation-config.xqm`: Konfiguration des Annotationstyps
-    -   `anno:entity-type`: Typ vom Element ableiten (?)
-    -   `anno:annotations`: Format des Elements, das in den Text gesetzt wird
-    -   `anno:occurrences`: (bei Verlinkung) Selektor für obiges Format für die Anzahl bestehender Annotationen
+Die zugrundeliegende XML-Datei wird in ein spezifisches HTML-Format übertragen und die Leerzeichen analysiert, sodass Annotationen an der richtigen Position eingefügt werden können.
 
-Nur für verlinkte Annotationen zusätzlich
+## Anpassungen
 
--   `collection.xconf`: Indexierung des Eintrags im Index für den Lookup bereits erfasster Einträge
--   `modules/registers.xql`:
-    -   `rapi:insert-point`: Wo ein Eintrag gespeichert wird
-    -   `rapi:prepare-record`: Bei Verwendung eines Templates
-    -   `rapi:next`: Bei Verwendung eines Templates
-    -   `rapi:query`: Laden von Properties für Annotationen
-    -   `rapi:create-record`: Format des Indexeintrags
-    -   `rapi:local-search-strings` (optional?): alternative Names
+Da die Annotationsansicht auf der gleichen Technologie wie die Präsentation basiert, ist die Anpassung ähnlich wie diejenige der Editionsansichten.
 
-Bei Verwendung eines Formulars für den Index-Eintrag zusätzlich
+## Limitationen
 
--   `template/pages/annotation/person-editor.html`: (?)
--   `data/registers/persons.xml`: Clear examples, move, ...
--   `data/registers/templates/person-template.xml`: (?)
--   `data/registers/templates/person-default.xml`: (?)
+Besonders für die Annotation mit Verknüpfung zum Register sind im Hintergrund einige Mechanismen im Gang, die um Beispiel lokale Einträge bevorzugen, häufigere Annotation priorisieren und so weiter, die bei Anpassungen berücksichtigt werden müssen. Erfahrung mit TEI Publisher sind deshalb eine Voraussetzung.
 
-Nur bei Verwendung von SpaCy
+Weitere Limitationen sind interne Abhängigkeiten in Ordnern, deren Veränderung nicht empfohlen wird ([Best Practice Recommendations](https://teipublisher.com/exist/apps/tei-publisher/documentation/customization-best-practice#){:target="\_blank"}) oder Abhängigkeiten von Werten in den Webcomponents ([Webcomponent Documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/webcomponents-docs){:target="\_blank"}, vgl. auch [Changing and Debugging Webcomponents](https://faq.teipublisher.com/webcomponents/debug/){:target="\_blank"}, [Creating Custom Web Components](https://teipublisher.com/exist/apps/tei-publisher/documentation/custom-components#){:target="\_blank"}), wenn zum Beispiel eine Normdaten-API nicht unterstützt wird oder eine komplexe Annotation besondere Funktionalitäten für die Bearbeitung oder Löschung benötigt.
 
--   `modules/nlp-config.xqm` bei Verwendung von SpaCy
-    -   Mapping zwischen Key von SpaCy und TEI-Element
+## Dokumentation
+
+Folgendes Kapitel der Dokumentation ist für alle editorischen Mitarbeitenden relevant:
+
+-   [Annotating Documents](https://teipublisher.com/exist/apps/tei-publisher/documentation/web-annotations){:target="\_blank"}
+
+Für technische Mitarbeitende sind ausserdem folgende Kapitel zu beachten:
+
+-   [Configuring the Annotation Editor](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor){:target="\_blank"}
+
+-   [Local authority registers](https://teipublisher.com/exist/apps/tei-publisher/documentation/registers){:target="\_blank"}
