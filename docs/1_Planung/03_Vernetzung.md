@@ -7,28 +7,28 @@ Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vol
 ## DSE Kompetenzzentren
 
 #### Deutschsprachiger Raum
-Das [**internationale Institut für Dokumentologie und Editorik i-d-e**](https://www.i-d-e.de) kann als Anlaufstelle für verschiedene Fragestellung dienen kann und führt  eine [Liste ihrer Kooperationspartnerschaften](https://www.i-d-e.de/aktivitaeten/kooperationen/) und [Mitglieder](https://www.i-d-e.de/uber-uns-about-us/mitglieder/).
+Das [**internationale Institut für Dokumentologie und Editorik i-d-e**](https://www.i-d-e.de) kann als Anlaufstelle für verschiedene Fragestellungen dienen und führt  eine [Liste ihrer Kooperationspartnerschaften](https://www.i-d-e.de/aktivitaeten/kooperationen/) und [Mitglieder](https://www.i-d-e.de/uber-uns-about-us/mitglieder/).
 
-Mit i-d-e verbunden ist die Fachzeitschrift [RIDE](https://ride.i-d-e.de), _A review journal for digital editions and resources_, die regelmäßige Rezensionen zu Digitalen Editionen und ähnlichen DH Themen publiziert.  
+Mit i-d-e verbunden ist die Fachzeitschrift [RIDE](https://ride.i-d-e.de), _A review journal for digital editions and resources_, die regelmäßig Rezensionen zu Digitalen Editionen und ähnlichen DH Themen publiziert.  
 
 #### Österreich
 
-Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KONDE Weißbuch](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10)
+Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KONDE Weißbuch](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=themes#T10).
 
 #### Schweiz
 
 Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das [Zentrum Digitale Editionen & Editionsanalytik ZDE der Universität Zürich](https://www.zde.uzh.ch/de/analytics.html).
 
 !!! note "Erfahrung aus der Showcase-Edition"
-    Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifische Tagungen wie die ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html) haben das Projekt wesentlich vorangebracht.  
+    Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html) haben das Projekt wesentlich vorangebracht.  
 
 
 ## Digital Humanities Interessengemeinschaften
 
-Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im Folgenden aufgeführt. Es handelt sich dabei nicht um DSE-spezifische Interessegemeinschaften, sie weisen jedoch verschiedene Kompetenzen zu diesem Themenbereich auf.  
+Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (und nur am Rande auch methodologische und technische Fragestellungen) verfolgen, sind im Folgenden aufgeführt. Es handelt sich dabei nicht um DSE-spezifische Interessengemeinschaften, sie weisen jedoch verschiedene Kompetenzen zu diesem Themenbereich auf.  
 
-- [DARIAH-CH](https://www.dariah.ch/): The Swiss Digital Research Infrastructure for arts and humanities, ein Konsoritum verschiedener Institutionen mit DH-Schwerpunkten in der Schweiz. 
+- [DARIAH-CH](https://www.dariah.ch/): Der Schweizer Knoten der pan-europäischen Forschungsinfrastruktur Digital Research Infrastructure for Arts and Humanities.
 
 - [DARIAH-EU](https://www.dariah.eu/): Die DARIAH-Dachorganisation, die die nationalen DARIAH-Konsortien in Europa koordiniert. 
 
-- [digital humanities im deutschsprachigen raum](https://dig-hum.de/): Der Fachverband für DH-Forschung im deutschsprachigen Raum
+- [digital humanities im deutschsprachigen raum](https://dig-hum.de/): Der Fachverband für DH-Forschung im deutschsprachigen Raum. 

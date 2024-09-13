@@ -1,6 +1,6 @@
 # 1.2 Vorbildhafte Editionen
 
-Ein wichtiger Schritt im Planungsprozess ist es, die eigenen **Vorstellung des Endproduktus mit bestehenden Lösungen zu vergleichen**, insbesondere mit vorbildhaften Editionen. Es ist ratsam,  auf allen Ebenen - vom Grobkonzept bis zur Funktionalität und Gesaltung des Frontends - erste Überlegungen anhand dieser Beispiele zu machen. In vielen Fällen sind die Editor:innen der so vorbildhaft gewordenen Editionen bereit, ihr Wissen auch im persönlichen Austausch weiterzugeben. 
+Ein wichtiger Schritt im Planungsprozess ist es, die eigenen **Vorstellung des Endprodukts mit bestehenden Lösungen zu vergleichen**, insbesondere mit vorbildhaften Editionen. Es ist ratsam,  auf allen Ebenen - vom Grobkonzept bis zur Funktionalität und Gestaltung des Frontends - erste Überlegungen anhand dieser Beispiele zu machen. In vielen Fällen sind die Editor:innen der so vorbildhaft gewordenen Editionen bereit, ihr Wissen auch im persönlichen Austausch weiterzugeben. 
 
 Das Handbuch evaluiert selbst keine DSE, sondern verweist lediglich - ohne Anspruch auf Vollständigkeit - auf mittlerweile **kanonische Beispiele** aus dem deutschsprachigen Raum, die in Anträgen als vorbildhaft gelten, weil sie z.B. eine umfassende Dokumentation ihrer Editionsrichtlinien aufweisen. 
 
@@ -8,15 +8,15 @@ Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils de
  
 [**Faustedition**](https://www.faustedition.net/) (2009-2014)
 
-- Literaturwissenschaftliche DSE eines Werkkomplexes
+- Literaturwissenschaftliche DSE eines Werkkomplexes.
 
 - Besonderheit: Graphische Übersicht zur [Textgenese](https://www.faustedition.net/genesis). Dieser Ansatz wurde später z.B. zu einer interaktiven Graphik in der DSE [Lokalbericht](https://www.lokalbericht.ch/dossier#) (2013-2016) weiterentwickelt.
 
-[**Briefedition Alfred Escher**](https://www.briefedition.alfred-escher.ch/home.html), auch 'Escher-Briefedition' (2006-2015) 
+[**Briefedition Alfred Escher**](https://www.briefedition.alfred-escher.ch/home.html), auch 'Escher-Briefedition' (2006-2015). 
 
-- Historische DSE eines Briefkorpus' mit dem TEI Publisher
+- Historische DSE eines Briefkorpus' mit dem TEI Publisher. 
 
-- Besonderheit: Folgt im Frontend weitgehend den Standardeinstellungen des TEI Publishers
+- Besonderheit: Folgt im Frontend weitgehend den Standardeinstellungen des TEI Publishers, ist jedoch ursprünglich nicht mit dem TEI-Publisher erstellt, sondern erst nach Projektabschluss für den TEI Publisher konvertiert.
 
 [**Königsfelden Online**](https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/index.html?refresh=yes&kanton=) (2017-2020)
 
@@ -26,7 +26,7 @@ Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils de
 
 [**edition humboldt digital**](https://edition-humboldt.de/) (2016-2024f.)
 
-- Kulturwissenschaftlich bzw. interdisziplinär ausgerichtete DSE von unterschiedlichen Quellenkategorien (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen)
+- Kulturwissenschaftlich bzw. interdisziplinär ausgerichtete DSE von unterschiedlichen Quellenkategorien (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen). 
 
 - Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum](https://www.ediarum.org), die  auf den TEI/XML-Editor [Oxygen](https://www.oxygenxml.com/) aufbaut. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net).
 
@@ -36,7 +36,7 @@ Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Pla
 
 - [**Universität Wuppertal, Prof. Dr. Patrick Sahle**](https://www.digitale-edition.de/exist/apps/editions-browser/$app/index.html) 
 
-    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team an der Universität Wuppertal kuratieren eine extensive Übersicht zu digtialen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html) genügen (Stand Juni 2024: 846 DSE). Darüber hinaus bietet der Katalog auch eine Übersicht zu [Editionsplattformen](https://www.digitale-edition.de/exist/apps/editions-browser/$app/edition.html), die mehrere DSE beherbergen.  
+    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team an der Universität Wuppertal kuratieren eine extensive Übersicht zu digitalen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html) genügen (Stand Juni 2024: 846 DSE). Darüber hinaus bietet der Katalog auch eine Übersicht zu [Editionsplattformen](https://www.digitale-edition.de/exist/apps/editions-browser/$app/edition.html), die mehrere DSE beherbergen.  
     Die Übersicht ist selbst mit dem TEI Publisher erstellt.
 
 - [**TEI Publisher-Editionen**](https://www.e-editiones.org/map/)
@@ -45,11 +45,11 @@ Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Pla
 
 - [**Sammlung des KONDE Weißbuch**](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=projects)
 
-    Das KONDE Weißbuch bietet einen Überblick über österreichische Projekte, die oft personell und institutionell mit dem Weißbuch verbunden (Stand Juni 2024: 28 DSE). 
+    Das KONDE Weißbuch bietet einen Überblick über österreichische Projekte, die oft personell und institutionell mit dem Weißbuch verbunden sind (Stand Juni 2024: 28 DSE). 
 
 - [**ZDE: Umfeld Universität Zürich**](https://www.zde.uzh.ch/de/projects.html)
 
-    Eine Übersicht zu Editionen, die im Umfeld der Universtität Zürich durchgeführt werden bzw. wurden, bietet das Zentrum Digitale Edionen & Editionsanalytik ZDE (Stand Juni 2024: 18 DSE). 
+    Eine Übersicht zu Editionen, die im Umfeld der Universtität Zürich durchgeführt werden bzw. wurden, bietet das Zentrum Digitale Editionen & Editionsanalytik ZDE (Stand Juni 2024: 18 DSE). 
 
 - [**DiScholEd - Digital Scholarly Editions**](https://discholed.huma-num.fr/exist/apps/discholed/index.html)
 
