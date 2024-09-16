@@ -4,15 +4,15 @@
 
 Das Transkribieren in nicht-digitalen Editionen erfolgte nach Transkriptionsregeln, denen Hilfswissenschaftler:innen oder externe Transkriptionsdienstleistungen zu folgen hatten. Demgegenüber ist der Trankskriptionsprozess in DSE durch mehr Einzelschritte und Weichenstellungen für den weiteren Projektverlauf geprägt. Namentlich sind dies, wie im Folgenden beschrieben, die Wahl 
 
-1. des Tools und der Datenformate 
-2. des Automatisierungsgrads  
+1. des Tools und der Datenformate; 
+2. des Automatisierungsgrads;  
 3. der Workflows im eigentlichen Transkriptionsprozess (Erstellen eines eigenen Texterkennungs-Modells; Korrekturschritte; mögliche erste Annotationen). 
 
-Letztlich wird das vorliegende Handbuch-Kapitel auf die Limitationen der verfügbaren Standard-Lösungen zur Transkription eingehen.  
+Zum Schluss wird das vorliegende Handbuch-Kapitel auf die Limitationen der verfügbaren Standard-Lösungen zur Transkription eingehen.  
 
 #### Transkriptionsrichtlinien
 
-Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomatischer Umschrift**, d.h. Deckungsgrad der Abschrift mit dem Original bezüglich sprachlicher und formaler Eigenheiten: Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. Das Auszeichnen dieser formalen textualen Aspekte bezeichnet man auch **textkritische Annotation**, sie kann je nach Tool (s.u.) zusammen mit der Transkription oder erst später zusammen mit der [*inhaltlichen Annotation*](05_semantic_annotation.md) erfolgen. 
+Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomatischer Umschrift**, d.h. Deckungsgrad der Abschrift mit dem Original bezüglich sprachlicher und formaler Eigenheiten: Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. Das Auszeichnen dieser formalen textualen Aspekte bezeichnet man auch als **textkritische Annotation**, sie kann je nach Tool (s.u.) zusammen mit der Transkription oder erst später zusammen mit der [*inhaltlichen Annotation*](05_semantic_annotation.md) erfolgen. 
 
 !!! abstract "Showcase-Editionsrichtlinien: Tranksription und textkritische Annotation"
 

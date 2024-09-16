@@ -13,7 +13,7 @@ Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktor
 
 -   Projektdauer
 
-Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen [Projektantrags beim Schweizer Nationalfonds](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen) möglich.
+Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen [Projektantrags beim Schweizer Nationalfonds](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"} möglich.
 
 ### 2. Zusammenspiel der technischen Komponenten
 
