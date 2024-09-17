@@ -12,7 +12,7 @@ Zum Schluss wird das vorliegende Handbuch-Kapitel auf die Limitationen der verf�
 
 #### Transkriptionsrichtlinien
 
-Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomatischer Umschrift**, d.h. Deckungsgrad der Abschrift mit dem Original bezüglich sprachlicher und formaler Eigenheiten: Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. Das Auszeichnen dieser formalen textualen Aspekte bezeichnet man auch als **textkritische Annotation**, sie kann je nach Tool (s.u.) zusammen mit der Transkription oder erst später zusammen mit der [_inhaltlichen Annotation_](05_semantic_annotation.md) erfolgen.
+Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomatischer Umschrift**, d.h. Deckungsgrad der Abschrift mit dem Original bezüglich sprachlicher und formaler Eigenheiten: Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. Das Auszeichnen dieser formalen textualen Aspekte bezeichnet man auch als **textkritische Annotation**, sie kann je nach Tool (s.u.) zusammen mit der Transkription oder erst später zusammen mit der [_inhaltlichen Annotation_](05_semantic_annotation.de.md) erfolgen.
 
 !!! abstract "Showcase-Editionsrichtlinien: Tranksription und textkritische Annotation"
 
@@ -26,7 +26,7 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
         - Hinzufügungen durch **fremde Hände**, d.h. die in den Brief-Metadaten nicht als Urheberhand ausgewiesen sind, werden als solche durch eine texktritische Annotation (s.u., 3.5) kenntlich gemacht.=> Hier beispiel aus der Modell-Edition verlinken.
         - Ausnahme: Fremde Hände werden nicht transkribiert, wenn sie Hinzufügungen von **Archiv-Signaturen oder Archiv-Paginierungen** betreffen. Archiv-Signaturen sind stattdessen in den Metadaten enthalten, Archiv-Paginierungen sind wissenscahftlich nicht relevant.
 
-    - Die Frage nach **textgenetischen Reihenfolgen** (welche Hand welchem Zeitpunkt zugeordnet werden kann) wird nicht während der Transkritpion durch Sonderzeichen oder Annotationen beantwortet, da die Briefe Gaston Paris' textgenetisch weitgehend 'flach' sind (d.h. kaum eigene oder fremde Überarbeitungsspuren aufweisen). Wo textgenetische Zusammenhänge dargestellt werden müssen, würde dies in [Kommentaren](06_commenting.md) geschehen.
+    - Die Frage nach **textgenetischen Reihenfolgen** (welche Hand welchem Zeitpunkt zugeordnet werden kann) wird nicht während der Transkritpion durch Sonderzeichen oder Annotationen beantwortet, da die Briefe Gaston Paris' textgenetisch weitgehend 'flach' sind (d.h. kaum eigene oder fremde Überarbeitungsspuren aufweisen). Wo textgenetische Zusammenhänge dargestellt werden müssen, würde dies in [Kommentaren](06_commenting.de.md) geschehen.
 
     - **Vordrucke** (z.B. Briefköpfe von Hotels oder Privatpersonen) auf dem Briefpapier werden in der Regel transkribiert und  als 'Vordrucke' ebenfalls textkritisch annotiert. => Hier beispiel aus der Modell-Edition verlinken.
         - Ausnahme 1: Vorgedruckte **Formularzeilen von Postkarten** ('Nom:', 'Prenom:', etc.) werden nicht transkribiert, da sie allen Postkarten eigen sind.
@@ -46,7 +46,7 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 
 #### Lesefassung
 
-Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltiches auszeichnet, ist das Erstellen der **Lesefassung** (siehe dazu auch [_Editionsansichten_](/3_presentation/03_edition_views)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden.
+Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltiches auszeichnet, ist das Erstellen der **Lesefassung** (siehe dazu auch [_Editionsansichten_](../3_presentation/03_edition_views.de.md)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Lesefassung"
 Da sich die Showcase-Edition der Briefe Gaston Paris primär an ein wissenschaftliches Publikum richten muss, wird der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Sie ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
@@ -63,7 +63,7 @@ Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, di
 
 ## 1. Standardlösungen für Transkriptionen
 
-Sind die Textträger ausgewählt und digitalisiert, d.h. ist die [_Textkonstitution_](02_Textkonstitution.md) beendet, gilt es die Texte selbst maschinenlesbar zu machen. Hierfür werden die Bilddaten der Digitalisate, die z.B. im JPEG- oder TIFF-Format vorliegen, in Textdaten umgewandelt bzw. eben transkribiert. Dies kann manuell oder automatisiert geschehen (s.u.), in beiden Fällen können mittlerweile dieselben Transkriptionstools und damit dieselben XML-Standard-Datenformate verwendet werden.
+Sind die Textträger ausgewählt und digitalisiert, d.h. ist die [_Textkonstitution_](02_Textkonstitution.de.md) beendet, gilt es die Texte selbst maschinenlesbar zu machen. Hierfür werden die Bilddaten der Digitalisate, die z.B. im JPEG- oder TIFF-Format vorliegen, in Textdaten umgewandelt bzw. eben transkribiert. Dies kann manuell oder automatisiert geschehen (s.u.), in beiden Fällen können mittlerweile dieselben Transkriptionstools und damit dieselben XML-Standard-Datenformate verwendet werden.
 
 Es ist deshalb von Vorteil sowohl für die manuelle wie die automatisierte digitale Transkription ein wissenschaftliches Tranksriptionstool und kein Textverarbeitungsprogramm wie Word zu wählen. Letzteres verwendet keinen offenen XML-Standard, erlaubt keine Verknüpfung von Transkription und Digitalisat durch Koordinaten im XML oder macht dazu weitere Daten-Konversionen nötig.
 
@@ -76,7 +76,7 @@ Im Folgenden protraitieren wir die verbreitetsten wissenschaftliche Transkriptio
 
 Den geringsten (projekteigenen) technischen Support benötigt das Tool Transkribus, weshalb im Folgenden auf dessen Workflows fokussiert wird. Viele Arbeitsschritte wie das Trainieren eines Modells sind jedoch auf andere Tools übertragbar.
 
-Wie erwähnt, gleichen sich die Tools auch bezüglich **Datenstandards**: Die Transkriptionsdaten lassen sich in der Regel in einem [XML-Format](https://www.digitale-edition.at/o:konde.215) ausgeben, z.B. in [PAGE-XML](https://www.digitale-edition.at/o:konde.154) oder in [ALTO-XML](https://altoxml.github.io/). Diese sind erst Vorstufen für den DSE-Datenstandard [TEI/XML](https://www.digitale-edition.at/o:konde.79), in dem die Edition letztlich lesbar gemacht wird. Zwischen dem Workflow-Schritt der Transkription in XML (inklusive hier bereits möglicher Annotation) und der weiterghenden inhaltlichen [_Annotation_](05_semantic_annotation.md) und [_Kommentierung_](06_commenting.md) in TEI-XML und muss deshalb noch eine [_Datenkonversion_](04_converting.md) stattfinden.
+Wie erwähnt, gleichen sich die Tools auch bezüglich **Datenstandards**: Die Transkriptionsdaten lassen sich in der Regel in einem [XML-Format](https://www.digitale-edition.at/o:konde.215) ausgeben, z.B. in [PAGE-XML](https://www.digitale-edition.at/o:konde.154) oder in [ALTO-XML](https://altoxml.github.io/). Diese sind erst Vorstufen für den DSE-Datenstandard [TEI/XML](https://www.digitale-edition.at/o:konde.79), in dem die Edition letztlich lesbar gemacht wird. Zwischen dem Workflow-Schritt der Transkription in XML (inklusive hier bereits möglicher Annotation) und der weiterghenden inhaltlichen [_Annotation_](05_semantic_annotation.de.md) und [_Kommentierung_](06_commenting.de.md) in TEI-XML und muss deshalb noch eine [_Datenkonversion_](04_converting.de.md) stattfinden.
 
 ## 2. Automatisierte oder manuelle Transkription?
 
@@ -123,7 +123,7 @@ In der Layoutanalyse erkennt ein Algorithmus **die Anordnung der Zeilen**, bevor
 
 Im Korrekturdurchgang empfiehlt sich zunächst eine Kontrolle der Zeilen, besonders wenn Zeilen zerstückelt erkannt wurden oder Zeilen fehlen. Sehr schlechte Resultate der Layoutanalyse rechtfertigen Test mit verschiedenen Layoutanalyse-Modellen (s.o.).
 
-Wenn dies keine Verbesserung bringt, können die **Zeilen auch manuell verbessert oder ganz von Hand gezogen** werden. Solche Layout-Korrekturen wie das Verlängern einer Zeile verbessern einen erneuten ATR-Durchlauf und die visuelle Korrespondenz zwischen Transkription und Digitalisat im Frontend (siehe hierzu unsere [_Tipps_](../Themen/transkribus.md)). Eine genaue Überarbeitung der Zeilen stellt u.U. jedoch einen nicht zu rechtfertigenden Mehraufwand da, da der autoptische Vergleich durch die visuelle Einblendung der Zeilen-Korrespondenz auch ohne diese Einblendung möglich ist.
+Wenn dies keine Verbesserung bringt, können die **Zeilen auch manuell verbessert oder ganz von Hand gezogen** werden. Solche Layout-Korrekturen wie das Verlängern einer Zeile verbessern einen erneuten ATR-Durchlauf und die visuelle Korrespondenz zwischen Transkription und Digitalisat im Frontend (siehe hierzu unsere [_Tipps_](../Themen/transkribus.de.md)). Eine genaue Überarbeitung der Zeilen stellt u.U. jedoch einen nicht zu rechtfertigenden Mehraufwand da, da der autoptische Vergleich durch die visuelle Einblendung der Zeilen-Korrespondenz auch ohne diese Einblendung möglich ist.
 
 Fehler in der Transkription können einfach in den Zeilen korrigiert werden. Falsche Zeilenregionen können ebenfalls in diesem Schritt behoben werden.
 
@@ -134,7 +134,7 @@ Der letzte, bereits optionale Schritte in Transkribus und ähnlichen Transkripti
 Auch die feinteiligere Annotation von Wortfolgen oder Wörtern gehört zum Standard, ihr Detailgrad ist jedoch weniger standardisiert, sie kann je nach Editionsrichtline nur ein minimales Set umfassen. Grundsätzlich unterscheidet man **zwei Annotationsformen auf Wort-Ebene**:
 
 -   **Textkritische Annotationen** zeichnen sichtbare Eigenschaften des Schriftbildes aus, wie z.B. Unterstreichungen.
--   **Inhaltliche Annotationen** zeichnen semantische Eigenschaften des Textes aus, wie z.B. die Bestimmung eines geographischen Ortes. Auf diese Form der Annotation wird [_später_](05_semantic_annotation.md) vertieft eingegangen.
+-   **Inhaltliche Annotationen** zeichnen semantische Eigenschaften des Textes aus, wie z.B. die Bestimmung eines geographischen Ortes. Auf diese Form der Annotation wird [_später_](05_semantic_annotation.de.md) vertieft eingegangen.
 
 Diese Arbeitsschritte stellen technisch gesehen keine Transkription des Textes mehr dar, sondern könnte auch erst später im TEI/XML geschehen. Es gibt jedoch Gründe dafür, warum die Annotation von Regionen und textkritischen Aspekten - also im Schriftbild erkennbare Eigenschaften - schon während der Transkription (oder ihrer Korrektur) geschieht: Die Auszeichnung verschiedener Hände, Unterstreichungen, Titel, Absätze usw. ist bereits eng mit ihr verbunden. Wenn das Digitalisat und der fertige oder entstehend transkribierte Text genau miteinander verglichen werden müssen, ist es sinnvoll, neben der korrekten (z.B. diplomatischen) Zeichenfolge auch die **sichtbaren Eigenheiten des Textes** festzuhalten.
 
@@ -169,4 +169,4 @@ Auch bei der Anwendung der besten verfügbaren ATR-Modelle kann der Korrekturauf
 ### 4.3 Annotieren in Transkriptionstools?
 
 Auch die Frage, wie viel bereits in PAGE-XML oder ALTO-XML ausgezeichnet werden soll, hängt vom verfügabren technischen Support ab. Uns sind Projekte bekannt, deren Workflow extensive, nicht nur textkritische, sondern auch inhaltliche Annotationen in Transkribus vorsahen und aufgrund Konversionsschwierigkeiten große Verzögerungen und Anpassungen im Workflow hinnehmen mussten. Schon bei Projektbeginn muss deshalb klar werden, **wo welche Auszeichnungen stattfinden** können, um die Komplexität der Datenkonversion an die Projektressourcen anzupassen.
-Die Showcase-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [_inhaltliche Annotation_](05_semantic_annotation.md) beschrieben.
+Die Showcase-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [_inhaltliche Annotation_](05_semantic_annotation.de.md) beschrieben.

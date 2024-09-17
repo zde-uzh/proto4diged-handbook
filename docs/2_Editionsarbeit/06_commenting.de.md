@@ -2,11 +2,11 @@
 
 ## Formen der Kommentierung in DSE
 
-Der Kommentar erlaubt es in gedruckten und digitalen Editionen über textkritische und inhaltliche Annotationen hinaus Texte mit Kontextinformationen anzureichern. Kommentare stellen meistens das Resultat von Forschung dar, seien es Recherchen, die eng mit der [_Textkonsitution_](02_Textkonstitution.md) verbunden sind und damit keinen größeren Zusatzaufwand darstellen, oder Recherchen, die parallel zum Editionsvorhaben als eigenständige Forschungsarbeit stattfindet und z.B. auch in Aufsätzen oder Monographien weitergenutzt werden.
+Der Kommentar erlaubt es in gedruckten und digitalen Editionen über textkritische und inhaltliche Annotationen hinaus Texte mit Kontextinformationen anzureichern. Kommentare stellen meistens das Resultat von Forschung dar, seien es Recherchen, die eng mit der [_Textkonsitution_](02_Textkonstitution.de.md) verbunden sind und damit keinen größeren Zusatzaufwand darstellen, oder Recherchen, die parallel zum Editionsvorhaben als eigenständige Forschungsarbeit stattfindet und z.B. auch in Aufsätzen oder Monographien weitergenutzt werden.
 
 In der klassischen Print-Editorik kennt man drei verschiedene Grundformen des Kommentars, die in anderer Form alle auch in DSE zur Anwendung kommen:
 
-1.**Der editorische Kommentar** (oder auch Herausgeberkommentar, editorischer Bericht etc.) erklärt mindestens die editorischen Richtlinien, ggfls. die Auswahl des Corpus aufgrund seiner Entstehungsgeschichte und die Nutzung des textkritischen Apparats. Diese Kommentarform ist in DSE eher als [_Dokumentation_](docs/3_Publikation/06_documentation) bekannt und wird im Folgenden unter dieser Bezeichnung im Kapitel Publikation behandelt.
+1.**Der editorische Kommentar** (oder auch Herausgeberkommentar, editorischer Bericht etc.) erklärt mindestens die editorischen Richtlinien, ggfls. die Auswahl des Corpus aufgrund seiner Entstehungsgeschichte und die Nutzung des textkritischen Apparats. Diese Kommentarform ist in DSE eher als [_Dokumentation_](../3_presentation/05_documentation.de.md) bekannt und wird im Folgenden unter dieser Bezeichnung im Kapitel Publikation behandelt.
 
 !!! info "Beispielhafte DSE"
 In hybriden Ausgaben wie der [Faustedition](https://www.faustedition.net/) sind zuweilen auch der editorische Bericht (der für die digtale und die gedruckte Ausgabe gilt) und die technische Dokumentation voneinander getrennt.
@@ -21,7 +21,7 @@ Vorbildhaft sind die Überblickskommentare der [edition humboldt digital](https:
 
 ## Workflows für Stellenkommentare
 
-Von 'Standard-Workflows' wie in den anderen Kapiteln zu Editionsarbeiten kann an dieser Stelle (noch) nicht die Rede sein, da Editionen **sehr unterschiedliche Bedürfnisse** der Stellen-Kommentierung aufweisen und oftmal sogar ganz darauf verzichten. Die Notwendigkeit für Stellenkommentare hat im Vergleich zu Print-Editionen abgenommen, da sich viele heute durch [_inhaltliche Annotationen_](05_semantic_annotation.md) ersetzen lassen.
+Von 'Standard-Workflows' wie in den anderen Kapiteln zu Editionsarbeiten kann an dieser Stelle (noch) nicht die Rede sein, da Editionen **sehr unterschiedliche Bedürfnisse** der Stellen-Kommentierung aufweisen und oftmal sogar ganz darauf verzichten. Die Notwendigkeit für Stellenkommentare hat im Vergleich zu Print-Editionen abgenommen, da sich viele heute durch [_inhaltliche Annotationen_](05_semantic_annotation.de.md) ersetzen lassen.
 
 Falls Stellenkommentare erstellt werden, ist jedoch deren 'Verankerung' bzw. Codierung im TEI-XML sehr einheitlich, da sie einfachheitshalber als `<note>` eingefügt werden. => Hier ev. Code-Snippet aus der Showcase-Edition einfügen oder besser direkt mit TEI-XML verlinken.
 

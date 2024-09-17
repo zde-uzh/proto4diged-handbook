@@ -8,7 +8,7 @@ Wir skizzieren im Folgenden Fragen und Herausforderungen, die ein Projekt in der
 
 Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktoren evaluiert werden:
 
--   Beschaffenheit und Quantität der zu edierenden Medien (siehe [_Textkonstitution_](../2_Editionsarbeit/02_Textkonstitution.md))
+-   Beschaffenheit und Quantität der zu edierenden Medien (siehe [_Textkonstitution_](../2_Editionsarbeit/02_Textkonstitution.de.md))
 -   Teamgröße und -fähigkeiten
 
 -   Projektdauer
@@ -30,15 +30,15 @@ Bevor Tools und Plattformen festgelegt werden, sollten sich DSE-Projekte Gedanke
 
 ### 3. Rolle des Frontends
 
--   Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [_statische Präsentation_](../4_longterm_preservation/02_static_presentation.md))?
--   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.md) aufbauen? Ist das Frontend eine Zwischenstufe?
+-   Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [_statische Präsentation_](../4_longterm_preservation/02_static_presentation.de.md))?
+-   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md) aufbauen? Ist das Frontend eine Zwischenstufe?
 
 ### 4. Verschiedene Formen des Outputs (Publikation und Nachnutzung)
 
 -   Wie sollen die **Daten** der Edition genutzt werden?
 
-    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine komplexe [_digitale Präsentation_](../3_presentation/).
-    -   Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, philologische distant-readings, statistische Fragestellungen)? Dann steht die [_Langzeitsicherung in Datenbanken_](../4_longterm_preservation/03_archiving_data.md) im Vordergrund.
+    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine komplexe [_digitale Präsentation_](../3_presentation/01_introduction_presentation.de.md).
+    -   Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, philologische distant-readings, statistische Fragestellungen)? Dann steht die [_Langzeitsicherung in Datenbanken_](../4_longterm_preservation/03_archiving_data.de.md) im Vordergrund.
 
 ### 5. Wo lohnen sich für das Projekt Automatisierungen?
 

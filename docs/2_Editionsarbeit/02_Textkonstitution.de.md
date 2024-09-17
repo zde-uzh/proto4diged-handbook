@@ -30,7 +30,7 @@ In der Textkonstitution der exemplarischen Brief-Edition Gaston Paris' konnte au
 
     Um den Zugang zu den Bilddaten für alle Projekmtitarbeitenden remote sicherzustellen und die Seiten Transkribus und dem TEI Publisher zuzuweisen, wurde ein [GitLab-Seite für die Bild-Metadaten erstellt](https://gitlab.uzh.ch/digital-editions/proto4diged/image-metadata){:target="\_blank"}.
 
-Der große Vorteil dieses Wegs ist es, dass die Langzeitsicherung der Bilddaten nicht in der Hand eines temporär begrenzten Projektes liegt. Dies folgt der **modularen Logik**, den Betrieb und die Sicherung der verschiedenen DSE-Bestandteile voneinander unabhängig zu gestalten (siehe [_Projekt-Ziele und Ressourcen_](../1_Planung/01_Projektziele_und_-ressourcen)).
+Der große Vorteil dieses Wegs ist es, dass die Langzeitsicherung der Bilddaten nicht in der Hand eines temporär begrenzten Projektes liegt. Dies folgt der **modularen Logik**, den Betrieb und die Sicherung der verschiedenen DSE-Bestandteile voneinander unabhängig zu gestalten (siehe [_Projekt-Ziele und Ressourcen_](../1_Planung/01_Projektziele_und_-ressourcen.de.md)).
 
 **2.2 Digitalisierung durch eine Gedächtnisinstitution, Verfügbarmachung durch das Projekt**
 
