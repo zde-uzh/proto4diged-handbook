@@ -28,16 +28,17 @@ Bevor Tools und Plattformen festgelegt werden, sollten sich DSE-Projekte Gedanke
 -   Werden alle verfügbaren **technischen Komponenten wirklich benötigt**?
     -   Kleine Projekte können z.B. auf Metadaten-Datenbanken verzichten und ihre Metadaten in Excel- bzw. CSV-Files kuratieren.
 
-### 3. Rolle des Frontends
+### 3. Publikationsformen
 
 -   Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [_statische Präsentation_](../4_longterm_preservation/02_static_presentation.de.md))?
--   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md) aufbauen? Ist das Frontend eine Zwischenstufe?
+-   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md) aufbauen? 
+- Ist das Frontend eine Zwischenstufe, die nach einer bestimmten Zeit von andere Publikationsformen abgelöst werden soll (etwa auf einer größeren Plattform) ?
 
-### 4. Verschiedene Formen des Outputs (Publikation und Nachnutzung)
+### 4. Verschiedene Formen der Daten-Nutzung 
 
 -   Wie sollen die **Daten** der Edition genutzt werden?
 
-    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine komplexe [_digitale Präsentation_](../3_presentation/01_introduction_presentation.de.md).
+    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine [_digitale Präsentation_](../3_presentation/01_introduction_presentation.de.md).
     -   Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, philologische distant-readings, statistische Fragestellungen)? Dann steht die [_Langzeitsicherung in Datenbanken_](../4_longterm_preservation/03_archiving_data.de.md) im Vordergrund.
 
 ### 5. Wo lohnen sich für das Projekt Automatisierungen?

@@ -1,4 +1,4 @@
-site_name: Handbuch zur Erstellung einer digitalen Edition
+site_name: Handbuch zur Erstellung einer digitalen Edition - Beta Version im Entstehen
 site_dir: public
 nav:
   - "Einleitung": "index.md"
@@ -29,6 +29,8 @@ nav:
       - "Themen/transkribus.md"
       - "Themen/tei.md"
       - "Themen/tei-publisher-annotations.md"
+  - "Impressum": 
+      - "Impressum/impressum.md"
 
 theme:
   language: de
@@ -68,7 +70,7 @@ plugins:
         - locale: en
           name: English
           build: true
-          site_name: "Manual for Creating a Digital Scholarly Edition"
+          site_name: "Manual for Creating a Digital Scholarly Edition - Beta Version - Work in Progress"
           nav_translations:
             "Einleitung": Introduction
             "1. Planung": 1. Planning
@@ -76,3 +78,4 @@ plugins:
             "3. Präsentation": 3. Presentation
             "4. Langzeitsicherung": 4. Long-term availability
             "Themen": Assorted topics
+            "Impressum": Contact

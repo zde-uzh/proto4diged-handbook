@@ -48,6 +48,6 @@ Die Barrierefreiheit einer digitalen Edition beginnt bereits bei den Daten und z
 ## Links
 
 -   [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/){:target="\_blank"} mit international gültige Empfehlungen von W3C
--   [eCH-0059 Accessibility Standard](https://www.ech.ch/de/ech/ech-0059/3.0){:target="\_blank"} für Ge-
-    meinwesen und konzessionierte Unternehmen in der Schweiz
+-   [eCH-0059 Accessibility Standard](https://www.ech.ch/de/ech/ech-0059/3.0){:target="\_blank"} für Gemeinwesen und konzessionierte Unternehmen in der Schweiz
 -   [Accessibility im CMS der Universität Zürich](https://t.uzh.ch/access){:target="\_blank"} mit diversen Links zu Anleitungen und Werkzeugen
+- [Handreichungen des Zentrums für Digitale Editionen ZDE Zürich](https://www.zde.uzh.ch/de/offers/handout.html)

@@ -46,7 +46,7 @@ Fünf Hauptkategorien inter- und kontextueller Referenzen, wie in den Beispielen
 Etwas exotischer ist die Referenzierung weiterer Kategorien, denen technisch im Grunde keine Grenzen gesetzt sind, z.B. frei gewählte Themen (spezifischer als Schlagworte), historische Ereignissen oder linguistischer Eigenarten (z.B. die Nutzung von Fremdsprachen).
 
 !!! warning "Herausforderung"
-Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall von mehreren Edierenden bedingt es das genaue Befolgen von komplexen Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-[_Kommentar_](06_commenting.de.md) dargestellt werden.
+    Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall von mehreren Edierenden bedingt es das genaue Befolgen von komplexen Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-[_Kommentar_](06_commenting.de.md) dargestellt werden.
 
 -   Sind vor allem der DSE-eigene Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt?
 -   Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen?
@@ -56,7 +56,7 @@ Beide Tool-Standardlösungen erlauben die **Einbindung von Konnektoren**, d.h. d
 Im Detail sollte erwägt werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist. Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Inhaltliche Annotation"
-Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen Wissenschaftler-Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
+    Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen Wissenschaftler-Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
 
     - **Orte** werden, wenn möglich, mit ihrem heutigen Ortsnamen auf geonames verlinkt.
         - Orte werden nicht ausgezeichnet, wenn sie bereits in den Metadaten des Briefes vorhanden sind (Absende- oder Empfangsort).
@@ -78,12 +78,12 @@ Die open source software [TEI Publisher](https://teipublisher.com/) bietet seit 
 Nach dem Importieren der TEI/XML-Daten in den TEI Publisher können diese mithilfe unterschiedlicher ODDs (**O**ne **D**ocument **D**oes it all) auf der Benutzeroberfläche des Tools dargestellt werden. ODD-Dateien (eine genaue Beschreibung finden sich [im Konde-Weissbuch](https://www.digitale-edition.at/o:konde.150)) sind in der ODD-Schema-Sprache verfasst; sie geben den TEI/XML-Code aufgrund unterschiedlicher, festgelegter Schemata aus: Im Falle der (in diesem Fall textkritischen) Annotation `<hi rend="underline">rassuré</hi>` 'erkennt' das ODD beispielsweise, dass das Wort "rassuré" unterstrichen werden soll.
 [Das TEI-Konsortium bietet verschiedene ODDs an und dokumentiert deren Verwendung](https://tei-c.org/guidelines/customization/getting-started-with-p5-odds/); da TEI-XML ein flexibler Standard ist, muss und kann nicht jede Annotation für dasselbe verwendet werden. Im deutschsprachigen Raum hat sich neben den Standard-ODDS des Konsortiums das [ODD des deutschen Textarchivs](https://www.deutschestextarchiv.de/doku/basisformat/schema.html) für Edtionen durchgesetzt. ODDs können für jedes Projekt angepasst werden, etwa mithilfe des Online-Tools [ROMA](https://roma.tei-c.org/).
 
-#### Annotatons-Editor
+#### Annotations-Editor
 
 Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Die dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); wichtige Hinweise haben wir zudem im Kapitel "Themen "im Unterkapitel ["Annotationen mit TEI-Publisher"](../Themen/tei-publisher-annotations.de.md) zusammengefasst.
 
 !!! note "Erfahrungen aus der Showcase-Edition"
-Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Faksimile, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, grösser rechts vom annotierten Text einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksilie nötig ist, nachgetragen werden.
+    Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Faksimile, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, grösser rechts vom annotierten Text einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
 Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
 => HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)
 

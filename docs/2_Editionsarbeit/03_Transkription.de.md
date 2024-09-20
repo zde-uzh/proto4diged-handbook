@@ -18,7 +18,7 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 
     Die Showcase-Edition versteht sich als hypothetische Vorarbeit zu einer wesentlich größeren Edition der Korrespondenz von Gaston Paris, die 27.000 Seiten umfasst und sich - falls in späteren Projekten umgesetzt - primär an ein **Forschungspublikum** wendet. Da die entwickelten prototypischen Workflows einereseits wissenschaftliche Standards diplomatischer Editionen erfüllen sollen, anderersetits im Umfang skalierbar bleiben müssen, konzentriert sie sich um **größtmöglich Texttreue bei gleichzeitiger Einfachheit textkritischer und inhaltlicher Auszeichnung**.
 
-    Bei der Transkription hielt sich die Modell-Ediiton an folgende **textkritische Grundsätze**:
+    Bei der Transkription hielt sich die Modell-Editon an folgende **textkritische Grundsätze**:
 
     **Umfang**
 
@@ -49,15 +49,15 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltiches auszeichnet, ist das Erstellen der **Lesefassung** (siehe dazu auch [_Editionsansichten_](../3_presentation/03_edition_views.de.md)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Lesefassung"
-Da sich die Showcase-Edition der Briefe Gaston Paris primär an ein wissenschaftliches Publikum richten muss, wird der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Sie ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
+    Da sich die Showcase-Edition der Briefe Gaston Paris primär an ein wissenschaftliches Publikum richten muss, wird der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Sie ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
 
 #### Verknüpfung Digitalisat und Transkription
 
 DSE-spezifische Transkriptionsrichtlinien betreffen die **Verknüpfung von Digitalisat und Transkriptionen** im Frontend, d.h. die Einblendung von visuellen Wort- oder Zeilenkorrespondenzen zwischen Faksimile und Text. Diese wird idealerweise bereits im Schritt der Transkription vorbereitet, alle unten erwähnten Tools weisen einfache Formen dieser Verknüpfung auf, in dem sie die XML-Datei der Transkription mit Bild-Koordinaten anreichern. Der Zeilen-genaue Text-Bild-Verweis, der den autoptischen Vergleich vereinfacht z.B. durch Aufblinken der Textzeile im Digitalisat, hat sich zum Standard von DSE entwickelt, und wird im Folgenden zu den dokumentierten Standardlösungen gezählt.
 
 !!! success "Best Practice"
-![screenshot Escher](image-3.png){ width="400" align=right }
-Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, die den TEI-Publisher verwenden, ist die [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html).
+    ![screenshot Escher](image-3.png){ width="400" align=right }
+    Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, die den TEI-Publisher verwenden, ist die [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html).
 
     Die Modell-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher) nachgenutzt.
 
@@ -80,7 +80,7 @@ Wie erwähnt, gleichen sich die Tools auch bezüglich **Datenstandards**: Die Tr
 
 ## 2. Automatisierte oder manuelle Transkription?
 
-Es gibt Fälle, in denen manuelle Transkriptionen weiterhin empfehlenswert sind. Dies betrifft insbesondere Editionen von Handschriften: Je schwieriger zu entziffern die Hand und je kleiner die Handschriften-Menge ist, umso weniger lohnt sich der ATR-Einsatz. Zwar existieren insbesondere für Transkribus sehr fähige allgemeine Texterkennungsmodelle wie "The Text Titan 1", die sowohl Drucke wie Handschriften - sogar im selben Dokument - erkennen. Für **schwierige Hände** reichen diese jedoch oft nicht aus, weshalb ein Hand-spezifisches ATR-Modell tainiert werden muss (s.u.). Für das Training dieses Modells ist eine Textmenge von mindestens 75, in schwierigen Fällen sogar 200-300 Training-Seiten ('Ground Truth' - vorbereitete, korrekte Transkriptionen) nötig, bis sich der ATR-Prozess (Training und Nachkorrekturen eingerechnet) nicht mehr den manuellen Aufwand übersteigt. Erst die Transkription eines Mehrfachen der benötigten Training-Seiten rechtfertigt den Einsatz eines spezifischen ATR-Modells.
+Es gibt Fälle, in denen manuelle Transkriptionen weiterhin empfehlenswert sind. Dies betrifft insbesondere Editionen von Handschriften: Je schwieriger zu entziffern die Hand und je kleiner die Handschriften-Menge ist, umso weniger lohnt sich der ATR-Einsatz. Zwar existieren insbesondere für Transkribus sehr fähige allgemeine Texterkennungsmodelle wie "The Text Titan 1", die sowohl Drucke wie Handschriften - sogar im selben Dokument - erkennen. Für **schwierige Hände** reichen diese jedoch oft nicht aus, weshalb ein Hand-spezifisches ATR-Modell trainiert werden muss (s.u.). Für das Training dieses Modells ist eine Textmenge von mindestens 75, in schwierigen Fällen sogar 200-300 Training-Seiten ('Ground Truth' - vorbereitete, korrekte Transkriptionen) nötig, bis sich der ATR-Prozess (Training und Nachkorrekturen eingerechnet) nicht mehr den manuellen Aufwand übersteigt. Erst die Transkription eines Mehrfachen der benötigten Training-Seiten rechtfertigt den Einsatz eines spezifischen ATR-Modells.
 
 Die Entscheidung für die Automatisation hängt also von einer Kosten-Nutzen-Rechnung ab: Das Ziel der automatischen Texterkennung ist, den Korrekturaufwand möglichst gering, aber auf jeden Fall unter dem Aufwand einer manuellen Korrektur zu halten.
 Dies versucht man üblicherweise mit der schrittweisen Erweiterung der Trainingsdaten durch korrigierte Transkriptionen und dem Trainieren
@@ -99,7 +99,7 @@ Als Trainingsset für eigene Transkriptionsmodelle empfiehlt Transkribus, wie er
 Das Aufbereiten bestehender Transkriptionen in Transkribus stand in der Vergangenheit die Funktion **"text2image"** zur Verfügung, die bestehende Transkriptionen, z.B. aus alten Druck-Editionen, zeilengenau dem Digitalisat zugeordnet hat. Gegenwärtig müssen die Zeilen-Korrespondenzen zu Trainingszwecken manuell hergestellt werden. Ein solches manuelles Einfügen von Transkriptionen in die Trainingsdaten ist nur sinnvoll, wenn der Weg über die Standardmodelle und einer Korrektur nicht möglich ist. Transkribus hat jedoch die Wiedereinführung von "text2image" Ende 2024 in Aussicht gestellt.
 
 !!! note "Erfahrung aus der Modell-Edition"
-Für die Handschrift von Gaston Paris erwies sich das Standardmodell "The Text Titan I" als geeignet für die Anwendungen auf die Editionsdaten und eine anschliessende Korrekturrunde. Es handelt sich dabei um ein KI-Modell, das ähnlich ChatGPT auf der Transformer-Technologie beruht und herkömmlichen generellen ATR-Modellen, die ältere KI-Technologien nutzen, überlegen ist. Das eigene Training von Transformer-Modellen ist bislang noch auf keinem Transkriptionstool möglich, selbsterstellte ATR-Modelle können trotzdem durch das Training mit projektspezifischer Ground Truth Tansformer-Modelle konkurrenzieren (siehe nächster Kasten).
+    Für die Handschrift von Gaston Paris erwies sich das Standardmodell "The Text Titan I" als geeignet für die Anwendungen auf die Editionsdaten und eine anschliessende Korrekturrunde. Es handelt sich dabei um ein KI-Modell, das ähnlich ChatGPT auf der Transformer-Technologie beruht und herkömmlichen generellen ATR-Modellen, die ältere KI-Technologien nutzen, überlegen ist. Das eigene Training von Transformer-Modellen ist bislang noch auf keinem Transkriptionstool möglich, selbsterstellte ATR-Modelle können trotzdem durch das Training mit projektspezifischer Ground Truth Tansformer-Modelle konkurrenzieren (siehe nächster Kasten).
 
 ### 3.2 Wiederholtes Training, Re-Training
 
@@ -144,14 +144,15 @@ Transkribus unterscheidet 'Structural Tags' und 'Textual Tags', dies entspricht 
 
 ![alt text](image-2.png){align=right width="250" }**'Textual Tags'** erlauben das Auszeichnen auf der Wortebene der Tranksription und werden deshalb am Transkriptionstext auf der rechten Seite der Benutzeroberfläche angebracht. 'Textual Tags' können neben formalen Aspekten (Unterstreichungen, fremde Hände) auch bereits inhaltliche Aspekte (Tagging von Ortsbezeichnungen oder Schlagwörtern beinhalten). Wir raten jedoch dazu, die komplexere inhaltliche Annotation erst im TEI-XML vorzunehmen, um den Konversionsaufwand zu minimieren (s.u.). Auch ist Transkribus nicht fähig, inhaltliche Annotationen mit externen Ressourcen wie Normdaten zu verlinken.
 
-Wie gesagt, bieten Transkriptionstools eine Auszeichnung in PAGE-XML oder ALTO-XML an, die bei der Konversion in TEI-XML berücksichtigt werden muss.
-Es ist deshalb empfehlenswert, sich **in der Auszeichnung im Transkriptionstool an der Nomenklatur des angestrebten TEI/XML zu orientieren**. So entstehen bei der Konvertierung in TEI/XML TEI-Syntax-konforme Elemente statt frei erfundene Ausdrücke oder - bei Nichtauszeichnung - anonyme Blöcke (`<ab>`). Die wichtigsten Elemente werden standardmässig von Skripten wie Page2TEI erkannt und in die entsprechenden Elemente überführt. Dies stellt ein Komplexitätszuwachs dar, der einen engermaschigen technischen Support des Projektes benötigt.
+!!! warning "Herausforderung"
+    Wie gesagt, bieten Transkriptionstools eine Auszeichnung in PAGE-XML oder ALTO-XML an, die bei der Konversion in TEI-XML berücksichtigt werden muss.
+    Es ist deshalb empfehlenswert, sich **in der Auszeichnung im Transkriptionstool an der Nomenklatur des angestrebten TEI/XML zu orientieren**. So entstehen bei der Konvertierung in TEI/XML TEI-Syntax-konforme Elemente statt frei erfundene Ausdrücke oder - bei Nichtauszeichnung - anonyme Blöcke (`<ab>`). Die wichtigsten Elemente werden standardmässig von Skripten wie Page2TEI erkannt und in die entsprechenden Elemente überführt. Dies stellt ein Komplexitätszuwachs dar, der einen engermaschigen technischen Support des Projektes benötigt.
 
 Der Vorteil von Annotationen in Transkriptionstools ist, dass in der ersten, oberflächlichen Auseinandersetzung mit dem Text bereits die wichtigsten formalen Aspekte geklärt werden können. In den nächsten Schritten nach der Konvertierung, der inhaltlichen Annotation und Kommentierung, - die in folgenden Kapiteln primär anhand des TEI Publishers beschreiben werden - können sich die Mitarbeitenden dann verstärkt mit den inhaltlichen Aspekten auseinandersetzen.
 Ob und wie eingehend mit den einfach zu bedienenden, aber im Konversionsprozess anspruchsvollen Tags der Transkriptionstools gearbeitet werden soll, sollten Projekte möglichst früh abwägen.
 
 !!! note "Erfahrung aus der Showcase-Edition"
-Wir haben uns entschieden, mit 'Structual' und 'Textual' Tags in Transkribus nur textkritische Aspekte auszuzeichnen (siehe Modell-Editionsrichtlinien oben). In dieser Auszeichnung der Briefe von Gaston Paris halten wir uns an die Element-Namen, die das [deutsche Textarchiv](https://www.deutschestextarchiv.de/) als [Basisformat zur Auszeichnung von Briefen](https://deutschestextarchiv.de/doku/basisformat/brief.html) vorschlägt. Hierfür haben wir z.T. eigene Tags in Transkribus geschaffen und in der Auszeichnung der Textregionen auf dem Digitalisat angewendet: Der Briefkopf ist beispielsweise als die Textregion 'opener' definiert, in dieser Textregion zeichnen wir die Zeile mit Datum und ggfls. Ort als 'dateline' aus. Der Textkörper selbst ist in verschiedene Paragraphen (= 'paragraph') unterteilt.
+    Wir haben uns entschieden, mit 'Structual' und 'Textual' Tags in Transkribus nur textkritische Aspekte auszuzeichnen (siehe Modell-Editionsrichtlinien oben). In dieser Auszeichnung der Briefe von Gaston Paris halten wir uns an die Element-Namen, die das [deutsche Textarchiv](https://www.deutschestextarchiv.de/) als [Basisformat zur Auszeichnung von Briefen](https://deutschestextarchiv.de/doku/basisformat/brief.html) vorschlägt. Hierfür haben wir z.T. eigene Tags in Transkribus geschaffen und in der Auszeichnung der Textregionen auf dem Digitalisat angewendet: Der Briefkopf ist beispielsweise als die Textregion 'opener' definiert, in dieser Textregion zeichnen wir die Zeile mit Datum und ggfls. Ort als 'dateline' aus. Der Textkörper selbst ist in verschiedene Paragraphen (= 'paragraph') unterteilt.
 
     ![alt text](image-1.png)
 
