@@ -8,15 +8,15 @@ Neben verschiedenen Formen von Einstiegsseiten sind verschiedene Suchfunktionen 
 
 ## Einstiegsseiten
 
-Es lassen sich zwei grundsätzliche Konzepte von Einstiegseiten unterscheiden:
+Es lassen sich zwei grundsätzliche Konzepte von Einstiegsseiten unterscheiden:
 
-1. **Einstiege in das edierte Material**, d.h. der Zugang zu verscherschiedenen Ressourcen und Registern ist vorrangig und der Weg zu ihnen unmittelbar sichtbar.
+1. **Einstiege in das edierte Material**, d.h. der Zugang zu verschiedenen Ressourcen und Registern ist vorrangig und der Weg zu ihnen unmittelbar sichtbar.
 
 !!! info "Beispielhafte DSE"
-    Das Standard-Beispiel ist die Hauptseite des TEI Publishers, das alle Texte in alphabetischer bzw. numerischer Reihenfolge aufführt.
+    Das Standard-Beispiel ist die Hauptseite des TEI Publishers, die alle Texte in alphabetischer bzw. numerischer Reihenfolge aufführt.
 
-    - Z.B. lässt sich nach einer sehr einfachen Einstiegsseite, die das Projekt kurz umreisst, in der [Coseriu-Edition](https://coseriu.uzh.ch/static/home.xml) auf der Hauptseite ein Überblick über alle Texte finden, was angesichts des eher kleinen Korrespondenz-Volumens einleuchtet. Ähnlich verfährt die St. Gallter [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html).
-    - Die Einstiegsseite der [Escher Briefedition](https://www.briefedition.alfred-escher.ch/home.html) ist etwas komplexer, aber bleibt übersichtlich und erlaubt ebenfalls den Zugang zur Textauswahl mit einem Klick.
+    - Z.B. lässt sich nach einer sehr einfachen Einstiegsseite, die das Projekt kurz umreisst, in der [Coseriu-Edition](https://coseriu.uzh.ch/static/home.xml){:target="\_blank"}  auf der Hauptseite ein Überblick über alle Texte finden, was angesichts des eher kleinen Korrespondenz-Volumens einleuchtet. Ähnlich verfährt die St. Gallter [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html){:target="\_blank"} .
+    - Die Einstiegsseite der [Escher Briefedition](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"}  ist etwas komplexer, bleibt aber übersichtlich und erlaubt ebenfalls den Zugang zur Textauswahl mit einem Klick.
 
     Typisch für viele Editionen im TEI-Publisher ist, dass das **Suchfeld und die Register-Menü** (z.T. als 'Kontexte') ab der Einstiegsseite immer sichtbar sind.
 
@@ -25,9 +25,9 @@ Es lassen sich zwei grundsätzliche Konzepte von Einstiegseiten unterscheiden:
 !!! info "Beispielhafte DSE"
     Insbesondere wenn eine Edition erst wenige edierte Dokumente aufweist, kann ein Einstieg ins Projekt von Anfang an klären, dass es sich um eine unabgeschlossenes 'work in progress' handelt. Auch ein Edition von sehr spezialisierten, komplex aufgbeauten Beständen, die z.B. die Funktion eines digitalen Archivs haben, kann einen ausführlichen Einstieg rechtfertigen.
 
-    - Ein Beispiel hierfür ist das [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de), dessen Kern eine Edition der Zettelkasten und der Arbeits-Typoskripte bzw. Manuskripte des Wissenschaftlers ausmachen. Da es damit selbst bereits komplex angelegte analoge Arbeitswerkzeuge ins Digitale zu übersetzen galt, weist die Edition [Lesewege](https://niklas-luhmann-archiv.de/bestand/zettelkasten/lesewege) und [Tutorials](https://niklas-luhmann-archiv.de/bestand/zettelkasten/tutorial) auf, die mit dem Editionstext selbst mindestens gleichwertig präsentiert werden.
+    - Ein Beispiel hierfür ist das [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de){:target="\_blank"} , dessen Kern eine Edition der Zettelkasten und der Arbeits-Typoskripte bzw. Manuskripte des Wissenschaftlers ausmachen. Da es damit selbst bereits komplex angelegte analoge Arbeitswerkzeuge ins Digitale zu übersetzen galt, weist die Edition [Lesewege](https://niklas-luhmann-archiv.de/bestand/zettelkasten/lesewege){:target="\_blank"}  und [Tutorials](https://niklas-luhmann-archiv.de/bestand/zettelkasten/tutorial){:target="\_blank"}  auf, die mit dem Editionstext selbst mindestens gleichwertig präsentiert werden.
 
-    - Für extensive Einstiege gibt es Beispiele im TEI Publisher, etwa [Louis Ginzbergs "Legende der Juden"](https://www.ginzberg.ethz.ch/index.html), das zwei Hauptseiten ("About the Edition" und "Edition") umfasst und erstere priorisiert.
+    - Für extensive Einstiege gibt es Beispiele im TEI Publisher, etwa [Louis Ginzbergs "Legende der Juden"](https://www.ginzberg.ethz.ch/index.html){:target="\_blank"} , das zwei Hauptseiten ("About the Edition" und "Edition") umfasst und erstere priorisiert.
 
 In beiden Szenarien sollte den Nutzenden schnell klar werden, um was für eine Edition es sich handelt und wer sie gemacht hat. Bei der Entwicklung von spezifischem Webdesign sollte auf Einfachheit und gute Verständlichkeit bei der Einstiegsseite geachtet werden sollte. Hierdurch wird maßgeblich die [_Barrierefreiheit_](../Themen/accessibility.de.md), auf die wir in diesem Handbuch genauer eingehen, unterstützt. 
 
@@ -37,18 +37,18 @@ Die Showcase-Edition stellt ihre - weitgehend den Standard-Einstellungen entspre
 
 ## Suchfunktionen
 
-Je komplexer die Edition, desto mehr Suchfunktionen sind sinnvoll. Neben der Hauptfunktion - der Volltextsuche im edierten Text - kann die gezielte Suche in den Kommentaren, Registern oder Bibliographien sinnvoll sein. Eine vorbildhafte Auswahl bietet die [edition-humboldt](https://edition-humboldt.de/). Wo kaum Kommentare zum Einsatz kommen und Register sich einfach in kurzer Zeit durchgehen lassen, sind diese Funktionen jedoch nicht nötig.
+Je komplexer die Edition, desto mehr Suchfunktionen sind sinnvoll. Neben der Hauptfunktion - der Volltextsuche im edierten Text - kann die gezielte Suche in den Kommentaren, Registern oder Bibliographien sinnvoll sein. Eine vorbildhafte Auswahl bietet die [edition-humboldt](https://edition-humboldt.de/){:target="\_blank"}. Wo kaum Kommentare zum Einsatz kommen und Register sich einfach in kurzer Zeit durchgehen lassen, sind diese Funktionen jedoch nicht nötig.
 => @ Reto: Gibt Aspekte aus technischer Sicht zum TEI Publisher zu ergänzen?
 
 ## Register
 
-Neben einer Liste der Dokumente und der Suchfunktion stellen Register den wichtigsten Zugang zur Edition dar. Wie bereits im Zusammenhang mit der [_inhaltlichen Annotation_](../2_Editionsarbeit/05_semantic_annotation.de.md) gesehen, sind die üblichsten Register diejenigen für Orte, Personen und Schlagworte. Zwar gehören auch Zeitdaten zur Standard-Kategorie der inhaltlichen Auszeichnung, diese werden in der Regel jedoch nicht als Register, sondern als [_Zeitstrahl_](04_timelines_maps.de.md) dargestellt. Der TEI Publisher erlaubt es, diesen Zeitstrahl auf der Hauptseite einzublenden. Von dieser Lösung macht z.B. die St. Galler [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1) Gebrauch.
+Neben einer Liste der Dokumente und der Suchfunktion stellen Register den wichtigsten Zugang zur Edition dar. Wie bereits im Zusammenhang mit der [_inhaltlichen Annotation_](../2_Editionsarbeit/05_semantic_annotation.de.md) gesehen, sind die üblichsten Register diejenigen für Orte, Personen und Schlagworte. Zwar gehören auch Zeitdaten zur Standard-Kategorie der inhaltlichen Auszeichnung, diese werden in der Regel jedoch nicht als Register, sondern als [_Zeitstrahl_](04_timelines_maps.de.md) dargestellt. Der TEI Publisher erlaubt es, diesen Zeitstrahl auf der Hauptseite einzublenden. Von dieser Lösung macht z.B. die St. Galler [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1){:target="\_blank"} Gebrauch.
 
 !!! info "Beispielhafte DSE"
     **Einfache Register** sind in der Regel alphabetisch nach Eintrag (Ortsnamen, Nachname einer Person etc.) geordnet, dies gilt auch für die Standard Register im TEI-Publisher (unten das Beispiel der Namensregister der St.Galler Missiven Edition).
     ![Namensregister Missiven](image-4.png)
 
-    **Komplexere Register** wie diejenige von [hallernet](https://hallernet.org/), die nicht mit Standard-Tools erstellt sind,  erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Chrakter einer Forschungdatenbank, deshlab sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
+    **Komplexere Register** wie diejenige von [hallernet](https://hallernet.org/){:target="\_blank"} , die nicht mit Standard-Tools erstellt sind,  erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Chrakter einer Forschungdatenbank, deshlab sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
     ![Personenregister hallernet](image-3.png)
 
 !!! info "Beispielhafte DSE"
