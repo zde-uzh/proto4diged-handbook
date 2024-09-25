@@ -60,7 +60,7 @@ DSE-spezifische Transkriptionsrichtlinien betreffen die **Verknüpfung von Digit
 !!! success "Best Practice"
     Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, die den TEI-Publisher verwenden, ist die [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} .
 
-    Die Showcase-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher){:target="\_blank"}  nachgenutzt.
+    Die Showcase-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher){:target="\_blank"} nachgenutzt.
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }

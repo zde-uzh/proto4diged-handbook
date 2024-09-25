@@ -67,10 +67,10 @@ Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichne
         - Orte werden nicht ausgezeichnet, wenn sie bereits in den Metadaten des Briefes vorhanden sind (Absende- oder Empfangsort).
 
     - **Personen** werden in einem ersten Schritt mit den Personendaten in GND verknüpft. Dies ist die einfachste From der Normdatenverknüpfen, da die Verlinkung mit GND im TEI Publisher vorkonfiguriert ist. In einem zweiten Schritt soll auch eine Verknüpfung über [VIAF](https://viaf.org/){:target="\_blank"} , ein internationaler Aggregator von Normdatensätzen, zu [IdRef](https://www.idref.fr/){:target="\_blank"}, der französischen Normdatenbank, hergestellt werden. IdRef ist angesichts des französischsprachigen Corpus und des romanistischen Forschungsinteresse von zentraler Bedeutung, kann Stand 2024 jedoch noch nicht automatisiert mit dem TEI Publisher verknüpft werden.  
-    Personendaten, die in der GND noch nicht verzeichnet sind, werden zudem mithilfe eines Bibliothekservices der Zentralbibliothek Zürich in GND ergänzt und werden so verknüpfbar, dadurch trägt das Projekt zur Verbesserung der GND-Datensätze hinsichtlich französischer/romanistischer Daten bei.
+    Personendaten, die in der GND noch nicht verzeichnet sind, werden über einen Service der GND-Redaktion an der Zentralbibliothek Zürich selbstständig in der GND ergänzt und so verknüpfbar. Dadurch trägt das Projekt zur Verbesserung der GND-Datensätze hinsichtlich französischer/romanistischer Daten bei.
         - Personen werden nicht im Text ausgezeichnet, wenn sie bereits Teil der Metadaten sind (Verfasser:in oder Empfänger:in)
 
-    - **Werke** werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten in der GND verknüpft werden, dies ist jedoch in der Showcase-Edition nicht umgesetzt.
+    - **Werke** werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten aus der GND verknüpft werden, dies ist jedoch in der Showcase-Edition nicht umgesetzt.
 
 ### 2.2. Die inhaltliche Annotation im TEI-Publisher
 
