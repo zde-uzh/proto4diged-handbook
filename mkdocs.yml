@@ -1,4 +1,4 @@
-site_name: Handbuch zur Erstellung einer digitalen Edition
+site_name: Handbuch zur Erstellung einer digitalen Edition - Beta Version im Entstehen
 site_dir: public
 nav:
   - "Einleitung": "index.md"
@@ -17,18 +17,19 @@ nav:
       - "3_presentation/01_introduction_presentation.md"
       - "3_presentation/02_access.md"
       - "3_presentation/03_edition_views.md"
-      - "3_presentation/04_timelines_maps.md"
-      - "3_presentation/05_documentation.md"
+      - "3_presentation/04_documentation.md"
   - "4. Langzeitsicherung":
       - "4_longterm_preservation/01_introduction_preservation.md"
       - "4_longterm_preservation/02_static_presentation.md"
-      - "4_longterm_preservation/03_archiving_data.md"      
+      - "4_longterm_preservation/03_archiving_data.md"
   - "Themen":
       - "Themen/accessibility.md"
       - "Themen/authority.md"
       - "Themen/transkribus.md"
       - "Themen/tei.md"
       - "Themen/tei-publisher-annotations.md"
+  - "Impressum": 
+      - "Impressum/impressum.md"
 
 theme:
   language: de
@@ -58,3 +59,22 @@ plugins:
   - search
   - tags
   - glightbox
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: de
+          default: true
+          name: Deutsch
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: "Manual for Creating a Digital Scholarly Edition - Beta Version - Work in Progress"
+          nav_translations:
+            "Einleitung": Introduction
+            "1. Planung": 1. Planning
+            "2. Editionsarbeit": 2. Editorial work
+            "3. Präsentation": 3. Presentation
+            "4. Langzeitsicherung": 4. Long-term availability
+            "Themen": Assorted topics
+            "Impressum": Contact

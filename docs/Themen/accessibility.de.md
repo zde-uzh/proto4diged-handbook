@@ -10,7 +10,7 @@ Die Barrierefreiheit einer digitalen Edition beginnt bereits bei den Daten und z
 -   Wahl der Sprache(n)
 -   Alternativtexte für Bilder
 -   Semantisches oder nicht-semantisches Markup (`<strong>` oder `<span style="font-weight: bold;">`)
--   Semantsiches Markup statt einfacher Text (`<app><lem wit="#h">frey</lem><rdg wit="#V">frei</rdg></app>` statt `frey ] h; frei V`)
+-   Semantisches Markup statt einfacher Text (`<app><lem wit="#h">frey</lem><rdg wit="#V">frei</rdg></app>` statt `frey ] h; frei V`)
 -   Orientierung der Struktur am Dokument (Seiten und Zeilen) oder am Inhalt (Kapitel und Absätze)
 
 ## Besondere Herausforderungen bei Texten in digitalen Editionen
@@ -47,4 +47,7 @@ Die Barrierefreiheit einer digitalen Edition beginnt bereits bei den Daten und z
 
 ## Links
 
--   [Accessibility im CMS der Universität Zürich](https://t.uzh.ch/access) mit diversen Links zu Anleitungen und Werkzeugen
+-   [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/){:target="\_blank"} mit international gültige Empfehlungen von W3C
+-   [eCH-0059 Accessibility Standard](https://www.ech.ch/de/ech/ech-0059/3.0){:target="\_blank"} für Gemeinwesen und konzessionierte Unternehmen in der Schweiz
+-   [Accessibility im CMS der Universität Zürich](https://t.uzh.ch/access){:target="\_blank"} mit diversen Links zu Anleitungen und Werkzeugen
+- [Handreichungen des Zentrums für Digitale Editionen ZDE Zürich](https://www.zde.uzh.ch/de/offers/handout.html)
