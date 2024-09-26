@@ -48,7 +48,7 @@ As in print editions, consistent **transcription guidelines** must also be follo
 
 #### Reading version
 
-A step that technically coincides with the text-critical and/or textual annotation, but which is not characterised by anything visible or substantive, is the creation of the **reading version**, which is placed alongside the more faithful diplomatic transcription (see also [_edition views_](../3_presentation/03_edition_views.en.md)). In order for the text to be normalised in a reading version, the words must be annotated with a correct or modernised word variant in the case of incorrect or outdated spellings - what is understood as incorrect or outdated must be [_documented_](../3_presentation\05_documentation.en.md) in detail.
+A step that technically coincides with the text-critical and/or textual annotation, but which is not characterised by anything visible or substantive, is the creation of the **reading version**, which is placed alongside the more faithful diplomatic transcription (see also [_edition views_](../3_presentation/03_edition_views.en.md)). In order for the text to be normalised in a reading version, the words must be annotated with a correct or modernised word variant in the case of incorrect or outdated spellings - what is understood as incorrect or outdated must be [_documented_](../3_presentation/04_documentation.en.md) in detail.
 
 !!! abstract "Showcase edition guidelines: Reading version"
     As the showcase edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, this is also possible at a later stage, as the TEI/XML data can also be enriched at a later date using various tools.
@@ -64,7 +64,7 @@ DSE-specific transcription guidelines concern the **linking of digitised materia
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }
-    <figcaption>Jung Joseph (ed.), Digital Letter Edition Alfred Escher, Relaunch January 2022, Zurich. Retrieved 22.9.2024. [https://briefedition.alfred-escher.ch/briefe/B0056](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} </figure>
+    <figcaption>[Jung, Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch January 2022, Zürich.](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} Retrieved on 22.9.2024.</figure>
 
 
 ## 1. standard solutions for transcriptions

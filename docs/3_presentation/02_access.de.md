@@ -38,7 +38,6 @@ Die Showcase-Edition stellt ihre - weitgehend den Standard-Einstellungen entspre
 ## Suchfunktionen
 
 Je komplexer die Edition, desto mehr Suchfunktionen sind sinnvoll. Neben der Hauptfunktion - der Volltextsuche im edierten Text - kann die gezielte Suche in den Kommentaren, Registern oder Bibliographien sinnvoll sein. Eine vorbildhafte Auswahl bietet die [edition-humboldt](https://edition-humboldt.de/){:target="\_blank"}. Wo kaum Kommentare zum Einsatz kommen und Register sich einfach in kurzer Zeit durchgehen lassen, sind diese Funktionen jedoch nicht nötig.
-=> @ Reto: Gibt Aspekte aus technischer Sicht zum TEI Publisher zu ergänzen?
 
 ## Register und Karten
 
@@ -47,22 +46,22 @@ Neben einer Liste der Dokumente und der Suchfunktion stellen Register den wichti
 !!! info "Beispielhafte DSE: Einfache Register"
     **Einfache Register** sind in der Regel alphabetisch nach Eintrag (Ortsnamen, Nachname einer Person etc.) geordnet, dies gilt auch für die Standard Register im TEI-Publisher (unten das Beispiel der Namensregister der St.Galler Missiven Edition).
     ![Namensregister Missiven](image-4.png){ width="1000" }
-    <figcaption> Personenregister der DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition", [https://missiven.stadtarchiv.ch/namen/?search=&category=A]([https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
+    <figcaption> [Personenregister der DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
 !!! info "Beispielhafte DSE: Komplexere Register"
     **Komplexere Register** wie dasjenige von [hallernet](https://hallernet.org/){:target="\_blank"} , die nicht mit Standard-Tools erstellt sind,  erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Charakter einer Forschungsdatenbank, deshalb sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
-    ![Personenregister hallernet](image-3.png) <figcaption>Personenregister der Plattform "hallernet", [https://hallernet.org/data/persons?query=&scope=mt&filters=]([https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
+    ![Personenregister hallernet](image-3.png) <figcaption>[Personenregister der Plattform "hallernet"](https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
 !!! info "Beispielhafte DSE: Einfacher Registereintrag"
     Jeder **Registereintrag** ist mit einer spezifischen Registerseite verknüpft. Diese kann wie das Register selbst unterschiedlich komplex ausgestaltet sein; im Standard-Fall (die auch für den TEI Publisher gilt) sind **auf einer Registerseite alle Vorkommnisse des Eintrags in der Edition sowie eine Verlinkung zu Ressourcen und Normdaten-Einträgen außerhalb der Edition** aufgeführt (unten das Beispiel einer Namensregister-Seite der Missiven-Edition).
     ![Namensregister-Seite der Missiven-Edition](image-6.png){ width="1000" }
-    <figcaption> Namensregister-Seite der DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition", [https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240]([https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
+    <figcaption> [Namensregister-Seite der DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
 !!! info "Beispielhafte DSE: Komplexer Registereintrag"
     Wo wie in [hallernet](https://hallernet.org/){:target="\_blank"} die Datenbank-Struktur zentral ist, können Registerseiten auch mit weiteren Informationen zur Entität angereichert sein, im Falle einer Person z.B. Metadaten über Publikationen oder beruflichen Funktionen. Solche 'haute-couture'-Lösungen benötigen eine **komplexe Datenbank im Hintergrund** und entsprechendes technisches Know-How über die Erstellung und Wartung von Datenbanken.
-        ![Personenregister-Seite hallernet](image-5.png)     <figcaption> Namensregister-Seite der DSE "hallernet", [https://hallernet.org/data/person/28859](https://hallernet.org/data/person/28859){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
+        ![Personenregister-Seite hallernet](image-5.png)     <figcaption> [Namensregister-Seite der DSE "hallernet"](https://hallernet.org/data/person/28859){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
 ## Zeitstrahl
 
-Zwar gehören auch Zeitdaten zur Standard-Kategorie der inhaltlichen Auszeichnung, diese werden in der Regel jedoch nicht als Register, sondern als [_Zeitstrahl_](04_timelines_maps.de.md) dargestellt. Der TEI Publisher erlaubt es, diesen Zeitstrahl auf der Hauptseite einzublenden. Von dieser Lösung macht z.B. die St. Galler [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1){:target="\_blank"} Gebrauch.
+Zwar gehören auch Zeitdaten zur Standard-Kategorie der inhaltlichen Auszeichnung, diese werden in der Regel jedoch nicht als Register, sondern als **Zeitstrahl** dargestellt. Der TEI Publisher erlaubt es, diesen Zeitstrahl auf der Hauptseite einzublenden. Von dieser Lösung macht z.B. die St. Galler [Missiven-Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1){:target="\_blank"} Gebrauch.
 

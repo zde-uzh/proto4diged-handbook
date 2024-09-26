@@ -6,7 +6,7 @@ Der Kommentar erlaubt es in gedruckten und digitalen Editionen über textkritisc
 
 In der klassischen Print-Editorik kennt man drei verschiedene Grundformen des Kommentars, die in anderer Form alle auch in DSE zur Anwendung kommen:
 
-**1. Der editorische Kommentar** (oder auch Herausgeberkommentar, editorischer Bericht etc.) erklärt mindestens die editorischen Richtlinien, ggfls. die Auswahl des Corpus aufgrund seiner Entstehungsgeschichte und die Nutzung des textkritischen Apparats. Diese Kommentarform ist in DSE eher als [_Dokumentation_](../3_presentation/05_documentation.de.md) bekannt und wird im Folgenden unter dieser Bezeichnung im Kapitel Publikation behandelt.
+**1. Der editorische Kommentar** (oder auch Herausgeberkommentar, editorischer Bericht etc.) erklärt mindestens die editorischen Richtlinien, ggfls. die Auswahl des Corpus aufgrund seiner Entstehungsgeschichte und die Nutzung des textkritischen Apparats. Diese Kommentarform ist in DSE eher als [_Dokumentation_](../3_presentation/04_documentation.de.md) bekannt und wird im Folgenden unter dieser Bezeichnung im Kapitel Publikation behandelt.
 
 !!! info "Beispielhafte DSE"
     In hybriden Ausgaben wie der [Faustedition](https://www.faustedition.net/) sind zuweilen auch der editorische Bericht (der für die digtale und die gedruckte Ausgabe gilt) und die technische Dokumentation voneinander getrennt.

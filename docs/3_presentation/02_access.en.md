@@ -29,7 +29,7 @@ A distinction can be made between two basic concepts of entry pages:
 
     - There are examples of extensive introductions in the TEI Publisher, such as [Louis Ginzberg's "Legend of the Jews"](https://www.ginzberg.ethz.ch/index.html){:target="\_blank"} which comprises two main pages ("About the Edition" and "Edition") and shows the 'About' page first.
 
-In both scenarios, users should quickly realise what the edition is and who made it. When developing specific web design, attention should be paid to simplicity and good comprehensibility on the entry page. This significantly supports [_Accessibility_](../themes/accessibility.en.md), which we will discuss in more detail in this manual.
+In both scenarios, users should quickly realise what the edition is and who made it. When developing specific web design, attention should be paid to simplicity and good comprehensibility on the entry page. This significantly supports [_Accessibility_](../Themen/accessibility.en.md), which we will discuss in more detail in this manual.
 
 The initial page of the TEI Publisher can be **configured**, as described in detail in the [TEI Publisher documentation]. => @Reto I have not yet found the relevant documentation.
 
@@ -47,22 +47,22 @@ In addition to a list of documents and the search function, indexes are the most
 !!! info "Exemplary DSE: Simple indexes"
     **Simple indexes** are usually organised alphabetically by entry (place name, surname of a person etc.); this also applies to the standard indexes in the TEI Publisher (below is the example of the name indexes of the St.Gallen Missives Edition).
     ![Name register of missives](image-4.png){ width="1000" }
-    <figcaption> Index of persons of the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition", [https://missiven.stadtarchiv.ch/namen/?search=&category=A]([https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
+    <figcaption> [Index of persons of the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
 !!! info "Exemplary DSE: More complex registers"
     **More complex registers** such as that of [hallernet](https://hallernet.org/){:target="\_blank"} which are not created with standard tools, also allow dynamic adjustments to the order, for example by allowing personal entries to be sorted according to place of birth and place of death. hallernet emphasises the networking of its databases and has the character of a research database, which is why the various registers are also in the foreground on the homepage.
-    ![Person register hallernet](image-3.png) <figcaption>Person register of the platform "hallernet", [https://hallernet.org/data/persons?query=&scope=mt&filters=]([https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
+    ![Person register hallernet](image-3.png) <figcaption>[Person register of the platform "hallernet"](https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
 !!! info "Exemplary DSE: Simple register entry"
     Each **register entry** is linked to a specific register page. Like the register itself, this can vary in complexity; in the standard case (which also applies to the TEI Publisher), all occurrences of the entry in the edition as well as a link to resources and standardisation data entries outside the edition** are listed on a register page (below is an example of a name register page of the missives edition).
     ![Name index page of the missives edition](image-6.png){ width="1000" }
-    <figcaption> Name index page of the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition", [https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240]([https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Retrieved 24.9.2024.</figure>
+    <figcaption> [Name index page of the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
 !!! info "Exemplary DSE: Complex register entry"
     Where, as in [hallernet](https://hallernet.org/){:target="\_blank"}, the database structure is central, register pages can also be enriched with further information about the entity, e.g. in the case of a person, metadata about publications or professional functions. Such 'haute couture' solutions require a **complex database in the background** and corresponding technical expertise in the creation and maintenance of databases.
-        ![Person register page hallernet](image-5.png) <figcaption> Name register page of the DSE "hallernet", [https://hallernet.org/data/person/28859](https://hallernet.org/data/person/28859){:target="\_blank"}. Accessed on 24.9.2024.</figure>
+        ![Person register page hallernet](image-5.png) <figcaption> [Name register page of the DSE "hallernet"](https://hallernet.org/data/person/28859){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
 ## Timeline
 
-Although time data also belongs to the standard category of content markup, it is usually not displayed as a tab, but as [_timelines_](04_timelines_maps.en.md). The TEI Publisher allows this timeline to be displayed on the main page. The St. Gallen [Missive Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1){:target="\_blank"}, for example, makes use of this solution. makes use of this solution.
+Although time data also belongs to the standard category of content markup, it is usually not displayed as a tab, but as **timeline**. The TEI Publisher allows this timeline to be displayed on the main page. The St. Gallen [Missive Edition](https://missiven.stadtarchiv.ch/start.html?query=&subtype=document&dates=&collection=&start=1){:target="\_blank"}, for example, makes use of this solution. makes use of this solution.
 

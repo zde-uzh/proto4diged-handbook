@@ -6,7 +6,7 @@ In printed and digital editions, the commentary allows texts to be enriched with
 
 In classic print editing, three different basic forms of commentary are recognised, all of which are also used in a different form in DSE:
 
-**1. The editorial commentary** (or editor's commentary, editorial report, etc.) explains at least the editorial guidelines, possibly the selection of the corpus based on its genesis and the use of the text-critical apparatus. In DSE, this form of commentary is better known as [_documentation_](../3_presentation/05_documentation.en.md) and will be treated under this name in the chapter Publication.
+**1. The editorial commentary** (or editor's commentary, editorial report, etc.) explains at least the editorial guidelines, possibly the selection of the corpus based on its genesis and the use of the text-critical apparatus. In DSE, this form of commentary is better known as [_documentation_](../3_presentation/04_documentation.en.md) and will be treated under this name in the chapter Publication.
 
 !!! info "Exemplary DSE"
     In hybrid editions such as the [Faustedition](https://www.faustedition.net/), the editorial report (which applies to the digital and printed editions) and the technical documentation are sometimes separated from each other.

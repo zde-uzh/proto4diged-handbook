@@ -30,7 +30,7 @@ Such public databases are usually operated by a network of memory institutions, 
 
     A [GitLab page for the image metadata was created](https://gitlab.uzh.ch/digital-editions/proto4diged/image-metadata){:target="\_blank"} to ensure remote access to the image data for all project team members and to assign the pages to Transkribus and the TEI Publisher.
 
-The great advantage of this approach is that the long-term storage of the image data is not in the hands of a temporarily limited project. This follows the **modular logic** of organising the operation and backup of the various DSE components independently of each other (see [_project goals and resources_](../1_planning/01_project_goals_and_resources.en.md)).
+The great advantage of this approach is that the long-term storage of the image data is not in the hands of a temporarily limited project. This follows the **modular logic** of organising the operation and backup of the various DSE components independently of each other (see [_project goals and resources_](../1_Planung/01_Projektziele_und_-ressourcen.en.md)).
 
 **2.2 Digitisation by a memory institution, making available through the project**
 

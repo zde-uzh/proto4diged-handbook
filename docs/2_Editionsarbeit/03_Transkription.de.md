@@ -48,7 +48,7 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 
 #### Lesefassung
 
-Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltliches auszeichnet, ist das Erstellen der **Lesefassung**, die der texttreueren diplomatischen Umschrift zur Seite gestellt ist (siehe dazu auch [_Editionsansichten_](../3_presentation/03_edition_views.de.md)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden - was hierbei als fehlerhaft bzw. veraltet verstanden wird, muss im Detail [_dokumentiert_](../3_presentation\05_documentation.de.md) werden. 
+Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltliches auszeichnet, ist das Erstellen der **Lesefassung**, die der texttreueren diplomatischen Umschrift zur Seite gestellt ist (siehe dazu auch [_Editionsansichten_](../3_presentation/03_edition_views.de.md)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden - was hierbei als fehlerhaft bzw. veraltet verstanden wird, muss im Detail [_dokumentiert_](../3_presentation/04_documentation.de.md) werden. 
 
 !!! abstract "Showcase-Editionsrichtlinien: Lesefassung"
     Da sich die Showcase-Edition der Briefe Gaston Paris' primär an ein wissenschaftliches Publikum richtet, wird von der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Eine solche ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
@@ -64,7 +64,7 @@ DSE-spezifische Transkriptionsrichtlinien betreffen die **Verknüpfung von Digit
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }
-    <figcaption>Jung Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch Januar 2022, Zürich. Abgerufen am 22.9.2024. [https://briefedition.alfred-escher.ch/briefe/B0056](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} </figure>
+    <figcaption>[Jung, Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch January 2022, Zürich.](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} Retrieved on 22.9.2024.</figure>
 
 
 ## 1. Standardlösungen für Transkriptionen

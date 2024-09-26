@@ -10,7 +10,7 @@ The autoptic comparison and thus the relationship between the digitised material
 
 !!! info "Exemplary DSE: Linking digitised material and transcription"
     There is a best practice for this link in the [Escher-Briefedition](https://www.briefedition.alfred-escher.ch/home.html). However, it should be noted that the Escher-Briefedition requires the decision to present either the two-part layout with digitised text and diplomatic transcription or a one-part presentation with the annotated text ("Edited text (with index entries)"). On the one hand, this leads to greater clarity because the indexes can be clearly displayed on the page in the presentation of the annotated text. On the other hand, this solution can be criticised because the annotation and the digitised text cannot be viewed at the same time. The example shows the typical conflict between clarity and information density that occurs at various points in the presentation of DSE.
-    ![alt text](../2_Editionsarbeit/image-3.png) <figcaption>Jung Joseph (ed.), Digitale Briefedition Alfred Escher, Relaunch January 2022, Zurich. [https://briefedition.alfred-escher.ch/briefe/B0056](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} Retrieved 22.9.2024. </figure>
+    ![alt text](../2_Editionsarbeit/image-3.png) <figcaption>[Jung Joseph (ed.), Digitale Briefedition Alfred Escher, Relaunch January 2022, Zurich.](https://briefedition.alfred-escher.ch/briefe/B0056?view1=1){:target="\_blank"} Retrieved on 22.9.2024. </figure>
 
 ## Reading versions
 
@@ -25,8 +25,8 @@ At the technical level of coding, a single-source principle is preferable when c
 The **presentation of the reading version** can either be displayed on its own (similar to the presentation of the annotated text in the Escher edition described above) or combined with other views in a **two-part, three-part or multi-part layout**.
 
 !!! info "Sample DSE: Two-part layout"
-    The [Lokal Bericht Edition](https://www.lokalbericht.ch/synopsis/LB.TEIL1.0010-d/LB.TEIL1.0010-d) is an example of a one- or two-part view. In contrast to the Escher letter edition, the "parallel view" allows you to choose whether the two parts consist of a digital copy, a transcription or a reading version of a page. In the "Synopsis" view, it is also possible to combine two different digital copies or to display a reading version with a digital copy belonging to another page.
-    ![Views Lokal Bericht](image.png) <figcaption>Hermann Burger: Lokal Bericht. Digital edition. [https://www.lokalbericht.ch/parallel/LB.TEIL1.0010-d/LB.TEIL1.0010-t](https://www.lokalbericht.ch/parallel/LB.TEIL1.0010-d/LB.TEIL1.0010-t){:target="\_blank"} Retrieved 22.9.2024.</figure>
+    The [Lokalbericht Edition](https://www.lokalbericht.ch/synopsis/LB.TEIL1.0010-d/LB.TEIL1.0010-d) is an example of a one- or two-part view. In contrast to the Escher letter edition, the "parallel view" allows you to choose whether the two parts consist of a digital copy, a transcription or a reading version of a page. In the "Synopsis" view, it is also possible to combine two different digital copies or to display a reading version with a digital copy belonging to another page.
+    ![Views Lokalbericht](image.png) <figcaption>[Hermann Burger: Lokalbericht. Digital edition.](https://www.lokalbericht.ch/parallel/LB.TEIL1.0010-d/LB.TEIL1.0010-t){:target="\_blank"} Retrieved on 22.9.2024.</figure>
 
 Here, too, it is important to weigh up how much **visual and conceptual complexity** DSE users should be expected to accept. This starts with the default setting of the view, but above all concerns the selection of how many views are possible. Not every possible display is actually useful for users.
 
@@ -34,7 +34,7 @@ Here, too, it is important to weigh up how much **visual and conceptual complexi
     An extreme example of a multi-part edition view is the edition portal of the German Literature Archive Marbach [Edview](https://edview.dla-marbach.de/). Edview is not structured like a conventional website, but in the style of a web-based desktop, which opens 'windows' within the browser and offers the user many configuration options.
 
     The entry point is already complex here, where several editions can be selected for research. In the actual edition view, texts from different editions can be displayed simultaneously in several windows. One to four windows are visible, each new view type (XML, facsimile, edition text, commentary, etc.) creates a new window and moves already open windows to the left into a non-visible area. The number of windows that can be selected for viewing using thumbnail icons appears to be unlimited. Windows can also be added to a virtual clipboard for later use.
-    ![Edview Editionsansicht](image-1.png) <figcaption>Harry Graf Kessler. Das Tagebuch 1880-1937, online edition 2024 [https://edview.dla-marbach.de/](https://edview.dla-marbach.de/){:target="\_blank"} Retrieved 22.9; linking specific view configurations is not possible in Edview. </figure>
+    ![Edview Editionsansicht](image-1.png) <figcaption>[Harry Graf Kessler. Das Tagebuch 1880-1937, online edition 2024.](https://edview.dla-marbach.de/){:target="\_blank"} Retrieved on 22.9; linking specific view configurations is not possible in Edview. </figure>
 
 ## Download the text data: XML, JPG, PDF, ebooks
 
@@ -42,7 +42,7 @@ DSEs now often offer simple options for downloading different edition data direc
 
 !!! info "Exemplary DSE: Downloads"
     The (Missiven edition)[https://missiven.stadtarchiv.ch/index.html] of the St. Gallen City Archives and the Vadian Collection is created with the TEI Publisher and offers the download of XML, JPG and PDF data of each missive.
-    ![Download options for missives edition](image-2.png) <figcaption> Download options for the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition", [https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240]([https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Retrieved 24.9.2024.</figure>
+    ![Download options for missives edition](image-2.png) <figcaption> [Download options for the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
 ## Licensing of the data
 
