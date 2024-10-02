@@ -29,7 +29,7 @@ A distinction can be made between two basic concepts of entry pages:
 
     - There are examples of extensive introductions in the TEI Publisher, such as [Louis Ginzberg's "Legend of the Jews"](https://www.ginzberg.ethz.ch/index.html){:target="\_blank"} which comprises two main pages ("About the Edition" and "Edition") and shows the 'About' page first.
 
-In both scenarios, users should quickly realise what the edition is and who made it. When developing specific web design, attention should be paid to simplicity and good comprehensibility on the entry page. This significantly supports [_Accessibility_](../Themen/accessibility.en.md), which we will discuss in more detail in this manual.
+In both scenarios, users should quickly realise what the edition is and who made it. When developing specific web design, attention should be paid to simplicity and good comprehensibility on the entry page. This significantly supports [_Accessibility_](../Themen/accessibility.en.md), which we will discuss in more detail in this handbook.
 
 The initial page of the TEI Publisher can be **configured**, as described in detail in the [TEI Publisher documentation]. => @Reto I have not yet found the relevant documentation.
 

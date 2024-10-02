@@ -69,7 +69,7 @@ plugins:
         - locale: en
           name: English
           build: true
-          site_name: "Manual for Creating a Digital Scholarly Edition - Beta Version - Work in Progress"
+          site_name: "Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress"
           nav_translations:
             "Einleitung": Introduction
             "1. Planung": 1. Planning

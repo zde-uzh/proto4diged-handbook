@@ -44,6 +44,10 @@ DSEs now often offer simple options for downloading different edition data direc
     The (Missiven edition)[https://missiven.stadtarchiv.ch/index.html] of the St. Gallen City Archives and the Vadian Collection is created with the TEI Publisher and offers the download of XML, JPG and PDF data of each missive.
     ![Download options for missives edition](image-2.png) <figcaption> [Download options for the DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240){:target="\_blank"}. Retrieved on 24.9.2024.</figure>
 
+## Citation suggestions
+
+Each DSE page (primarily from the edition, but ideally also from the documentation and from various commentary forms) should have a clearly visible reference** as to how this page should be cited. Central components of the citation proposal are the names of the editors, the project and the version of the DSE cited at the specified time (if a version is available). It is advisable to use classic bibliography nomenclature as a guide.  
+
 ## Licensing of the data
 
 In order to make the data available as ORD (open research data), links to the data should be provided as standard wherever possible. This involves licensing the data as [creative commons](https://creativecommons.org/share-your-work/) or indicating what users may do with copyrighted data. The Centre for Digital Editions at UZH ZDE offers a [handout](https://www.zde.uzh.ch/de/offers/handout.html) with recommendations on open access and an overview of the legal basis in Switzerland.

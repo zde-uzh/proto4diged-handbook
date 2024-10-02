@@ -6,4 +6,4 @@ Chapter 3, "Presentation", deals primarily with the standard presentations that 
 
 The sub-chapters presented here are therefore not intended as consecutive steps, but describe **isolated workflows for aspects of DSE front-ends**, their advantages and disadvantages. Special attention is paid to the evaluation of existing solutions.
 
-Aspects of frontend design that go beyond user functionalities are not part of this manual. The graphic interface (design of menus, colour, fonts etc.) can of course be changed in standard tools such as the TEI Publisher (see => the corresponding documentation). In larger projects, this can also be outsourced to graphics experts; in this context, cooperation with university graphics departments can be useful.
+Aspects of frontend design that go beyond user functionalities are not part of this handbook. The graphic interface (design of menus, colour, fonts etc.) can of course be changed in standard tools such as the TEI Publisher (see => the corresponding documentation). In larger projects, this can also be outsourced to graphics experts; in this context, cooperation with university graphics departments can be useful.

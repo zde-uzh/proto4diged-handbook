@@ -37,3 +37,6 @@ Als Lösung dieses Problems können **manuelle Nachjustierungen** durchgeführt 
 
 Letztlich können bei genügendem technischem Fachwissen projektspezifische Konvertierungen mithilfe von Pipelines wie [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"}  entwickelt werden.
 Basis davon ist [page2tei](https://github.com/dariok/page2tei){:target="\_blank"}, das bereits bei der Exportfunktion von Transkribus zur Verfügung steht.
+
+
+Edit 30.9.24. Anregung Peter Dängeli: Python-page-to-tei von Ismail Ziegler Prada: https://github.com/raykyn/page2tei/ (oder habt ihr das absichtlich nicht mit drin?)
