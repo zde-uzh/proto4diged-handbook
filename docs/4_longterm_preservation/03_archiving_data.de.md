@@ -1,4 +1,4 @@
-# 2. Datenarchivierung
+# 4.2 Datenarchivierung
 
 ## Wozu dient die Archivierung von DSE-Datensätzen?
 

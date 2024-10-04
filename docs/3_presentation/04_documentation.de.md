@@ -9,7 +9,7 @@ Es gilt zu beachten, dass sich bislang nur bedingt standardisierte Dokumentation
 
 ## Was enthält eine DSE-Dokumentation?
 
-Eine DSE-Dokumentation ersetzt gegenüber einer gedruckten Edition den **editorischen Kommentar**(der meist knapp die Grundlagen der Textkonstitution und die editorischen Richtlinien erklärt) oder das **editorische Nachwort** (das zusätzlich die historischen Hintergründe der Edition und editionsphilologische Aspekte erläutert). 
+Eine DSE-Dokumentation ersetzt gegenüber einer gedruckten Edition den **editorischen Kommentar** (der meist knapp die Grundlagen der Textkonstitution und die editorischen Richtlinien erklärt) oder das **editorische Nachwort** (das zusätzlich die historischen Hintergründe der Edition und editionsphilologische Aspekte erläutert). 
 
 Das **Editionsmodell** der DSE-Dokumentation ergänzt diese klassischen editorischen Erklärungen um **Richtlinien zur Erstellung textkritischer und inhaltlicher Annotationen sowie Kommentare** in TEI/XML. D.h. es wird erläutert, welche Codierung für welche Formen der Annotation und Kommentierung im TEI/XML verwendet wird. 
 => [Editionsmodell der Showcase-Edition]()

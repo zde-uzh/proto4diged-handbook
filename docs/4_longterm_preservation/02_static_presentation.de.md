@@ -1,4 +1,4 @@
-# 1. Statische Präsentation
+# 4.1 Statische Präsentation
 
 ## Warum statische Präsentationen von DSE?
 Wie in der Einleitung zur Langzeitsicherung beschrieben, erscheinen statische Präsentationsformen zurzeit (Stand 2024) als erfolgsversprechende Lösung, um eine **langfristige Sicherung einer DSE inklusive der meisten ihrer Nutzerfunktionen** zu gewährleisten. Eine statische DSE-Präsentation besteht primär aus HTML-Dateien, die vorgeneriert wurden. Dadurch fällt die Wartung einer Datenbank, wie sie für dynamische Präsentationen notwendig ist, weg. Domänenspezifisches Wissen über XML-Datenbanken und ihre Langzeitwartung sind somit nicht mehr nötig. Statische Websites können von technischen DH- und DSE-Spezialist:innen z.B. an einen **generalistischen IT-Dienst** einer Forschungs- oder Gedächtnisinstitution übergeben werden, der auch mit der Wartung anderer einfacher Websites betraut ist.  
