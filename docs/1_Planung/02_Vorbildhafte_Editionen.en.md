@@ -35,6 +35,11 @@ It makes sense for every project to expand this list and get an overview during 
 
 ### Overviews and collections of DSE
 
+- [**Text+ Registry**](https://registry.text-plus.org/entities/edition/)
+    
+    The metadata aggregator of [Text+], a consortium of the National Research Data Infrastructure (NFDI) in Germany, allows a targeted search for DSE. It offers the largest data collection known to us (a total of 1425 DSE, as of 2024), but a large proportion of these are only entered as drafts (484) and of those marked as published (941), only the metadata of 193 DSE are curated.
+
+
 - [**University of Wuppertal, Prof Dr Patrick Sahle**](https://www.digitale-edition.de/exist/apps/editions-browser/$app/index.html){:target="\_blank"}
 
     The author of the three-volume standard work [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) and his team at the University of Wuppertal curate an extensive overview of digital editions that meet their basic [catalogue of criteria](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} (as of June 2024: 846 DSE).
