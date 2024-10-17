@@ -1,6 +1,8 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition - Beta Version im Entstehen
 site_dir: public
 site_url: https://digital-editions.pages.uzh.ch/proto4diged/handbook/
+repo_url: https://gitlab.uzh.ch/digital-editions/proto4diged/handbook
+repo_name: UZH GitLab
 nav:
   - "Einleitung": "index.md"
   - "1. Planung":
