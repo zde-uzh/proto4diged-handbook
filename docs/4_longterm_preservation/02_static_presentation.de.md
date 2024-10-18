@@ -18,7 +18,7 @@ Wie in der Einleitung zur Langzeitsicherung beschrieben, erscheinen statische Pr
 
     CC BY-SA 4.0: Ade56facc [https://commons.wikimedia.org/wiki/File:Web_server_serving_static_content.png](https://commons.wikimedia.org/wiki/File:Web_server_serving_static_content.png){:target="\_blank"}
 
-## Abgrenzung zur statischen User-Expreience
+## Abgrenzung zur statischen User-Experience
 
 Separat von dieser Aufteilung in dynamische und statische Präsentationen aufgrund ihrer Implementierung im Server, werden die Begriffe _statisch_ und _dynamisch_ auch für die User-Experience verwendet.
 Zweiteres ist allerdings eine Folge der Umsetzung des Frontends, also des Formats _in_ den vorgenerierten Dateien.
