@@ -1,1 +1,51 @@
-# 1.2 Long-term archiving of data
+# 4.2 Data archiving
+
+## What is the purpose of archiving DSE datasets?
+
+Data archiving is the prerequisite for being able to use and utilise the rich information of a DSE in the long term. As mentioned in the introduction to long-term preservation, it also opens up various possibilities for subsequent use, e.g. for distant-reading approaches or computational linguistic methods. The data can be re-visualised for various purposes, such as the emerging visualisation and research tool [ORD-Explore](https://libraries.dsi.uzh.ch/project/ord-xplore/#content){:target="\_blank"} for a large number of DSEs by uploading their TEI/XML data.
+
+Finally, complete data archiving allows subsequent republication using new tools in a new or rebuilt front end. However, a prerequisite for such a 'revitalisation' of archived data is a complete technical [_documentation_](../3_presentation/04_documentation.en.md), which explains the correct interaction of the data sets.
+
+## Archiving by specialised institutions
+
+Institutions specialising in humanities data have subject-specific knowledge of the standard data formats and make them presentable and searchable accordingly. In addition, they usually guarantee a **minimum preservation period of 10 years**. However, it can be assumed that the data will remain available for much longer periods as long as these institutions exist.
+
+The standard solution currently practised in **Switzerland** and supported by the Swiss National Science Foundation is to archive the complete data in the [Swiss National Data and Service Centre for the Humanities DaSCH](https://www.dasch.swiss/){:target="\_blank"}. Different projects are stored in the same database, the DaSCH Service Platform (DSP), which enables the advantage of a broad, comprehensive search in DaSCH resources as the amount of data increases. In addition to DSEs, other humanities datasets such as encyclopaedias, photography collections and bibliographies can also be found there. DaSCH also assigns an [ARK identifier](https://arks.org/){:target="\_blank"} for the individual project data, i.e. a persistent, centrally registered access point on the Internet.  
+Archiving in DaSCH can be done in two different ways:
+
+- As a **simple data model**: The TEI/XML files plus elementary metadata are delivered to the DaSCH. This metadata can then be searched in full text on the DaSCH Service Platform (DSP).
+
+- As **elaborated data model**: In collaboration with the DSE project, DaSCH models part of the data as an RDF database on the DSP. This enables more complex searches for relations between the data records. One example of this is the [Briefedition Bernoulli-Euler Online](https://app.dasch.swiss/project/yTerZGyxjZVqFMNNKXCDPF){:target="\_blank"}. In addition to displaying the facsimiles (which can be saved on DaSCH's own IIIF server), it also allows generic publication of the transcription and searchability by register. Although the transcriptions of the Bernoulli letter edition are not TEI/XML datasets, they will be stored on the DSP in the future as part of other DSEs. The resulting limitations are that their presentation is only [static](02_static_presentation.en.md) and that sparing annotation, agreed with DaSCH, is recommended from the outset of the project.
+
+In **Austria**, long-term archiving of data is possible in the [Humanities Asset Management System GAMS of the University of Graz](https://gams.uni-graz.at/){:target="\_blank"} but this service is primarily intended for projects and co-operations of the University of Graz. Similarly, the [Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)](https://www.oeaw.ac.at/de/acdh/acdh-ch-home) of the Austrian Academy of Sciences archives the data of its DSE in the database [ARCHE](https://arche.acdh.oeaw.ac.at/browser/){:target="\_blank"}.
+
+In **Germany**, [Textgrid](https://textgridrep.org) should be mentioned in particular as a large curated repository for XML data. Textgrid allows users to search for metadata and download the data, but not to display it. In Germany, various universities and academies also offer text repositories (not necessarily for DSE), an [overview](https://registry.text-plus.org/entities/repository/){:target="\_blank"} is provided by [Text+](https://text-plus.org){:target="\_blank"}, a consortium of the German National Research Data Infrastructure (NFDI).
+
+## Archiving as data backup
+
+In addition to discipline-specific databases such as DaSCH or GAMS, it is also possible to store the data **without or with minimal external curation** in a scientific database. The database [**Zenodo**](https://zenodo.org/){:target="\_blank"} maintained by CERN and OpenAIRE, for example, is ideal for this purpose. Structuring or curating the data is only possible to a limited extent and must be carried out by the project itself. Many projects therefore decide to store 'database dumps', i.e. uncurated images of their own database, on Zenodo. These copies can be versioned and receive a [DOI](https://www.doi.org/) as a whole, i.e. also a persistent, centrally registered access point on the Internet.
+For projects that work with [GitHub](https://github.com/) (which is not a FAIR repository, but is suitable for various forms of backup in the workflow), there is also an [interface with Zenodo](https://github.com/DiamondLightSource/zenodo-uploader) for long-term backup.
+ One example is the database dump of the somewhat older project [Cædmon's Hymn A multimedia study, edition and archive](https://caedmon.seenet.org/), which was saved under the DOI [10.5281/zenodo.1226549](https://zenodo.org/records/1226549) on Zenodo.
+
+Other data repositories such as [**OLOS**](https://access.olos.swiss/portal/home){:target="\_blank"} or soon also [SWISSUbase](https://www.swissubase.ch) can be used in a similar way to Zenodo. One example already mentioned, in which data archiving and the static presentation of data go hand in hand, is the [GitHub repository](https://github.com/arthur-schnitzler){:target="\_blank"} of the DSE [Arthur Schnitzler Briefe](https://schnitzler-briefe.acdh.oeaw.ac.at/index.html){:target="\_blank"} and other projects that use the [DSE-Static-Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter?tab=readme-ov-file){:target="\_blank"} tool. are used. The source data on GitHub is processed with its help via another [GitHub instance](https://github.com/arthur-schnitzler/schnitzler-briefe-static/){:target="\_blank"} to create a static website.
+
+The SNSF provides an [**overview of recommended repositories**](https://www.snf.ch/en/WtezJ6qxuTRnSYgF/topic/open-research-data-which-data-repositories-can-be-used) that fulfil its requirements for open research data standards.
+
+## Archiving/sharing transcription data
+
+For the specific reuse purpose of [_ATR model training_](../2_Editionsarbeit/03_Transkription.en.md), the repository [htr-united](https://htr-united.github.io/){:target="\_blank"} PAGE and Alto-XML data can be stored in the repository [htr-united](){:target="\_blank"} (txt data is also welcome there, but does not occur in the workflows described here).
+
+[Transcriptiones](https://transcriptiones.ch/){:target="\_blank"}, which primarily allows historians to easily store and make accessible transcriptions of sources that have not been published elsewhere, pursues a broader reuse purpose. There are no restrictions on data formats, and the legal and technical hurdles to publication are deliberately kept very low (generic presentation, no facsimiles). As DSE projects generally already present and archive their data elsewhere, transcriptiones should be seen more as an additional storage option.
+
+## Archiving/sharing metadata
+
+So-called metadata [aggregators](https://www.digitale-edition.at/o:konde.49){:target="\_blank"} link metadata with each other and refer back to their resources. Particularly noteworthy is the aggregator [**correspSearch**](https://correspsearch.net/de/start.html){:target="\_blank"}, which collates correspondence metadata (persons, locations, sending and receiving data, etc.) from 490 DSEs (as of 2024). Before being transferred to correspSearch, the metadata must be converted from the TEI/XML encoding [CorrespDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspDesc.html){:target="\_blank"} into the [Correspondence Metadata Interchange Format (CMIF)](https://correspsearch.net/en/documentation.html){:target="\_blank"} can be transferred. When sharing metadata with correspSearch, it is therefore important to mark up correspondences according to the [Coding guidelines of the TEI/XML element CorrespDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspDesc.html){:target="\_blank"} right from the start.
+
+Another metadata aggregator is the Swiss platform [**Metagrid**](https://metagrid.ch/){:target="\_blank"}, which links biographical data from online resources in the humanities. It is particularly attractive for Swiss DSE projects, as various Swiss DSE, databases, archives and libraries already share their metadata here.
+
+The metadata aggregator [GeoNames](https://www.geonames.org/){:target="\_blank"} can be helpful for place names: This database lists aggregated geographics from various sources and also allows the entries to be edited and improved.
+
+## Publicising and making accessible
+
+Sharing metadata not only serves to network open linked data, it also draws attention to a project. Ultimately, project information should be **disseminated as widely as possible** for this purpose. This can be done by reporting the project to the major [**_Overviews and collections of DSE_**](../1_Planung/02_Vorbildhafte_Editionen.en.md) mentioned in this handbook upon completion. The [**Catalogue Digital Editions**](https://dig-ed-cat.acdh.oeaw.ac.at/){:target="\_blank"} seems particularly important to us, as it links the edition data with the **German Library Network (DBIS)**; it is to be hoped that similar solutions will also be found for non-German **library networks**.
+Otherwise, it makes sense to report DSE itself to the relevant library networks as an online resource so that it can be easily found via library searches.
