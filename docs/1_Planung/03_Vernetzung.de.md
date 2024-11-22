@@ -2,9 +2,11 @@
 
 Ebenso wie die Orientierung an vorbildhaften Editionen ist es wichtig, sich mit den **DSE Forschungscommunities** zu vernetzen, sei es auf lokaler, nationaler oder internationaler Ebene.
 
-Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigkeit bedachte Übersicht über alle für DSE relevanten Institutionen im deutschsprachigen Raum, geschweige denn in Europa oder weltweit. Anstatt einzelne Institutionen oder Lehrstühle aufzuführen (was langfristig lückenhaft bleiben müsste), wird hier auf bereits bestehende Sammlungen und Dachorganisationen verwiesen, die zusammengenommen eine gute Übersicht vermitteln.
+Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigkeit bedachte Übersicht über alle für DSE relevanten Institutionen im deutschsprachigen Raum, geschweige denn in Europa oder weltweit. Anstatt einzelne Institutionen oder Lehrstühle aufzuführen (was langfristig lückenhaft bleiben müsste), wird hier auf bereits bestehende Sammlungen und Dachorganisationen verwiesen, die zusammengenommen eine gute Übersicht über den deutschsprachigen Raum vermitteln. Gerne erweitern wir die vorliegenden Verweise (nehmen sie [Kontakt zu den Autoren](Impressum\impressum.de.md) auf).
 
 ## DSE Kompetenzzentren
+
+Eine internationale, jedoch spezifisch auf das DSE-tool **TEI-Publisher ausgerichtete community** bildet der Verein [e-editiones](https://www.e-editiones.org). In einem [slack-channel](https://e-editiones.slack.com/) und regelmäßigen [online community-meetings](https://www.e-editiones.org/pages/community-meetings/) können sowohl Fragen zum tool als auch allgemeiner zu DSe-Workflows diskutiert werden. 
 
 #### Deutschsprachiger Raum
 
@@ -22,6 +24,11 @@ Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Work
 
 !!! note "Erfahrung aus der Showcase-Edition"
     Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} haben das Projekt wesentlich vorangebracht.
+
+#### Deutschland
+
+In Deutschland ist ein möglicher Ansprechpartner [Text+](https://text-plus.org/), ein nationales Forschungskonsortium, das verschiedene Services zum wissenschaftlichen Umgang mit digitalen Textdaten anbietet. 
+Ähnliche Services besitzt das nationale Forschungskonsortium [NFDI4Culture](https://nfdi4culture.de/), sein Fokus ist jedoch nicht alleine textbasiert, sondern zielt auf Daten zu verschiedenen medialen Formen von Kultur. 
 
 ## Digital Humanities Interessengemeinschaften
 

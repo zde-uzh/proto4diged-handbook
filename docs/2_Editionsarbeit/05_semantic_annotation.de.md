@@ -58,7 +58,7 @@ In der Planung der inhaltlichen Annotation müssen folgende editorischen Überle
 
 Beide Tool-Standardlösungen erlauben die **Einbindung von Konnektoren**, d.h. die halb-automatisierte Verlinkung der Annotation im TEI-XML mit einer Normdatenbank. Die Edierenden können aus den Vorschlägen des Konnektors den korrekten Normdatensatz auswählen und müssen die Verlinkung nicht selbst recherchieren und im TEI/XML verfassen. Sollte jedoch die Aussicht klein sein, überhaupt externe Normdaten zu finden, so ist die Anwendung von Konnektoren zweitrangig.
 
-Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
+Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen und welche Normdaten (s.u.) hierzu referenziert werden. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Inhaltliche Annotation"
     Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
@@ -71,6 +71,15 @@ Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichne
         - Personen werden nicht im Text ausgezeichnet, wenn sie bereits Teil der Metadaten sind (Verfasser:in oder Empfänger:in)
 
     - **Werke** werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten aus der GND verknüpft werden, dies ist jedoch in der Showcase-Edition nicht umgesetzt.
+
+ 
+#### Referenzierung von Normdaten 
+
+**Normiertes Vokabular** im Allgemeinen und die **GND** im Besonderen stärken die Interoperabilität aus den FAIR-Prinzipien. Die GND mit ihren 10 Millionen normierten Datensätze zu Personen, Geografika, Körperschaften, Konferenzen, Werktitel sowie Sachbegriffen steht für die Nachnutzung zur freien Verfügung. Sie diente lange hauptsächlich der Erschliessung von Material in Bibliotheken, wird aber inzwischen in wachsendem Maße auch für die Erschliessung von Sammlungen in Archiven und Museen sowie in verschiedenen digitalen Projekt- und Forschungskontexten wie DSEs verwendet. Die so erschlossenen Ressourcen werden dadurch anschlussfähig an moderne Suchumgebungen, gleichzeitig erhöht sich durch die Verwendung des kontrollierten Vokabulars die **Auffind- und Sichtbarkeit der Ressourcen**. 
+
+Hilfreich im Verlauf des Annotierens ist die Zusammenarbeit mit einer bibliothekarischen Fachstelle, um die Lücke zu schliessen, mit der Editionsprojekte oft konfrontiert sind («so haben einige Personen, die in der Korrespondenz auftreten, noch keinen GND– oder VIAF-Eintrag», Sarah Rebecca Ondraszek: [Data, Data, there to Crawl, Who’s the Fairest of Them All?](https://doi.org/10.58079/nkrq)). Die [**GND-Redaktion der UB und ZB Zürich**](https://www.zde.uzh.ch/de/analytics/openup.html) unterstützt digitale Editionsprojekte bei der aktiven Nutzung sowie der selbständigen Erfassung von Datensätzen im Webformular der GND. Die GND-Redaktion ermöglicht den Zugang und schult in der Arbeit mit dem Webformular, in der Folge sind die selbst erfassten Daten sofort in der GND verfügbar und können in der Annotation verlinkt werden. Die Redaktion bietet begleitend eine GND-Einführung an und berät zur Nachnutzung der Daten. In Absprache gleicht sie ausserdem ab, welche Personen, Orte etc. aus vorhandenen Listen oder Registern schon in der GND vorhanden sind.
+
+Für den anglophonen Bereich spielen in der Sacherschliessung die [**Library of Congress Subject Headings**](https://www.loc.gov/aba/cataloging/subject/) (LCSH) und für den frankophonen Bereich [**Répertoire d’autorité-matière encyclopédique et alphabétique unifié**](https://rameau.bnf.fr/) (RAMEAU) vor allem über die Identifiants et référentiels (IdRef) eine zentrale Rolle. Auch die GND selbst verknüpft übereinstimmende Entitäten der genannten Normdateien. Ferner führt die Sammlung [**VIAF**](https://viaf.org/) (Virtual International Authority File) mehrere Normdateien und Wikidata in einem von OCLC gehosteten Normdatendienst automatisiert zusammen. Während die Index-Verlinkung zur GND direkt im TEI-Publisher integriert ist, kann IdRef zur Annotation nur indirekt über Aggregatoren oder Konkordanzen erreicht werden.
 
 ### 2.2. Die inhaltliche Annotation im TEI-Publisher
 
@@ -90,6 +99,8 @@ Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Übera
     Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
 Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
 => HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)
+
+Der TEI-Publisher legt alle Daten der inhaltlichen Annotation in einem **XML-Register** an, dort sind sowohl Normdaten-Ids als auch eigene erzeugte hinterlegt. Die Verwendung einer zusätzlichen Datenbank ist deshalb unnötig. 
 
 ### 2.3. Die inhaltliche Annotation in Oxygen mit und ohne ediarum
 

@@ -58,7 +58,7 @@ When planning the annotation of content, the following editorial considerations 
 
 Both standard tool solutions allow the **integration of connectors**, i.e. the semi-automated linking of the annotation in TEI-XML with a standards database. Editors can select the correct standards dataset from the connector's suggestions and do not have to research the link themselves and write it in TEI/XML. However, if there is little chance of finding any external standards data at all, the use of connectors is of secondary importance.
 
-It should be considered in detail how often which data should be labelled in a text. For example, it does not make sense to annotate salutations (e.g. you/your) in letters every time, especially if the person being addressed is identical to the recipient of the letter (this information is already available in the letter's metadata). Such considerations, even if they may seem trivial, should also be included in editing guidelines and made available to DSE users.
+It should be considered in detail how often which data should be labelled in a text and which standard data (see below) are referenced for this purpose. For example, it does not make sense to annotate salutations (e.g. you/your) in letters every time, especially if the person being addressed is identical to the recipient of the letter (this information is already available in the letter's metadata). Such considerations, even if they may seem trivial, should also be included in editing guidelines and made available to DSE users.
 
 !!! abstract "Showcase Editing Guidelines: Content annotation"
     The project has decided to annotate the three categories of place, person and work, as in the case of Gaston Paris's historical scientific correspondence these are best suited to tracing the scholar's research network, which is at the centre of the project leader's own research.
@@ -71,6 +71,14 @@ It should be considered in detail how often which data should be labelled in a t
         - Persons are not labelled in the text if they are already part of the metadata (author:in or recipient:in)
 
     - **Works** are imported from the project leader's extensive bibliography from the bibliography tool Zotero. The resulting index could be linked to work data from the GND in a second step, but this has not been implemented in the showcase edition.
+
+#### Referencing of standardised data
+
+**Standardised vocabulary** in general and the **GND** in particular strengthen interoperability based on the FAIR principles. The GND, with its 10 million standardised data records on persons, geographies, corporate bodies, conferences, work titles and subject headings, is freely available for reuse. For a long time, it was mainly used for cataloguing material in libraries, but is now increasingly being used for cataloguing collections in archives and museums as well as in various digital project and research contexts such as DSEs. The resources catalogued in this way become compatible with modern search environments, while at the same time the use of controlled vocabulary increases the **retrievability and visibility of the resources**.
+
+During the annotation process, it is helpful to collaborate with a specialised library service in order to close the gap that editing projects often face ("some people who appear in the correspondence do not yet have a GND or VIAF entry", Sarah Rebecca Ondraszek: [Data, Data, there to Crawl, Who's the Fairest of Them All?](https://doi.org/10.58079/nkrq)). The [**GND editorial team of the University Library and Zurich Central Library**](https://www.zde.uzh.ch/de/analytics/openup.html) supports digital edition projects in the active use and independent entry of data records in the GND web form. The GND editorial team provides access and training in working with the web form. As a result, the data you enter yourself is immediately available in the GND and can be linked in the annotation. The editorial team offers an accompanying GND introduction and advises on the subsequent use of the data. In consultation, they also check which persons, places etc. from existing lists or registers are already available in the GND.
+
+The [**Library of Congress Subject Headings**](https://www.loc.gov/aba/cataloging/subject/) (LCSH) plays a central role in subject indexing for the Anglophone area and [**Répertoire d'autorité-matière encyclopédique et alphabétique unifié**](https://rameau.bnf.fr/) (RAMEAU) for the Francophone area, particularly via the Identifiants et référentiels (IdRef). The GND itself also links matching entities of the aforementioned authority files. Furthermore, the collection [**VIAF**](https://viaf.org/) (Virtual International Authority File) automatically brings together several authority files and Wikidata in a standardisation data service hosted by OCLC. While the index link to the GND is directly integrated in the TEI Publisher, IdRef can only be accessed indirectly for annotation via aggregators or concordances.
 
 ### 2.2 Content annotation in the TEI Publisher
 
@@ -90,6 +98,8 @@ The TEI Publisher has various standard ODDS pre-installed; the revision mode for
     In order to activate all the required annotations in the edition editor, several attempts, meetings and rounds of revision were necessary. Among other things, the project has recognised the need to display the digitised text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added.
 The customised annotation ODD of the project is publicly available via GitLab:
 => PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
+
+The TEI Publisher stores all content annotation data in an **XML register**, where both standardisation data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.
 
 ### 2.3 Content annotation in Oxygen with and without ediarum
 

@@ -4,7 +4,9 @@
 
 ### Scope
 
-The handbook supports researchers and projects from the humanities in the creation of digital scientific editions (DSE) throughout their entire duration, i.e. from the planning phase to long-term preservation. Its focus on text editions is based on our experience in the Proto4DigEd project.
+The handbook supports researchers and projects from the humanities in the creation of digital scholarly editions (DSE) throughout their entire duration, i.e. from the planning phase to long-term preservation. It brings together findings on digital editing made in a German-speaking research environment; although the handbook is written in English and German, it therefore often refers to German-language external resources. We are happy to include further insights and resources from non-German-speaking contexts: Suggestions can be addressed directly to the authors (see [_Contact_](Impressum\impressum.en.md)).
+
+The handbook owes its specific knowledge of digital text editions to our experience in the Proto4DigEd project.
 
 !!! note "Creation of the showcase edition"
     [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html){:target="\_blank"} is an Open Research Data project, supported by swissuniversities, 2023-2024, under the direction of [Prof. Dr Ursula Bähler](https://www.rose.uzh.ch/de/seminar/personen/baehler.html){:target="\_blank"}. Representatives from the fields of literature and history, digital humanities and librarianship tested and evaluated editing workflows using a partial corpus of the correspondence of the French philologist Gaston Paris. The DSE standard tools **Transkribus** (for text recognition and transcription) and **TEI-Publisher** (for annotation, commenting and publication) were used for the edition.
@@ -44,6 +46,8 @@ We are particularly interested in the _how_: How and when does it make sense to 
 
 3. evaluation of the limitations of standard tools
     - We sometimes refer to 'haute couture' solutions, i.e. 'customised' functionalities for which no standardisation exists
+
+The last chapter of the handbook [**_Assorted Topics_**](Themen/accessibility.en.md) brings together various terms from all workflow steps that could not be explained in more detail there for reasons of space. It is primarily aimed at technically trained readers and contains code snippets and external resources that require in-depth prior knowledge to use.
 
 ## 3. Tools and platforms
 
