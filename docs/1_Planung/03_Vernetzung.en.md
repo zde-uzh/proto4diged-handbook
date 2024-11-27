@@ -2,7 +2,7 @@
 
 Just as it is important to orientate oneself towards exemplary editions, it is also important to network with the **DSE research communities**, be it on a local, national or international level.
 
-Networking may seem easier than it is. To date, there is no comprehensive overview of all institutions relevant to DSE in German-speaking countries, let alone in Europe or worldwide. Instead of listing individual institutions or chairs (which would have to remain incomplete in the long term), reference is made here to existing collections and umbrella organisations which, taken together, which  provide a good overview of the German-speaking world. We would be happy to expand these references (please [contact the authors](Impressum\impressum.en.md)).
+Networking may seem easier than it is. To date, there is no comprehensive overview of all institutions relevant to DSE in German-speaking countries, let alone in Europe or worldwide. Instead of listing individual institutions or chairs (which would have to remain incomplete in the long term), reference is made here to existing collections and umbrella organisations which, taken together, which  provide a good overview of the German-speaking world. We would be happy to expand these references (please [contact the authors](../Impressum/impressum.en.md)).
 
 ## DSE competence centres
 

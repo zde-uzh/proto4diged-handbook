@@ -4,7 +4,7 @@
 
 ### Scope
 
-The handbook supports researchers and projects from the humanities in the creation of digital scholarly editions (DSE) throughout their entire duration, i.e. from the planning phase to long-term preservation. It brings together findings on digital editing made in a German-speaking research environment; although the handbook is written in English and German, it therefore often refers to German-language external resources. We are happy to include further insights and resources from non-German-speaking contexts: Suggestions can be addressed directly to the authors (see [_Contact_](Impressum\impressum.en.md)).
+The handbook supports researchers and projects from the humanities in the creation of digital scholarly editions (DSE) throughout their entire duration, i.e. from the planning phase to long-term preservation. It brings together findings on digital editing made in a German-speaking research environment; although the handbook is written in English and German, it therefore often refers to German-language external resources. We are happy to include further insights and resources from non-German-speaking contexts: Suggestions can be addressed directly to the authors (see [_Contact_](Impressum/impressum.en.md)).
 
 The handbook owes its specific knowledge of digital text editions to our experience in the Proto4DigEd project.
 

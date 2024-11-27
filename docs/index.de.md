@@ -4,7 +4,7 @@
 
 ### Anwendungsbereiche
 
-Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften in der Erstellung von digitalen wissenschaftlichen Editionen (digital scholarly editions: DSE) in ihrer ganzen Dauer, d.h. von der Planungsphase bis zur Langzeitsicherung. Es versammelt Erkenntnisse zum digitalen Edieren, die in einer deutschsprachigen Forschungslandschaft gemacht wurden; obschon das Handbuch auf Englisch und Deutsch verfasst wurde, verweist es deshalb oftmals auf deutschsprachige externe Ressourcen. Wir freuen uns darüber, weitere Erkenntnisse und Ressourcen auch aus nicht-deutschsprachigen Kontexten einzubauen: Anregungen können direkt an die Autoren gerichtet werden (siehe [_Impressum_](Impressum\impressum.de.md)).
+Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften in der Erstellung von digitalen wissenschaftlichen Editionen (digital scholarly editions: DSE) in ihrer ganzen Dauer, d.h. von der Planungsphase bis zur Langzeitsicherung. Es versammelt Erkenntnisse zum digitalen Edieren, die in einer deutschsprachigen Forschungslandschaft gemacht wurden; obschon das Handbuch auf Englisch und Deutsch verfasst wurde, verweist es deshalb oftmals auf deutschsprachige externe Ressourcen. Wir freuen uns darüber, weitere Erkenntnisse und Ressourcen auch aus nicht-deutschsprachigen Kontexten einzubauen: Anregungen können direkt an die Autoren gerichtet werden (siehe [_Impressum_](Impressum/impressum.de.md)).
 
 Das Handbuch verdankt sein spezifisches Wissen über digitale Texteditionen unseren Erfahrungen im Projekt Proto4DigEd.
 

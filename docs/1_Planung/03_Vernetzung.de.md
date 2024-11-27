@@ -2,7 +2,7 @@
 
 Ebenso wie die Orientierung an vorbildhaften Editionen ist es wichtig, sich mit den **DSE Forschungscommunities** zu vernetzen, sei es auf lokaler, nationaler oder internationaler Ebene.
 
-Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigkeit bedachte Übersicht über alle für DSE relevanten Institutionen im deutschsprachigen Raum, geschweige denn in Europa oder weltweit. Anstatt einzelne Institutionen oder Lehrstühle aufzuführen (was langfristig lückenhaft bleiben müsste), wird hier auf bereits bestehende Sammlungen und Dachorganisationen verwiesen, die zusammengenommen eine gute Übersicht über den deutschsprachigen Raum vermitteln. Gerne erweitern wir die vorliegenden Verweise (nehmen sie [Kontakt zu den Autoren](Impressum\impressum.de.md) auf).
+Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vollständigkeit bedachte Übersicht über alle für DSE relevanten Institutionen im deutschsprachigen Raum, geschweige denn in Europa oder weltweit. Anstatt einzelne Institutionen oder Lehrstühle aufzuführen (was langfristig lückenhaft bleiben müsste), wird hier auf bereits bestehende Sammlungen und Dachorganisationen verwiesen, die zusammengenommen eine gute Übersicht über den deutschsprachigen Raum vermitteln. Gerne erweitern wir die vorliegenden Verweise (nehmen sie [Kontakt zu den Autoren](../Impressum/impressum.de.md) auf).
 
 ## DSE Kompetenzzentren
 
