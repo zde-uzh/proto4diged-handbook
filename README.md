@@ -5,7 +5,7 @@ Zum [Handbuch zur Erstellung einer digitalen Edition](https://digital-editions.p
 ## Run mkdocs on your local machine
 
 If you have Python (with PIP) and Git available on your machine, you can easily set up mkdocs to run on localhost.
-This guide focuses on UNIX systems but it is also possible to install on Windows machines.
+This guide focuses on UNIX-like systems but it is also possible to install on Windows machines.
 
 ### 1. Clone the repository
 
