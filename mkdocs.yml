@@ -69,6 +69,7 @@ plugins:
   - search
   - tags
   - glightbox
+  - privacy
   - i18n:
       docs_structure: suffix
       languages:
