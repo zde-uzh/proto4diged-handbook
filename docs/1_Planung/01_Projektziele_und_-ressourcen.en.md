@@ -31,7 +31,7 @@ Before tools and platforms are defined, DSE projects should think about the inte
 ### 3. Forms of publication
 
 - Must a digital publication of the interface that is as easy to maintain as possible be available at the end (see our chapter about [_static presentation_](../4_longterm_preservation/02_static_presentation.en.md))?
-- Are physical prints planned that are based on a [_reading version_](../3_presentation/03_edition_views.en.md)?
+- Are physical prints planned that are based on a [_reading version_](../3_presentation/03_edition_views.en.md/#reading-versions)?
 - Is the frontend an intermediate stage that will be replaced by other forms of publication after a certain period of time (e.g. on a larger platform)?
 
 ### 4. Different forms of data utilisation

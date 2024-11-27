@@ -43,10 +43,12 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - toc.integrate
-
   palette:
     primary: green
     accent: red
+
+extra_css:
+    - stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -67,6 +69,7 @@ plugins:
   - search
   - tags
   - glightbox
+  - privacy
   - i18n:
       docs_structure: suffix
       languages:
@@ -86,3 +89,4 @@ plugins:
             "4. Langzeitsicherung": 4. Long-term availability
             "Themen": Assorted topics
             "Impressum": Contact
+

@@ -4,7 +4,9 @@
 
 ### Anwendungsbereiche
 
-Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften in der Erstellung von digitalen wissenschaftlichen Editionen (digital scientific editions: DSE) in ihrer ganzen Dauer, d.h. von der Planungsphase bis zur Langzeitsicherung. Sein Fokus auf Texteditionen verdankt sich unseren Erfahrungen im Projekt Proto4DigEd.
+Das Handbuch unterstützt Forschende und Projekte aus den Geisteswissenschaften in der Erstellung von digitalen wissenschaftlichen Editionen (digital scholarly editions: DSE) in ihrer ganzen Dauer, d.h. von der Planungsphase bis zur Langzeitsicherung. Es versammelt Erkenntnisse zum digitalen Edieren, die in einer deutschsprachigen Forschungslandschaft gemacht wurden; obschon das Handbuch auf Englisch und Deutsch verfasst wurde, verweist es deshalb oftmals auf deutschsprachige externe Ressourcen. Wir freuen uns darüber, weitere Erkenntnisse und Ressourcen auch aus nicht-deutschsprachigen Kontexten einzubauen: Anregungen können direkt an die Autoren gerichtet werden (siehe [_Impressum_](Impressum/impressum.de.md)).
+
+Das Handbuch verdankt sein spezifisches Wissen über digitale Texteditionen unseren Erfahrungen im Projekt Proto4DigEd.
 
 !!! note "Entstehung der Showcase-Edition"
     [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html){:target="\_blank"} ist ein Open Research Data Projekt, untersützt durch swissuniversities, 2023-2024, unter der Leitung von [Prof. Dr. Ursula Bähler](https://www.rose.uzh.ch/de/seminar/personen/baehler.html){:target="\_blank"}. Vertreter:innen der Literatur- und Geschichtschwissenschaften, der Digital Humanities sowie des Bibliothekswesens haben Edition-Workflows anhand eines Teilkorpus' der Korrespondenz des französischen Philologen Gaston Paris getestet und evaluiert. Für die Edition verwendet wurden die DSE-Standard-Tools **Transkribus** (zur Texterkennung und Transkription) und **TEI-Publisher** (zur Annotation, Kommentierung und Publikation).
@@ -44,6 +46,8 @@ Uns interessiert dabei vor allem das _Wie_: Wie und wann ist es weiterhin sinnvo
 
 3. Evaluation der Limitationen von Standard-Tools
     - Wir verweisen zuweilen auf 'haute couture' Lösungen, d.h. 'maßgeschneiderte' Funktionalitäten, für die keine Standardisierungen vorliegen
+
+Das letzte Kapitel des Handbuchs [**_Themen_**](Themen/accessibility.de.md) versammelt verschiedene Begriffe aus allen Workflow-Schritten, die dort aus Platzgründen nicht genauer ausgeführt werden konnten. Es richtet sich primär an  technisch geschulte Lesende und hält code-snippets und externe Ressourcen bereit, deren Anwendung ein vertieftes Vorwissen benötigen. 
 
 ## 3. Tools und Plattformen
 

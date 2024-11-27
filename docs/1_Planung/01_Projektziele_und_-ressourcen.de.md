@@ -31,7 +31,7 @@ Bevor Tools und Plattformen festgelegt werden, sollten sich DSE-Projekte Gedanke
 ### 3. Publikationsformen
 
 -   Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [_statische Präsentation_](../4_longterm_preservation/02_static_presentation.de.md))?
--   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md) aufbauen? 
+-   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md/#lesefassungen) aufbauen? 
 - Ist das Frontend eine Zwischenstufe, die nach einer bestimmten Zeit von andere Publikationsformen abgelöst werden soll (etwa auf einer größeren Plattform) ?
 
 ### 4. Verschiedene Formen der Daten-Nutzung 
