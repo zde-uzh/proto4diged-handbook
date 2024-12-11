@@ -39,3 +39,8 @@ National and international networks that primarily pursue research policy goals 
 - [DARIAH-EU](https://www.dariah.eu/){:target="\_blank"}: The DARIAH umbrella organisation that coordinates the national DARIAH consortia in Europe.
 
 - [digital humanities in German-speaking countries](https://dig-hum.de/){:target="\_blank"}: The professional association for DH research in German-speaking countries.
+
+- [EADH](https://eadh.org/){:target="\_blank"}, the European Association for Digital Humanities and its associate organisations.
+
+- [ADHO](https://adho.org/){:target="\_blank"}, the international Alliance of Digital Humanities Organizations. 
+

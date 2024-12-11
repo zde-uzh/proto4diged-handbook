@@ -29,7 +29,7 @@ Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils de
 
 -   Kulturwissenschaftlich bzw. interdisziplinär ausgerichtete DSE von unterschiedlichen Quellenkategorien (Drucke, Aufsatz-Manuskripte, Tagebücher, Briefe, Skizzen).
 
--   Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum](https://www.ediarum.org){:target="\_blank"}, die auf den TEI/XML-Editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"} aufbaut. Eng mit humhboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net){:target="\_blank"}.
+-   Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum](https://www.ediarum.org){:target="\_blank"}, die auf den TEI/XML-Editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"} aufbaut. Eng mit humboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net){:target="\_blank"}.
 
 Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
 
@@ -41,16 +41,16 @@ Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Pla
 
 -   [**Universität Wuppertal, Prof. Dr. Patrick Sahle**](https://www.digitale-edition.de/exist/apps/editions-browser/$app/index.html){:target="\_blank"}
 
-    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team an der Universität Wuppertal kuratieren eine extensive Übersicht zu digitalen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} genügen (Stand Juni 2024: 846 DSE). 
+    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team kuratieren eine extensive Übersicht zu digitalen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} genügen (Stand Juni 2024: 846 DSE). 
     Darüber hinaus bietet der Katalog auch eine Übersicht zu [Editionsplattformen](https://www.digitale-edition.de/exist/apps/editions-browser/$app/edition.html){:target="\_blank"}, die mehrere DSE beherbergen.  
     Die Übersicht ist selbst mit dem TEI Publisher erstellt.
 
 -   [**Catalogue Digital Editions**](https://dig-ed-cat.acdh.oeaw.ac.at/)
-    Die Kollaboration zwischen dem Austrian Centre for Digital Humanities (ACDH, Vienna) und dem UCL Centre for Digital Humanities (UCLDH, London) führt primär englisch- und deutschsprachige Editionen. Sie lädt dazu ein, neue Editionen [zu melden](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) und ergänzt diese im German Library Network (DBIS) (Stand September 2024: 337 DSE). 
+    Die Kollaboration zwischen dem Austrian Centre for Digital Humanities (ACDH, Vienna) und dem UCL Centre for Digital Humanities (UCLDH, London) führt primär englisch- und deutschsprachige Editionen auf, kuratiert von [Greta Franzini](https://gretafranzini.notion.site). Der Katalog lädt dazu ein, neue Editionen [zu melden](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) und ergänzt diese im German Library Network (DBIS) (Stand September 2024: 337 DSE). 
 
 -   [**TEI Publisher-Editionen**](https://www.e-editiones.org/map/){:target="\_blank"}
 
-    Für Benutzer:innen des TEI Publishers bietet [e-editiones](https://www.e-editiones.org){:target="\_blank"}, die Forschungscommunity hinter dem Tool, eine Übersicht aller Editionen, die damit erstellt wurden (Stand Juni 2024: 46 DSE). 
+    Für Benutzer:innen des TEI Publishers bietet [e-editiones](https://www.e-editiones.org){:target="\_blank"}, die Forschungscommunity hinter dem Tool, eine Übersicht von Editionen, die damit erstellt wurden, vorausgesetzt, sie sind der community bekannt (Stand Juni 2024: 46 DSE). 
 
 -   [**Sammlung des KONDE Weißbuch**](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=projects){:target="\_blank"}
 

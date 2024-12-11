@@ -39,3 +39,7 @@ Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (
 -   [DARIAH-EU](https://www.dariah.eu/){:target="\_blank"}: Die DARIAH-Dachorganisation, die die nationalen DARIAH-Konsortien in Europa koordiniert.
 
 -   [digital humanities im deutschsprachigen raum](https://dig-hum.de/){:target="\_blank"}: Der Fachverband für DH-Forschung im deutschsprachigen Raum.
+
+- [EADH](https://eadh.org/){:target="\_blank"}, the European Association for Digital Humanities and its associate organisations.
+
+- [ADHO](https://adho.org/){:target="\_blank"}, the international Alliance of Digital Humanities Organizations. 

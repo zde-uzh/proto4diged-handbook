@@ -17,7 +17,7 @@ eScriptorium hat zurzeit zwei Exportmöglichkeiten: PAGE-XML und ALTO-XML.
 
 ### Vorhandene Scripts (trans2tei, page2tei)
 
-Weil Exporte im TEI XML Format in den verbreiteten Transkriptionstools entweder fehlen oder unzureichend sind, wurde in den letzten Jahren Code-Scripts entwickelt um die Konversion nicht manuell durchzuführen (z.B. in einem XML Editor wie Oxygen. Die beiden hier vorgestellt Scripts automatisieren  die Konversion. 
+Weil Exporte im TEI XML Format in den verbreiteten Transkriptionstools entweder fehlen oder unzureichend sind, wurde in den letzten Jahren Code-Scripts entwickelt um die Konversion nicht manuell durchzuführen (z.B. in einem XML Editor wie Oxygen). Die beiden hier vorgestellt Scripts automatisieren  die Konversion. 
 
 Grundlegend ist [**page2tei**](https://github.com/dariok/page2tei), das PAGE-XML in TEI/XML umwandelt.
 Das grösste Hindernis bei page2tei ist ein TODO bei Tags der Zeilen. Sobald das gelöst ist, kann die eigene Konvertierung als folgender Schritt gemacht werden (Kaskade). Andere editionsspezifische Tags werden in anonyme Blöcke (Tag ab) mit Type-Attribut gesetzt, was bestens weiterverarbeitet werden kann.

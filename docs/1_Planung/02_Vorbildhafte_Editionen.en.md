@@ -29,7 +29,7 @@ The years by which the DSEs are categorised according to their end date cover th
 
 - Cultural studies and interdisciplinary DSE of different source categories (prints, essay manuscripts, diaries, letters, sketches).
 
-- Special feature: The first beta version from 2016 was exemplary for many subsequent projects and received various prizes. The project uses the editing environment [ediarum](https://www.ediarum.org){:target="\_blank"}, which is based on the TEI/XML editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"}. The database for correspondence metadata [Correspsearch](https://correspsearch.net){:target="\_blank"} is also closely linked to humhboldt digital.
+- Special feature: The first beta version from 2016 was exemplary for many subsequent projects and received various prizes. The project uses the editing environment [ediarum](https://www.ediarum.org){:target="\_blank"}, which is based on the TEI/XML editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"}. The database for correspondence metadata [Correspsearch](https://correspsearch.net){:target="\_blank"} is also closely linked to humboldt digital.
 
 It makes sense for every project to expand this list and get an overview during the planning phase. We recommend initially looking at editions from all fields and disciplines in order to gain a broad overview of technical and editorial innovations. The search can then be narrowed down more according to subject, material and spatial criteria in order to make contact with the editors and exchange ideas with them.
 
@@ -42,12 +42,12 @@ It makes sense for every project to expand this list and get an overview during 
 
 - [**University of Wuppertal, Prof Dr Patrick Sahle**](https://www.digitale-edition.de/exist/apps/editions-browser/$app/index.html){:target="\_blank"}
 
-    The author of the three-volume standard work [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) and his team at the University of Wuppertal curate an extensive overview of digital editions that meet their basic [catalogue of criteria](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} (as of June 2024: 846 DSE).
+    The author of the three-volume standard work [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) and his team curate an extensive overview of digital editions that meet their basic [catalogue of criteria](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} (as of June 2024: 846 DSE).
     In addition, the catalogue also provides an overview of [edition platforms](https://www.digitale-edition.de/exist/apps/editions-browser/$app/edition.html){:target="\_blank"}, which host several DSEs.  
     The overview is created with the TEI Publisher.
 
 - [**Catalogue Digital Editions**](https://dig-ed-cat.acdh.oeaw.ac.at/)
-    The collaboration between the Austrian Centre for Digital Humanities (ACDH, Vienna) and the UCL Centre for Digital Humanities (UCLDH, London) primarily hosts English- and German-language editions. It invites you to [report](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) new editions and adds them to the German Library Network (DBIS) (as of September 2024: 337 DSE).
+    The collaboration between the Austrian Centre for Digital Humanities (ACDH, Vienna) and the UCL Centre for Digital Humanities (UCLDH, London) primarily hosts English- and German-language editions, curated by [Greta Franzini](https://gretafranzini.notion.site). The catalogue invites you to [report](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) new editions and adds them to the German Library Network (DBIS) (as of September 2024: 337 DSE).
 
 - [**TEI Publisher Editions**](https://www.e-editiones.org/map/){:target="\_blank"}
 
