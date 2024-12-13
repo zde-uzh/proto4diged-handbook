@@ -3,7 +3,7 @@
 Ein wichtiger Schritt im Planungsprozess ist es, die eigenen **Vorstellung des Endprodukts mit bestehenden Lösungen zu vergleichen**, insbesondere mit vorbildhaften Editionen. Es ist ratsam, auf allen Ebenen - vom Grobkonzept bis zur Funktionalität und Gestaltung des Frontends - erste Überlegungen anhand dieser Beispiele zu machen. In vielen Fällen sind die Editor:innen der so vorbildhaft gewordenen Editionen bereit, ihr Wissen auch im persönlichen Austausch weiterzugeben.
 
 Das Handbuch evaluiert selbst keine DSE, sondern verweist lediglich - ohne Anspruch auf Vollständigkeit - auf mittlerweile **kanonische Beispiele** aus dem deutschsprachigen Raum, die in Anträgen als vorbildhaft gelten, weil sie z.B. eine umfassende Dokumentation ihrer Editionsrichtlinien aufweisen.
-Ausführliche Rezensionen von DSE finden sich in der Zeitschrift [RIDE](https://ride.i-d-e.de/){:target="\_blank"}. 
+Ausführliche Rezensionen von DSE finden sich in der Zeitschrift [RIDE](https://ride.i-d-e.de/){:target="\_blank"}.
 
 Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils den hauptsächlichen Entstehungszeitraum, alle aufgeführten Editionen erfahren regelmäßige technische und z.T. auch inhaltliche Updates.
 
@@ -35,22 +35,22 @@ Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Pla
 
 ### Übersichten und Sammlungen von DSE
 
-- [**Text+ Registry**](https://registry.text-plus.org/entities/edition/)
-    
+-   [**Text+ Registry**](https://registry.text-plus.org/entities/edition/)
+
     Der Metadaten Aggregator von [Text+], einem Konsortium der Nationalen Forschungsdateninfrastruktur (NFDI) in Deutschland, lässt eine gezielte Suche nach DSE zu. Sie bietet die größte uns bekannte Datensammlung (insgesamt 1425 DSE, Stand 2024), hiervon sind jedoch ein großer Teil nur als Entwurf eingetragen (484) und von den als veröffentlichten markierten (941) sind lediglich die Metadaten von 193 DSE kuratiert.
 
 -   [**Universität Wuppertal, Prof. Dr. Patrick Sahle**](https://www.digitale-edition.de/exist/apps/editions-browser/$app/index.html){:target="\_blank"}
 
-    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team kuratieren eine extensive Übersicht zu digitalen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} genügen (Stand Juni 2024: 846 DSE). 
+    Der Verfasser des dreibändigen Standardwerks [Digitale Editionsformen](https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/) und sein Team kuratieren eine extensive Übersicht zu digitalen Editionen, die ihrem basalen [Kriterienkatalog](https://www.digitale-edition.de/exist/apps/editions-browser/about.html){:target="\_blank"} genügen (Stand Juni 2024: 846 DSE).
     Darüber hinaus bietet der Katalog auch eine Übersicht zu [Editionsplattformen](https://www.digitale-edition.de/exist/apps/editions-browser/$app/edition.html){:target="\_blank"}, die mehrere DSE beherbergen.  
     Die Übersicht ist selbst mit dem TEI Publisher erstellt.
 
 -   [**Catalogue Digital Editions**](https://dig-ed-cat.acdh.oeaw.ac.at/)
-    Die Kollaboration zwischen dem Austrian Centre for Digital Humanities (ACDH, Vienna) und dem UCL Centre for Digital Humanities (UCLDH, London) führt primär englisch- und deutschsprachige Editionen auf, kuratiert von [Greta Franzini](https://gretafranzini.notion.site). Der Katalog lädt dazu ein, neue Editionen [zu melden](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) und ergänzt diese im German Library Network (DBIS) (Stand September 2024: 337 DSE). 
+    Die Kollaboration zwischen dem Austrian Centre for Digital Humanities (ACDH, Vienna) und dem UCL Centre for Digital Humanities (UCLDH, London) führt primär englisch- und deutschsprachige Editionen auf, kuratiert von [Greta Franzini](https://gretafranzini.notion.site). Der Katalog lädt dazu ein, neue Editionen [zu melden](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) und ergänzt diese im German Library Network (DBIS) (Stand September 2024: 337 DSE).
 
 -   [**TEI Publisher-Editionen**](https://www.e-editiones.org/map/){:target="\_blank"}
 
-    Für Benutzer:innen des TEI Publishers bietet [e-editiones](https://www.e-editiones.org){:target="\_blank"}, die Forschungscommunity hinter dem Tool, eine Übersicht von Editionen, die damit erstellt wurden, vorausgesetzt, sie sind der community bekannt (Stand Juni 2024: 46 DSE). 
+    Für Benutzer:innen des TEI Publishers bietet [e-editiones](https://www.e-editiones.org){:target="\_blank"}, die Forschungscommunity hinter dem Tool, eine Übersicht von Editionen, die damit erstellt wurden, vorausgesetzt, sie sind der community bekannt (Stand Juni 2024: 46 DSE).
 
 -   [**Sammlung des KONDE Weißbuch**](https://www.digitale-edition.at/archive/objects/context:konde/methods/sdef:Context/get?mode=projects){:target="\_blank"}
 

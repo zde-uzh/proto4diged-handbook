@@ -19,10 +19,10 @@ Other limitations include internal dependencies in folders whose modification is
 
 The following chapter of the documentation is relevant for all editorial staff:
 
-- [Annotating Documents](https://teipublisher.com/exist/apps/tei-publisher/documentation/web-annotations){:target="\_blank"}
+-   [Annotating Documents](https://teipublisher.com/exist/apps/tei-publisher/documentation/web-annotations){:target="\_blank"}
 
 The following chapters are also relevant for technical staff:
 
-- [Configuring the Annotation Editor](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor){:target="\_blank"}
+-   [Configuring the Annotation Editor](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor){:target="\_blank"}
 
-- [Local authority registers](https://teipublisher.com/exist/apps/tei-publisher/documentation/registers){:target="\_blank"}
+-   [Local authority registers](https://teipublisher.com/exist/apps/tei-publisher/documentation/registers){:target="\_blank"}

@@ -8,12 +8,12 @@ In the following, we outline questions and challenges that a project should clar
 
 Before detailed planning of the end product can begin, the following factors should be evaluated:
 
-- Nature and quantity of the media to be edited (see [_constituting texts_](../2_Editionsarbeit/02_Textkonstitution.en.md))
-- Team size and skills
+-   Nature and quantity of the media to be edited (see [_constituting texts_](../2_Editionsarbeit/02_Textkonstitution.en.md))
+-   Team size and skills
 
-- Project duration
+-   Project duration
 
-The extent to which these factors can be adapted depends on the institutional and financial starting position, in particular possible funding. In the case of Switzerland, for example, as of summer 2024, public funding for larger DSEs is only possible as part of a 4-year [project application to the Swiss National Science Foundation](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"}. This case only serves for illustration, of course, as funding possibilities might change fast and require thorough investigation. 
+The extent to which these factors can be adapted depends on the institutional and financial starting position, in particular possible funding. In the case of Switzerland, for example, as of summer 2024, public funding for larger DSEs is only possible as part of a 4-year [project application to the Swiss National Science Foundation](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"}. This case only serves for illustration, of course, as funding possibilities might change fast and require thorough investigation.
 
 ### 2. Interaction of the technical components
 
@@ -21,24 +21,25 @@ A technical principle of DSE is the **modular logic** of organising the operatio
 
 Before tools and platforms are defined, DSE projects should think about the interaction of the technical components.
 
-- Is there a **technical lead** who is familiar with all components?
+-   Is there a **technical lead** who is familiar with all components?
 
-    - If not, how is the interaction coordinated?
+    -   If not, how is the interaction coordinated?
 
-- Are all available **technical components really needed**?
-    - Small projects can, for example, dispense with metadata databases and curate their metadata in Excel or CSV files.
+-   Are all available **technical components really needed**?
+    -   Small projects can, for example, dispense with metadata databases and curate their metadata in Excel or CSV files.
 
 ### 3. Forms of publication
 
-- Must a digital publication of the interface that is as easy to maintain as possible be available at the end (see our chapter about [_static presentation_](../4_longterm_preservation/02_static_presentation.en.md))?
-- Is a printed edition planned that is based on a [_reading version_](../3_presentation/03_edition_views.en.md/#reading-versions)?
-- Is the frontend an intermediate stage that will be replaced by other forms of publication after a certain period of time (e.g. on a larger platform)?
+-   Must a digital publication of the interface that is as easy to maintain as possible be available at the end (see our chapter about [_static presentation_](../4_longterm_preservation/02_static_presentation.en.md))?
+-   Is a printed edition planned that is based on a [_reading version_](../3_presentation/03_edition_views.en.md/#reading-versions)?
+-   Is the frontend an intermediate stage that will be replaced by other forms of publication after a certain period of time (e.g. on a larger platform)?
 
 ### 4. Different forms of data utilisation
 
-- How should the **data** of the edition be used?
-    - For qualitative analysis (e.g. historical source evaluation, philological text-genetic or hermeneutic methods)? Then it is worth focussing on the [_digital presentation_](../3_presentation/01_introduction_presentation.en.md) and designing the texts on the _human-readable_ interface, i.e. preparing them (also) for human use. In particular, the greatest possible [_accessibility_](../Themen/accessibility.en.md) should be aimed for.  
-    - For quantitative analysis (e.g. corpus linguistic analyses, philological distant readings, statistical questions)? Then [_long-term preservation in databases_](../4_longterm_preservation/03_archiving_data.en.md) is (also) in the foreground. It makes the data (also) _machine-readable_ via technical interfaces, so-called APIs, i.e. the data can be read automatically by programmes and tools.
+-   How should the **data** of the edition be used?
+
+    -   For qualitative analysis (e.g. historical source evaluation, philological text-genetic or hermeneutic methods)? Then it is worth focussing on the [_digital presentation_](../3_presentation/01_introduction_presentation.en.md) and designing the texts on the _human-readable_ interface, i.e. preparing them (also) for human use. In particular, the greatest possible [_accessibility_](../Themen/accessibility.en.md) should be aimed for.
+    -   For quantitative analysis (e.g. corpus linguistic analyses, philological distant readings, statistical questions)? Then [_long-term preservation in databases_](../4_longterm_preservation/03_archiving_data.en.md) is (also) in the foreground. It makes the data (also) _machine-readable_ via technical interfaces, so-called APIs, i.e. the data can be read automatically by programmes and tools.
 
     -> Of course, the two options are not mutually exclusive; a project can enable both qualitative and quantitative utilisation scenarios; in many cases it is even advisable to enable both.
 

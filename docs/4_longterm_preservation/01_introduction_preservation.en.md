@@ -1,6 +1,6 @@
 # Introduction to long-term preservation
 
-The long-term preservation of DSE is still, as of 2024, an **only partially and in some respects unsatisfactorily solved challenge**. This chapter can therefore only speak of standard solutions to a limited extent and sometimes serves more as a guide to the direction in which technical developments for long-term preservation are currently moving, which solutions can be expected from these developments and which limitations or planning steps they entail.  
+The long-term preservation of DSE is still, as of 2024, an **only partially and in some respects unsatisfactorily solved challenge**. This chapter can therefore only speak of standard solutions to a limited extent and sometimes serves more as a guide to the direction in which technical developments for long-term preservation are currently moving, which solutions can be expected from these developments and which limitations or planning steps they entail.
 
 In principle, the topic of long-term security can be divided into two aspects, as is done in the following sub-chapters. This distinction, which in some cases does not exclude fluid transitions, is explained here by way of introduction.
 
@@ -12,7 +12,7 @@ However, many projects do not have the infrastructure that allows them to mainta
 
 **Research and memory institutions**, on the other hand, do not have the long-term preservation of dynamic web applications as a core task, especially as this would entail technical uncertainties and financial risks. To our knowledge, no institution in the German-speaking world currently officially guarantees the long-term maintenance of DSE web applications for DSE projects, even if they have been de facto maintained for longer in some cases.
 
-The solution to this challenge discussed in the subchapter is the generation of [**_static_presentations_**](../4_longterm_preservation/02_static_presentation.en.md) of DSE, which are currently being (further) developed in various project contexts. They differ from dynamic web applications in that most views are pre-generated in such a way that no further programmes or databases are required in the background. However, solutions are also possible in which certain dynamic functions are retained and, if maintenance is no longer possible, can be switched off without losing the static functions.  
+The solution to this challenge discussed in the subchapter is the generation of [**_static_presentations_**](../4_longterm_preservation/02_static_presentation.en.md) of DSE, which are currently being (further) developed in various project contexts. They differ from dynamic web applications in that most views are pre-generated in such a way that no further programmes or databases are required in the background. However, solutions are also possible in which certain dynamic functions are retained and, if maintenance is no longer possible, can be switched off without losing the static functions.
 
 ## 2 Archiving the data
 
