@@ -31,6 +31,12 @@ Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils de
 
 -   Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum](https://www.ediarum.org){:target="\_blank"}, die auf den TEI/XML-Editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"} aufbaut. Eng mit humboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net){:target="\_blank"}.
 
+[**Wölfflin-Edition**](https://hwgw.humanitiesconnect.pub/index.html){:target="\_blank"} (2017-2024f.)
+
+- Kunswissenschaftliche Edition der Gesammelten Werke eines Kunsthorikers, die mehrheitlich publizierten Schriften umfasst (unpublizierte Schriften sind in Vorbereitung). 
+
+- Besonderheit: Die Wölfflin-Edition umfasst zu einem großen Teil Retro-Editionen, d.h. im Druck erschienene Bücher, die nun in eine digitale, kritisch kommentierte Form übersetzt werden. Sie fusst auf einer engen Zusammenarbeit mit dem Projekt [_humanities connect_](https://transkribus.humanitiesconnect.pub/){:target="\_blank"} der Bibliotheca Herzogiana Rom, das einen Teill ihrer Bestände als digitale Bibliothek zur Verfügung stellt. 
+
 Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
 
 ### Übersichten und Sammlungen von DSE
@@ -46,6 +52,7 @@ Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Pla
     Die Übersicht ist selbst mit dem TEI Publisher erstellt.
 
 -   [**Catalogue Digital Editions**](https://dig-ed-cat.acdh.oeaw.ac.at/)
+
     Die Kollaboration zwischen dem Austrian Centre for Digital Humanities (ACDH, Vienna) und dem UCL Centre for Digital Humanities (UCLDH, London) führt primär englisch- und deutschsprachige Editionen auf, kuratiert von [Greta Franzini](https://gretafranzini.notion.site). Der Katalog lädt dazu ein, neue Editionen [zu melden](https://dig-ed-cat.acdh.oeaw.ac.at/documentation.html#section7) und ergänzt diese im German Library Network (DBIS) (Stand September 2024: 337 DSE).
 
 -   [**TEI Publisher-Editionen**](https://www.e-editiones.org/map/){:target="\_blank"}

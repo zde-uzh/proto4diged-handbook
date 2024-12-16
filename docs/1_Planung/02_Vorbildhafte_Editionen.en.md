@@ -31,6 +31,12 @@ The years by which the DSEs are categorised according to their end date cover th
 
 -   Special feature: The first beta version from 2016 was exemplary for many subsequent projects and received various prizes. The project uses the editing environment [ediarum](https://www.ediarum.org){:target="\_blank"}, which is based on the TEI/XML editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"}. The database for correspondence metadata [Correspsearch](https://correspsearch.net){:target="\_blank"} is also closely linked to humboldt digital.
 
+[**Wölfflin edition**](https://hwgw.humanitiesconnect.pub/index.html){:target="\_blank"} (2017-2024f.)
+
+- Art historical edition of the collected works of an art historian, comprising the majority of published writings (unpublished writings are in preparation).
+
+- Special feature: The Wölfflin edition largely comprises retro editions, i.e. books published in print that are now being translated into a digital, critically annotated form. It is based on a close collaboration with the [_humanities connect_](https://transkribus.humanitiesconnect.pub/){:target="\_blank"} project of the Bibliotheca Herzogiana Rome, which makes part of its holdings available as a digital library.
+
 It makes sense for every project to expand this list and get an overview during the planning phase. We recommend initially looking at editions from all fields and disciplines in order to gain a broad overview of technical and editorial innovations. The search can then be narrowed down more according to subject, material and spatial criteria in order to make contact with the editors and exchange ideas with them.
 
 ### Overviews and collections of DSE

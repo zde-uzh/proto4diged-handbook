@@ -48,7 +48,8 @@ Five main categories of inter- and contextual references, as mentioned in the ex
 Somewhat more exotic is the referencing of other categories, for which there are basically no technical limits, e.g. freely selected topics (more specific than keywords), historical events or linguistic characteristics (e.g. the use of foreign languages).
 
 !!! warning "challenge"
-From an editorial point of view, the delimitation of categories is always linked to the problem that once a category has been introduced, it must be applied consistently, which can lead to a great deal of effort. In the case of several editors, it requires precise adherence to complex editorial guidelines or constant coordination to adapt them. Complex issues that only need to be made comprehensible in a few texts should therefore be presented in the passage or text [_comment_](06_commenting.en.md).
+    
+    From an editorial point of view, the delimitation of categories is always linked to the problem that once a category has been introduced, it must be applied consistently, which can lead to a great deal of effort. In the case of several editors, it requires precise adherence to complex editorial guidelines or constant coordination to adapt them. Complex issues that only need to be made comprehensible in a few texts should therefore be presented in the passage or text [_comment_](06_commenting.en.md).
 
 When planning the annotation of content, the following editorial considerations must be taken into account:
 
@@ -60,7 +61,8 @@ Both standard tool solutions allow the **integration of connectors**, i.e. the s
 It should be considered in detail how often which data should be labelled in a text and which standard data (see below) are referenced for this purpose. For example, it does not make sense to annotate salutations (e.g. you/your) in letters every time, especially if the person being addressed is identical to the recipient of the letter (this information is already available in the letter's metadata). Such considerations, even if they may seem trivial, should also be included in editing guidelines and made available to DSE users.
 
 !!! abstract "Showcase Editing Guidelines: Content annotation"
-The project has decided to annotate the three categories of place, person and work, as in the case of Gaston Paris's historical scientific correspondence these are best suited to tracing the scholar's research network, which is at the centre of the project leader's own research.
+    
+    The project has decided to annotate the three categories of place, person and work, as in the case of Gaston Paris's historical scientific correspondence these are best suited to tracing the scholar's research network, which is at the centre of the project leader's own research.
 
     - **Places** are, where possible, linked to geonames with their current place name.
         - Places are not labelled if they already exist in the metadata of the letter (place of sending or receiving).
@@ -94,9 +96,10 @@ Technically, there are two different use cases for the ODD, the representation a
 The TEI Publisher has various standard ODDS pre-installed; the revision mode for annotation also has the form of an ODDS. This ODD has the file name 'annotations.odd' and can simply be selected from a page tab. The annotation editor activated by this can be customised, see the [TEI-Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); we have also summarised important information in the subchapter [_Annotations with TEI-Publisher_](../Themen/tei-publisher-annotations.en.md).
 
 !!! note "Experiences from the showcase edition"
-In order to activate all the required annotations in the edition editor, several attempts, meetings and rounds of revision were necessary. Among other things, the project has recognised the need to display the digitised text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added.
-The customised annotation ODD of the project is publicly available via GitLab:
-=> PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
+    
+    In order to activate all the required annotations in the edition editor, several attempts, meetings and rounds of revision were necessary. Among other things, the project has recognised the need to display the digitised text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added.
+    The customised annotation ODD of the project is publicly available via GitLab:
+    => PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
 
 The TEI Publisher stores all content annotation data in an **XML register**, where both standardisation data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.
 

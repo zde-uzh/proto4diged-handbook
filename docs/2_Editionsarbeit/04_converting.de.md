@@ -30,8 +30,6 @@ trans2tei zielt auf die Bedürfnisse der Bibliotheca Herziana ab. Für Editionsp
 
 Wenn kein oder nur ein minimales Tag-Set vorliegt, benötigt der TEI-XML Export von Transkribus kaum Nachjustierung. In diesem Fall fällt jedoch eine wichtige Funktion des Tools weg: Die Annotation von Text oder Textregionen.
 
-Noch gravierender ist, dass die **Verknüpfung zur Handschrift**, die mittlerweile zum Standard von vielen DSE gehört, fehlt, da auch die Koordinaten in diesem Fall wegfallen.
-
 Als Lösung dieses Problems können **manuelle Nachjustierungen** durchgeführt werden, um die Übereinstimmung mit dem angestrebten TEI-Schema zu erreichen. Solche manuelle Überarbeitungen können je nach Komplexität des Schemas jedoch aufwändig werden.
 
 Letztlich können bei genügendem technischem Fachwissen projektspezifische Konvertierungen mithilfe von Pipelines wie [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"} entwickelt werden.

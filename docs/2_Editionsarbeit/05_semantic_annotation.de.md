@@ -48,7 +48,8 @@ Fünf Hauptkategorien inter- und kontextueller Referenzen, wie in den Beispielen
 Etwas exotischer ist die Referenzierung weiterer Kategorien, denen technisch im Grunde keine Grenzen gesetzt sind, z.B. frei gewählte Themen (spezifischer als Schlagworte), historische Ereignisse oder linguistischer Eigenarten (z.B. die Nutzung von Fremdsprachen).
 
 !!! warning "Herausforderung"
-Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall mehrerer Edierender bedingt es das genaue Befolgen komplexer Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-[_Kommentar_](06_commenting.de.md) dargestellt werden.
+    
+    Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall mehrerer Edierender bedingt es das genaue Befolgen komplexer Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-[_Kommentar_](06_commenting.de.md) dargestellt werden.
 
 In der Planung der inhaltlichen Annotation müssen folgende editorischen Überlegungen beachtet werden:
 
@@ -60,7 +61,8 @@ Beide Tool-Standardlösungen erlauben die **Einbindung von Konnektoren**, d.h. d
 Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen und welche Normdaten (s.u.) hierzu referenziert werden. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Inhaltliche Annotation"
-Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
+    
+    Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
 
     - **Orte** werden, wenn möglich, mit ihrem heutigen Ortsnamen auf geonames verlinkt.
         - Orte werden nicht ausgezeichnet, wenn sie bereits in den Metadaten des Briefes vorhanden sind (Absende- oder Empfangsort).
@@ -94,9 +96,10 @@ Technisch gesehen gibt es zwei verschiedene Anwendungsfälle für das ODD, die D
 Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses ODD hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Der dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); wichtige Hinweise haben wir zudemim Unterkapitel [_Annotationen mit TEI-Publisher_](../Themen/tei-publisher-annotations.de.md) zusammengefasst.
 
 !!! note "Erfahrungen aus der Showcase-Edition"
-Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
-Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
-=> HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)
+    
+    Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
+    Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
+    => HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)
 
 Der TEI-Publisher legt alle Daten der inhaltlichen Annotation in einem **XML-Register** an, dort sind sowohl Normdaten-Ids als auch eigene erzeugte hinterlegt. Die Verwendung einer zusätzlichen Datenbank ist deshalb unnötig.
 

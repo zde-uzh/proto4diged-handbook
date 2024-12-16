@@ -30,8 +30,6 @@ trans2tei is aimed at the needs of the Bibliotheca Herziana. For editing project
 
 If no or only a minimal tag set is available, the TEI-XML export of Transkribus requires hardly any readjustment. In this case, however, an important function of the tool is omitted: the annotation of text or text regions.
 
-Even more serious is the fact that the **reference to the facsimile**, which is now a standard feature of many DSEs, is missing, as the coordinates are also omitted in this case.
-
 As a solution to this problem, **manual readjustments** can be carried out in order to achieve conformity with the desired TEI schema. However, such manual revisions can be time-consuming depending on the complexity of the schema.
 
 Ultimately, with sufficient technical expertise, project-specific conversions can be developed using pipelines such as [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"} can be developed.

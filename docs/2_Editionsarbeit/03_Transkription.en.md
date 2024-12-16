@@ -51,14 +51,16 @@ As in print editions, consistent **transcription guidelines** must also be follo
 A step that technically coincides with the text-critical and/or textual annotation, but which is not characterised by anything visible or substantive, is the creation of the **reading version**, which is placed alongside the more faithful diplomatic transcription (see also [_edition views_](../3_presentation/03_edition_views.en.md)). In order for the text to be normalised in a reading version, the words must be annotated with a correct or modernised word variant in the case of incorrect or outdated spellings - what is understood as incorrect or outdated must be [_documented_](../3_presentation/04_documentation.en.md) in detail.
 
 !!! abstract "Showcase edition guidelines: Reading version"
-As the showcase edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, this is also possible at a later stage, as the TEI/XML data can also be enriched at a later date using various tools.
+
+    As the showcase edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, this is also possible at a later stage, as the TEI/XML data can also be enriched at a later date using various tools.
 
 #### Linking digitised material and transcription
 
 DSE-specific transcription guidelines concern the **linking of digitised material and transcription** in the front end, i.e. the insertion of visual word or line correspondences between facsimile and text. Ideally, this is already prepared in the transcription step; all the tools mentioned below have simple forms of this link by enriching the XML file of the transcription with image coordinates. The line-by-line text-image link, which simplifies the autoptic comparison, e.g. by flashing the text line in the digital copy, has become the standard for DSE and is included below among the documented standard solutions.
 
 !!! success "Best Practice"
-The [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} is exemplary for the linking of digitised material and transcription for DSE using the TEI Publisher. .
+
+    The [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} is exemplary for the linking of digitised material and transcription for DSE using the TEI Publisher. .
 
     The Showcase edition is based on this form of line correspondence and utilises the existing [source code of the Alfred Escher letter edition](https://github.com/stazh/briefedition-escher){:target="\_blank"} was utilised.
     <figure markdown="span">
@@ -102,7 +104,8 @@ As mentioned above, Transkribus recommends at least 75 pages of ground truth as 
 In the past, the **"text2image "** function was available for preparing existing transcriptions in Transkribus, which assigned existing transcriptions, e.g. from old print editions, to the digital copy line by line. At present, the line correspondences have to be created manually for training purposes. Such manual insertion of transcriptions into the training data only makes sense if it is not possible to use the standard models and make corrections. However, Transkribus has announced the reintroduction of "text2image" at the end of 2024.
 
 !!! note "Experience from the showcase edition"
-For Gaston Paris' handwriting, the standard model "The Text Titan I" proved to be suitable for producing a ground truth with the help of corrections, which in turn allowed the training of a custom model (see next information box). This is an AI model that, similar to ChatGPT, is based on Transformer technology and is superior to conventional general ATR models that use older AI technologies. It is not yet possible to train Transformer models yourself on any transcription tool, but self-created ATR models can still compete with Tansformer models by training them with project-specific ground truth.
+    
+    For Gaston Paris' handwriting, the standard model "The Text Titan I" proved to be suitable for producing a ground truth with the help of corrections, which in turn allowed the training of a custom model (see next information box). This is an AI model that, similar to ChatGPT, is based on Transformer technology and is superior to conventional general ATR models that use older AI technologies. It is not yet possible to train Transformer models yourself on any transcription tool, but self-created ATR models can still compete with Tansformer models by training them with project-specific ground truth.
 
 ### 3.2 Repeated training, re-training
 
@@ -116,7 +119,8 @@ Re-training with a larger ground truth\*\* differs from repeated training with t
 -   Time needed for training.
 
 !!! note "Experience from the Showcase Edition"
-With the help of ever larger ground truth collections (manually corrected transcriptions that we created with "The Text Titan I"), several series of re-trainings were made; the second model of the second series surpassed "The Text Titan I" in certain recognition performances, namely in rather exceptional idiosyncrasies of Gaston Paris' handwriting. However, the general model continued to 'beat' its own in the recognition of numbers and different languages.
+    
+    With the help of ever larger ground truth collections (manually corrected transcriptions that we created with "The Text Titan I"), several series of re-trainings were made; the second model of the second series surpassed "The Text Titan I" in certain recognition performances, namely in rather exceptional idiosyncrasies of Gaston Paris' handwriting. However, the general model continued to 'beat' its own in the recognition of numbers and different languages.
 
 ### 3.3 Layout analysis
 
@@ -148,14 +152,16 @@ Transkribus distinguishes between 'structural tags' and 'textual tags', which co
 ![alt text](image-2.png){align=right width="250" }**'Textual Tags'** allow tagging at the word level of the transcription and are therefore attached to the transcription text on the right-hand side of the user interface. In addition to formal aspects (underlining, foreign hands), 'textual tags' can also include content-related aspects (tagging of place names or keywords). However, we recommend that the more complex content annotation is only carried out in TEI-XML in order to minimise the conversion effort (see below). Transkribus is also not (yet) capable of automatically linking content annotations to external resources such as standardisation data. Even if this should change in the future, as is apparently planned, caution is advised due to the conversion effort involved.
 
 !!! warning "challenge"
-As already mentioned, transcription tools offer markup in PAGE-XML or ALTO-XML, which must be taken into account when converting to TEI-XML.
-It is therefore advisable to orientate yourself **in the markup in the transcription tool to the nomenclature of the TEI/XML you are aiming for**. In this way, TEI syntax-compliant elements are created during conversion to TEI/XML instead of freely invented expressions or - if not marked up - anonymous blocks (`<ab>`). The most important elements are recognised by scripts such as Page2TEI by default and converted into the corresponding elements. This represents an increase in complexity that requires close technical support for the project.
+    
+    As already mentioned, transcription tools offer markup in PAGE-XML or ALTO-XML, which must be taken into account when converting to TEI-XML.
+    It is therefore advisable to orientate yourself **in the markup in the transcription tool to the nomenclature of the TEI/XML you are aiming for**. In this way, TEI syntax-compliant elements are created during conversion to TEI/XML instead of freely invented expressions or - if not marked up - anonymous blocks (`<ab>`). The most important elements are recognised by scripts such as Page2TEI by default and converted into the corresponding elements. This represents an increase in complexity that requires close technical support for the project.
 
 The advantage of annotations in transcription tools is that the most important formal aspects can already be clarified in the initial, superficial examination of the text. In the next steps after conversion, content annotation and commenting - which are described in the following chapters primarily using the TEI Publisher - the employees can then deal more intensively with the semantic aspects.
 Projects should consider as early as possible whether and how thoroughly they should work with the transcription tools' tags, which are easy to use but demanding in the conversion process.
 
 !!! note "Experience from the showcase edition"
-We have decided to use 'Structural' and 'Textual' tags in Transkribus only for text-critical aspects (see showcase edition guidelines above). In this labelling of Gaston Paris's letters, we adhere to the element names that the [German text archive](https://www.deutschestextarchiv.de/){:target="\_blank"} suggests as the [basic format for labelling letters](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"} suggests. For this purpose, we have created our own tags in Transkribus and used them in the labelling of the text regions on the digital copy: The letterhead, for example, is defined as the text region 'opener', in this text region we mark up the line with date and, if applicable, place as 'dateline' and the greeting ("Mon cher ami") as 'salute'. The text body itself is divided into different paragraphs.
+    
+    We have decided to use 'Structural' and 'Textual' tags in Transkribus only for text-critical aspects (see showcase edition guidelines above). In this labelling of Gaston Paris's letters, we adhere to the element names that the [German text archive](https://www.deutschestextarchiv.de/){:target="\_blank"} suggests as the [basic format for labelling letters](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"} suggests. For this purpose, we have created our own tags in Transkribus and used them in the labelling of the text regions on the digital copy: The letterhead, for example, is defined as the text region 'opener', in this text region we mark up the line with date and, if applicable, place as 'dateline' and the greeting ("Mon cher ami") as 'salute'. The text body itself is divided into different paragraphs.
 
     ![Tagging in Transkribus](image-1.png)
 

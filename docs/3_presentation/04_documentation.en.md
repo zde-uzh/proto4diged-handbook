@@ -43,12 +43,14 @@ The **minimum requirement for documentation** is a keyword-like explanation of a
 DSE and thus corresponds more to the editorial commentary in print. The various aspects can be separated by simple sub-chapters and combined on a single page, which makes it easy to generate a PDF. This may be sufficient for a smaller or less complex DSE, especially if it continues a previous practice - in this case it is advisable to refer to the [_exemplary DSE_](../1_Planung/01_Projektziele_und_-ressourcen.en.md) in your own documentation.
 
 !!! info "Exemplary DSE: Minimal documentation"
-The [Digital Edition of the Travel Diaries of Johann Conrad Fischer 1794-1851](https://johannconradfischer.com/de/content/editorial-guidelines){:target="\_blank"} is a visually appealing DSE of a printed corpus that has already been critically edited in book form, which now primarily utilises the advantages of simple linking and visual enrichment. As it is based on established functions of the TEI Publisher, the documentation is content with minimal information on [Edition history and technology](https://johannconradfischer.com/de/content/about){:target="\_blank"} and the [Edition guidelines](https://johannconradfischer.com/de/content/editorial-guidelines){:target="\_blank"}.
+    
+    The [Digital Edition of the Travel Diaries of Johann Conrad Fischer 1794-1851](https://johannconradfischer.com/de/content/editorial-guidelines){:target="\_blank"} is a visually appealing DSE of a printed corpus that has already been critically edited in book form, which now primarily utilises the advantages of simple linking and visual enrichment. As it is based on established functions of the TEI Publisher, the documentation is content with minimal information on [Edition history and technology](https://johannconradfischer.com/de/content/about){:target="\_blank"} and the [Edition guidelines](https://johannconradfischer.com/de/content/editorial-guidelines){:target="\_blank"}.
 
 In contrast, **extensive documentation** has more the character of an editorial epilogue and is divided into several subpages for better clarity. The more a DSE project is intended to be a role model within a community and/or the more innovative a DSE project is, the more detailed the documentation should be.
 
 !!! info "Exemplary DSE: Detailed documentation"
-Two DSEs are presented below that are 'haute couture' editions in technical terms and have correspondingly detailed documentation.
+    
+    Two DSEs are presented below that are 'haute couture' editions in technical terms and have correspondingly detailed documentation.
 
     The DSE [**Der Sturm**](https://sturm-edition.de/index.html){:target="\_blank"} brings together and edits a large number of very different documents relating to the international avant-garde of the 20th century. This makes various complex editorial guidelines etc. necessary. It has a detailed and clearly structured documentation of its [digital methodology](https://sturm-edition.de/projekt/methodik.html){:target="\_blank"}, its [TEI/XML coding](https://sturm-edition.de/edition.html){:target="\_blank"} and its [data resources](https://sturm-edition.de/ressourcen/schnittstellen.html){:target="\_blank"} (including interface for own data access).
 
