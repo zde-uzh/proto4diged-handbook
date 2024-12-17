@@ -31,11 +31,11 @@ Die Jahreszahlen, nach deren Enddatum die DSE geordnet sind, umfassen jeweils de
 
 -   Besonderheit: Die erste Beta-Version von 2016 war vorbildhaft für viele folgende Projekte und erhielt verschiedene Preise. Das Projekt verwendet die Editionsumgebung [ediarum](https://www.ediarum.org){:target="\_blank"}, die auf den TEI/XML-Editor [Oxygen](https://www.oxygenxml.com/){:target="\_blank"} aufbaut. Eng mit humboldt digital verknüpft ist zudem die Datenbank für Korrespondenz-Metadaten [Correspsearch](https://correspsearch.net){:target="\_blank"}.
 
-[**Wölfflin-Edition**](https://hwgw.humanitiesconnect.pub/index.html){:target="\_blank"} (2017-2024f.)
+[**Wölfflin-Edition**](https://hwgw.humanitiesconnect.pub/index.html){:target="\_blank"} (2017-2024f.) 
 
 - Kunswissenschaftliche Edition der Gesammelten Werke eines Kunsthorikers, die mehrheitlich publizierten Schriften umfasst (unpublizierte Schriften sind in Vorbereitung). 
 
-- Besonderheit: Die Wölfflin-Edition umfasst zu einem großen Teil Retro-Editionen, d.h. im Druck erschienene Bücher, die nun in eine digitale, kritisch kommentierte Form übersetzt werden. Sie fusst auf einer engen Zusammenarbeit mit dem Projekt [_humanities connect_](https://transkribus.humanitiesconnect.pub/){:target="\_blank"} der Bibliotheca Herzogiana Rom, das einen Teill ihrer Bestände als digitale Bibliothek zur Verfügung stellt. 
+- Besonderheit: Die Wölfflin-Edition umfasst zu einem großen Teil Retro-Editionen, d.h. im Druck erschienene Bücher, die nun in eine digitale, kritisch kommentierte Form übersetzt werden. Sie fusst auf einer engen Zusammenarbeit mit dem Projekt [_humanities connect_](https://transkribus.humanitiesconnect.pub/){:target="\_blank"} der Bibliotheca Hertziana Rom, das einen Teil ihrer Bestände als digitale Bibliothek zur Verfügung stellt. <!-- https://transkribus.humanitiesconnect.pub/ to be replaced by https://humanitiesconnect.pub/ once the domain is active.  -->
 
 Es ist für jedes Projekt sinnvoll, diese Liste zu erweitern und sich in der Planungsphase selbst einen Überblick zu verschaffen. Wir empfehlen, zunächst Editionen aus allen Feldern und Disziplinen zu betrachten, um sich breit über technische und editorische Innovationen zu informieren. Die Suche kann dann stärker nach fachlichen, materiellen und räumlichen Kriterien eingegrenzt werden, um Kontakt mit den Editor:innen aufzunehmen und sich mit ihnen auszutauschen.
 
