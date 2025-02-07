@@ -1,4 +1,5 @@
 # TEI model
+
 The established standard for labelling digital editions is TEI/XML (Text Encoding Initiative).
 However, there is disagreement on how the individual tags should be used.
 

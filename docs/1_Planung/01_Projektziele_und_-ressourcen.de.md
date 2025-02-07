@@ -2,7 +2,7 @@
 
 Anders als zumindest ideell ergebnisoffene geisteswissenschaftliche Forschung müssen DSE **von ihrem Endprodukt aus gedacht** werden. Die Planung hat sich an einem Modell der fertigen Edition und deren Verwendungszwecken zu orientieren und vom angestrebten Ergebnis aus die notwendigen Workflow-Schritte zurückzugehen - freilich nicht, ohne dieses Ergebnis im Planungsprozess kontinuierlich anzupassen.
 
-Wir skizzieren im Folgenden Fragen und Herausforderungen, die ein Projekt in der Planungsphase für sich im Sinne einer **Requirement-Prüfung** klären sollte. Die provisorischen Antworten sollen mithilfe dieses Handbuchs in der Planungsphase konkretisiert werden.
+Wir skizzieren im Folgenden Fragen und Herausforderungen, die ein Projekt in der Planungsphase für sich im Sinne einer **Requirement-Prüfung** klären sollte. Die provisorischen Antworten können mithilfe der weiteren Kapitel dieses Handbuchs in der Planungsphase konkretisiert werden.
 
 ### 1. Ausgangslage: Projektrahmen und Ressourcen
 
@@ -13,7 +13,7 @@ Bevor eine Detailplanung des Endproduktes beginnen kann, sollten folgende Faktor
 
 -   Projektdauer
 
-Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen [Projektantrags beim Schweizer Nationalfonds](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"} möglich.
+Inwiefern diese Faktoren anpassbar sind, hängt von der institutionellen und finanziellen Ausgangslage ab, insbesondere möglicher Fördermittel. Im Falle der Schweiz ist Stand Sommer 2024 z.B. eine öffentliche Förderung von größeren DSE nur im Rahmen eines 4-jährigen [Projektantrags beim Schweizer Nationalfonds](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"} möglich.Dies dient freilich nur zur Illustration; Fördermittel-Situationen können sich bekanntlich schnell ändern und bedürfen genauer Abklärungen.
 
 ### 2. Zusammenspiel der technischen Komponenten
 
@@ -31,15 +31,16 @@ Bevor Tools und Plattformen festgelegt werden, sollten sich DSE-Projekte Gedanke
 ### 3. Publikationsformen
 
 -   Muss am Schluss eine möglichst einfach zu wartende digitale Publikation der Oberfläche vorliegen (siehe [_statische Präsentation_](../4_longterm_preservation/02_static_presentation.de.md))?
--   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md/#lesefassungen) aufbauen? 
-- Ist das Frontend eine Zwischenstufe, die nach einer bestimmten Zeit von andere Publikationsformen abgelöst werden soll (etwa auf einer größeren Plattform) ?
+-   Werden physische Prints vorgesehen, die auf einer [_Lesefassung_](../3_presentation/03_edition_views.de.md/#lesefassungen) aufbauen?
+-   Ist das Frontend eine Zwischenstufe, die nach einer bestimmten Zeit von andere Publikationsformen abgelöst werden soll (etwa auf einer größeren Plattform) ?
 
-### 4. Verschiedene Formen der Daten-Nutzung 
+### 4. Verschiedene Formen der Daten-Nutzung
 
--   Wie sollen die **Daten** der Edition genutzt werden?
+-   Wie sollen die **Daten** der Edition genutzt werden können?
 
-    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt sich wahrscheinlich eine Konzentration auf eine [_digitale Präsentation_](../3_presentation/01_introduction_presentation.de.md).
-    -   Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, philologische distant-readings, statistische Fragestellungen)? Dann steht die [_Langzeitsicherung in Datenbanken_](../4_longterm_preservation/03_archiving_data.de.md) im Vordergrund.
+    -   Zur qualitativen Analyse (z.B. historische Quellenauswertung, philologische textgenetische oder hermeneutische Methoden)? Dann lohnt es sich einen Schwerpunkt auf die [_digitale Präsentation_](../3_presentation/01_introduction_presentation.de.md) zu legen und die Texte auf dem interface _human-readble_ zu gestalten, d.h. (auch) für menschliche Nutzung aufzubereiten. Hierbei ist insbesondere größtmögliche [_Barrierefreiheit_](../Themen/accessibility.de.md) anzustreben.
+    -   Zur quantitativen Analyse (z.B. korpuslinguistische Analysen, philologische distant-readings, statistische Fragestellungen)? Dann steht (auch) die [_Langzeitsicherung in Datenbanken_](../4_longterm_preservation/03_archiving_data.de.md) im Vordergrund. Sie macht die Daten via technischer Schnittstellen, sogenannter APIs, (auch) _machine-readable_, d.h. die Daten werden durch Programme und Tools automatisiert lesbar.
+        -> Beide Optionen schließen sich freilich nicht aus, ein Projekt kann sowohl qualitative und quantitative Nutzungsszenarien ermöglichen; in vielen Fällen empfiehlt es sich sogar, beide Nutzungsszenarien zu ermöglichen.
 
 ### 5. Wo lohnen sich für das Projekt Automatisierungen?
 

@@ -9,12 +9,15 @@ In der klassischen Print-Editorik kennt man drei verschiedene Grundformen des Ko
 **1. Der editorische Kommentar** (oder auch Herausgeberkommentar, editorischer Bericht etc.) erklärt mindestens die editorischen Richtlinien, ggfls. die Auswahl des Corpus aufgrund seiner Entstehungsgeschichte und die Nutzung des textkritischen Apparats. Diese Kommentarform ist in DSE eher als [_Dokumentation_](../3_presentation/04_documentation.de.md) bekannt und wird im Folgenden unter dieser Bezeichnung im Kapitel Publikation behandelt.
 
 !!! info "Beispielhafte DSE"
+    
     In hybriden Ausgaben wie der [Faustedition](https://www.faustedition.net/) sind zuweilen auch der editorische Bericht (der für die digtale und die gedruckte Ausgabe gilt) und die technische Dokumentation voneinander getrennt.
 
 **2. Der Überblickskommentar** (oder auch Einführungskommentar, Themenkommentar, Sachkommentar zum Gesamttext etc.) bezieht sich auf einen edierten Inhalt als Ganzes, sei dies ein Themengebiet, ein Werkkomplex oder ein Text. In historisch-kritischen Ausgaben dient er oft dazu, Inhalte zusammenzufassen (im Fall von historischen Quelleneditionen und Briefeditionen auch Regest genannt), ihre Entstehung (Textgenese, Intertextualität), Publikations-und Rezeptionsgeschichte zu beleuchten und zuweilen sogar einen Überblick über Interpretationen in der Sekundärliteratur zu geben. Verschiedene Formen von Übersichtskommentaren existieren auch in DSE, nur sind sie selten als ein Fließtext gebündelt, sondern finden sich auf verschiedenen hierarchischen Ebenen näher am kommentierten Inhalt (z.B.: Einführung in die Abteilung Briefe, Einführung in eine spezifische Korrespondenz, Einzelbriefregeste). Da es sich dabei um einzelne, mit dem edierten Text nur lose verknüpfte Texte handelt (die im Idealfall wie der edierte Text als TEI/XML ausgegeben werden können), sind die technischen und editorischen Aspekte wenig komplex und müssen nicht weiter ausgeführt werden.
 
 !!! info "Beispielhafte DSE"
+    
     Vorbildhaft sind die Überblickskommentare der [edition humboldt digital](https://edition-humboldt.de), die zu jeder Briefkorrespondenz eine eigene Einführung vorlegt (ähnlich gehen die später erstellten Briefeditionen in [haller.net](https://hallernet.org) vor). Die einzelnen Reisetagebücher Humboldts weisen neben einem solchen "Einstieg" jeweils auch "Forschungsdossiers" auf, die klassische Überblickskommentare durch ihren Detailgrad teilweise übersteigen. Eine solche Anreicherung der Edition durch thematische Aufsätze kann ihren Forschungsnutzen unter Beweis stellen. Zuletzt weist die edition humboldt digital zuweilen auch noch einen detaillierten Überblickskommentar auf der Ebene der Einzeltexte auf. Dieser Kommentar wird "Anmerkung" genannt und erscheint als hover-/mouseover-Text, wenn die Metadaten aufgerufen werden. Er beschränkt sich primär auf die Datierung und Struktur des einzelnen Dokuments.  
+    
     Eine Verzweigung in verschiedene Überblickskommentare ist im Falle eines einzelnen edierten Textes wie einem Roman nicht nötig. Der [Überblickskommentar der Lokalbericht Edition](https://www.lokalbericht.ch/kommentar) ist deshalb als Fließtext strukturiert, der durch Verlinkung eng mit einzelnen Editionsabschnitten verbunden ist.
 
 3.**Der Stellenkommentar** bezieht sich auf eine einzelne Textstelle, deren Länge von einem Einzelwort bis zu Passagen von mehreren Absätzen reichen kann. Gedruckte Ausgaben kennen sowohl die Stellenkommentierung in unmittelbarer Nähe des Textes (am Seitenrand, als Fussnote) oder in einem Kommentarapparat (durch Endnoten, Zeilennummern und/oder Lemmata gegliedert). DSE haben auch hier den Vorteil, Stellenkommentare stärker mit dem kommentierten Inhalt zu verknüpfen. Verschiedenen Wege, digitale Stellenkommentare zu erstellen, werden im Folgenden genauer beleuchtet.
@@ -34,4 +37,5 @@ Da Stellenkommentare auf Seiten der Codierung einfach **als Annotationen zu hand
 Zur einheitlichen Anwendung von Stellenkommentaren ist es sinnvoll, diese in Editionsrichtlinien festzuschreiben.
 
 !!! abstract "Showcase-Editionsrichtlinien: Kommentierung"
+    
     => @ Ursula: Eigentliche Kommentar-Richtlinien haben wir noch nicht festgelegt, das Kommentieren fällt v.a. in Deine Expertise. Warum soll wann was kommentiert werden?

@@ -25,10 +25,10 @@ Lines can be deleted simply by selecting them and pressing the 'Delete' button.
 
 Baselines can be added using the `+ BL` key:
 
-- Activate the mode via the button
-- Click at the bottom left edge of the line
-- Set individual points in between by clicking
-- End the line by double-clicking
+-   Activate the mode via the button
+-   Click at the bottom left edge of the line
+-   Set individual points in between by clicking
+-   End the line by double-clicking
 
 Transkribus adds the required line region.
 

@@ -6,7 +6,7 @@ Die Vernetzung mag einfacher scheinen, als es ist. Bislang gibt es keine auf Vol
 
 ## DSE Kompetenzzentren
 
-Eine internationale, jedoch spezifisch auf das DSE-tool **TEI-Publisher ausgerichtete community** bildet der Verein [e-editiones](https://www.e-editiones.org). In einem [slack-channel](https://e-editiones.slack.com/) und regelmäßigen [online community-meetings](https://www.e-editiones.org/pages/community-meetings/) können sowohl Fragen zum tool als auch allgemeiner zu DSe-Workflows diskutiert werden. 
+Eine internationale, jedoch spezifisch auf das DSE-tool **TEI-Publisher ausgerichtete community** bildet der Verein [e-editiones](https://www.e-editiones.org). In einem [slack-channel](https://e-editiones.slack.com/) und regelmäßigen [online community-meetings](https://www.e-editiones.org/pages/community-meetings/) können sowohl Fragen zum tool als auch allgemeiner zu DSe-Workflows diskutiert werden.
 
 #### Deutschsprachiger Raum
 
@@ -23,12 +23,12 @@ Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KOND
 Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das [Zentrum Digitale Editionen & Editionsanalytik ZDE der Universität Zürich](https://www.zde.uzh.ch/de/analytics.html){:target="\_blank"}.
 
 !!! note "Erfahrung aus der Showcase-Edition"
-    Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} haben das Projekt wesentlich vorangebracht.
+Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} haben das Projekt wesentlich vorangebracht.
 
 #### Deutschland
 
-In Deutschland ist ein möglicher Ansprechpartner [Text+](https://text-plus.org/), ein nationales Forschungskonsortium, das verschiedene Services zum wissenschaftlichen Umgang mit digitalen Textdaten anbietet. 
-Ähnliche Services besitzt das nationale Forschungskonsortium [NFDI4Culture](https://nfdi4culture.de/), sein Fokus ist jedoch nicht alleine textbasiert, sondern zielt auf Daten zu verschiedenen medialen Formen von Kultur. 
+In Deutschland ist ein möglicher Ansprechpartner [Text+](https://text-plus.org/), ein nationales Forschungskonsortium, das verschiedene Services zum wissenschaftlichen Umgang mit digitalen Textdaten anbietet.
+Ähnliche Services besitzt das nationale Forschungskonsortium [NFDI4Culture](https://nfdi4culture.de/), sein Fokus ist jedoch nicht alleine textbasiert, sondern zielt auf Daten zu verschiedenen medialen Formen von Kultur.
 
 ## Digital Humanities Interessengemeinschaften
 
@@ -39,3 +39,7 @@ Nationale und Internationale Netzwerke, die primär forschungspolitische Ziele (
 -   [DARIAH-EU](https://www.dariah.eu/){:target="\_blank"}: Die DARIAH-Dachorganisation, die die nationalen DARIAH-Konsortien in Europa koordiniert.
 
 -   [digital humanities im deutschsprachigen raum](https://dig-hum.de/){:target="\_blank"}: Der Fachverband für DH-Forschung im deutschsprachigen Raum.
+
+-   [EADH](https://eadh.org/){:target="\_blank"}, the European Association for Digital Humanities and its associate organisations.
+
+-   [ADHO](https://adho.org/){:target="\_blank"}, the international Alliance of Digital Humanities Organizations.

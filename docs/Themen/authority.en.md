@@ -2,18 +2,18 @@
 
 ## Support through TEI Publisher annotation
 
-- Airtable: Project-specific database
-- Anton: Project-specific database
-- Custom: Project-specific XML data
+-   Airtable: Project-specific database
+-   Anton: Project-specific database
+-   Custom: Project-specific XML data
     Suitable for retro-digitisation, for example, where a register already exists
-- Geonames: Places
+-   Geonames: Places
     International and with coordinates, search for names preferably in English
-- GND: Common authority file
+-   GND: Common authority file
     Standard in German-speaking countries, good for historical data and alternative spellings
-- KBGA: Karl Barth Complete Edition
-- Metagrid
+-   KBGA: Karl Barth Complete Edition
+-   Metagrid
     Connection with Swiss data sources
-- Reconciliation: Internal data?
+-   Reconciliation: Internal data?
 
 Out of the box, GND or Metagrid (with GND and Helveticat) can be used for the annotation of persons.
 
@@ -65,5 +65,5 @@ Entries for which no identifiers are found can be edited manually.
 
 Ideas for ensuring data quality:
 
-- Non-unique entries (GND to VIAF, VIAF to GND, IdRef to VIAF etc.) can be added manually.
-- Mappings with brief views of the linked entries make checking easier
+-   Non-unique entries (GND to VIAF, VIAF to GND, IdRef to VIAF etc.) can be added manually.
+-   Mappings with brief views of the linked entries make checking easier

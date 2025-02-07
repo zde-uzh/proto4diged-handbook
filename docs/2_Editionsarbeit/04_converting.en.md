@@ -10,7 +10,6 @@ As already described in connection with transcription, ALTO and PAGE XML are ATR
 
 Transkribus offers a variety of export options (PDF, Textfile, Docx, Excel/CSV, PAGE-XML, ALTO-XML, TEI/XML); however, only the last three can be used for the development of a DSE according to current standards. While PAGE-XML and ALTO-XML themselves still need to be converted into TEI/XML, the TEI/XML provided by a Transkribus export unfortunately does not yet meet the desired quality. If many custom tags have been assigned in Transkribus, the export must therefore be revised.
 
-
 ### eScriptorium (PAGE, ALTO)
 
 eScriptorium currently has two export options: PAGE-XML and ALTO-XML.
@@ -31,9 +30,7 @@ trans2tei is aimed at the needs of the Bibliotheca Herziana. For editing project
 
 If no or only a minimal tag set is available, the TEI-XML export of Transkribus requires hardly any readjustment. In this case, however, an important function of the tool is omitted: the annotation of text or text regions.
 
-Even more serious is the fact that the **link to handwriting**, which is now a standard feature of many DSEs, is missing, as the coordinates are also omitted in this case.
-
 As a solution to this problem, **manual readjustments** can be carried out in order to achieve conformity with the desired TEI schema. However, such manual revisions can be time-consuming depending on the complexity of the schema.
 
-Ultimately, with sufficient technical expertise, project-specific conversions can be developed using pipelines such as [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"}  can be developed.
+Ultimately, with sufficient technical expertise, project-specific conversions can be developed using pipelines such as [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"} can be developed.
 The basis for this is [page2tei](https://github.com/dariok/page2tei){:target="\_blank"}, which is already available in the Transkribus export function.
