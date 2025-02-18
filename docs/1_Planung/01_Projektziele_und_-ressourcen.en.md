@@ -23,7 +23,7 @@ Before tools and platforms are defined, DSE projects should consider the coordin
 
 -   Is there a **technical lead** who is familiar with all components?
 
-    -   If not, how is the coordinated handled?
+    -   If not, how is the coordination handled?
 
 -   Are all available **technical components really necessary**?
     -   Small projects, for example, can do without metadata databases and curate their metadata in Excel or CSV files.

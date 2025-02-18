@@ -62,9 +62,9 @@ It makes sense for each project to expand this list based on its specific needs 
 
     The KONDE White Paper provides an overview of Austrian projects that are often linked to the White Paper in terms of personnel and institutions (as of June 2024: 28 DSE).
 
--   [**ZDE: University of Zurich**](https://www.zde.uzh.ch/de/projects.html){:target="\_blank"}
+-   [**CDE: University of Zurich**](https://www.zde.uzh.ch/de/projects.html){:target="\_blank"}
 
-    The Centre for Digital Editions & Editions Analytics ZDE provides an overview of editions that are or have been carried out in the environment of the University of Zurich (as of June 2024: 18 DSE).
+    The Centre for Digital Editions & Editions Analytics (CDE) provides an overview of editions that are or have been carried out in the environment of the University of Zurich (as of June 2024: 18 DSE).
 
 -   [**DiScholEd - Digital Scholarly Editions**](https://discholed.huma-num.fr/exist/apps/discholed/index.html){:target="\_blank"}
 

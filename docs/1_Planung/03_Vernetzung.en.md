@@ -20,7 +20,7 @@ The [KONDE White Paper](https://www.digitale-edition.at/archive/objects/context:
 
 #### Switzerland
 
-The [Center for Digital Editions & Edition Analytics (CDE) at the University Zurich](https://www.zde.uzh.ch/de/analytics.html){:target="\_blank"} offers an important collection of services in German-speaking Switzerland, organised by workflow phase and supplemented with relevant tools.
+The [Center for Digital Editions & Editions Analytics (CDE) at the University Zurich](https://www.zde.uzh.ch/de/analytics.html){:target="\_blank"} offers an important collection of services in German-speaking Switzerland, organised by workflow phase and supplemented with relevant tools.
 
 !!! note "Experience from the showcase edition"
 We have worked closely with the CDE from the outset and have been able to gather many ideas for the showcase edition through networking with ongoing DSE projects. Participation and networking at DSE-specific conferences such as ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} have also significantly advanced the project.
