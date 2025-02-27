@@ -13,7 +13,7 @@ The years by which the DSE are categorized, based on their end date, represent t
 
 -   Special feature: Graphical overview of [text genesis](https://www.faustedition.net/genesis){:target="\_blank"}. This approach was later developed into an interactive graphic in the DSE [Lokal Bericht](https://www.lokalbericht.ch/dossier#){:target="\_blank"} (2013-2016).
 
-[**Briefedition Alfred Escher**](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"}, also 'Escher-Briefedition' (2006-2015).
+[**Alfred Escher Letter Edition**](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"}, also 'Escher-Briefedition' (2006-2015).
 
 -   Historical DSE of a corpus of letters.
 

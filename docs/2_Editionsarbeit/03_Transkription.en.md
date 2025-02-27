@@ -60,9 +60,9 @@ DSE-specific transcription guidelines concern the **linking of the digitized mat
 
 !!! success "Best Practice"
 
-    The [Alfred Escher Letter edition](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} serves as a model for linking the digitized material and transcription using the TEI Publisher.
+    The [Alfred Escher Letter Edition](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} serves as a model for linking the digitized material and transcription using the TEI Publisher.
 
-    The Showcase Edition is based on this form of line correspondence and resuses the existing [source code of the Alfred Escher Letter edition](https://github.com/stazh/briefedition-escher){:target="\_blank"}.
+    The Showcase Edition is based on this form of line correspondence and resuses the existing [source code of the Alfred Escher Letter Edition](https://github.com/stazh/briefedition-escher){:target="\_blank"}.
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }
