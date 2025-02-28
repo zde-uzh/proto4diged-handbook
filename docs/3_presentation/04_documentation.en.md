@@ -74,4 +74,4 @@ Markdown files can ultimately be **published** in various ways. For projects tha
 
 ## Archiving of Documentation
 
-In the context of the overall [_archiving of DSE_](../4_longterm_preservation/03_archiving_data.en.md)  in repositories, the documentation can also be stored as a separate file (e.g., PDF), such as [here in swissubase](https://www.swissubase.ch/de/catalogue/studies/20701/19845/datasets/2556/3065/overview){:target="\_blank"}.
+In the context of the overall [_archiving of DSE_](../4_longterm_preservation/03_archiving_data.en.md)  in repositories, the documentation can also be stored as a separate file (e.g., PDF), such as [here in SWISSUbase](https://www.swissubase.ch/de/catalogue/studies/20701/19845/datasets/2556/3065/overview){:target="\_blank"}.
