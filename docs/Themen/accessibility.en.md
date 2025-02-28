@@ -1,49 +1,51 @@
-# Accessibility in the Web
+# Accessibility on the Web
 
-With the transcription of historical documents, edition projects contribute to low-barrier access to historical heritage, which must not be lost through a non-navigable platform.
-In the field of research data, the English equivalent "accessibility" is often understood in the context of the FAIR principles, while the abbreviation "a11y" refers exclusively to accessibility.
+By transcribing historical documents, edition projects contribute to providing low-barrier access to our historical heritage, which should not be compromised by a non-navigable platform.
+In the context of research data, the term "accessibility" is often understood in relation to the FAIR principles, while the abbreviation "a11y" refers specifically to accessibility.
 
-The accessibility of a digital edition begins with the data and extends from the design of the platform to its implementation.
+The accessibility of a digital edition starts with the data and extends through the platform's design all the way to its implementation.
 
-## Considerations when creating the edition data
+## Considerations When Creating Edition Data
 
--   Choice of language(s)
--   Alternative texts for images
--   Semantic or non-semantic markup (`<strong>` or `<span style="font-weight: bold;">`)
--   Semantic markup instead of simple text (`<app><lem wit="#h">frey</lem><rdg wit="#V">free</rdg></app>` instead of `frey ] h; free V`)
--   Orientation of the structure to the document (pages and lines) or to the content (chapters and paragraphs)
+- Choice of language(s)
+- Alternative text for images
+- Semantic versus non-semantic markup (`<strong>` or `<span style="font-weight: bold;">`)
+- Using semantic markup instead of plain text (`<app><lem wit="#h">frey</lem><rdg wit="#V">free</rdg></app>` instead of `frey ] h; free V`)
+- Structuring the content according to the document (pages and lines) or the content itself (chapters and paragraphs)
 
-## Special challenges for texts in digital editions
+## Special Challenges for Texts in Digital Editions
 
--   Index annotations:
+- Index Annotations:
 
-    -   Many links in a text can be disruptive. Dropdowns deserve special attention when checking for barriers.
-    -   An alternative or supplement to dropdowns is a list of relevant entries per document.
+    - Too many links in a text can be distracting. Dropdowns require special attention when checking for accessibility barriers.
+    - An alternative or supplement to dropdowns could be a list of relevant entries for each document.
 
--   Footnotes and comments:
+- Footnotes and Comments:
 
-    -   Footnotes are only understandable with their context. When displayed in a separate list, they must be linked on both sides (as with TEI Publisher).
-    -   Footnotes in the dropdown have the context but the same problems as with index annotations.
-    -   Editorial comments with a lemma are also understandable without a primary text.
+    - Footnotes only make sense in their context. When displayed in a separate list, they should be linked on both ends (as in TEI Publisher).
+    - Footnotes in dropdowns retain context but have the same issues as index annotations.
+    - Editorial comments with a lemma are also understandable even without the primary text.
 
--   Underlining, additions, deletions, superscripts
+- Underlining, Additions, Deletions, Superscripts:
 
-    -   Avoiding the interpretation of markup and simply reproducing it visually can make it invisible.
+    - Avoiding the interpretation of markup and simply reproducing it visually can make these elements invisible.
 
--   Parallel texts
+- Parallel Texts:
 
-    -   Depending on the intention of the edition and the length of the parallel texts, tables or chapters are suitable.
+    - Depending on the edition's intent and the length of the parallel texts, tables or chapters are appropriate for displaying them.
 
--   Competing hierarchies: Presentation in the digital edition vs. structure of the original document
+- Competing Hierarchies: 
+    
+    - The presentation in the digital edition versus the structure of the original document.
 
-## Challenges in navigation in digital editions
+## Challenges in Navigation in Digital Editions
 
--   Pagination for longer documents:
+- Pagination for Longer Documents:
 
-    -   Each view is a document and needs its own title for identification.
-    -   Switching between views makes navigation opaque.
+    - Each view should be treated as a separate document and needs a unique title for identification.
+    - Switching between views can make navigation unclear and harder to follow.
 
--   Information content per screen
+- Information Density per Screen
 
 ## Links
 
