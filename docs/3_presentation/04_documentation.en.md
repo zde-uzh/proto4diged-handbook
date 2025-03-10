@@ -21,7 +21,7 @@ Thus, the DSE documentation also encompasses digital aspects that have no equiva
 -   all **tools involved** and the justification for their choice, ideally with a reference to their own documentation and, if applicable, their possible uses;
     => [Tool documentation of the showcase edition]()
 
--   the **origin of the digital resources**, e.g. external IIIF servers/platforms such as [e-manuscripta](https://www.e-manuscripta.ch/) or metadata sources (in addition to the **origin of physical sources**, i.e. the _digitised resources_, e.g. an archive);
+-   the **origin of the digital resources**, e.g. external IIIF servers/platforms such as [e-manuscripta](https://www.e-manuscripta.ch/) or metadata sources (in addition to the **origin of physical sources**, i.e. the _digitized resources_, e.g. an archive);
     => [Resource documentation of the showcase edition]()
 
 -   the **data model**, which in turn contains the **format of the data** and the **structuring of metadata**, ideally with information on where to find data standards or where and why it was necessary to deviate from them;
@@ -33,7 +33,7 @@ Thus, the DSE documentation also encompasses digital aspects that have no equiva
 ## Accessibility and Presentation
 
 Depending on the size, complexity, and innovative content of a DSE, **different requirements** may need to be met by DSE documentation, but it should fulfil certain basic requirements in its presentation:
-It should be recognisable as documentation and provided alongside the list of edited texts, the index, or the search functions.
+It should be recognizable as documentation and provided alongside the list of edited texts, the index, or the search functions.
 
 We generally recommend clearly separating the categories of documentation into technical, philological, and organizational topics. General information on the project structure can also be presented outside the documentation (e.g., as a
 [_project entry page_](../3_presentation/02_access.en.md) about the institutions, team, or funding involved). Background information on the edited content is generally **not part of the documentation** (such as scientific supplements in the form of [_overview comments_](../2_Editionsarbeit/06_commenting.en.md)). **Citation suggestions** can be included in the documentation, but the minimum requirement is, as already mentioned, to provide a clearly visible citation suggestion for each distinct page. It should not be necessary to consult the documentation in order to cite a DSE.

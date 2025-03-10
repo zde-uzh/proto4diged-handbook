@@ -4,7 +4,7 @@
 
 - Airtable: Project-specific database
 - Anton: Project-specific database
-- Custom: Project-specific XML data (Suitable for retro-digitization, especially when a register already exists)
+- Custom: Project-specific XML data (Suitable for retro-digitization, especially when an index already exists)
 - Geonames: Places (International and includes coordinates; name searche is better for English)
 - GND: Common Authority File (The standard in German-speaking countries, great for historical data and alternative spellings)
 - KBGA: Karl Barth Complete Edition

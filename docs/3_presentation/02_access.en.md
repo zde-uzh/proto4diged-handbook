@@ -11,7 +11,7 @@ Two basic concepts of entry pages can be distinguished:
 
 1. **Direct access to the edited material**, where access to various resources and indexes is prioritized, and navigation is immediately visible.
 
-!!! info "Examplary DSE: Standard Entry Page for the DSE"
+!!! info "Example DSE: Standard Entry Page for the DSE"
     
     A standard example is the TEI Publisher's main page, which lists all texts in alphabetical or numerical order.  
 
@@ -23,7 +23,7 @@ In many TEI Publisher editions, the **search field and index menu** (sometimes l
 
 2. **Access to the project**, where the project framework, usage instructions, and, if applicable, access to documentation are given primary or equal importance. In this approach, the path to the edited text is often only clarified after reading the introductory page and may require navigating through multiple subpages.
 
-!!! info "Exemplary DSE: Project-Based Entry Points"
+!!! info "Example DSE: Project-Based Entry Points"
 
     Particularly when an edition contains only a few edited documents, a project-focused introduction can make it clear from the outset that it is an ongoing 'work in progress.' Likewise, editions of highly specialized or structurally complex collections—such as those functioning as digital archives—may warrant a more extensive introduction.
 
@@ -48,22 +48,22 @@ The more complex an edition, the more useful advanced search functions become. W
 
 In addition to a document list and search function, indexes serve as one of the most important access points to an edition. As noted in the section on [_content annotation_](../2_Editionsarbeit/05_semantic_annotation.en.md), the most common indexes are for people, keywords, and places. Place indexes, in particular, can be enhanced with maps, allowing for graphical representation and easy location of geographic data.
 
-!!! info "Exemplary DSE: Simple Indexes"   
+!!! info "Example DSE: Simple Indexes"   
     **Simple indexes** are typically organized alphabetically by entry (e.g., place names, surnames). This applies to standard indexes in the TEI Publisher as well - seen below in the name index from the St. Gallen Missives Edition.  
-    ![Name register of missives](image-4.png){ width="1000" }  
+    ![Name index of missives](image-4.png){ width="1000" }  
     <figcaption> [Index of persons in the DSE "Correspondence of the City of St. Gallen 1400-1650: Digital Missives Edition"](https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Accessed on 24.9.2024.</figure>
 
-!!! info "Exemplary DSE: More Complex Indexes"
-    **More complex indexes**, like the one on [hallernet](https://hallernet.org/){:target="\_blank"} which isn’t created with standard tools, allow for dynamic adjustments to the order. For instance, personal entries can be sorted by place of birth and place of death. Hallernet emphasizes the interconnectedness of its databases and has the character of a research database, which is why various registers are prominently displayed on its homepage.
+!!! info "Example DSE: More Complex Indexes"
+    **More complex indexes**, like the one on [hallernet](https://hallernet.org/){:target="\_blank"} which isn’t created with standard tools, allow for dynamic adjustments to the order. For instance, personal entries can be sorted by place of birth and place of death. Hallernet emphasizes the interconnectedness of its databases and has the character of a research database, which is why various indexes are prominently displayed on its homepage.
     ![Person index hallernet](image-3.png) <figcaption>[Person index of the platform "hallernet"](https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Accessed on 24.9.2024.</figure>
 
-!!! info "Exemplary DSE: Simple Index Entry"
-    Each **index entry** is linked to a specific index page. The level of complexity of this page can vary, just like the index itself. In the standard case (which also applies to the TEI Publisher), **all occurrences of the entry in the edition, as well as links to external resources and standardized data entries**, are listed on a register page (below is an example from the name index page of the Missives edition).
+!!! info "Example DSE: Simple Index Entry"
+    Each **index entry** is linked to a specific index page. The level of complexity of this page can vary, just like the index itself. In the standard case (which also applies to the TEI Publisher), **all occurrences of the entry in the edition, as well as links to external resources and standardized data entries**, are listed on an index page (below is an example from the name index page of the Missives edition).
     ![Name index page of the Missives edition](image-6.png){ width="1000" }
     <figcaption> [Name index page of the DSE "Correspondence of the City of St. Gallen 1400-1650: Digital Missives Edition"](<https://missiven.stadtarchiv.ch/namen/Brandenburg,%20Friedrich%20I.%20von%20(1438%E2%80%93)?&category=B&search=&key=stadtasg-actors-240>){:target="\_blank"}. Accessed on 24.9.2024.</figure>
 
-!!! info "Exemplary DSE: Complex Register Entry"
-    Where the database structure is central, as in [hallernet](https://hallernet.org/){:target="\_blank"}, register pages can be enriched with additional information about the entity. For instance, a person's page may include metadata about their publications or professional roles. Such "haute couture" solutions require a **complex backend database** and significant technical expertise in both the creation and maintenance of databases.
+!!! info "Example DSE: Complex Index Entry"
+    Where the database structure is central, as in [hallernet](https://hallernet.org/){:target="\_blank"}, index pages can be enriched with additional information about the entity. For instance, a person's page may include metadata about their publications or professional roles. Such "haute couture" solutions require a **complex backend database** and significant technical expertise in both the creation and maintenance of databases.
     ![Person index page hallernet](image-5.png) <figcaption> [Name index page of the DSE "Hallernet"](https://hallernet.org/data/person/28859){:target="\_blank"}. Accessed on 24.9.2024.</figure>
 
 ## Timeline

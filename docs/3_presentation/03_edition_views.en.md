@@ -8,7 +8,7 @@ A **two-part layout** has become the standard, consisting of the transcribed and
 
 The autoptic comparison between the facsimile and the transcription can be enhanced by overlaying graphical elements directly on the digitized image. Since this requires precise coordinate data, the groundwork for this feature must be laid during the transcription process. We have already introduced the **linking of facsimiles and transcriptions** in the [_transcription_](../2_Editionsarbeit/03_Transkription.en.md) subchapter.
 
-!!! info "Exemplary DSE: Linking Digitised Material and Transcription"
+!!! info "Example DSE: Linking Digitized Material and Transcription"
 
     The Alfred Escher Letter Edition provides a best-practice example of this type of linking. However, it requires users to choose between a two-part layout - featuring the digitized document alongside its diplomatic transcription - or a single-page view displaying the annotated text ("Edited text (with index entries)"). On the one hand, this improves clarity, as the index entries can be prominently displayed alongside the annotated text. On the other hand, a drawback of this approach is that the annotations and the digitized text cannot be viewed simultaneously. This example illustrates the typical trade-off between clarity and information density that arises in various aspects of DSE presentation.
 

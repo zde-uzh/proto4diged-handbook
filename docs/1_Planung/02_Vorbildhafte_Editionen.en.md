@@ -23,7 +23,7 @@ The years by which the DSE are categorized, based on their end date, represent t
 
 -   Historical DSE of a broad collection of sources (charters, copial books and dorsal notes)
 
--   Special feature: The DSE also functions as a digital archive that uses various visualisations to trace the [tradition of historical archive orders ](https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/stemma.html){:target="\_blank"}.
+-   Special feature: The DSE also functions as a digital archive that uses various visualizations to trace the [tradition of historical archive orders ](https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/stemma.html){:target="\_blank"}.
 
 [**edition humboldt digital**](https://edition-humboldt.de/){:target="\_blank"} (2016-2024f.)
 

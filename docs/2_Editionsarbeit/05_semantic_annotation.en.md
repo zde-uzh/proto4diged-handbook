@@ -13,7 +13,7 @@ Common examples:
 
 -   Intertextual content annotations:
 
-    -   Linking a reference to a work (discussed in a letter) to a bibliographic entry in the DSE register or a library database—or ideally, to a [_standard database_](../Themen/authority.en.md).
+    -   Linking a reference to a work (discussed in a letter) to a bibliographic entry in the DSE index or a library database—or ideally, to a [_standard database_](../Themen/authority.en.md).
     -   Connecting a passage in one text to another text within the same DSE, or to a text edited in a different DSE.
 
 -   Contextual content annotations:
@@ -77,7 +77,7 @@ It is important to carefully consider how frequently each type of data should be
 
 **Standardized vocabulary** in general, and the GND in particular, strengthens interoperability based on the FAIR principles. The GND, with its 10 million standardized records covering persons, geographies, corporate bodies, conferences, work titles, and subject terms, is freely available for reuse. While it was initially used mainly for cataloging materials in libraries, it is now increasingly being applied for cataloging collections in archives and museums, as well as in various digital project and research contexts such as DSEs. The resources cataloged in this way become compatible with modern search environments, while the use of controlled vocabulary enhances the retrievability and visibility of resources.
 
-In the annotation process, collaborating with a specialized library service can help close the gap that editing projects often encounter ("some people who appear in the correspondence do not yet have a GND or VIAF entry", Sarah Rebecca Ondraszek: [Data, Data, there to Crawl, Who's the Fairest of Them All?](https://doi.org/10.58079/nkrq)). The [**GND editorial team of the University Library and Zurich Central Library**](https://www.zde.uzh.ch/de/analytics/openup.html) supports digital edition projects in actively using and independently entering data into the GND web form. The GND editorial team provides access and training on working with the web form, allowing the data entered to be immediately available in the GND and linked in the annotation. The team also offers an introductory guide to GND and provides advice on subsequent data reuse. In consultation, they check which persons, places, etc. from existing lists or registers are already in the GND.
+In the annotation process, collaborating with a specialized library service can help close the gap that editing projects often encounter ("some people who appear in the correspondence do not yet have a GND or VIAF entry", Sarah Rebecca Ondraszek: [Data, Data, there to Crawl, Who's the Fairest of Them All?](https://doi.org/10.58079/nkrq)). The [**GND editorial team of the University Library and Zurich Central Library**](https://www.zde.uzh.ch/de/analytics/openup.html) supports digital edition projects in actively using and independently entering data into the GND web form. The GND editorial team provides access and training on working with the web form, allowing the data entered to be immediately available in the GND and linked in the annotation. The team also offers an introductory guide to GND and provides advice on subsequent data reuse. In consultation, they check which persons, places, etc. from existing lists or indexes are already in the GND.
 
 For the Anglophone domain, the [**Library of Congress Subject Headings**](https://www.loc.gov/aba/cataloging/subject/) (LCSH) plays a central role in subject indexing, while for the Francophone domain, [**Répertoire d'autorité-matière encyclopédique et alphabétique unifié**](https://rameau.bnf.fr/) (RAMEAU) is key, especially via the Identifiants et référentiels (IdRef). The GND itself also links matching entities from these authority files. Furthermore, the collection [**VIAF**](https://viaf.org/) (Virtual International Authority File) brings together multiple authority files and Wikidata in a standardization data service hosted by OCLC. While the index link to the GND is directly integrated into the TEI Publisher, IdRef can only be accessed indirectly for annotation through aggregators or concordances.
 
@@ -101,7 +101,7 @@ The TEI Publisher has various standard ODDS pre-installed; the revision mode for
     The customized annotation ODD of the project is publicly available via GitLab:   
     => PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
 
-The TEI Publisher stores all content annotation data in an **XML register**, where both standardization data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.
+The TEI Publisher stores all content annotation data in an **XML Index**, where both standardization data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.
 
 ### 2.3 Content Annotation in Oxygen with and without Ediarum
 

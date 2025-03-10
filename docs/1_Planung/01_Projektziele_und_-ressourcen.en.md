@@ -10,7 +10,6 @@ Before starting the detailed planning of the end product, the following factors 
 
 -   Nature and quantity of the data to be edited (see [_constituting texts_](../2_Editionsarbeit/02_Textkonstitution.en.md))
 -   Team size and skills
-
 -   Project duration
 
 The evaluation of these factors heavily depends on the institutional and financial situation, particularly the availability of funding. In the case of Switzerland, for example, as of summer 2024, public funding for larger DSE is only possible as part of a 4-year [project application to the Swiss National Science Foundation](https://www.snf.ch/de/WAvYcY7awAUGolST/foerderung/projekte/projekte-in-allen-disziplinen){:target="\_blank"}. This example is meant for illustration only, of course, as funding opportunities can change rapidly and require thorough investigation.

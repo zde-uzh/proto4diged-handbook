@@ -10,7 +10,7 @@ The constitution of text is linked to whether and how **physical text carriers c
 
 For DSE, additional steps of the constitution of text involve clarifying the **legal modalities** for how the text carriers will be made available in the edition. The rights holders or owners of a text carrier may prohibit a digital, widely accessible publication of the digitized material and/or impose strict restrictions (the latter not through copyright law, but by controlling access to the text carrier itself). In extreme cases, this can lead to a decision not to edit the text carrier at all. However, attempts to comply with legal restrictions can also mean that, for example, the digitized copies of the text carrier will be used only in the work process and will not be published, or that texts and digitized copies will be equipped with copy protection.
 
-!!! info "Exemplary DSE"
+!!! info "Example DSE"
     
     [The online edition of Friedrich Dürrenmatt's _Stoffe_](https://fd-stoffe-online.ch/){:target="\_blank"} takes a legally restrictive approach : the digitized copies can be displayed but not downloaded, the transcribed text can only be copied up to a limited number of characters and is not available as TEI/XML. This restricted functionality, which deviates from now established DSE data and presentation standards, was analyzed from an open-access perspective in [RIDE](https://ride.i-d-e.de/issues/issue-17/duerrenmatt/){:target="\_blank"} (A review journal for scholarly digital editions and resources). The _Stoffe_-project exemplifies a compromise made early in the planning phase: the decision to make a legally protected text accessibleat all often comes with significant limitations.
 

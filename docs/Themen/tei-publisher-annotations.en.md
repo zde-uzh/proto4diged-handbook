@@ -1,6 +1,6 @@
 # Annotations with TEI Publisher
 
-TEI Publisher provides a basic configuration for annotating XML data, ranging from pure layout annotations to linking with register entries and creating a register.
+TEI Publisher provides a basic configuration for annotating XML data, ranging from pure layout annotations to linking with index entries and creating an index.
 The supplied configuration can be used directly or as an example for extensions tailored to a project's specific needs.
 
 The underlying XML file is converted into a specific HTML format, and spaces are analyzed so that annotations can be inserted at the correct positions.
@@ -23,4 +23,4 @@ The following chapters are also relevant for technical staff:
 
 -   [Configuring the Annotation Editor](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor){:target="\_blank"}
 
--   [Local authority registers](https://teipublisher.com/exist/apps/tei-publisher/documentation/registers){:target="\_blank"}
+-   [Local authority indexes](https://teipublisher.com/exist/apps/tei-publisher/documentation/registers){:target="\_blank"}

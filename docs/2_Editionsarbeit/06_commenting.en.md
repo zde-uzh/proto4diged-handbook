@@ -8,13 +8,13 @@ In traditional print editing, three basic forms of commentary are recognized, al
 
 **1. The editorial commentary** (also known as the editor's commentary, editorial report, etc.) explains at least the editorial guidelines, possibly the selection of the corpus based on its genesis, and the use of the text-critical apparatus. In DSE, this form of commentary is more commonly referred to as [_documentation_](../3_presentation/04_documentation.en.md) and will be discussed under this name in the Publication chapter.
 
-!!! info "Exemplary DSE"
+!!! info "Example DSE"
     
     In hybrid editions such as the [Faustedition](https://www.faustedition.net/), the editorial report (which applies to both the digital and printed editions) and the technical documentation are sometimes separated.
 
 **2. The overview commentary** (also known as the introductory commentary, contextual essay, or commentary on the entire text) refers to the edited content as a whole, whether it's a specific subject area, a group of works, or a single text. In historical-critical editions, it often serves to summarize content (called a _regest_ in the case of historical source editions and letter editions), illuminate its genesis (text genesis, intertextuality), publication history, reception, and sometimes even offer an overview of interpretations in the secondary literature. Various forms of overview commentaries also exist in DSE. However, these are rarely compiled into one continuous text, but instead appear at different hierarchical levels closer to the annotated content (e.g., an introduction to the Letters section, an introduction to a specific correspondence, individual letter commentaries). Since these are individual texts loosely connected to the edited text (which, ideally, can be output as TEI/XML just like the edited text), the technical and editorial aspects are less complex and don't need further elaboration.
 
-!!! info "Exemplary DSE"
+!!! info "Example DSE"
     
     The overview commentaries of the [edition humboldt digital](https://edition-humboldt.de) are exemplary, as they provide a separate introduction for each letter correspondence (a similar approach is followed by the later letter editions in [haller.net](https://hallernet.org). In addition to such an "introduction", each of Humboldt's individual travel diaries also contains "research dossiers", some of which exceed traditional overview commentaries in their level of detail. This enrichment of the edition through thematic essays can demonstrate its research value. Finally, edition humboldt digital sometimes also includes a detailed overview commentary at the level of individual texts. This commentary is called "Anmerkung" and appears as hover/mouseover text when the metadata is accessed. It is primarily concerned with the dating and structure of the individual document. Branching into various overview commentaries is unnecessary in the case of a single edited text, such as a novel. Therefore, the [overview commentary of the Lokalbericht Edition](https://www.lokalbericht.ch/kommentar) is structured as a continuous text, closely linked to individual sections of the edition.
 
