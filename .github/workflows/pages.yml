@@ -1,0 +1,17 @@
+name: pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      - run: pipenv install
+      - run: pipenv run mkdocs gh-deploy --force --clean --verbose
