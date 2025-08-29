@@ -1,8 +1,7 @@
 name: pages
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 jobs:
   deploy-pages:
     runs-on: ubuntu-latest
