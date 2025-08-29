@@ -1,0 +1,7 @@
+[project]
+name = "proto4diged-handbook"
+version = "0.1.0"
+description = "Handbook for Creating a Digital Scholarly Edition"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
