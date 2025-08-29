@@ -1,6 +1,6 @@
 # Handbuch Proto4DigEd: Prototypische Workflows für digitale wissenschaftliche Editionen (DSE)
 
-Zum [Handbuch zur Erstellung einer digitalen Edition](https://digital-editions.pages.uzh.ch/proto4diged/handbook)
+Read this handbook on [GitHub Pages](https://zde-uzh.github.io/proto4diged-handbook).
 
 ## Run mkdocs on your local machine
 
@@ -12,10 +12,10 @@ This guide focuses on UNIX-like systems but it is also possible to install on Wi
 To copy the repository, paste the following command into your terminal in the directory where you want the code for this repository:
 
 ```bash
-git clone git@gitlab.uzh.ch:digital-editions/proto4diged/handbook.git
+git clone git@github.com:zde-uzh/proto4diged-handbook.git
 ```
 
-You may need to import an SSH key into your user account, as described in the [Gitlab documentation](https://docs.gitlab.com/ee/user/ssh.html).
+You may need to import an SSH key into your user account, as described in the [GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 ### 2. Set up an environment for your installation
 
@@ -43,7 +43,8 @@ pip3 install -r requirements.txt
 
 ### 4. Check out the branch you want to see
 
-GitLab Pages at UZH will only run the `master` branch. To view other branches, you will have to check them out with:
+The handbook on GitHub Pages will be built from the `main` branch.
+To view other branches, you will have to check them out with:
 
 ```bash
 git checkout developer
@@ -70,4 +71,4 @@ git pull
 ## Contribute to the repository
 
 New content to the handbook has to be added to a feature resp. development branch. Its content can be
-added to the `master` branch via merge request, where it will be reviewed.
+added to the `main` branch via pull request, where it will be reviewed.
