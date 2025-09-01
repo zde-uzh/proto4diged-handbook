@@ -1,8 +1,7 @@
 site_name: Handbuch zur Erstellung einer digitalen Edition - Beta Version
 site_dir: public
 site_url: https://zde-uzh.github.io/proto4diged-handbook/
-repo_url: https://https://github.com/zde-uzh/proto4diged-handbook/
-repo_name: GitHub
+repo_url: https://github.com/zde-uzh/proto4diged-handbook/
 nav:
   - "Einleitung": "index.md"
   - "1. Planung":
