@@ -2,6 +2,8 @@ name: pages
 on:
   release:
     types: [published]
+  workflow_dispatch: 
+  # to allow manual execution
 jobs:
   deploy-pages:
     runs-on: ubuntu-latest
