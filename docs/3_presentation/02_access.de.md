@@ -45,14 +45,12 @@ Je komplexer die Edition, desto mehr Suchfunktionen sind sinnvoll. Neben der Hau
 
 Neben einer Liste der Dokumente und der Suchfunktion stellen Register den wichtigsten Zugang zur Edition dar. Wie bereits im Zusammenhang mit der [_inhaltlichen Annotation_](../2_Editionsarbeit/05_semantic_annotation.de.md) gesehen, sind die üblichsten Register diejenigen für Personen, Schlagworte und Orte. Letztere Register können mit Karten ergänzt werden, die auch eine graphische Zuordnung bzw. Auffindbarkeit der Ortsdaten erlaubt.
 
-!!! info "Beispielhafte DSE: Einfache Register"
-    
+!!! info "Beispielhafte DSE: Einfache Register"   
     **Einfache Register** sind in der Regel alphabetisch nach Eintrag (Ortsnamen, Nachname einer Person etc.) geordnet, dies gilt auch für die Standard Register im TEI-Publisher (unten das Beispiel der Namensregister der St.Galler Missiven Edition).
     ![Namensregister Missiven](image-4.png){ width="1000" }
     <figcaption> [Personenregister der DSE "Briefverkehr der Stadt St. Gallen 1400-1650. Digitale Missivenedition"](https://missiven.stadtarchiv.ch/namen/?search=&category=A){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
 !!! info "Beispielhafte DSE: Komplexere Register"
-
     **Komplexere Register** wie dasjenige von [hallernet](https://hallernet.org/){:target="\_blank"} , die nicht mit Standard-Tools erstellt sind, erlauben auch dynamische Anpassungen der Reihenfolge, etwa in dem Personeneinträge auch nach Geburtsort und Sterbeort geordnet werden können. hallernet betont die Vernetzung ihrer Datenbestände und hat den Charakter einer Forschungsdatenbank, deshalb sind auch auf der Einstiegsseite die unterschiedlichen Register im Vordergrund.
     ![Personenregister hallernet](image-3.png) <figcaption>[Personenregister der Plattform "hallernet"](https://hallernet.org/data/persons?query=&scope=mt&filters=){:target="\_blank"}. Aufgerufen am 24.9.2024.</figure>
 
