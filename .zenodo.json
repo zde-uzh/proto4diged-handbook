@@ -40,7 +40,6 @@
   "related_identifiers": [
     {
       "identifier": "https://zde-uzh.github.io/proto4diged-handbook",
-      "relation": "isImplementedBy",
       "resource_type": "publication-article"
     }
   ],
