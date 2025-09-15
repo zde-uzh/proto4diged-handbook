@@ -7,40 +7,34 @@
   "keywords": ["digital editions", "workflow", "multilinguality"],
   "creators": [
     {
-      "given-names": "Elias",
-      "family-names": "Zimmermann",
+      "name": "Zimmermann, Elias",
       "affiliation": "University of Zurich",
-      "orcid": "https://orcid.org/0009-0002-7956-5655"
+      "orcid": "0009-0002-7956-5655"
     },
     {
-      "given-names": "Reto",
-      "family-names": "Baumgartner",
+      "name": "Baumgartner, Reto",
       "affiliation": "University of Zurich",
-      "orcid": "https://orcid.org/0009-0006-4458-461X"
+      "orcid": "0009-0006-4458-461X"
     },
     {
-      "given-names": "Ursula",
-      "family-names": "Bähler",
+      "name": "Bähler, Ursula",
       "affiliation": "University of Zurich",
-      "orcid": "https://orcid.org/0000-0001-5970-5388"
+      "orcid": "0000-0001-5970-5388"
     },
     {
-      "given-names": "Yann",
-      "family-names": "Stricker",
+      "name": "Stricker, Yann",
       "affiliation": "University of Zurich",
-      "orcid": "https://orcid.org/0009-0006-5768-0379"
+      "orcid": "0009-0006-5768-0379"
     },
     {
-      "given-names": "Marcus",
-      "family-names": "Zerbst",
+      "name": "Zerbst, Marcus",
       "affiliation": "Zentralbibliothek Zürich",
-      "orcid": "https://orcid.org/0009-0001-4672-8924"
+      "orcid": "0009-0001-4672-8924"
     },
     {
-      "given-names": "Rita",
-      "family-names": "Gautschy",
+      "name": "Gautschy, Rita",
       "affiliation": "DaSCH - Swiss National Data and Service Center for the Humanities",
-      "orcid": "https://orcid.org/0000-0002-5470-8720"
+      "orcid": "0000-0002-5470-8720"
     }
   ],
   "related_identifiers": [
