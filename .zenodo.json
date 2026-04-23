@@ -1,9 +1,10 @@
 {
-  "title": "Handbook for Creating a Digital Scholarly Edition",
+  "title": "Handbuch zur Erstellung einer digitalen Edition - Beta Version",
   "description": "Das Handbuch zur Erstellung von digitalen Editionen wurde mit dem Ziel hergestellt, geisteswissenschaftliche Forschungsprojekte bei der Erstellung digitaler wissenschaftlicher Editionen (Digital Scholarly Editions, DSE) – von der Planung über die Editionsarbeit bis zur Langzeitsicherung, zu untersützen. Es basiert auf Erkenntnissen aus dem Projekt Proto4DigEd (2023–2024), gefördert durch swissuniversities und geleitet von Prof. Dr. Ursula Bähler an der Universität Zürich. Das GitHub-Repository enthält das Handbuch im Markdown-Format, strukturiert für die Verwendung mit MkDocs, einem Static Site Generator für Projekt-Dokumentationen. Die Inhalte sind versioniert und modular aufgebaut, ergänzt durch Konfigurationsdateien wie mkdocs.yml und requirements.txt zur lokalen Installation und Darstellung.",
-  "uploadType": "software",
+  "upload_type": "software",
   "license": "CC-BY-4.0",
-  "access_rights": "open",
+  "access_right": "open",
+  "language": "de",
   "keywords": ["digital editions", "workflow", "multilinguality"],
   "creators": [
     {
@@ -15,32 +16,51 @@
       "name": "Baumgartner, Reto",
       "affiliation": "University of Zurich",
       "orcid": "0009-0006-4458-461X"
-    },
+    }
+  ],
+  "contributors": [
     {
       "name": "Bähler, Ursula",
       "affiliation": "University of Zurich",
-      "orcid": "0000-0001-5970-5388"
+      "orcid": "0000-0001-5970-5388",
+      "type": "ProjectLeader"
     },
     {
       "name": "Stricker, Yann",
       "affiliation": "University of Zurich",
-      "orcid": "0009-0006-5768-0379"
+      "orcid": "0009-0006-5768-0379",
+      "type": "ProjectMember"
     },
     {
       "name": "Zerbst, Marcus",
       "affiliation": "Zentralbibliothek Zürich",
-      "orcid": "0009-0001-4672-8924"
+      "orcid": "0009-0001-4672-8924",
+      "type": "ProjectMember"
     },
     {
       "name": "Gautschy, Rita",
       "affiliation": "DaSCH - Swiss National Data and Service Center for the Humanities",
-      "orcid": "0000-0002-5470-8720"
+      "orcid": "0000-0002-5470-8720",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Shaitarova, Anastassia",
+      "affiliation": "University of Zurich",
+      "orcid": "0000-0003-3124-190X",
+      "type": "Other"
     }
   ],
+  "grants": [{ "id": "02fsagg23" }],
   "related_identifiers": [
     {
       "identifier": "https://zde-uzh.github.io/proto4diged-handbook",
-      "resource_type": "publication-article"
+      "resource_type": "publication-article",
+      "relation": "isVariantFormOf"
+    },
+    {
+      "identifier": "https://ark.dasch.swiss/ark:/72163/1/0861",
+      "resource_type": "publication-other",
+      "relation": "references"
     }
   ],
   "communities": [
