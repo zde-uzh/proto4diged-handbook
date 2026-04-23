@@ -1,0 +1,1700 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://zde-uzh.github.io/proto4diged-handbook/en/">
+      
+      
+      
+        <link rel="next" href="1_Planung/01_Projektziele_und_-ressourcen/">
+      
+      
+        
+          <link rel="alternate" href="/proto4diged-handbook/" hreflang="de">
+        
+          <link rel="alternate" href="/proto4diged-handbook/en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Introduction - Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proto4diged-handbook-prototypical-workflows-for-digital-scholarly-editions-dse" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="./" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-header__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/proto4diged-handbook/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/proto4diged-handbook/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="1_Planung/01_Projektziele_und_-ressourcen/" class="md-tabs__link">
+          
+  
+  
+  1. Planning
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-tabs__link">
+          
+  
+  
+  2. Editorial work
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="3_presentation/01_introduction_presentation/" class="md-tabs__link">
+          
+  
+  
+  3. Presentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="4_longterm_preservation/01_introduction_preservation/" class="md-tabs__link">
+          
+  
+  
+  4. Long-term availability
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="Themen/accessibility/" class="md-tabs__link">
+          
+  
+  
+  Assorted topics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="Impressum/impressum/" class="md-tabs__link">
+          
+  
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-nav__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#1-the-handbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. The Handbook
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. The Handbook">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#areas-of-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Areas of Application
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goal-understanding-and-evaluating-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Goal: Understanding and Evaluating Options
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Workflows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Workflows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complexity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complexity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standardization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standardization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-tools-and-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Tools and Platforms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Tools and Platforms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obsolescence-and-innovation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obsolescence and Innovation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="1_Planung/01_Projektziele_und_-ressourcen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1 Definition of the Project Goals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="1_Planung/02_Vorbildhafte_Editionen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2 Exemplary Scholarly Editions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="1_Planung/03_Vernetzung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3 Networking with DSE Specialists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Editorial work
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Editorial work
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Digital Editorial Work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/02_Textkonstitution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1 Constitution of Text (Corpus Selection and Digitization)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/03_Transkription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Transcription, ATR and Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/04_converting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.3 Conversion from PAGE to TEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/05_semantic_annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Content Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2_Editionsarbeit/06_commenting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.5 Commentary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Presentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Presentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3_presentation/01_introduction_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to DSE Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3_presentation/02_access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.1 Entry Points: Pages, Search Functions, and Indexes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3_presentation/03_edition_views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.2 Edition Views
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3_presentation/04_documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.3 Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Long-term availability
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Long-term availability
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="4_longterm_preservation/01_introduction_preservation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Long-Term Preservation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="4_longterm_preservation/02_static_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.1 Static Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="4_longterm_preservation/03_archiving_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2 Data Archiving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assorted topics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assorted topics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Themen/accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility on the Web
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Themen/authority/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authority Vocabularies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Themen/transkribus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Transkribus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Themen/tei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEI model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Themen/tei-publisher-annotations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annotations with TEI Publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contact
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Impressum/impressum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="proto4diged-handbook-prototypical-workflows-for-digital-scholarly-editions-dse">Proto4DigEd-Handbook: Prototypical Workflows for Digital Scholarly Editions (DSE)</h1>
+<h2 id="1-the-handbook">1. The Handbook</h2>
+<h3 id="areas-of-application">Areas of Application</h3>
+<p>The handbook supports researchers and projects in the humanities in creating digital scholarly editions (DSE) throughout their entire duration, from the planning phase to long-term preservation. It brings together insights into digital editing that have been gained within the German-speaking research landscape. Although the handbook is written in both English and German, it frequently references German-language external resources. We welcome additional insights and resources from non-German-speaking contexts as well—suggestions can be directed to the authors (see <a href="Impressum/impressum/"><em>Contact</em></a>). </p>
+<p>The handbook owes its specific expertise in digital text editions to our experiences in the <em>Proto4DigEd</em> project. </p>
+<div class="admonition note">
+<p class="admonition-title">Creation of the Showcase Edition</p>
+<p><a href="https://www.zde.uzh.ch/de/projects/proto4diged.html" target="_blank" rel="noopener">Proto4DigEd</a> is an Open Research Data project, supported by swissuniversities, 2023-2024, under the direction of <a href="https://www.rose.uzh.ch/de/seminar/personen/baehler.html" target="_blank" rel="noopener">Prof. Dr Ursula Bähler</a>. The project brought together representatives in literature, history, digital humanities, and librarianship to test and evaluate editing workflows using a partial corpus of the correspondence of the French philologist Gaston Paris. The standard tools for digital scholarly editions, <strong>Transkribus</strong> (for text recognition and transcription) and <strong>TEI-Publisher</strong> (for annotation, commenting and publication), were employed for this purpose.</p>
+<p>The resulting <strong>Showcase Edition</strong> is referenced throughout the handbook via information boxes (such as this one), providing practical insights. These boxes include specific edition guidelines, such as the <a href="2_Editionsarbeit/03_Transkription/"><em>Transcription guidelines</em></a> applied during the project, and reflections on methodology in the <a href="3_presentation/04_documentation/"><em>Documentation Chapter</em></a>. Additionally, they feature broader "Experiences from the Showcase Edition," highlighting challenges encountered in the workflow, for example, the complexity of <a href="2_Editionsarbeit/05_semantic_annotation/"><em>Setting up the annotation editor in TEI Publisher</em></a>, which was an effort-intensive team proces. Editorial decisions and forms of presentation are also illustrated by links to the edition. However, it should be noted that although these are exemplary solutions, they are by no means exhaustive.</p>
+</div>
+<p>However, the handbook not only documents tools evaluated in Proto4DigEd; its foundational considerations in the field of edition science for planning workflows can also - with certain limitations - be applied to editions of non-textual or multimedia materials. To ensure accessibility for researchers who have previously worked on printed editions, it employs established <strong>editorial terms</strong> (such as text constitution, transcription, diplomatic transcription, etc.), but critically reflects on their adaptation to the digital realm, which may result in shifts in meaning or conceptual extensions.</p>
+<p>The handbook does not aim to encompass all aspects of digital editing. Instead, it complements existing or forthcoming resources that address specific workflow steps, with a particular emphasis on the <a href="https://www.digitale-edition.at" target="_blank" rel="noopener">KONDE White Paper</a> as a standard reference work. The KONDE White Paper provides basic insights into various topics, but does not offer any procedural considerations for workflow planning. To avoid redundancy, this handbook makes extensive reference to the KONDE White Paper; it does not include a bibliography in addition to such links in order to avoid giving the impression of (intended) completeness.
+For more specialized topics, other handbooks are available, such as <a href="https://www.hist.uzh.ch/de/fachbereiche/mittelalter/lehrstuehle/teuscher/forschung/projekte/PATT.html" target="_blank" rel="noopener">PATT</a>, which focuses on automatic text recognition for historians; <a href="https://digedtnt.github.io/about/" target="_blank" rel="noopener">DigEdTnT</a>, which addresses the transition between tools; and the <a href="https://maehr.github.io/diskriminierungsfreie-metadaten/" target="_blank" rel="noopener">handbook for the creation of non-discriminatory metadata for historical sources and research data</a>.</p>
+<h3 id="goal-understanding-and-evaluating-options">Goal: Understanding and Evaluating Options</h3>
+<p>The prototypical - i.e., exemplary - steps in the creation of DSE documented here are designed to serve as a guide. They provide an overview of tested workflows and available tools (see below for definitions of these terms), which vary in their requirements for skills and resources.</p>
+<p>This handbook consistently highlights a <strong>range of possibilities</strong>, helping DSE projects to evaluate and balance these options. The aim is not to prescribe <em>the</em> perfect workflow or approach for every project. Instead, it offers guidance on planning and implementing DSE processes that align with the specific needs and constraints of a given project. These considerations have a significant impact on <a href="1_Planung/01_Projektziele_und_-ressourcen/"><em>planning</em></a>. When necessary, the documentation also points out paths that were shown to be unfeasible. Sharing knowledge about workflows fosters adherence to the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener">FAIR Data Principles</a>, promoting the findability, accessibility, interoperability, and reusability of data. In this context, the shared data pertains to methods of digital editing, made accessible through both external and self-generated resources.</p>
+<h2 id="2-workflows">2. Workflows</h2>
+<p>We understand a <strong>workflow</strong> as a sequence of interdependent work steps, each of which is completed or finalized based on an editorial decision. For instance, the completion of <a href="2_Editionsarbeit/02_Textkonstitution/"><em>text constitution</em></a> is an editorial decision - based on the overall planning - that allows us to proceed to <a href="2_Editionsarbeit/03_Transkription/"><em>transcription</em></a> of the corpus. Each of these work steps is addressed in a dedicated entry within the handbook, with the sub-chapters on "editing work" being most clearly structured as a workflow process.</p>
+<p>Workflow steps can, in principle, be distributed among different team members or groups. This contrasts with sub-steps, which often cannot be divided (partly because their completion depends more on technical than editorial considerations). Nonetheless, the <strong>division of labour</strong> within the workflow demands careful planning and coordination, and it is not always practical or advisable. The handbook highlights instances where work steps are particularly closely interconnected.</p>
+<h3 id="complexity">Complexity</h3>
+<p>In recent years, workflows have increasingly become a <strong>central focus in the digital humanities</strong>, particularly in discussions surrounding DSE (see, for example, <a href="https://www.dariah.eu/2023/12/12/dariah-annual-event-2024-workflows-digital-methods-for-reproducible-research-practices-in-the-arts-and-humanities/" target="_blank" rel="noopener">DARIAH Annual Event 2024: "Workflows: Digital Methods for Reproducible Research Practices in the Arts and Humanities"</a>). One key reason for this growing interest is an <strong>increase in complexity</strong>: the number of tools and platforms for DSE that are becoming increasingly accessible continues to rise. The challenge lies in selecting appropriate tools for specific project needs, integrating them into a cohesive workflow, and ensuring they work in harmony with one another.</p>
+<h3 id="standardization">Standardization</h3>
+<p>Conversely, the growing complexity of available tools and platforms is balanced by the standardization of (meta)data formats and editorial guidelines. This is especially evident in the use of <a href="Themen/tei/" target="_blank"><em>TEI/XML</em></a> for structuring and annotating machine-readable edition texts, as well as linking annotations to the metadata in <a href="Themen/authority/"><em>Authority Vocabularies</em></a>. This data standardization, along with the standardization of editorial guidelines and DSE functionalities, has led to a rising <strong>demand for workflow standardization</strong>. When similar data or publications are being produced, similar workflows can often be employed. This aligns with the FAIR principles, whose operationalization is explored in a <a href="https://ride.i-d-e.de/issues/issue-16/editorial/" target="_blank" rel="noopener">special issue of RIDE</a>, an open-access journal to digital editions and resources.</p>
+<p>We are particularly interested in <em>how</em> and <em>when</em> it make sense to generate different, often self-developed workflows. To what extent can tools and platforms be combined into best practices in a standardized manner? And what editorial and technical limitations accompany this standardization - specifically, what <strong>editorial decision-making flexibility</strong> is diminished as a result? The handbook is therefore intended less as a guide to the actual standardization of workflows and more as an aid to determining the degree of standardization of workflows and developing a project-specific best practice. For this reason, the individual workflow chapters, especially in the main chapter "Editing", are organized according to the following pattern:</p>
+<ol>
+<li>
+<p>Explanation of the workflow step;</p>
+</li>
+<li>
+<p>Description of the existing standards (and possible alternatives);</p>
+</li>
+<li>
+<p>Evaluation of the limitations of standard tools (including references to 'haute couture' solutions, i.e., custom functionalities for which no standardizations exist).</p>
+</li>
+</ol>
+<p>The last chapter of the handbook <a href="Themen/accessibility/"><strong><em>Assorted Topics</em></strong></a> brings together various terms from all workflow steps that could not be explained in more detail there for reasons of space. It is primarily aimed at technically trained readers and contains code snippets and external resources that require in-depth prior knowledge to use.</p>
+<h2 id="3-tools-and-platforms">3. Tools and Platforms</h2>
+<p>This handbook defines a <strong>tool</strong> for creating a DSE as any relevant technical resource or aid; this includes desktop or web-based programs, as well as add-ons or code scripts, each of which may require varying levels of technical expertise. An overview and reviews of tools for DSE can be found on the i-d-e platform (Institut für Dokumentologie und Editorik) and the associated journal RIDE <a href="https://www.i-d-e.de/?s=tools" target="_blank" rel="noopener">here</a>.</p>
+<p>This handbook offers guidance on the amount of prior knowledge needed for different cases. At its center are the widely used tools <a href="https://app.transkribus.org/" target="_blank" rel="noopener">Transkribus</a> and <a href="https://teipublisher.com/" target="_blank" rel="noopener">TEI-Publisher</a>.</p>
+<p>In addition to tools, <strong>(publication) platforms</strong> are central, as they ensure the accessibility of the DSE and their (meta)data. These platforms include centrally managed databases (e.g., the <a href="https://www.dasch.swiss/" target="_blank" rel="noopener">Swiss National Data and Service Centre for the Humanities DaSCH</a>), metadatabases (such as <a href="https://metagrid.ch/" target="_blank" rel="noopener">Metagrid</a> or <a href="https://correspsearch.net">Correspsearch</a>), and repositories for various types of data. These repositories may be general-purpose (e.g., <a href="https://zenodo.org/">Zenodo</a>, <a href="https://www.swissubase.ch/en/">Swissubase</a>, <a href="https://github.com/" target="_blank" rel="noopener">GitHub/GitLab</a> or specific to DSE, such as repositories for transcription data like <a href="https://transcriptiones.ch/" target="_blank" rel="noopener">transcriptiones</a> or <a href="https://htr-united.github.io/" target="_blank" rel="noopener">htr-united</a>). Like different tools, platforms also require different prior knowledge or training periods, but above all they are aimed at different audiences and fulfil different purposes. Unlike tools, whose selection often involves difficult-to-reverse decisions within a workflow, using multiple platforms for the <a href="3_presentation/01_introduction_presentation/"><em>presentation</em></a> and <a href="4_longterm_preservation/01_introduction_preservation/"><em>longterm preservation</em></a> of the DSE and their data is strongly encouraged.</p>
+<h3 id="obsolescence-and-innovation">Obsolescence and Innovation</h3>
+<p>What the handbook is <em>not</em> in technical terms: The documented steps are <strong>not instructions</strong> on how to use specific tools or platforms in detail. Given the rapid pace of technological development, a high level of detail would quickly render the documentation outdated. Similar to how handbooks on printed editorial practices remain valid today in their theoretical considerations, this handbook is designed with the hope of continuing to provide guidance even after future technical innovations.</p>
+<p>This highlights a core challenge of digital editorial work: it is simultaneously constrained by the limitations and obsolescence of technical tools and empowered by the innovative possibilities that arise from their advancement. Striking a balance between scientific necessity ("scientifically and editorially required") and innovative surplus ("nice to have") is therefore crucial during the planning phase, particularly when defining the <a href="1_Planung/01_Projektziele_und_-ressourcen/"><em>project objectives</em></a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

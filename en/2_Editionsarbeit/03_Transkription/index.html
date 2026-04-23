@@ -1,0 +1,1900 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://zde-uzh.github.io/proto4diged-handbook/en/2_Editionsarbeit/03_Transkription/">
+      
+      
+        <link rel="prev" href="../02_Textkonstitution/">
+      
+      
+        <link rel="next" href="../04_converting/">
+      
+      
+        
+          <link rel="alternate" href="../../../2_Editionsarbeit/03_Transkription/" hreflang="de">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>2.2 Transcription, ATR and Annotation - Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#22-transcription-atr-and-annotation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-header__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2.2 Transcription, ATR and Annotation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../2_Editionsarbeit/03_Transkription/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-tabs__link">
+          
+  
+  
+  1. Planning
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-tabs__link">
+          
+  
+  
+  2. Editorial work
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../3_presentation/01_introduction_presentation/" class="md-tabs__link">
+          
+  
+  
+  3. Presentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../4_longterm_preservation/01_introduction_preservation/" class="md-tabs__link">
+          
+  
+  
+  4. Long-term availability
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Themen/accessibility/" class="md-tabs__link">
+          
+  
+  
+  Assorted topics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Impressum/impressum/" class="md-tabs__link">
+          
+  
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-nav__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1 Definition of the Project Goals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/02_Vorbildhafte_Editionen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2 Exemplary Scholarly Editions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/03_Vernetzung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3 Networking with DSE Specialists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Editorial work
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Editorial work
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Digital Editorial Work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_Textkonstitution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1 Constitution of Text (Corpus Selection and Digitization)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Transcription, ATR and Annotation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Transcription, ATR and Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#what-is-digital-transcription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Digital Transcription?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is Digital Transcription?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transcription-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transcription Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reading-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading Version
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linking-digitized-material-and-transcription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linking Digitized Material and Transcription
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-standard-solutions-for-transcriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Standard Solutions for Transcriptions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-automated-or-manual-transcription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 Automated or Manual Transcription?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-standard-steps-in-the-atr-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Standard Steps in the ATR Process
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 Standard Steps in the ATR Process">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-training-an-atr-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Training an ATR Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-repeated-training-re-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Repeated training, re-training
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-layout-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Layout Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-correcting-layout-analysis-and-transcription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Correcting Layout Analysis and Transcription
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-annotations-in-the-transcription-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Annotations in the Transcription Tool
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Limitations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Limitations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-the-ideal-transcription-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 The Ideal Transcription Tool?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-atr-as-a-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 ATR as a Solution?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-annotating-in-transcription-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Annotating in Transcription Tools?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_converting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.3 Conversion from PAGE to TEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_semantic_annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Content Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_commenting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.5 Commentary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Presentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Presentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/01_introduction_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to DSE Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/02_access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.1 Entry Points: Pages, Search Functions, and Indexes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/03_edition_views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.2 Edition Views
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/04_documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.3 Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Long-term availability
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Long-term availability
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/01_introduction_preservation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Long-Term Preservation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/02_static_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.1 Static Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/03_archiving_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2 Data Archiving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assorted topics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assorted topics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility on the Web
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/authority/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authority Vocabularies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/transkribus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Transkribus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEI model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei-publisher-annotations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annotations with TEI Publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contact
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Impressum/impressum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="22-transcription-atr-and-annotation">2.2 Transcription, ATR and Annotation</h1>
+<h2 id="what-is-digital-transcription">What is Digital Transcription?</h2>
+<p>Transcription in non-digital editions is carried out by assistant researchers or external transcription services, following established transcription rules. In contrast, the transcription process in DSE involves a number of individual steps and decisions that influence the project's progression. Specifically, as outlined below, these include:</p>
+<ol>
+<li>the choice of tool and data formats;</li>
+<li>the level of automation;</li>
+<li>the workflows in the actual transcription process (creating your own text recognition model, correction steps, possible initial annotations).</li>
+</ol>
+<p>Finally, this chapter of the handbook will discuss the limitations of the available standard transcription solutions.</p>
+<h4 id="transcription-guidelines">Transcription Guidelines</h4>
+<p>As in print editions, consistent <strong>transcription guidelines</strong> must also be followed for DSE, particularly with regard to <strong>transcription scope</strong> and <strong>diplomatic transcription</strong>, i.e. the degree of coverage of the transcription with the original in terms of linguistic and formal peculiarities. For manuscripts, the question must be answered as to which hands, (special) characters, textual interventions and revision stages are transcribed and how. In the case of prints,  the question also arises regarding print-specific paratexts such as page numbers or bastard titles. The labelling of these formal textual aspects is also referred to as <strong>text-critical annotation</strong>. Depending on the tool (see below), this can be carried out together with the transcription or only later together with the <a href="../05_semantic_annotation/"><em>content annotation</em></a>.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Showcase Edition Guidelines: Transcription and Text-Critical Annotation</p>
+<p>The Showcase Edition is intended as hypothetical preparatory work for a much larger edition of Gaston Paris's correspondence, comprising around 27,000 pages. If realized in later projects, it will primarily target a <strong>research audience</strong><em>. Since the developed prototypical workflows are intended to meet scholarly standards of diplomatic editions on one hand, and must remain scalable in scope on the other, it focuses on </em><em>the greatest possible textual fidelity with simultaneous simplicity of text-critical and content markup</em>*.</p>
+<p>During the transcription process, the Showcase Edition adhered to the following <strong>text-critical principles</strong>:</p>
+<p><strong>Scope</strong></p>
+<ul>
+<li>
+<p><strong>All hands</strong>, i.e. all different manuscripts, are transcribed.</p>
+<ul>
+<li>Additions by <strong>foreign hands</strong>, i.e. which are not identified as the author's hand in the letter metadata, are identified as such by a text-critical annotation (see below, 3.5).=&gt; Link example from the Showcase Edition here.</li>
+<li>Exception: Foreign hands are not transcribed if they concern additions of <strong>archive signatures or archive pagination</strong>. Archive signatures are contained in the metadata instead.</li>
+</ul>
+</li>
+<li>
+<p>Since Gaston Paris' letters are largely 'flat' in terms of text-genetics (i.e. they hardly show any traces of his own or other people's revisions), special characters or annotations cannot help with the question of <strong>text-genetic sequences</strong> (which hand can be assigned to which date). When necessary, text-genetic contexts are presented in <a href="../06_commenting/"><em>commentaries</em></a>.</p>
+</li>
+<li>
+<p><strong>Preprinted forms</strong> (e.g. letterheads of hotels or private individuals) on the stationery are usually transcribed and text-critically annotated as 'preprinted forms'. =&gt; Link example from the Showcase Edition here.</p>
+<ul>
+<li>Exception 1: Pre-printed <strong>form lines on postcards</strong> ('Name:', 'First name:', etc.) are not transcribed, as they are common to all postcards.</li>
+<li>Exception 2: <strong>Postmarks or postage stamps</strong> are not transcribed. The place and date indicated there can be recorded as metadata if it differs from the date of the letter. However, there are editions that label the postmarks in order to make them searchable, e.g. the <a href="=&gt; add link here when published">Gotthelf edition</a>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Diplomatic Transcription</strong></p>
+<ul>
+<li>
+<p>Special characters which Gaston Paris employed specifically for scholarly reasons or borrowed from foreign languages, are used tacitly and are not explicitly listed in a critical apparatus. Their understanding by the specialized audience is assumed.</p>
+</li>
+<li>
+<p>Errors in the original manuscript are included without additional labelling. An error can be easily checked by comparing it with the manuscript displayed next to it.</p>
+</li>
+<li>
+<p>Underlining, including double and triple underlining, and superscripts are transcribed as such.</p>
+</li>
+<li>
+<p>Circling of words or letters is indicated by circling.</p>
+</li>
+<li>
+<p>Conversion to letterspacing or bold type is omitted to preserve the often scientifically motivated emphasis on lemmata.</p>
+</li>
+<li>
+<p>The French space before colons, semicolons and exclamation marks is used tacitly in the transcription. This last point deviates from a strict diplomatic transcription and is based on French printing conventions.</p>
+</li>
+</ul>
+</div>
+<h4 id="reading-version">Reading Version</h4>
+<p>A step that technically coincides with text-critical and/or content annotation, but does not itself introduce visible or substantive markings, is the creation of the <strong>reading version</strong>, which is placed alongside the more faithful diplomatic transcription (see also <a href="../../3_presentation/03_edition_views/"><em>edition views</em></a>). In order for the text to be normalized in a reading version, words must be annotated with a correct or modernized variant in cases of incorrect or outdated spellings. The notions of 'incorrect' or 'outdated' must be <a href="../../3_presentation/04_documentation/"><em>documented</em></a> in detail.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Showcase Edition Guidelines: Reading Version</p>
+<p>As the Showcase Edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, it can still be created later, as the TEI/XML data can be enriched at any time using various tools.</p>
+</div>
+<h4 id="linking-digitized-material-and-transcription">Linking Digitized Material and Transcription</h4>
+<p>DSE-specific transcription guidelines concern the <strong>linking of the digitized material and transcription</strong> in the front end, i.e. the insertion of visual word or line correspondences between facsimile and text. Ideally, this is already prepared in the transcription step; all the tools mentioned below have simple forms of this linkage by enriching the XML file of the transcription with image coordinates. The line-by-line text-image linking, which simplifies the autoptic comparison, e.g. by highlighting the text line in the digital copy, has become the standard for DSE and is included below among the documented standard solutions.</p>
+<div class="admonition success">
+<p class="admonition-title">Best Practice</p>
+<p>The <a href="https://www.briefedition.alfred-escher.ch/home.html" target="_blank" rel="noopener">Alfred Escher Letter Edition</a> serves as a model for linking the digitized material and transcription using the TEI Publisher.</p>
+<p>The Showcase Edition is based on this form of line correspondence and resuses the existing <a href="https://github.com/stazh/briefedition-escher" target="_blank" rel="noopener">source code of the Alfred Escher Letter Edition</a>.
+</p><figure markdown="span"><p></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="screenshot Escher" src="../../../2_Editionsarbeit/image-3.png" width="1000"></a>
+</p><figcaption><a href="https://briefedition.alfred-escher.ch/briefe/B0056?view1=1" target="_blank" rel="noopener">Jung, Joseph (Hrsg.), Digitale Briefedition Alfred Escher, Relaunch January 2022, Zürich.</a> Retrieved on 22.9.2024.</figcaption></figure><p></p>
+</div>
+<h2 id="1-standard-solutions-for-transcriptions">1. Standard Solutions for Transcriptions</h2>
+<p>Once the text carriers have been selected and digitized, i.e. the <a href="../02_Textkonstitution/"><em>constitution of texts</em></a> has been completed, the texts themselves must be made machine-readable. To do this, the image data of the digitized material, typically available in JPEG or TIFF format, is converted into text data or transcribed. This can be done manually or automatically (see below), and in both cases, the same transcription tools and XML standard data formats can be used.</p>
+<p>It is therefore preferable to use a scientific transcription tool for both manual and automated digital transcription rather than a word processing program such as Word. The latter does not support an open XML standard, does not allow transcription and digitized material to be linked via coordinates in XML, and often requires additional data conversions.</p>
+<p>Below, we present the most common scientific transcription tools (a list of other tools can be found <a href="https://www.adfontes.uzh.ch/ressourcen/quellen-erschliessen/digitale-transkriptionstools" target="_blank" rel="noopener">here</a> ):</p>
+<ul>
+<li><a href="https://app.transkribus.org/" target="_blank" rel="noopener">Transkribus</a> : As of 2024, the <strong>most widely used transcription tool</strong> is distributed by the international cooperative <a href="https://readcoop.org/de">READ-COOP</a>, which is owned by various academic institutions. It offers extensive customer support and has a large user community. Because of this, it also provides the largest collection of AI models for text recognition, developed by individual projects and shared with Transkribus. With its most advanced general AI model, <em>The Text Titan I</em>, it surpasses all other known transcription tools as of summer 2024, at least for widely used handwriting styles. However, Transkribus has limited functionality unless a subscription is purchased.</li>
+<li><a href="https://escriptorium.inria.fr/" target="_blank" rel="noopener">eScriptorium</a> The code for this Transkribus alternative is provided free of charge by the Université PSL in Paris. It can be installed locally, but requires <strong>its own server infrastructure</strong> or institutional access to an eScriptorium server, as currently operated by various universities. For example, the eScriptorium instance <a href="https://fondue.unige.ch/" target="_blank" rel="noopener">fondue</a> at the University of Geneva is accessible to most Swiss universities. The number of available AI models is currently growing rapidly.</li>
+<li><a href="https://www.ocr4all.org/" target="_blank" rel="noopener">OCR4all</a> : Like eScriptorium, this free transcription tool from the University of Würzburg requires installation on a local device or a dedicated server. It is currently less institutionally established than Transkribus and eScriptorium. A key feature of OCR4all is its ability to automate not just the text transcription step, but entire workflows, from uploading to saving in the desired format.</li>
+<li><a href="https://tcdh.uni-trier.de/de/projekt/transcribo" target="_blank" rel="noopener">Transcribo</a> is a service offered by the Trier Centre for Digital Humanities at Trier University and part of its FuD research platform (comparable to <a href="https://textgrid.de" target="_blank" rel="noopener">Textgrid</a>, a German research network project). Unlike the tools mentioned above, it allows transcription at the word level rather than just the line level, meaning that each transcribed word is linked to the corresponding word in the digitized text using coordinates. This enables greater accuracy but also makes the manual transcription process more complex. One DSE that uses this tool is the <a href="https://www.jclavater-briefwechsel.ch/home" target="_blank" rel="noopener">Johann Caspar Lavater Online Briefedition</a> .</li>
+</ul>
+<p>The Transkribus tool requires the least (project-specific) technical support, which is why we focus on its workflows below. However, many work steps, such as training a model, can also be transferred to other tools.</p>
+<p>As mentioned, the tools are also similar in terms of <strong>data standards</strong>. The transcription data can generally be exported in an <a href="https://www.digitale-edition.at/o:konde.215">XML format</a>, such as <a href="https://www.digitale-edition.at/o:konde.154">PAGE-XML</a> or <a href="https://altoxml.github.io/">ALTO-XML</a>. These are merely preliminary stages for the DSE data standard <a href="https://www.digitale-edition.at/o:konde.79">TEI/XML</a>, in which the edition is ultimately made readable. A <a href="../04_converting/"><em>data conversion</em></a> must therefore take place between the workflow step of transcription in XML (including annotation, which is already possible here) and the more extensive <a href="../05_semantic_annotation/"><em>content annotation</em></a> and <a href="../06_commenting/"><em>commenting</em></a> in TEI-XML.</p>
+<h2 id="2-automated-or-manual-transcription">2 Automated or Manual Transcription?</h2>
+<p>There are still cases where manual transcription is recommended, particularly for manuscript editions. The harder a handwriting is to decipher and the smaller the collection of manuscripts, the less worthwhile ATR becomes. While highly capable general text recognition models like <em>The Text Titan I</em> - especially for Transkribus - are capable of recognizing both printed and handwritten texts, even within the same document, <strong>difficult hands</strong> often exceed their capabilities. In such cases, a handwriting-specific ATR model must be trained (see below). Training such a model requires at least 75 pages of text, and in difficult cases, even 200–300 pages of so-called "ground truth" - a corpus of accurately prepared transcriptions. The ATR process (including training and subsequent corrections) only becomes more efficient than manual transcription once this threshold is reached. In these cases, using a specialized ATR model is justified only if a significantly larger number of pages than the training set will be transcribed.</p>
+<p>The decision in favour of automation therefore depends on a cost-benefit calculation. The aim of automatic text recognition is to minimize the correction effort, but in any case to keep it below the effort of manual transcription.
+This is typically achieved by gradually expanding the training data with corrected transcriptions and continuously training new text recognition models for subsequent datasets.</p>
+<h2 id="3-standard-steps-in-the-atr-process">3 Standard Steps in the ATR Process</h2>
+<p>If the decision in favour of ATR has been made, it is necessary to test whether an existing ATR model shows satisfactory results or whether a new model should be trained. The standard transcription models maintained by Transkribus are constantly improving and it makes sense to carry out a test run with these models (if you are not aiming for your own model, you can continue with step 3.3).</p>
+<h3 id="31-training-an-atr-model">3.1 Training an ATR Model</h3>
+<p>As mentioned above, Transkribus recommends at least 75 pages of ground truth as a training set for your own transcription models. These can be existing transcriptions that are imported into Transkribus or pages that have been transcribed with the standard models and then corrected.</p>
+<p>Previously, Transkribus offered the <strong>"text2image"</strong> function, which aligned existing transcriptions, such as those from historical print editions, with digitized images on a line-by-line basis. Currently, this alignment must be done manually for training purposes. Manually inserting transcriptions into training data is only advisable if standard models cannot be used and corrected efficiently. However, Transkribus has announced plans to reintroduce the "text2image" function by the end of 2024.</p>
+<div class="admonition note">
+<p class="admonition-title">Experience from the Showcase Edition</p>
+<p>For Gaston Paris' handwriting, the standard model <em>The Text Titan I</em> proved suitable for generating a ground truth through corrections, which in turn enabled the training of a custom model (see next information box). This AI model, similar to ChatGPT, is based on Transformer technology and outperforms conventional ATR models that rely on older AI technologies. While training Transformer models independently is not yet possible with any transcription tool, custom ATR models can still compete with Transformer models by being trained with project-specific ground truth.</p>
+</div>
+<h3 id="32-repeated-training-re-training">3.2 Repeated training, re-training</h3>
+<p>It is generally advisable to create <strong>more than one specific model with the same ground truth</strong>. Although the data remains the same, the AI uses it to create a different model in each training session, which can differ greatly from the previous one in terms of the quality of text recognition. As a rule of thumb, at least four separate training runs should be carried out with a ground truth in order to minimize the randomness of the AI training. For example, the first training may already produce a good result, while the second is significantly worse, the third is the best and the fourth is worse again.</p>
+<p><strong>Re-training with a larger ground truth</strong> differs from repeated training with the same ground truth. When should new data be used to train better models? This decision depends on the specific needs of the project. Key factors include:</p>
+<ul>
+<li>Quality improvement</li>
+<li>Correction effort</li>
+<li>Availability of project members</li>
+<li>Time required for training</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Experience from the Showcase Edition</p>
+<p>Using progressively larger ground truth collections (manually corrected transcriptions created with <em>The Text Titan I</em>), we conducted several series of re-trainings. The second model in the second series outperformed <em>The Text Titan I</em> in recognizing certain unique idiosyncrasies of Gaston Paris' handwriting. However, the general model still outperformed our custom model in recognizing numbers and different languages.  </p>
+</div>
+<h3 id="33-layout-analysis">3.3 Layout Analysis</h3>
+<p>During layout analysis, an algorithm detects the <strong>arrangement of lines</strong> before the actual text recognition takes place. Unlike text or text region annotation (see section 3.5), this step is not optional. Older versions of Transkribus required layout analysis as a separate preliminary step before ATR, but this multi-step process is now optional. Users can start text recognition immediately, using either a specific or a general model. However, if transcription results are poor, such as missing or partially omitted lines, it is recommended to experiment with different models and configurations for layout analysis.</p>
+<h3 id="34-correcting-layout-analysis-and-transcription">3.4 Correcting Layout Analysis and Transcription</h3>
+<p>During the correction process, it is advisable to first check the detected lines, especially if they appear fragmented or are missing. If the layout analysis yields poor results, testing different layout analysis models (see above) may be necessary.</p>
+<p>If no improvement is achieved, <strong>lines can also be manually adjusted or completely redrawn</strong>. Layout corrections, such as extending a line, can enhance subsequent ATR runs and improve the visual alignment between the transcription and the digitized document in the front end (see our <a href="../../Themen/transkribus/"><em>Tips</em></a>). However, precisely refining the lines may be an unnecessary extra effort, as the comparison remains possible even without perfect alignment, thanks to the visual line overlay.</p>
+<p>Transcription errors can simply be corrected within the detected lines. Incorrectly assigned line regions can also be fixed at this stage. However, it is important to note that when using optional word segmentation, individual words cannot be corrected directly - post-processing in Transcribo (https://tcdh.uni-trier.de/de/projekt/transcribo){:target="_blank"} is an alternative for this step.</p>
+<h3 id="35-annotations-in-the-transcription-tool">3.5 Annotations in the Transcription Tool</h3>
+<p>The last, already optional step in Transkribus and similar transcription tools is the <strong>annotation ('tagging') first of text regions and finally of the text itself</strong>. The first step, determining the text region, is optional, but only regarding when it happens, not whether it happens. The annotation at the region level is a standard feature of a DSE, as it fundamentally structures the text, e.g., into paragraphs, postscripts, verses, etc.</p>
+<p>The more detailed annotation of word sequences or words is also part of the standard, but its level of detail is less standardized, and depending on the edition guidelines, may include only a minimal set. A basic distinction is made between <strong>two forms of annotation at the word level</strong>:</p>
+<ul>
+<li><strong>Critical annotations</strong> characterize visible features of the typeface, such as underlining.</li>
+<li><strong>Content annotations</strong> characterize semantic properties of the text, such as the definition of a geographical location. This form of annotation will be discussed in more detail <a href="../05_semantic_annotation/"><em>later</em></a>.</li>
+</ul>
+<p>From a technical point of view, these steps no longer constitute a transcription of the text, but could also take place later in the TEI/XML. However, there are reasons why the annotation of regions and text-critical aspects – i.e., features recognizable in the typeface – is already carried out during the transcription (or its correction): the labeling of different hands, underlining, titles, paragraphs, etc. is already closely linked to it. If the digital copy and the finished or emerging transcribed text have to be compared with each other exactly, it makes sense to record not only the correct (e.g., diplomatic) character sequence but also the <strong>visible peculiarities of the text</strong>.</p>
+<p>Transkribus distinguishes between 'structural tags' and 'textual tags', which corresponds to the distinction drawn above between annotation at region level and annotation at word level.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="left" alt="alt text" src="../../../2_Editionsarbeit/image.png" width="250"></a> With <strong>structural tags</strong>, self-definable text regions and line regions automatically generated by the layout analysis ('base lines' and associated 'line polygons') can be marked up directly on the digital copy, i.e. on the left-hand side of the user interface. Even if these tags appear on the digital copy for the sake of simplicity, they are saved in the same XML file as the transcription.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="alt text" src="../../../2_Editionsarbeit/image-2.png" width="250"></a><strong>Textual tags</strong> allow tagging at the word level of the transcription and are therefore attached to the transcription text on the right-hand side of the user interface. In addition to formal aspects (underlining, foreign hands), 'textual tags' can also include content-related aspects (tagging of place names or keywords). However, we recommend that the more complex content annotation is only carried out in TEI-XML in order to minimize the conversion effort (see below). Transkribus is also not (yet) capable of automatically linking content annotations to external resources such as standardization data. Even if this should change in the future, as is apparently planned, caution is advised due to the conversion effort involved.</p>
+<div class="admonition warning">
+<p class="admonition-title">Challenge</p>
+<p>As already mentioned, transcription tools offer markup in PAGE-XML or ALTO-XML, which must be taken into account when converting to TEI-XML.
+It is therefore advisable to <strong>align your markup in the transcription tool with the nomenclature of the TEI/XML you are aiming for</strong>. In this way, TEI syntax-compliant elements are created during conversion to TEI/XML, rather than freely invented expressions or, if not marked up, anonymous blocks (<ab>). The most important elements are automatically recognized by scripts such as Page2TEI and converted into the corresponding TEI elements. This increases complexity, requiring close technical support for the project.</ab></p>
+</div>
+<p>The advantage of annotations in transcription tools is that the most important formal aspects can already be clarified during the initial, surface-level engagement with the text. In the next steps after conversion, content annotation and commenting - which are described in the following chapters primarily using the TEI Publisher - the team can then focus more intensively on the semantic aspects. Projects should consider as early as possible whether, and to what extent, they want to work with the transcription tools' tags, which are easy to use but demanding in the conversion process.</p>
+<div class="admonition note">
+<p class="admonition-title">Experience from the Showcase Edition</p>
+<p>We decided to use 'structural' and 'textual' tags in Transkribus only for text-critical aspects (see the Showcase Edition guidelines above). In this annotation of Gaston Paris's letters, we follow the element names suggested by the <a href="https://www.deutschestextarchiv.de/" target="_blank" rel="noopener">German text archive</a> as the <a href="https://deutschestextarchiv.de/doku/basisformat/brief.html" target="_blank" rel="noopener">basic format for labelling letters</a>. To achieve this, we created our own tags in Transkribus and applied them to annotate the text regions on the digital copy. The letterhead, for example, is defined as the text region 'opener'; within this text region, we mark the line with the date and, if applicable, the place as 'dateline' and the greeting ("Mon cher ami") as 'salute'. The body of the text itself is divided into various paragraphs.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tagging in Transkribus" src="../../../2_Editionsarbeit/image-1.png"></a></p>
+</div>
+<h2 id="4-limitations">4. Limitations</h2>
+<h3 id="41-the-ideal-transcription-tool">4.1 The Ideal Transcription Tool?</h3>
+<p>Currently, there is no <em>one-size-fits-all</em> solution for transcription. The tools listed above primarily require <strong>different amounts of support and technical expertise</strong>, but offer similar functionalities. It seems advisable to base the choice of tool more on existing institutional know-how and technical resources than on the tool's capabilities (especially since these capabilities are quite similar across the tools mentioned above). If the institutional expertise is limited and the financial situation allows for a Transkribus subscription, we would advocate for such a subscription.</p>
+<h3 id="42-atr-as-a-solution">4.2 ATR as a Solution?</h3>
+<p>The high hopes placed on the scientific applications of AI also extend to ATR models, which are sometimes based on the same technology as large language models (e.g., ChatGPT). While the advances in ATR are currently significant, they are not yet substantial enough - especially for older and/or difficult handwriting - for their use in every DSE project to be considered practical.
+Even when using the best available ATR models, the correction effort may exceed that of manual transcription from the outset. Training custom models is time-consuming and doesn't always yield better results. Therefore, it is essential that projects plan a <strong>test phase</strong> to evaluate the available options before creating and training large ground truth collections.</p>
+<h3 id="43-annotating-in-transcription-tools">4.3 Annotating in Transcription Tools?</h3>
+<p>The question of how much should be annotated in PAGE-XML or ALTO-XML also depends on the available technical support. We are aware of projects whose workflow involved extensive annotations in Transkribus - not only text-critical ones, but also content annotations - and faced major delays and adjustments to the workflow due to conversion challenges. Therefore, it must be clear from the outset of the project where and which annotations should take place in order to align the complexity of the data conversion with the project resources.
+The Showcase Edition has expanded the annotation editor interface so that text-critical annotations can also be done entirely in the TEI Publisher. The process is the same as we have described for <a href="../05_semantic_annotation/"><em>content annotation</em></a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

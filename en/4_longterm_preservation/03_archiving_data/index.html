@@ -1,0 +1,1659 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://zde-uzh.github.io/proto4diged-handbook/en/4_longterm_preservation/03_archiving_data/">
+      
+      
+        <link rel="prev" href="../02_static_presentation/">
+      
+      
+        <link rel="next" href="../../Themen/accessibility/">
+      
+      
+        
+          <link rel="alternate" href="../../../4_longterm_preservation/03_archiving_data/" hreflang="de">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>4.2 Data Archiving - Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#42-data-archiving" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-header__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.2 Data Archiving
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../4_longterm_preservation/03_archiving_data/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-tabs__link">
+          
+  
+  
+  1. Planning
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-tabs__link">
+          
+  
+  
+  2. Editorial work
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../3_presentation/01_introduction_presentation/" class="md-tabs__link">
+          
+  
+  
+  3. Presentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01_introduction_preservation/" class="md-tabs__link">
+          
+  
+  
+  4. Long-term availability
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Themen/accessibility/" class="md-tabs__link">
+          
+  
+  
+  Assorted topics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Impressum/impressum/" class="md-tabs__link">
+          
+  
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" class="md-nav__button md-logo" aria-label="Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1 Definition of the Project Goals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/02_Vorbildhafte_Editionen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2 Exemplary Scholarly Editions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/03_Vernetzung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3 Networking with DSE Specialists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Editorial work
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Editorial work
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Digital Editorial Work
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/02_Textkonstitution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1 Constitution of Text (Corpus Selection and Digitization)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/03_Transkription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Transcription, ATR and Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/04_converting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.3 Conversion from PAGE to TEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/05_semantic_annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Content Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2_Editionsarbeit/06_commenting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.5 Commentary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Presentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Presentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/01_introduction_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to DSE Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/02_access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.1 Entry Points: Pages, Search Functions, and Indexes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/03_edition_views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.2 Edition Views
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/04_documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.3 Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Long-term availability
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Long-term availability
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_introduction_preservation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Long-Term Preservation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_static_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.1 Static Presentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2 Data Archiving
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2 Data Archiving
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-purpose-of-archiving-dse-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is the Purpose of Archiving DSE Datasets?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archiving-by-specialized-institutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archiving by Specialized Institutions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archiving-as-data-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archiving as Data Backup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivingsharing-transcription-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archiving/sharing transcription data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivingsharing-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archiving/Sharing Metadata
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publicizing-and-making-accessible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Publicizing and Making Accessible
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assorted topics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assorted topics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility on the Web
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/authority/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authority Vocabularies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/transkribus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Transkribus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEI model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei-publisher-annotations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annotations with TEI Publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contact
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Impressum/impressum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="42-data-archiving">4.2 Data Archiving</h1>
+<h2 id="what-is-the-purpose-of-archiving-dse-datasets">What Is the Purpose of Archiving DSE Datasets?</h2>
+<p>Archiving data is essential for ensuring the long-term usability and preservation of the rich information contained in a DSE. As mentioned in the introduction to long-term preservation, it also enables various forms of reuse, such as distant reading approaches or computational linguistic methods. Additionally, archived data can be re-visualized for different purposes, for example, the emerging visualization and research tool <a href="https://libraries.dsi.uzh.ch/project/ord-xplore/#content" target="_blank" rel="noopener">ORD-Explore</a> aims to support a wide range of DSEs by allowing the upload of their TEI/XML data.</p>
+<p>Furthermore, comprehensive data archiving makes it possible to republish datasets later using new tools within a redesigned or reconstructed front end. However, for such a "revitalization" of archived data to be successful, complete technical <a href="../../3_presentation/04_documentation/"><em>documentation</em></a>is crucial. This documentation must clearly explain how the datasets interact to ensure their accurate reimplementation.</p>
+<h2 id="archiving-by-specialized-institutions">Archiving by Specialized Institutions</h2>
+<p>Institutions specializing in humanities data possess expert knowledge of standard data formats, ensuring that archived materials remain both accessible and searchable. Additionally, they typically guarantee a minimum preservation period of 10 years. However, as long as these institutions continue to operate, it is reasonable to assume that the data will remain available for significantly longer periods.</p>
+<p>In Switzerland, the current standard archiving solution, supported by the Swiss National Science Foundation, is the <a href="https://www.dasch.swiss/" target="_blank" rel="noopener">Swiss National Data and Service Centre for the Humanities (DaSCH)</a>. Various projects are stored within the same database - the DaSCH Service Platform (DSP) - which, as data volume grows, facilitates a broad, cross-project search within DaSCH resources. In addition to DSEs, the platform also hosts other humanities datasets, including encyclopedias, photography collections, and bibliographies. To ensure long-term accessibility and academic citation, DaSCH assigns an <a href="https://arks.org/" target="_blank" rel="noopener">Archival Resource Key (ARK) identifier</a> to both entire projects and individual objects within them (e.g., an XML file). This persistent identifier guarantees that resources remain referenceable and accessible, even if datasets are modified over time. There are two ways to archive data in DaSCH:</p>
+<ul>
+<li>
+<p><strong>Simple data model</strong>: TEI/XML files, along with basic metadata, are submitted to DaSCH. This metadata is then searchable via the DaSCH Service Platform (DSP).</p>
+</li>
+<li>
+<p>As an <strong>elaborated data model</strong>: In collaboration with the DSE project, DaSCH models part of the data as an RDF database on the DSP. This approach enables more complex searches for relationships between the data records. An example of this is the <a href="https://app.dasch.swiss/project/yTerZGyxjZVqFMNNKXCDPF" target="_blank" rel="noopener">Bernoulli-Euler Letter Edition Online</a>. In addition to displaying facsimiles (which can be stored on DaSCH's own IIIF server or integrated from external IIIF servers), it also allows for the generic publication of transcriptions and searchability by index. Although the transcriptions in the Bernoulli-Euler Letter Edition are not TEI/XML datasets, they will be stored on the DSP in the future as part of other DSEs. The main limitations are that their presentation is only <a href="../02_static_presentation/">static</a> and that minimal annotation, agreed upon with DaSCH, is recommended from the outset. The resulting structured front end (the DSP-APP) goes beyond simple data archiving but remains straightforward and generic compared to most DSE front ends.</p>
+</li>
+</ul>
+<p>Both archiving methods employed by DaSCH are implemented using the same data format, <a href="https://docs.dasch.swiss/latest/DSP-API/02-dsp-ontologies/introduction/" target="_blank" rel="noopener">RDF-triples</a>, and differ primarily in the complexity of their structuring.</p>
+<p>In Austria, long-term archiving of data is available through the <a href="https://gams.uni-graz.at/" target="_blank" rel="noopener">Humanities Asset Management System GAMS of the University of Graz</a>, though this service is primarily intended for projects and collaborations at the University of Graz. Similarly, the <a href="https://www.oeaw.ac.at/de/acdh/acdh-ch-home">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</a> of the Austrian Academy of Sciences archives its DSE data in the <a href="https://arche.acdh.oeaw.ac.at/browser/" target="_blank" rel="noopener">ARCHE</a>.</p>
+<p>In <strong>Germany</strong>, <a href="https://textgridrep.org">Textgrid</a> is a major curated repository for XML data. Textgrid allows users to search for metadata and download the data but does not provide functionality for displaying it. Additionally, various universities and academies in Germany offer text repositories (not necessarily for DSEs). An <a href="https://registry.text-plus.org/entities/repository/" target="_blank" rel="noopener">overview</a> of these repositories is provided by <a href="https://text-plus.org" target="_blank" rel="noopener">Text+</a>, a consortium of the German National Research Data Infrastructure (NFDI).</p>
+<h2 id="archiving-as-data-backup">Archiving as Data Backup</h2>
+<p>In addition to discipline-specific databases like DaSCH or GAMS, it is also possible to store data with minimal or no external curation in a scientific database. For this purpose, the database <a href="https://zenodo.org/" target="_blank" rel="noopener"><strong>Zenodo</strong></a>, maintained by CERN and OpenAIRE, is a suitable option. Structuring or curating the data is only possible to a limited extent and must be carried out by the project itself. As a result, many projects opt to store 'database dumps' - uncurated snapshots of their own databases - on Zenodo. These dumps can be versioned and receive a <a href="https://www.doi.org/">DOI</a>, providing a persistent, centrally registered access point on the Internet.</p>
+<p>One example is the database dump of the somewhat older project <a href="https://caedmon.seenet.org/">Cædmon's Hymn: A Multimedia Study, Edition, and Archive</a> which was archived under the DOI <a href="https://zenodo.org/records/1226549">10.5281/zenodo.1226549</a> on Zenodo.
+For projects that use <a href="https://github.com/">GitHub</a> (which is not a FAIR repository but is suitable for various forms of backup in the workflow), there is also an <a href="https://github.com/DiamondLightSource/zenodo-uploader">interface with Zenodo</a> for long-term data backup.</p>
+<p>Other data repositories such as <a href="https://access.olos.swiss/portal/home" target="_blank" rel="noopener"><strong>OLOS</strong></a> or soon also <a href="https://www.swissubase.ch">SWISSUbase</a> can be used in a similar way to Zenodo. One example already mentioned, in which data archiving and the static presentation of data go hand in hand, is the <a href="https://github.com/arthur-schnitzler" target="_blank" rel="noopener">GitHub repository</a> for the DSE <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/index.html" target="_blank" rel="noopener">Arthur Schnitzler's Letters</a>, along with other projects that use the <a href="https://github.com/acdh-oeaw/dse-static-cookiecutter?tab=readme-ov-file" target="_blank" rel="noopener">DSE-Static-Cookiecutter</a> tool. This tool processes the source data on GitHub through another <a href="https://github.com/arthur-schnitzler/schnitzler-briefe-static/" target="_blank" rel="noopener">GitHub instance</a> to create a static website.
+As noted in connection with <a href="../02_static_presentation/"><em>static_presentations</em></a> via GitHub, data privacy concerns may arise regarding the use of GitHub. Alternatives include GitLab instances from public institutions, which operate on the same principles as GitHub but are hosted on their own institutional servers, offering full control over the data.</p>
+<p>The SNSF provides an <a href="https://www.snf.ch/en/WtezJ6qxuTRnSYgF/topic/open-research-data-which-data-repositories-can-be-used"><strong>overview of recommended repositories</strong></a> that fulfil its requirements for open research data standards.</p>
+<h2 id="archivingsharing-transcription-data">Archiving/sharing transcription data</h2>
+<p>For the specific reuse purpose of <a href="../../2_Editionsarbeit/03_Transkription/"><em>ATR model training</em></a>, PAGE and Alto-XML data can be stored in the <a href="https://htr-united.github.io/" target="_blank" rel="noopener">htr-united</a> repository (txt data is also welcome, but it doesn't typically appear in the workflows described here).</p>
+<p><a href="https://transcriptiones.ch/" target="_blank" rel="noopener">Transcriptiones</a>, which primarily enables historians to easily store and make accessible transcriptions of sources not published elsewhere, serves a broader reuse purpose. There are no restrictions on data formats, and the legal and technical barriers to publication are intentionally kept very low (generic presentation, no facsimiles). Since DSE projects typically already present and archive their data elsewhere, transcriptiones should be seen more as an additional storage option.</p>
+<h2 id="archivingsharing-metadata">Archiving/Sharing Metadata</h2>
+<p>Metadata <a href="https://www.digitale-edition.at/o:konde.49" target="_blank" rel="noopener">aggregators</a> connect metadata and link back to their respective resources. A particularly noteworthy aggregator is <a href="https://correspsearch.net/de/start.html" target="_blank" rel="noopener"><strong>correspSearch</strong></a>, which gathers correspondence metadata (such as people, places, sending and receiving dates, etc.) from 490 DSE projects (as of 2024). Before being transferred to correspSearch, the metadata must be converted from the TEI/XML encoding <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspDesc.html" target="_blank" rel="noopener">CorrespDesc</a> into the <a href="https://correspsearch.net/en/documentation.html" target="_blank" rel="noopener">Correspondence Metadata Interchange Format (CMIF)</a>. Therefore, it is essential to mark up correspondences according to the <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspDesc.html" target="_blank" rel="noopener">coding guidelines of the TEI/XML element CorrespDesc</a> from the very beginning when sharing metadata with correspSearch.</p>
+<p>Another metadata aggregator is the Swiss platform <a href="https://metagrid.ch/" target="_blank" rel="noopener"><strong>Metagrid</strong></a>, which links biographical data from online humanities resources. It is especially beneficial for Swiss DSE projects, as several Swiss DSEs, databases, archives, and libraries already share their metadata here.</p>
+<p>The metadata aggregator <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> can be particularly useful for place names. This database compiles geographic data from various sources and allows users to edit and improve the entries.</p>
+<h2 id="publicizing-and-making-accessible">Publicizing and Making Accessible</h2>
+<p>Sharing metadata not only helps to connect open linked data but also raises awareness of a project. Ultimately, project information should be <strong>disseminated as widely as possible</strong> to achieve this goal. This can be done by submitting the project to major <a href="../../1_Planung/02_Vorbildhafte_Editionen/"><strong><em>overviews and collections of DSE</em></strong></a> mentioned in this handbook once the project is completed. The <a href="https://dig-ed-cat.acdh.oeaw.ac.at/" target="_blank" rel="noopener"><strong>Catalogue Digital Editions</strong></a> is particularly important to us, as it connects edition data with the <strong>German Library Network (DBIS)</strong>. We hope that similar solutions will be found for non-German <strong>library networks</strong> as well.</p>
+<p>Additionally, it makes sense to report DSE projects directly to relevant library networks as an online resource so they can be easily found through library searches.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

@@ -1,0 +1,1802 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://zde-uzh.github.io/proto4diged-handbook/2_Editionsarbeit/05_semantic_annotation/">
+      
+      
+        <link rel="prev" href="../04_converting/">
+      
+      
+        <link rel="next" href="../06_commenting/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="de">
+        
+          <link rel="alternate" href="../../en/2_Editionsarbeit/05_semantic_annotation/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>2.4 Inhaltliche Annotation - Handbuch zur Erstellung einer digitalen Edition - Beta Version</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#24-inhaltliche-annotation" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="Handbuch zur Erstellung einer digitalen Edition - Beta Version" class="md-header__button md-logo" aria-label="Handbuch zur Erstellung einer digitalen Edition - Beta Version" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Handbuch zur Erstellung einer digitalen Edition - Beta Version
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2.4 Inhaltliche Annotation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../en/2_Editionsarbeit/05_semantic_annotation/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Einleitung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-tabs__link">
+          
+  
+  
+  1. Planung
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-tabs__link">
+          
+  
+  
+  2. Editionsarbeit
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../3_presentation/01_introduction_presentation/" class="md-tabs__link">
+          
+  
+  
+  3. Präsentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../4_longterm_preservation/01_introduction_preservation/" class="md-tabs__link">
+          
+  
+  
+  4. Langzeitsicherung
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Themen/accessibility/" class="md-tabs__link">
+          
+  
+  
+  Themen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Impressum/impressum/" class="md-tabs__link">
+          
+  
+  
+  Impressum
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Handbuch zur Erstellung einer digitalen Edition - Beta Version" class="md-nav__button md-logo" aria-label="Handbuch zur Erstellung einer digitalen Edition - Beta Version" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Handbuch zur Erstellung einer digitalen Edition - Beta Version
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zde-uzh/proto4diged-handbook/" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einleitung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Planung
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Planung
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/01_Projektziele_und_-ressourcen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1 Festlegung der Projektziele
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/02_Vorbildhafte_Editionen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2 Vorbildhafte Editionen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Planung/03_Vernetzung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3 Vernetzung mit DSE-Spezialist:innen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Editionsarbeit
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Editionsarbeit
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_Einleitung_in_die_digitale_Editionsarbeit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einleitung in die digitale Editionsarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_Textkonstitution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1 Textkonstitution (Corpuswahl und -digitalisierung)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_Transkription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Transkription, ATR und Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_converting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.3 Konvertierung von PAGE nach TEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Inhaltliche Annotation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Inhaltliche Annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#was-bedeutet-digitales-inhaltliches-annotieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was bedeutet digitales inhaltliches Annotieren?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-standardlosungen-fur-inhaltliches-annotieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Standardlösungen für inhaltliches Annotieren
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-standard-workflow-schritte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Standard-Workflow-Schritte
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Standard-Workflow-Schritte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-erstellen-der-editionsrichtlinien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Erstellen der Editionsrichtlinien
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Erstellen der Editionsrichtlinien">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#referenzierung-von-normdaten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referenzierung von Normdaten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-die-inhaltliche-annotation-im-tei-publisher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Die inhaltliche Annotation im TEI-Publisher
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Die inhaltliche Annotation im TEI-Publisher">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wahl-der-odds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wahl der ODDs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annotations-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annotations-Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-die-inhaltliche-annotation-in-oxygen-mit-und-ohne-ediarum" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Die inhaltliche Annotation in Oxygen mit und ohne ediarum
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-limitationen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Limitationen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_commenting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.5 Kommentierung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Präsentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Präsentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/01_introduction_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einleitung in die Präsentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/02_access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.1 Einstiege: Seiten, Suchen und Register
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/03_edition_views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.2 Editionsansichten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_presentation/04_documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.3 Dokumentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Langzeitsicherung
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Langzeitsicherung
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/01_introduction_preservation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einleitung in die Langzeitsicherung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/02_static_presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.1 Statische Präsentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_longterm_preservation/03_archiving_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2 Datenarchivierung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Themen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Themen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barrierefreiheit im Web
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/authority/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normdaten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/transkribus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bedienung von Transkribus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEI-Modell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Themen/tei-publisher-annotations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annotationen mit TEI-Publisher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impressum
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Impressum
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Impressum/impressum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impressum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="24-inhaltliche-annotation">2.4 Inhaltliche Annotation</h1>
+<h2 id="was-bedeutet-digitales-inhaltliches-annotieren">Was bedeutet digitales inhaltliches Annotieren?</h2>
+<p>Unter der <em>inhaltlichen Annotation</em> verstehen wir die Auszeichnung eines Wortes oder einer Wortfolge hinsichtlich ihrer <strong>semantischen Referenzen</strong>. Diese können sich auf denselben Text (intratextuell), andere Texte/Werke (intertextuell) oder beliebige Fakten (kontextuell) beziehen. Das vorliegende Kapitel wird sich primär mit der inter- und kontextuellen Referenzierung befassen, da diese editorisch bezüglich Forschungsaufwand und technisch bezüglich Tools und Schnittstellen am anspruchsvollsten sind. Trotzdem sollten Projekte intratextuelle Verweise nicht ausser Acht lassen, da sie insbesondere die Navigation innerhalb eines größeren Textes sehr erleichtern.</p>
+<p>Verbreitete Beispiele:</p>
+<ul>
+<li>
+<p>Intratextuelle inhaltliche Annotationen:</p>
+<ul>
+<li>Verweis einer Briefpassage auf den darin angesprochenen Briefanhang;</li>
+<li>Verweis eines Inhaltsverzeichnisses auf die darin angegebenen Kapitel.</li>
+</ul>
+</li>
+<li>
+<p>Intertextuelle inhaltliche Annotationen:</p>
+<ul>
+<li>Verweis eines in einem Brief implizit oder explizit thematisierten Werkes auf einen bibliographischen Eintrag im DSE-Register und/oder auf eine Bibliotheksdatenbank oder - idealerweise - eine <a href="../../Themen/authority/"><em>Normdatenbank</em></a>;</li>
+<li>Verweis einer Textstelle auf einen anderen Text in derselben DSE oder auf einen Text, der in einer anderen DSE ediert wurde.</li>
+</ul>
+</li>
+<li>
+<p>Kontextuelle inhaltliche Annotation:</p>
+<ul>
+<li>Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Ortsregister und/oder eine Normdatenbank für geographische Daten wie z.B. <a href="https://www.geonames.org/">geonames.org</a>.</li>
+<li>Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Personenregister und/oder in einer Normdatenbank für Personen-Daten wie z.B.einen Personeneintrag in der <a href="https://gnd.network/Webs/gnd/DE/Home/home_node.html">Gemeinsame Normdatei (GND)</a>, die größte Normdatensammlung für Kultur- und Forschungsdaten im deutschsprachigen Raum.</li>
+</ul>
+</li>
+</ul>
+<p>Im Gegensatz zur textkritischen Annotation, die oft schon während der <a href="../03_Transkription/"><em>Transkription</em></a> (siehe dort 3.5) gemacht wird, erscheint die inhaltlich annotierte Textstelle als Link, der diese Referenz durch einen Klick zugänglich macht (alternativ kann sie auch durch einen hover-/mouseover-Text kenntlich werden). Im Gegensatz zur <a href="../06_commenting/"><em>Kommentierung</em></a> ist eine inhaltliche Annotation ein <strong>einfacher Verweis</strong>, der <strong>selbsterklärend</strong> sein sollte oder zumindest erklärt wird durch die Weiterleitung zu einer editionsinternen Ressource (z.B. ein Eintrag in einem Register oder in einer Karte) oder einer externen Ressource (z.B. einer <a href="../../Themen/authority/"><em>Normdatenbank</em></a> wie <a href="https://gnd.network/Webs/gnd/EN/Home/home_node.html">GND</a>).</p>
+<p>Das inhaltliche Annotieren ist eine Editionsarbeit, die spezifisch durch digitale Werkzeuge, insbesondere der Möglichkeit der Verlinkung entsteht. Sie erzeugt das digitale Äquivalent eines <strong>Buch-Indexes</strong> (z.B. eines Sach-, Namens- oder Ortsregisters am Ende einer wissenschaftlichen Edition), hat aber weitreichendere Funktionen und weist eine größere Vollständigkeit auf. Die breite Vernetzung von Annotationen mit externen digitalen Ressourcen befördert das Konzept der <a href="https://handbook.opendata.swiss/de/content/glossar/bibliothek/linked-open-data.html" target="_blank" rel="noopener"><strong>Linked Open Data</strong></a>: dem Verständlichmachen, Verknüpfen, Teilen und Integrieren offen zugänglicher Datensets.</p>
+<h2 id="1-standardlosungen-fur-inhaltliches-annotieren">1. Standardlösungen für inhaltliches Annotieren</h2>
+<p>Die inhaltliche Annotation kann normalerweise mit dem gleichen Tool wie die Kommentierung gemacht werden, eine genaue Betrachtung des Digitalisats ist für beide Arbeitsschritte nicht mehr zwingend nötig. Transkriptionstools wie Transkribus bieten diese Arbeitsschritte (noch) nicht an, d.h. sie weisen bislang nicht die Möglichkeit auf, inhaltliche Annotationen als Links oder Kommentare zu erstellen. Solche Funktionen sind zwar Stand Sommer 2024 geplant. Sie sollten jedoch, falls implementiert, mit großer Vorsicht angewendet werden, weil jede zusätzliche Annotationsfunktion im Transkriptionstool neue Herausforderungen in der <a href="../04_converting/"><em>Konversion</em></a> nach sich ziehen kann - zumindest solange Transkriptionstools noch nicht die Funktion besitzen, TEI/XML-Daten selbst zu <a href="../../3_presentation/01_introduction_presentation/"><em>publizieren</em></a>.</p>
+<p>Zwei technische Standardlösungen stehen zur Verfügung und werden im nächsten Unterkapitel in ihren Workflows dokumentiert:</p>
+<ol>
+<li>
+<p>Die Nutzung eines Tools, das sowohl <strong>Edition und Publikation</strong> erlaubt. Die hierfür im Detail getestete Lösung ist der TEI-Publisher.</p>
+</li>
+<li>
+<p>Die Nutzung eines <strong>TEI/XML-Editors</strong> wie Oxygen: Er stellt in diesem Fall ein Verbindungsglied zwischen Transkriptionstool und Publikationstool dar.</p>
+</li>
+</ol>
+<h2 id="2-standard-workflow-schritte">2. Standard-Workflow-Schritte</h2>
+<h3 id="21-erstellen-der-editionsrichtlinien">2.1. Erstellen der Editionsrichtlinien</h3>
+<p>Weitgehend unabhängig vom verwendeten Tool sollte am Anfang des Arbeitsschrittes geklärt werden, welche Inhalte zu welchem Zweck ausgezeichnet werden müssen. Anleitend sollte die Frage sein, welche Nutzungsszenarien die DSE zu erfüllen hat:</p>
+<ul>
+<li>Soll sie möglichst viele inhaltliche Daten möglichst breit sammeln oder sind ganz spezifische Daten im Vordergrund?</li>
+<li>Welche Daten sind das jeweils?</li>
+</ul>
+<p>Fünf Hauptkategorien inter- und kontextueller Referenzen, wie in den Beispielen eingangs schon aufgetaucht, haben sich in den letzten Jahren ausgebildet: <strong>Personendaten, Ortsdaten, Zeitdaten, Werkdaten und Schlagworte</strong>. Während Werkdaten und Schlagworte nicht in jeder DSE auftauchen, sind Personen, Orte und Zeiten mittlerweile Standard.</p>
+<p>Etwas exotischer ist die Referenzierung weiterer Kategorien, denen technisch im Grunde keine Grenzen gesetzt sind, z.B. frei gewählte Themen (spezifischer als Schlagworte), historische Ereignisse oder linguistischer Eigenarten (z.B. die Nutzung von Fremdsprachen).</p>
+<div class="admonition warning">
+<p class="admonition-title">Herausforderung</p>
+<p>Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall mehrerer Edierender bedingt es das genaue Befolgen komplexer Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-<a href="../06_commenting/"><em>Kommentar</em></a> dargestellt werden.</p>
+</div>
+<p>In der Planung der inhaltlichen Annotation müssen folgende editorischen Überlegungen beachtet werden:</p>
+<ul>
+<li>Ist vor allem das DSE-eigenen Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt?</li>
+<li>Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen?</li>
+</ul>
+<p>Beide Tool-Standardlösungen erlauben die <strong>Einbindung von Konnektoren</strong>, d.h. die halb-automatisierte Verlinkung der Annotation im TEI-XML mit einer Normdatenbank. Die Edierenden können aus den Vorschlägen des Konnektors den korrekten Normdatensatz auswählen und müssen die Verlinkung nicht selbst recherchieren und im TEI/XML verfassen. Sollte jedoch die Aussicht klein sein, überhaupt externe Normdaten zu finden, so ist die Anwendung von Konnektoren zweitrangig.</p>
+<p>Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen und welche Normdaten (s.u.) hierzu referenziert werden. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Showcase-Editionsrichtlinien: Inhaltliche Annotation</p>
+<p>Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.</p>
+<ul>
+<li>
+<p><strong>Orte</strong> werden, wenn möglich, mit ihrem heutigen Ortsnamen auf geonames verlinkt.</p>
+<ul>
+<li>Orte werden nicht ausgezeichnet, wenn sie bereits in den Metadaten des Briefes vorhanden sind (Absende- oder Empfangsort).</li>
+</ul>
+</li>
+<li>
+<p><strong>Personen</strong> werden in einem ersten Schritt mit den Personendaten in GND verknüpft. Dies ist die einfachste From der Normdatenverknüpfen, da die Verlinkung mit GND im TEI Publisher vorkonfiguriert ist. In einem zweiten Schritt soll auch eine Verknüpfung über <a href="https://viaf.org/" target="_blank" rel="noopener">VIAF</a> , ein internationaler Aggregator von Normdatensätzen, zu <a href="https://www.idref.fr/" target="_blank" rel="noopener">IdRef</a>, der französischen Normdatenbank, hergestellt werden. IdRef ist angesichts des französischsprachigen Corpus und des romanistischen Forschungsinteresse von zentraler Bedeutung, kann Stand 2024 jedoch noch nicht automatisiert mit dem TEI Publisher verknüpft werden.
+Personendaten, die in der GND noch nicht verzeichnet sind, werden über einen Service der GND-Redaktion an der Zentralbibliothek Zürich selbstständig in der GND ergänzt und so verknüpfbar. Dadurch trägt das Projekt zur Verbesserung der GND-Datensätze hinsichtlich französischer/romanistischer Daten bei.</p>
+<ul>
+<li>Personen werden nicht im Text ausgezeichnet, wenn sie bereits Teil der Metadaten sind (Verfasser:in oder Empfänger:in)</li>
+</ul>
+</li>
+<li>
+<p><strong>Werke</strong> werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten aus der GND verknüpft werden, dies ist jedoch in der Showcase-Edition nicht umgesetzt.</p>
+</li>
+</ul>
+</div>
+<h4 id="referenzierung-von-normdaten">Referenzierung von Normdaten</h4>
+<p><strong>Normiertes Vokabular</strong> im Allgemeinen und die <strong>GND</strong> im Besonderen stärken die Interoperabilität aus den FAIR-Prinzipien. Die GND mit ihren 10 Millionen normierten Datensätze zu Personen, Geografika, Körperschaften, Konferenzen, Werktitel sowie Sachbegriffen steht für die Nachnutzung zur freien Verfügung. Sie diente lange hauptsächlich der Erschliessung von Material in Bibliotheken, wird aber inzwischen in wachsendem Maße auch für die Erschliessung von Sammlungen in Archiven und Museen sowie in verschiedenen digitalen Projekt- und Forschungskontexten wie DSEs verwendet. Die so erschlossenen Ressourcen werden dadurch anschlussfähig an moderne Suchumgebungen, gleichzeitig erhöht sich durch die Verwendung des kontrollierten Vokabulars die <strong>Auffind- und Sichtbarkeit der Ressourcen</strong>.</p>
+<p>Hilfreich im Verlauf des Annotierens ist die Zusammenarbeit mit einer bibliothekarischen Fachstelle, um die Lücke zu schliessen, mit der Editionsprojekte oft konfrontiert sind («so haben einige Personen, die in der Korrespondenz auftreten, noch keinen GND– oder VIAF-Eintrag», Sarah Rebecca Ondraszek: <a href="https://doi.org/10.58079/nkrq">Data, Data, there to Crawl, Who’s the Fairest of Them All?</a>). Die <a href="https://www.zde.uzh.ch/de/analytics/openup.html"><strong>GND-Redaktion der UB und ZB Zürich</strong></a> unterstützt digitale Editionsprojekte bei der aktiven Nutzung sowie der selbständigen Erfassung von Datensätzen im Webformular der GND. Die GND-Redaktion ermöglicht den Zugang und schult in der Arbeit mit dem Webformular, in der Folge sind die selbst erfassten Daten sofort in der GND verfügbar und können in der Annotation verlinkt werden. Die Redaktion bietet begleitend eine GND-Einführung an und berät zur Nachnutzung der Daten. In Absprache gleicht sie ausserdem ab, welche Personen, Orte etc. aus vorhandenen Listen oder Registern schon in der GND vorhanden sind.</p>
+<p>Für den anglophonen Bereich spielen in der Sacherschliessung die <a href="https://www.loc.gov/aba/cataloging/subject/"><strong>Library of Congress Subject Headings</strong></a> (LCSH) und für den frankophonen Bereich <a href="https://rameau.bnf.fr/"><strong>Répertoire d’autorité-matière encyclopédique et alphabétique unifié</strong></a> (RAMEAU) vor allem über die Identifiants et référentiels (IdRef) eine zentrale Rolle. Auch die GND selbst verknüpft übereinstimmende Entitäten der genannten Normdateien. Ferner führt die Sammlung <a href="https://viaf.org/"><strong>VIAF</strong></a> (Virtual International Authority File) mehrere Normdateien und Wikidata in einem von OCLC gehosteten Normdatendienst automatisiert zusammen. Während die Index-Verlinkung zur GND direkt im TEI-Publisher integriert ist, kann IdRef zur Annotation nur indirekt über Aggregatoren oder Konkordanzen erreicht werden.</p>
+<h3 id="22-die-inhaltliche-annotation-im-tei-publisher">2.2. Die inhaltliche Annotation im TEI-Publisher</h3>
+<p>Die open source software <a href="https://teipublisher.com/">TEI Publisher</a> bietet seit Version 7 (Stand Sommer 2024: Version 9) die Möglichkeit, mithilfe einer graphischen Oberfläche TEI/XML-Daten mit Annotationen anzureichern. Das bedeutet, dass der zu bearbeitende Text nicht als TEI/XML erscheint und als Code bearbeitet werden muss, sondern ähnlich dem Textverarbeitungsprogramm Word darstellbar ist. Die Codierung in TEI/XML lässt sich jedoch jederzeit überprüfen und auch direkt manipulieren, was zuweilen notwendig ist, aber zusätzliches Fachwissen benötigt.</p>
+<h4 id="wahl-der-odds">Wahl der ODDs</h4>
+<p>Nach dem Importieren der TEI/XML-Daten in den TEI Publisher können diese mithilfe unterschiedlicher ODDs (<strong>O</strong>ne <strong>D</strong>ocument <strong>D</strong>oes it all) auf der Benutzeroberfläche des Tools dargestellt werden. ODD-Dateien (eine genaue Beschreibung findet sich im <a href="https://www.digitale-edition.at/o:konde.150">Konde-Weissbuch</a>) sind in der ODD-Schema-Sprache verfasst; sie geben den TEI/XML-Code aufgrund unterschiedlicher, festgelegter Schemata aus: Im Falle der (hier textkritischen) Annotation <code>&lt;hi rend="underline"&gt;rassuré&lt;/hi&gt;</code> 'erkennt' das ODD beispielsweise, dass das Wort "rassuré" unterstrichen werden soll.
+<a href="https://tei-c.org/guidelines/customization/getting-started-with-p5-odds/">Das TEI-Konsortium bietet verschiedene ODDs an und dokumentiert deren Verwendung</a>; da TEI-XML ein flexibler Standard ist, muss und kann nicht jede Annotation für dasselbe verwendet werden. Im deutschsprachigen Raum hat sich neben den Standard-ODDS des Konsortiums das <a href="https://www.deutschestextarchiv.de/doku/basisformat/schema.html">ODD des deutschen Textarchivs</a> für Editionen durchgesetzt. ODDs können für jedes Projekt angepasst werden, etwa mithilfe des Online-Tools <a href="https://roma.tei-c.org/">ROMA</a>.
+Technisch gesehen gibt es zwei verschiedene Anwendungsfälle für das ODD, die Darstellung und die Validierung der Daten.Eigentlich (also nach Spezifikation) sind beide als Teil desselben Dokuments vorgesehen, faktisch wird im TEI-Publisher-Umfeld die Darstellung oft separat definiert.</p>
+<h4 id="annotations-editor">Annotations-Editor</h4>
+<p>Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses ODD hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Der dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die <a href="https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&amp;view=div&amp;odd=docbook.odd#3.42.13.63.3">Dokumentation des TEI-Publishers</a>; wichtige Hinweise haben wir zudemim Unterkapitel <a href="../../Themen/tei-publisher-annotations/"><em>Annotationen mit TEI-Publisher</em></a> zusammengefasst.</p>
+<div class="admonition note">
+<p class="admonition-title">Erfahrungen aus der Showcase-Edition</p>
+<p>Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
+Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
+=&gt; HIER PROJEKTRESSOURCEN EINFÜGEN. <a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Annotations-Editor TEI Publisher" src="../image-4.png"></a></p>
+</div>
+<p>Der TEI-Publisher legt alle Daten der inhaltlichen Annotation in einem <strong>XML-Register</strong> an, dort sind sowohl Normdaten-Ids als auch eigene erzeugte hinterlegt. Die Verwendung einer zusätzlichen Datenbank ist deshalb unnötig.</p>
+<h3 id="23-die-inhaltliche-annotation-in-oxygen-mit-und-ohne-ediarum">2.3. Die inhaltliche Annotation in Oxygen mit und ohne ediarum</h3>
+<p>Nach dem Import der TEI-XML-Daten in den Editor wird mithilfe der Arbeitsumgebung <a href="https://www.ediarum.org">ediarum</a> die Auszeichnung durchgeführt. Ediarum stellt TEI-XML-Daten ähnlich wie eine Word-Datei dar und hat entsprechende Formatierungs-Buttons. Eine ausführliche ediarum-<a href="https://www.ediarum.org/docs.html">Dokumentation</a> existiert für das <a href="https://www.ediarum.org/docs/set-up/">Aufsetzen</a>, <a href="https://github.com/ediarum/ediarum.SKOS.edit?tab=readme-ov-file#installation">Konfigurieren</a> und <a href="https://www.ediarum.org/docs/ediarum.BASE.manual">Verwenden</a> der Editionsumgebung und wird vom ediarum-Team regelmässig ergänzt.</p>
+<p>=&gt; Dieser Punkt wird durch Erfahrungen aus dem Schwarzenbach-Projekt angereichert, wobei die Benutzung von ediarum sich voraussichtlich auf sehr wenige Funktionen beschränkt.</p>
+<h2 id="4-limitationen">4. Limitationen</h2>
+<p>Die aufgeführten Standard-Wege zur inhaltlichen Annotation haben grundsätzlich dieselbe <strong>editorische Limitation</strong>: Je mehr Annotations-Kategorien in der Edition eingeführt werden, desto schwieriger wird die konsequente Einhaltung der Editionsrichtlinien.</p>
+<p>Auf technischer Seite lassen sich grundsätzlich zwei Limitationen unterscheiden:</p>
+<ol>
+<li>
+<p>Wird eine <strong>benutzerfreundliche Annotations-Oberfläche</strong> wie der Annotations-Editor des TEI Publisher oder die ediarum-Erweiterung zu Oxygen verwendet, geht die einfachere Bedienung mit einer Eingrenzung der Annotationsmöglichkeiten einher. Sollen diese erweitert werden, benötigt es reglmässigen Support durch eine technische Fachkraft und womöglich aufwändigere Versuchsphasen.</p>
+</li>
+<li>
+<p>Wird ein <strong>XML-Editor</strong> wie Oxygen verwendet, so ist die Einführung in die Codier-Arbeit zwecks Annotationserstellung mit Aufwand verbunden; die Editionsumgebung ist nicht 'ready to use', das Annotieren muss eingeübt werden. Eine Erweiterung und Anpassung der Editionsrichtlinien ist hingegen mit weniger technischem Support verbunden.</p>
+</li>
+</ol>
+<p>Welche der beiden Wege insgesamt weniger Aufwand auf technischer und editorischer Seite benötigt, hängt von der <strong>Dynamik bezüglich der Komplexität eines Projektes</strong> ab: Sind die Editionsrichtlinien zur inhaltlichen Annotation einfach und von Anfang an gesetzt, so ist der erste Weg vorzuziehen; ist das Projekt komplex (z.B. durch ein anwachsendes, anfänglich noch schwer abschätzbares Corpus) und die Anforderungen an die Annotationen anfänglich schwer festzulegen, ist die Arbeit im TEI/XML-Code selbst wahrscheinlich sinnvoller. Die längere technische Einarbeitungszeit der Editionsmitarbeitenden zahlt sich dann durch größere Flexibilität aus.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
