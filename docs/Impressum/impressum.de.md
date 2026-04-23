@@ -1,24 +1,40 @@
-#Kontakt
+# Impressum
 
-!!! warning "Betaversion"
-Im derzeitigen Zustand handelt es sich um eine **Betaversion**, die **nicht zitierbar** ist. Deshalb fehlt bis auf weiteres auch ein Zitiervorschlag und die Möglichkeit eines PDF-Exports. Wir freuen uns über Anregungen und Kommentare.
+Handbuch zur Erstellung einer digitalen Edition – Beta
 
-Das Handbuch wird im Rahmen von [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html){:target="\_blank"} (s.u.) verfasst von Dr. Elias Zimmermann und MA Reto Baumgartner unter Mithilfe von Dr. Yann Stricker, Marcus Zerbst, Prof. Dr. Rita Gautschy und Prof. Dr. Ursula Bähler.
+## Funding
 
-Kontakt: [elias.zimmermann@uzh.ch](mailto:elias.zimmermann@uzh.ch)
+Das Handbuch entstand im Rahmen des von [swissuniversities](https://www.swissuniversities.ch/themen/open-science/programm-open-science/abgeschlossene-projekte-2021-2024){:target="\_blank"} geförderten Open Research Data Projektes [Proto4DigEd](https://www.zde.uzh.ch/de/projects/proto4diged.html){:target="\_blank"} (2023-2024).
 
-## Proto4DigEd - prototypical workflows for digital editions
+## Team
 
-[**Proto4DigED**](https://www.zde.uzh.ch/de/projects/proto4diged.html){:target="\_blank"} (2023-2024) ist ein Open Research Data Projekt des [romanischen Seminars UZH](https://www.rose.uzh.ch/de.html){:target="\_blank"} unter der Leitung von [Prof. Dr. Ursula Bähler](https://www.rose.uzh.ch/de/seminar/personen/baehler.html){:target="\_blank"}, finanziert durch [swissuniversities](https://www.swissuniversities.ch){:target="\_blank"}.
+- Prof. Dr. Ursula Bähler (UZH, Romanisches Seminar), Projektleitung und Redaktion
+- Dr. Elias Zimmermann (UZH, Romanisches Seminar), Projektkoordination, Redaktion und technische Umsetzung
+- MA Reto Baumgartner ([UZH, Science IT](https://www.zi.uzh.ch/de/teaching-and-research/science-it.html){:target="\_blank"}), Technische Umsetzung und Redaktion
+- Dr. Yann Stricker ([UB](https://www.ub.uzh.ch){:target="\_blank"}/[ZB](https://www.zb.uzh.ch){:target="\_blank"}, [Zentrum Digitale Editionen](https://www.zde.uzh.ch){:target="\_blank"}), Projektbegleitung Open Science
+- Marcus Zerbst ([ZB](https://www.zb.uzh.ch){:target="\_blank"}, Erwerbungen und Datenmanagement), Normdatenverknüpfung/GND
+- PD Dr. Rita Gautschy ([DaSCH](https://www.dasch.swiss/){:target="\_blank"}), Langzeitarchivierung
+- Dr. Anastassia Shaitarova (UZH), Redaktion Übersetzung ins Englische
 
-Proto4DigEd-Kooperationspartner:
+## Mithilfe & Dank
 
--   [Science IT UZH](https://www.zi.uzh.ch/de/teaching-and-research/science-it.html){:target="\_blank"}
+Im Review Prozess beteiligt waren: Anastassia Shaitarova, Elisabeth-Christine Gamer, Severin Kolb, Salome Schoeck, Christine Grundig; José Luis Losada Palenzuela, Daniela Kohler, Elena Spadini
 
--   [Zentrum Digitale Editionen & Editionsanalytik UZH](https://www.zde.uzh.ch){:target="\_blank"}
+Vorbereitende Unterstützung/Begleitung: Selina Galka und Elisabeth Steiner
 
--   [Universitätsbibliothek Zürich](https://www.ub.uzh.ch){:target="\_blank"}
+## Zitierempfehlung
 
--   [Zentralbibliothek Zürich](https://www.zb.uzh.ch){:target="\_blank"}
+[von Zenodo kopieren]
 
--   [DaSCH - Swiss National Data and Service Center for the Humanities](https://www.dasch.swiss/){:target="\_blank"}
+## Lizenz
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="\_blank"}
+
+## Work in Progress
+
+Nach Möglichkeit sind weitere Aktualisierungen des Handbuches geplant. Aktuelle Informationen dazu erhalten Sie über diese Webseite oder den [Newsletter des Zentrums Digitale Editionen](https://www.zde.uzh.ch/de/newsletter.html){:target="\_blank"}.
+
+## Kontakt
+
+- Elias Zimmermann: [elias.zimmermann@uzh.ch](mailto:elias.zimmermann@uzh.ch)
+- Zentrum Digitale Editionen/Yann Stricker: [yann.stricker@ub.uzh.ch](mailto:yann.stricker@ub.uzh.ch)
