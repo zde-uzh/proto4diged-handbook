@@ -23,7 +23,7 @@ Eine Übersicht zu mehrheitlich österreichischen Institutionen bietet das [KOND
 Eine wichtige Sammlung über Services in der Deutschschweiz, nach Phase des Workflows geordnet und mit relevanten Tools ergänzt, bietet das [Zentrum Digitale Editionen & Editionsanalytik ZDE der Universität Zürich](https://www.zde.uzh.ch/de/analytics.html){:target="\_blank"}.
 
 !!! note "Erfahrung aus der Showcase-Edition"
-Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} haben das Projekt wesentlich vorangebracht.
+    Das vorliegende Projekt hat von Anfang an eine Enge Zusammenarbeit mit dem ZDE gepflegt und dadurch viele Anregungen für die Showcase-Edition durch die Vernetzung mit laufenden DSE-Projekten schöpfen können. Auch die Teilnahme und Vernetzung an DSE-spezifischen Tagungen wie ["Open up DSE"](https://www.zde.uzh.ch/de/news/2024/openupdse.html){:target="\_blank"} haben das Projekt wesentlich vorangebracht.
 
 #### Deutschland
 
