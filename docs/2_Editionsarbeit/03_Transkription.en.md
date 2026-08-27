@@ -12,7 +12,7 @@ Finally, this chapter of the handbook will discuss the limitations of the availa
 
 #### Transcription Guidelines
 
-As in print editions, consistent **transcription guidelines** must also be followed for DSE, particularly with regard to **transcription scope** and **diplomatic transcription**, i.e. the degree of coverage of the transcription with the original in terms of linguistic and formal peculiarities. For manuscripts, the question must be answered as to which hands, (special) characters, textual interventions and revision stages are transcribed and how. In the case of prints,  the question also arises regarding print-specific paratexts such as page numbers or bastard titles. The labelling of these formal textual aspects is also referred to as **text-critical annotation**. Depending on the tool (see below), this can be carried out together with the transcription or only later together with the [_content annotation_](../2_Editionsarbeit/05_semantic_annotation.en.md).
+As in print editions, consistent **transcription guidelines** must also be followed for DSE, particularly with regard to **transcription scope** and **diplomatic transcription**, i.e. the degree of coverage of the transcription with the original in terms of linguistic and formal peculiarities. For manuscripts, the question must be answered as to which hands, (special) characters, textual interventions and revision stages are transcribed and how. In the case of prints, the question also arises regarding print-specific paratexts such as page numbers or bastard titles. The labelling of these formal textual aspects is also referred to as **text-critical annotation**. Depending on the tool (see below), this can be carried out together with the transcription or only later together with the [_content annotation_](../2_Editionsarbeit/05_semantic_annotation.en.md).
 
 !!! abstract "Showcase Edition Guidelines: Transcription and Text-Critical Annotation"
 
@@ -76,10 +76,10 @@ It is therefore preferable to use a scientific transcription tool for both manua
 
 Below, we present the most common scientific transcription tools (a list of other tools can be found [here](https://www.adfontes.uzh.ch/ressourcen/quellen-erschliessen/digitale-transkriptionstools){:target="\_blank"} ):
 
--   [Transkribus](https://app.transkribus.org/){:target="\_blank"} : As of 2024, the **most widely used transcription tool** is distributed by the international cooperative [READ-COOP](https://readcoop.org/de), which is owned by various academic institutions. It offers extensive customer support and has a large user community. Because of this, it also provides the largest collection of AI models for text recognition, developed by individual projects and shared with Transkribus. With its most advanced general AI model, _The Text Titan I_, it surpasses all other known transcription tools as of summer 2024, at least for widely used handwriting styles. However, Transkribus has limited functionality unless a subscription is purchased.
--   [eScriptorium](https://escriptorium.inria.fr/){:target="\_blank"} The code for this Transkribus alternative is provided free of charge by the Université PSL in Paris. It can be installed locally, but requires **its own server infrastructure** or institutional access to an eScriptorium server, as currently operated by various universities. For example, the eScriptorium instance [fondue](https://fondue.unige.ch/){:target="\_blank"} at the University of Geneva is accessible to most Swiss universities. The number of available AI models is currently growing rapidly.
--   [OCR4all](https://www.ocr4all.org/){:target="\_blank"} : Like eScriptorium, this free transcription tool from the University of Würzburg requires installation on a local device or a dedicated server. It is currently less institutionally established than Transkribus and eScriptorium. A key feature of OCR4all is its ability to automate not just the text transcription step, but entire workflows, from uploading to saving in the desired format.
--   [Transcribo](https://tcdh.uni-trier.de/de/projekt/transcribo){:target="\_blank"} is a service offered by the Trier Centre for Digital Humanities at Trier University and part of its FuD research platform (comparable to [Textgrid](https://textgrid.de){:target="\_blank"}, a German research network project). Unlike the tools mentioned above, it allows transcription at the word level rather than just the line level, meaning that each transcribed word is linked to the corresponding word in the digitized text using coordinates. This enables greater accuracy but also makes the manual transcription process more complex. One DSE that uses this tool is the [Johann Caspar Lavater Online Briefedition](https://www.jclavater-briefwechsel.ch/home){:target="\_blank"} .
+- [Transkribus](https://app.transkribus.org/){:target="\_blank"} : As of 2024, the **most widely used transcription tool** is distributed by the international cooperative [READ-COOP](https://readcoop.org/de), which is owned by various academic institutions. It offers extensive customer support and has a large user community. Because of this, it also provides the largest collection of AI models for text recognition, developed by individual projects and shared with Transkribus. With its most advanced general AI model, _The Text Titan I_, it surpasses all other known transcription tools as of summer 2024, at least for widely used handwriting styles. However, Transkribus has limited functionality unless a subscription is purchased.
+- [eScriptorium](https://escriptorium.inria.fr/){:target="\_blank"} The code for this Transkribus alternative is provided free of charge by the Université PSL in Paris. It can be installed locally, but requires **its own server infrastructure** or institutional access to an eScriptorium server, as currently operated by various universities. For example, the eScriptorium instance [fondue](https://fondue.unige.ch/){:target="\_blank"} at the University of Geneva is accessible to most Swiss universities. The number of available AI models is currently growing rapidly.
+- [OCR4all](https://www.ocr4all.org/){:target="\_blank"} : Like eScriptorium, this free transcription tool from the University of Würzburg requires installation on a local device or a dedicated server. It is currently less institutionally established than Transkribus and eScriptorium. A key feature of OCR4all is its ability to automate not just the text transcription step, but entire workflows, from uploading to saving in the desired format.
+- [Transcribo](https://tcdh.uni-trier.de/de/projekt/transcribo){:target="\_blank"} is a service offered by the Trier Centre for Digital Humanities at Trier University and part of its FuD research platform (comparable to [Textgrid](https://textgrid.de){:target="\_blank"}, a German research network project). Unlike the tools mentioned above, it allows transcription at the word level rather than just the line level, meaning that each transcribed word is linked to the corresponding word in the digitized text using coordinates. This enables greater accuracy but also makes the manual transcription process more complex. One DSE that uses this tool is the [Johann Caspar Lavater Online Briefedition](https://www.jclavater-briefwechsel.ch/home){:target="\_blank"} .
 
 The Transkribus tool requires the least (project-specific) technical support, which is why we focus on its workflows below. However, many work steps, such as training a model, can also be transferred to other tools.
 
@@ -103,7 +103,7 @@ As mentioned above, Transkribus recommends at least 75 pages of ground truth as 
 Previously, Transkribus offered the **"text2image"** function, which aligned existing transcriptions, such as those from historical print editions, with digitized images on a line-by-line basis. Currently, this alignment must be done manually for training purposes. Manually inserting transcriptions into training data is only advisable if standard models cannot be used and corrected efficiently. However, Transkribus has announced plans to reintroduce the "text2image" function by the end of 2024.
 
 !!! note "Experience from the Showcase Edition"
-    
+
     For Gaston Paris' handwriting, the standard model _The Text Titan I_ proved suitable for generating a ground truth through corrections, which in turn enabled the training of a custom model (see next information box). This AI model, similar to ChatGPT, is based on Transformer technology and outperforms conventional ATR models that rely on older AI technologies. While training Transformer models independently is not yet possible with any transcription tool, custom ATR models can still compete with Transformer models by being trained with project-specific ground truth.
 
 ### 3.2 Repeated training, re-training
@@ -112,14 +112,14 @@ It is generally advisable to create **more than one specific model with the same
 
 **Re-training with a larger ground truth** differs from repeated training with the same ground truth. When should new data be used to train better models? This decision depends on the specific needs of the project. Key factors include:
 
--   Quality improvement
--   Correction effort
--   Availability of project members
--   Time required for training
+- Quality improvement
+- Correction effort
+- Availability of project members
+- Time required for training
 
 !!! note "Experience from the Showcase Edition"
-    
-    Using progressively larger ground truth collections (manually corrected transcriptions created with _The Text Titan I_), we conducted several series of re-trainings. The second model in the second series outperformed _The Text Titan I_ in recognizing certain unique idiosyncrasies of Gaston Paris' handwriting. However, the general model still outperformed our custom model in recognizing numbers and different languages.  
+
+    Using progressively larger ground truth collections (manually corrected transcriptions created with _The Text Titan I_), we conducted several series of re-trainings. The second model in the second series outperformed _The Text Titan I_ in recognizing certain unique idiosyncrasies of Gaston Paris' handwriting. However, the general model still outperformed our custom model in recognizing numbers and different languages.
 
 ### 3.3 Layout Analysis
 
@@ -129,7 +129,7 @@ During layout analysis, an algorithm detects the **arrangement of lines** before
 
 During the correction process, it is advisable to first check the detected lines, especially if they appear fragmented or are missing. If the layout analysis yields poor results, testing different layout analysis models (see above) may be necessary.
 
-If no improvement is achieved, **lines can also be manually adjusted or completely redrawn**. Layout corrections, such as extending a line, can enhance subsequent ATR runs and improve the visual alignment between the transcription and the digitized document in the front end (see our [_Tips_](../Themen/transkribus.en.md)). However, precisely refining the lines may be an unnecessary extra effort, as the comparison remains possible even without perfect alignment, thanks to the visual line overlay.
+If no improvement is achieved, **lines can also be manually adjusted or completely redrawn**. Layout corrections, such as extending a line, can enhance subsequent ATR runs and improve the visual alignment between the transcription and the digitized document in the front end. However, precisely refining the lines may be an unnecessary extra effort, as the comparison remains possible even without perfect alignment, thanks to the visual line overlay.
 
 Transcription errors can simply be corrected within the detected lines. Incorrectly assigned line regions can also be fixed at this stage. However, it is important to note that when using optional word segmentation, individual words cannot be corrected directly - post-processing in Transcribo (https://tcdh.uni-trier.de/de/projekt/transcribo){:target="\_blank"} is an alternative for this step.
 
@@ -151,7 +151,7 @@ Transkribus distinguishes between 'structural tags' and 'textual tags', which co
 ![alt text](image-2.png){align=right width="250" }**Textual tags** allow tagging at the word level of the transcription and are therefore attached to the transcription text on the right-hand side of the user interface. In addition to formal aspects (underlining, foreign hands), 'textual tags' can also include content-related aspects (tagging of place names or keywords). However, we recommend that the more complex content annotation is only carried out in TEI-XML in order to minimize the conversion effort (see below). Transkribus is also not (yet) capable of automatically linking content annotations to external resources such as standardization data. Even if this should change in the future, as is apparently planned, caution is advised due to the conversion effort involved.
 
 !!! warning "Challenge"
-    
+
     As already mentioned, transcription tools offer markup in PAGE-XML or ALTO-XML, which must be taken into account when converting to TEI-XML.
     It is therefore advisable to **align your markup in the transcription tool with the nomenclature of the TEI/XML you are aiming for**. In this way, TEI syntax-compliant elements are created during conversion to TEI/XML, rather than freely invented expressions or, if not marked up, anonymous blocks (<ab>). The most important elements are automatically recognized by scripts such as Page2TEI and converted into the corresponding TEI elements. This increases complexity, requiring close technical support for the project.
 

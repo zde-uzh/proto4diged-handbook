@@ -6,19 +6,19 @@ By _content annotation_ we mean the labelling of a word or word sequence with re
 
 Common examples:
 
--   Intratextual content annotations:
+- Intratextual content annotations:
 
-    -   Referencing a letter appendix within a letter passage.
-    -   Referencing chapters within a table of contents.
+    - Referencing a letter appendix within a letter passage.
+    - Referencing chapters within a table of contents.
 
--   Intertextual content annotations:
+- Intertextual content annotations:
 
-    -   Linking a reference to a work (discussed in a letter) to a bibliographic entry in the DSE index or a library database—or ideally, to a [_standard database_](../Themen/authority.en.md).
-    -   Connecting a passage in one text to another text within the same DSE, or to a text edited in a different DSE.
+    - Linking a reference to a work (discussed in a letter) to a bibliographic entry in the DSE index or a library database—or ideally, to a [_standard database_](../Themen/authority.en.md).
+    - Connecting a passage in one text to another text within the same DSE, or to a text edited in a different DSE.
 
--   Contextual content annotations:
-    -   Linking a text passage to an entry in the DSE's own gazetteer or a geographical database like [geonames.org](https://www.geonames.org/).
-    -   Connecting a text passage to an entry in the DSE's own index of persons, or to a personal data standards database like the [Gemeinsame Normdatei (GND)](https://gnd.network/Webs/gnd/DE/Home/home_node.html).
+- Contextual content annotations:
+    - Linking a text passage to an entry in the DSE's own gazetteer or a geographical database like [geonames.org](https://www.geonames.org/).
+    - Connecting a text passage to an entry in the DSE's own index of persons, or to a personal data standards database like the [Gemeinsame Normdatei (GND)](https://gnd.network/Webs/gnd/DE/Home/home_node.html).
 
 In contrast to text-critical annotation, which is often done during the [_transcription_](03_Transkription.en.md) (see 3.5), a content-annotated text passage appears as a link that makes the reference accessible with a click (alternatively, it can also be identified through hover/mouseover text). Unlike [_commenting_](06_commenting.en.md), a content annotation is a **simple reference** that should be **self-explanatory** or, at the very least, explained by linking to a resource within the edition (e.g., an entry in an index or on a map) or to an external resource (e.g. a [_standard database_](../Themen/authority.en.md) such as [GND](https://gnd.network/Webs/gnd/EN/Home/home_node.html)).
 
@@ -93,12 +93,12 @@ Technically, there are two different use cases for the ODD, the representation a
 
 #### Annotation Editor
 
-The TEI Publisher has various standard ODDS pre-installed; the revision mode for annotation also has the form of an ODDS. This ODD has the file name 'annotations.odd' and can simply be selected from a page tab. The annotation editor activated by this can be customized, see the [TEI-Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); we have also summarized important information in the subchapter [_Annotations with TEI-Publisher_](../Themen/tei-publisher-annotations.en.md).
+The TEI Publisher has various standard ODDS pre-installed; the revision mode for annotation also has the form of an ODDS. This ODD has the file name 'annotations.odd' and can simply be selected from a page tab. The annotation editor activated by this can be customized, see the [TEI-Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3).
 
 !!! note "Experiences from the Showcase Edition"
-    
-    In order to activate all the required annotations in the edition editor, several attempts, meetings, and rounds of revision were necessary. Among other things, the project has recognized the need to display the digitized text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added. 
-    The customized annotation ODD of the project is publicly available via GitLab:   
+
+    In order to activate all the required annotations in the edition editor, several attempts, meetings, and rounds of revision were necessary. Among other things, the project has recognized the need to display the digitized text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added.
+    The customized annotation ODD of the project is publicly available via GitLab:
     => PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
 
 The TEI Publisher stores all content annotation data in an **XML Index**, where both standardization data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.

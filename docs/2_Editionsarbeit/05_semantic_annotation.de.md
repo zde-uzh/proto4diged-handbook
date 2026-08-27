@@ -6,19 +6,19 @@ Unter der _inhaltlichen Annotation_ verstehen wir die Auszeichnung eines Wortes 
 
 Verbreitete Beispiele:
 
--   Intratextuelle inhaltliche Annotationen:
+- Intratextuelle inhaltliche Annotationen:
 
-    -   Verweis einer Briefpassage auf den darin angesprochenen Briefanhang;
-    -   Verweis eines Inhaltsverzeichnisses auf die darin angegebenen Kapitel.
+    - Verweis einer Briefpassage auf den darin angesprochenen Briefanhang;
+    - Verweis eines Inhaltsverzeichnisses auf die darin angegebenen Kapitel.
 
--   Intertextuelle inhaltliche Annotationen:
+- Intertextuelle inhaltliche Annotationen:
 
-    -   Verweis eines in einem Brief implizit oder explizit thematisierten Werkes auf einen bibliographischen Eintrag im DSE-Register und/oder auf eine Bibliotheksdatenbank oder - idealerweise - eine [_Normdatenbank_](../Themen/authority.de.md);
-    -   Verweis einer Textstelle auf einen anderen Text in derselben DSE oder auf einen Text, der in einer anderen DSE ediert wurde.
+    - Verweis eines in einem Brief implizit oder explizit thematisierten Werkes auf einen bibliographischen Eintrag im DSE-Register und/oder auf eine Bibliotheksdatenbank oder - idealerweise - eine [_Normdatenbank_](../Themen/authority.de.md);
+    - Verweis einer Textstelle auf einen anderen Text in derselben DSE oder auf einen Text, der in einer anderen DSE ediert wurde.
 
--   Kontextuelle inhaltliche Annotation:
-    -   Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Ortsregister und/oder eine Normdatenbank für geographische Daten wie z.B. [geonames.org](https://www.geonames.org/).
-    -   Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Personenregister und/oder in einer Normdatenbank für Personen-Daten wie z.B.einen Personeneintrag in der [Gemeinsame Normdatei (GND)](https://gnd.network/Webs/gnd/DE/Home/home_node.html), die größte Normdatensammlung für Kultur- und Forschungsdaten im deutschsprachigen Raum.
+- Kontextuelle inhaltliche Annotation:
+    - Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Ortsregister und/oder eine Normdatenbank für geographische Daten wie z.B. [geonames.org](https://www.geonames.org/).
+    - Verweis einer Textstelle auf einen Eintrag im DSE-eigenen Personenregister und/oder in einer Normdatenbank für Personen-Daten wie z.B.einen Personeneintrag in der [Gemeinsame Normdatei (GND)](https://gnd.network/Webs/gnd/DE/Home/home_node.html), die größte Normdatensammlung für Kultur- und Forschungsdaten im deutschsprachigen Raum.
 
 Im Gegensatz zur textkritischen Annotation, die oft schon während der [_Transkription_](03_Transkription.de.md) (siehe dort 3.5) gemacht wird, erscheint die inhaltlich annotierte Textstelle als Link, der diese Referenz durch einen Klick zugänglich macht (alternativ kann sie auch durch einen hover-/mouseover-Text kenntlich werden). Im Gegensatz zur [_Kommentierung_](06_commenting.de.md) ist eine inhaltliche Annotation ein **einfacher Verweis**, der **selbsterklärend** sein sollte oder zumindest erklärt wird durch die Weiterleitung zu einer editionsinternen Ressource (z.B. ein Eintrag in einem Register oder in einer Karte) oder einer externen Ressource (z.B. einer [_Normdatenbank_](../Themen/authority.de.md) wie [GND](https://gnd.network/Webs/gnd/EN/Home/home_node.html)).
 
@@ -40,28 +40,28 @@ Zwei technische Standardlösungen stehen zur Verfügung und werden im nächsten 
 
 Weitgehend unabhängig vom verwendeten Tool sollte am Anfang des Arbeitsschrittes geklärt werden, welche Inhalte zu welchem Zweck ausgezeichnet werden müssen. Anleitend sollte die Frage sein, welche Nutzungsszenarien die DSE zu erfüllen hat:
 
--   Soll sie möglichst viele inhaltliche Daten möglichst breit sammeln oder sind ganz spezifische Daten im Vordergrund?
--   Welche Daten sind das jeweils?
+- Soll sie möglichst viele inhaltliche Daten möglichst breit sammeln oder sind ganz spezifische Daten im Vordergrund?
+- Welche Daten sind das jeweils?
 
 Fünf Hauptkategorien inter- und kontextueller Referenzen, wie in den Beispielen eingangs schon aufgetaucht, haben sich in den letzten Jahren ausgebildet: **Personendaten, Ortsdaten, Zeitdaten, Werkdaten und Schlagworte**. Während Werkdaten und Schlagworte nicht in jeder DSE auftauchen, sind Personen, Orte und Zeiten mittlerweile Standard.
 
 Etwas exotischer ist die Referenzierung weiterer Kategorien, denen technisch im Grunde keine Grenzen gesetzt sind, z.B. frei gewählte Themen (spezifischer als Schlagworte), historische Ereignisse oder linguistischer Eigenarten (z.B. die Nutzung von Fremdsprachen).
 
 !!! warning "Herausforderung"
-    
+
     Aus editorischer Sicht ist eine Entgrenzung der Kategorien immer mit dem Problem verknüpft, dass eine einmal eingeführte Kategorie sinnvollerweise konsequent angewendet werden muss, was zu viel Aufwand führen kann. Im Fall mehrerer Edierender bedingt es das genaue Befolgen komplexer Editionsrichtlinien bzw. die ständige Koordination zur ihrer Anpassung. Komplexe Sachverhalte, die nur in wenigen Texten nachvollziehbar gemacht werden müssen, sollten deshalb eher im Stellen- oder Text-[_Kommentar_](06_commenting.de.md) dargestellt werden.
 
 In der Planung der inhaltlichen Annotation müssen folgende editorischen Überlegungen beachtet werden:
 
--   Ist vor allem das DSE-eigenen Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt?
--   Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen?
+- Ist vor allem das DSE-eigenen Register zentral, etwa weil es kaum andere Datensätze dazu auf dem Internet gibt?
+- Oder soll das Register in den meisten Fällen ein 'Zwischenhalt' darstellen, um eine Information zu bündeln und mit externen Ressourcen zu verknüpfen?
 
 Beide Tool-Standardlösungen erlauben die **Einbindung von Konnektoren**, d.h. die halb-automatisierte Verlinkung der Annotation im TEI-XML mit einer Normdatenbank. Die Edierenden können aus den Vorschlägen des Konnektors den korrekten Normdatensatz auswählen und müssen die Verlinkung nicht selbst recherchieren und im TEI/XML verfassen. Sollte jedoch die Aussicht klein sein, überhaupt externe Normdaten zu finden, so ist die Anwendung von Konnektoren zweitrangig.
 
 Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen und welche Normdaten (s.u.) hierzu referenziert werden. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
 
 !!! abstract "Showcase-Editionsrichtlinien: Inhaltliche Annotation"
-    
+
     Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
 
     - **Orte** werden, wenn möglich, mit ihrem heutigen Ortsnamen auf geonames verlinkt.
@@ -93,10 +93,10 @@ Technisch gesehen gibt es zwei verschiedene Anwendungsfälle für das ODD, die D
 
 #### Annotations-Editor
 
-Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses ODD hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Der dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3); wichtige Hinweise haben wir zudemim Unterkapitel [_Annotationen mit TEI-Publisher_](../Themen/tei-publisher-annotations.de.md) zusammengefasst.
+Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses ODD hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Der dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3).
 
 !!! note "Erfahrungen aus der Showcase-Edition"
-    
+
     Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
     Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
     => HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)

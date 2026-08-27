@@ -1,22 +1,5 @@
 # Normdaten
 
-## Unterstützung durch TEI-Publisher-Annotation
-
--   Airtable: Projektspezifische Datenbank
--   Anton: Projektspezifische Datenbank
--   Custom: Projektspezifische XML-Daten  
-    Geeignet beispielsweise für Retrodigitalisierung, wo bereits ein Register existiert
--   Geonames: Orte  
-    International und mit Koordinaten, Suche nach Namen am besten auf Englisch
--   GND: Gemeinsame Normdatei
-    Standard im deutschsprachigen Raum, gut für historische Daten und alternative Schreibweisen
--   KBGA: Karl-Barth-Gesamtausgabe
--   Metagrid  
-    Verbindung mit schweizerischen Datenquellen
--   Reconciliation: Interne Daten?
-
-Out of the box kann für die Annotation von Personen GND oder Metagrid (mit GND und Helveticat) verwendet werden.
-
 ## Interne und externe ID
 
 Annotationen können theoretisch auch aus Weblinks direkt auf Normdaten bestehen, der Standard ist jedoch die Aggregierung eines lokalen Verzeichnisses.
@@ -65,5 +48,5 @@ Einträge, für die keine Identifier gefunden werden, können manuell nachbearbe
 
 Ideen für die Sicherung der Datenqualität:
 
--   nicht-eindeutige Einträge (GND zu VIAF, VIAF zu GND, IdRef zu VIAF etc.) können manuell ergänzt werden.
--   Mappings mit Kurzansichten der verlinkten Einträge machen das Überprüfen einfacher
+- nicht-eindeutige Einträge (GND zu VIAF, VIAF zu GND, IdRef zu VIAF etc.) können manuell ergänzt werden.
+- Mappings mit Kurzansichten der verlinkten Einträge machen das Überprüfen einfacher
