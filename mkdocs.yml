@@ -27,9 +27,7 @@ nav:
   - "Themen":
       - "Themen/accessibility.md"
       - "Themen/authority.md"
-      - "Themen/transkribus.md"
       - "Themen/tei.md"
-      - "Themen/tei-publisher-annotations.md"
   - "Impressum":
       - "Impressum/impressum.md"
 

@@ -1,18 +1,5 @@
 # Authority Vocabularies
 
-## Support Through TEI Publisher Annotation
-
-- Airtable: Project-specific database
-- Anton: Project-specific database
-- Custom: Project-specific XML data (Suitable for retro-digitization, especially when an index already exists)
-- Geonames: Places (International and includes coordinates; name searche is better for English)
-- GND: Common Authority File (The standard in German-speaking countries, great for historical data and alternative spellings)
-- KBGA: Karl Barth Complete Edition
-- Metagrid (Connects with Swiss data sources)
-- Reconciliation: Internal data?
-
-Out of the box, GND or Metagrid (with GND and Helveticat) can be used for annotating people.
-
 ## Internal and External IDs
 
 Annotations can theoretically consist of web links directly pointing to authority data, but the standard practice is to aggregate them into a local directory.
