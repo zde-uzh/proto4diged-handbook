@@ -33,9 +33,7 @@ Typisch für viele Editionen im TEI-Publisher ist, dass das **Suchfeld und die R
 
 In beiden Szenarien sollte den Nutzenden schnell klar werden, um was für eine Edition es sich handelt und wer sie gemacht hat. Bei der Entwicklung von spezifischem Webdesign sollte auf Einfachheit und gute Verständlichkeit bei der Einstiegsseite geachtet werden sollte. Hierdurch wird maßgeblich die [_Barrierefreiheit_](../Themen/accessibility.de.md), auf die wir in diesem Handbuch genauer eingehen, unterstützt.
 
-Die Einstiegsseite des TEI-Publisher lässt sich **konfigurieren**, wie in der [TEI Publisher-Dokumentation] detailliert beschrieben wird. => @Reto Ich habe die entsprechende Dokumentation noch nicht gefunden.
-
-Die Showcase-Edition stellt ihre - weitgehend den Standard-Einstellungen entsprechende - Einstiegsseite auch als Quellcode zu Verfügung: => Hier Verlinkung auf Github, wenn wir soweit sind.
+Die Einstiegsseite des TEI-Publisher lässt sich **konfigurieren**, wie in der TEI Publisher-Dokumentation detailliert beschrieben wird.
 
 ## Suchfunktionen
 

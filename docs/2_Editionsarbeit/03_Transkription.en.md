@@ -14,23 +14,23 @@ Finally, this chapter of the handbook will discuss the limitations of the availa
 
 As in print editions, consistent **transcription guidelines** must also be followed for DSE, particularly with regard to **transcription scope** and **diplomatic transcription**, i.e. the degree of coverage of the transcription with the original in terms of linguistic and formal peculiarities. For manuscripts, the question must be answered as to which hands, (special) characters, textual interventions and revision stages are transcribed and how. In the case of prints, the question also arises regarding print-specific paratexts such as page numbers or bastard titles. The labelling of these formal textual aspects is also referred to as **text-critical annotation**. Depending on the tool (see below), this can be carried out together with the transcription or only later together with the [_content annotation_](../2_Editionsarbeit/05_semantic_annotation.en.md).
 
-!!! abstract "Showcase Edition Guidelines: Transcription and Text-Critical Annotation"
+!!! abstract "Preliminary Edition Guidelines: Transcription and Text-Critical Annotation"
 
-    The Showcase Edition is intended as hypothetical preparatory work for a much larger edition of Gaston Paris's correspondence, comprising around 27,000 pages. If realized in later projects, it will primarily target a **research audience***. Since the developed prototypical workflows are intended to meet scholarly standards of diplomatic editions on one hand, and must remain scalable in scope on the other, it focuses on **the greatest possible textual fidelity with simultaneous simplicity of text-critical and content markup**.
+    The Preliminary Edition is intended as hypothetical preparatory work for a much larger edition of Gaston Paris's correspondence, comprising around 27,000 pages. If realized in later projects, it will primarily target a **research audience***. Since the developed prototypical workflows are intended to meet scholarly standards of diplomatic editions on one hand, and must remain scalable in scope on the other, it focuses on **the greatest possible textual fidelity with simultaneous simplicity of text-critical and content markup**.
 
-    During the transcription process, the Showcase Edition adhered to the following **text-critical principles**:
+    During the transcription process, the Preliminary Edition adhered to the following **text-critical principles**:
 
     **Scope**
 
     - **All hands**, i.e. all different manuscripts, are transcribed.
-        - Additions by **foreign hands**, i.e. which are not identified as the author's hand in the letter metadata, are identified as such by a text-critical annotation (see below, 3.5).=> Link example from the Showcase Edition here.
+        - Additions by **foreign hands**, i.e. which are not identified as the author's hand in the letter metadata, are identified as such by a text-critical annotation (see below, 3.5).
         - Exception: Foreign hands are not transcribed if they concern additions of **archive signatures or archive pagination**. Archive signatures are contained in the metadata instead.
 
     - Since Gaston Paris' letters are largely 'flat' in terms of text-genetics (i.e. they hardly show any traces of his own or other people's revisions), special characters or annotations cannot help with the question of **text-genetic sequences** (which hand can be assigned to which date). When necessary, text-genetic contexts are presented in [_commentaries_](06_commenting.en.md).
 
-    - **Preprinted forms** (e.g. letterheads of hotels or private individuals) on the stationery are usually transcribed and text-critically annotated as 'preprinted forms'. => Link example from the Showcase Edition here.
+    - **Preprinted forms** (e.g. letterheads of hotels or private individuals) on the stationery are usually transcribed and text-critically annotated as 'preprinted forms'. 
         - Exception 1: Pre-printed **form lines on postcards** ('Name:', 'First name:', etc.) are not transcribed, as they are common to all postcards.
-        - Exception 2: **Postmarks or postage stamps** are not transcribed. The place and date indicated there can be recorded as metadata if it differs from the date of the letter. However, there are editions that label the postmarks in order to make them searchable, e.g. the [Gotthelf edition](=> add link here when published).
+        - Exception 2: **Postmarks or postage stamps** are not transcribed. The place and date indicated there can be recorded as metadata if it differs from the date of the letter. However, there are editions that label the postmarks in order to make them searchable, e.g. the [Gotthelf edition](https://gotthelf-digital.ch/).
 
     **Diplomatic Transcription**
 
@@ -50,9 +50,9 @@ As in print editions, consistent **transcription guidelines** must also be follo
 
 A step that technically coincides with text-critical and/or content annotation, but does not itself introduce visible or substantive markings, is the creation of the **reading version**, which is placed alongside the more faithful diplomatic transcription (see also [_edition views_](../3_presentation/03_edition_views.en.md)). In order for the text to be normalized in a reading version, words must be annotated with a correct or modernized variant in cases of incorrect or outdated spellings. The notions of 'incorrect' or 'outdated' must be [_documented_](../3_presentation/04_documentation.en.md) in detail.
 
-!!! abstract "Showcase Edition Guidelines: Reading Version"
+!!! abstract "Preliminary Edition Guidelines: Reading Version"
 
-    As the Showcase Edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, it can still be created later, as the TEI/XML data can be enriched at any time using various tools.
+    As the Preliminary Edition of Gaston Paris' letters is primarily aimed at a scholarly audience, a reading version is not provided during the annotation process. However, it can still be created later, as the TEI/XML data can be enriched at any time using various tools.
 
 #### Linking Digitized Material and Transcription
 
@@ -62,7 +62,7 @@ DSE-specific transcription guidelines concern the **linking of the digitized mat
 
     The [Alfred Escher Letter Edition](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} serves as a model for linking the digitized material and transcription using the TEI Publisher.
 
-    The Showcase Edition is based on this form of line correspondence and resuses the existing [source code of the Alfred Escher Letter Edition](https://github.com/stazh/briefedition-escher){:target="\_blank"}.
+    The Preliminary Edition is based on this form of line correspondence and resuses the existing [source code of the Alfred Escher Letter Edition](https://github.com/stazh/briefedition-escher){:target="\_blank"}.
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }
@@ -102,7 +102,7 @@ As mentioned above, Transkribus recommends at least 75 pages of ground truth as 
 
 Previously, Transkribus offered the **"text2image"** function, which aligned existing transcriptions, such as those from historical print editions, with digitized images on a line-by-line basis. Currently, this alignment must be done manually for training purposes. Manually inserting transcriptions into training data is only advisable if standard models cannot be used and corrected efficiently. However, Transkribus has announced plans to reintroduce the "text2image" function by the end of 2024.
 
-!!! note "Experience from the Showcase Edition"
+!!! note "Experience from the Preliminary Edition"
 
     For Gaston Paris' handwriting, the standard model _The Text Titan I_ proved suitable for generating a ground truth through corrections, which in turn enabled the training of a custom model (see next information box). This AI model, similar to ChatGPT, is based on Transformer technology and outperforms conventional ATR models that rely on older AI technologies. While training Transformer models independently is not yet possible with any transcription tool, custom ATR models can still compete with Transformer models by being trained with project-specific ground truth.
 
@@ -117,7 +117,7 @@ It is generally advisable to create **more than one specific model with the same
 - Availability of project members
 - Time required for training
 
-!!! note "Experience from the Showcase Edition"
+!!! note "Experience from the Preliminary Edition"
 
     Using progressively larger ground truth collections (manually corrected transcriptions created with _The Text Titan I_), we conducted several series of re-trainings. The second model in the second series outperformed _The Text Titan I_ in recognizing certain unique idiosyncrasies of Gaston Paris' handwriting. However, the general model still outperformed our custom model in recognizing numbers and different languages.
 
@@ -157,9 +157,9 @@ Transkribus distinguishes between 'structural tags' and 'textual tags', which co
 
 The advantage of annotations in transcription tools is that the most important formal aspects can already be clarified during the initial, surface-level engagement with the text. In the next steps after conversion, content annotation and commenting - which are described in the following chapters primarily using the TEI Publisher - the team can then focus more intensively on the semantic aspects. Projects should consider as early as possible whether, and to what extent, they want to work with the transcription tools' tags, which are easy to use but demanding in the conversion process.
 
-!!! note "Experience from the Showcase Edition"
+!!! note "Experience from the Preliminary Edition"
 
-    We decided to use 'structural' and 'textual' tags in Transkribus only for text-critical aspects (see the Showcase Edition guidelines above). In this annotation of Gaston Paris's letters, we follow the element names suggested by the [German text archive](https://www.deutschestextarchiv.de/){:target="\_blank"} as the [basic format for labelling letters](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"}. To achieve this, we created our own tags in Transkribus and applied them to annotate the text regions on the digital copy. The letterhead, for example, is defined as the text region 'opener'; within this text region, we mark the line with the date and, if applicable, the place as 'dateline' and the greeting ("Mon cher ami") as 'salute'. The body of the text itself is divided into various paragraphs.
+    We decided to use 'structural' and 'textual' tags in Transkribus only for text-critical aspects (see the Preliminary Edition guidelines above). In this annotation of Gaston Paris's letters, we follow the element names suggested by the [German text archive](https://www.deutschestextarchiv.de/){:target="\_blank"} as the [basic format for labelling letters](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"}. To achieve this, we created our own tags in Transkribus and applied them to annotate the text regions on the digital copy. The letterhead, for example, is defined as the text region 'opener'; within this text region, we mark the line with the date and, if applicable, the place as 'dateline' and the greeting ("Mon cher ami") as 'salute'. The body of the text itself is divided into various paragraphs.
 
     ![Tagging in Transkribus](image-1.png)
 
@@ -177,4 +177,4 @@ Even when using the best available ATR models, the correction effort may exceed 
 ### 4.3 Annotating in Transcription Tools?
 
 The question of how much should be annotated in PAGE-XML or ALTO-XML also depends on the available technical support. We are aware of projects whose workflow involved extensive annotations in Transkribus - not only text-critical ones, but also content annotations - and faced major delays and adjustments to the workflow due to conversion challenges. Therefore, it must be clear from the outset of the project where and which annotations should take place in order to align the complexity of the data conversion with the project resources.
-The Showcase Edition has expanded the annotation editor interface so that text-critical annotations can also be done entirely in the TEI Publisher. The process is the same as we have described for [_content annotation_](05_semantic_annotation.en.md).
+The Preliminary Edition has expanded the annotation editor interface so that text-critical annotations can also be done entirely in the TEI Publisher. The process is the same as we have described for [_content annotation_](05_semantic_annotation.en.md).

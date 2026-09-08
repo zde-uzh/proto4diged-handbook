@@ -67,8 +67,6 @@ Ausserdem sind in reinen HTML-Präsentationen ohne Datenbank **keine Suchfunktio
 HTML-basierte Editionen müssen von Grund auf als solche entwickelt werden.
 Als Werkzeug bieten sich XSLT-Konvertierungen an.
 
-==->@Wie nachhaltig ist eine XSLT-Konvertierung on the fly im Browser?
-
 ### JSON-basierte Präsentationen
 
 Weniger radikal ist die Nutzung von JSON-Dateien mit dem Inhalt äquivalent zu den Daten von der Datenbankschnittstelle. HTML wird nur als Format für die einzelnen Properties verwendet.

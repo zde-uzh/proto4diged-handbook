@@ -9,4 +9,4 @@ Chapter 3 (Presentation) primarily focuses on standard presentation methods comm
 
 The following subchapters are not meant to be sequential steps but rather **standalone workflows addressing different aspects of DSE front ends**, along with their advantages and drawbacks. Special emphasis is placed on evaluating existing solutions.
 
-This handbook does not cover aspects of frontend design beyond user functionalities. Elements such as menu layout, color schemes, and font choices can be customized using standard tools like the TEI Publisher (see => relevant documentation). In larger projects, these design tasks can also be outsourced to graphic designers, and collaborations with university design departments may be particularly beneficial.
+This handbook does not cover aspects of frontend design beyond user functionalities. Elements such as menu layout, color schemes, and font choices can be customized using standard tools like the TEI Publisher. In larger projects, these design tasks can also be outsourced to graphic designers, and collaborations with university design departments may be particularly beneficial.

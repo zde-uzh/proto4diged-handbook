@@ -60,7 +60,7 @@ Both standard tool solutions allow the **integration of connectors**, meaning th
 
 It is important to carefully consider how frequently each type of data should be labelled in a text and which standards (see below) should be referenced for this purpose. For instance, it would not be practical to annotate salutations (e.g., you/your) in letters every time, especially if the person being addressed is the same as the recipient (since this information is already included in the letter's metadata). While such considerations may seem trivial, they should be incorporated into the editorial guidelines and made available to DSE users.
 
-!!! abstract "Showcase Editing Guidelines: Content Annotation"
+!!! abstract "Preliminary Editing Guidelines: Content Annotation"
 
     Our project decided to annotate three categories: place, person, and work. In the case of Gaston Paris's historical scholarly correspondence, these categories are best suited for tracing the scholar's research network, which is central to the project leader's own research.
 
@@ -71,7 +71,7 @@ It is important to carefully consider how frequently each type of data should be
 
         - Persons are not annotated in the text if they are already part of the metadata (author or recipient).
 
-    - **Works** are imported from the project leader's extensive bibliography using the Zotero bibliography tool. The resulting index could be linked to work data from the GND in a second step, though this has not been implemented in the showcase edition.
+    - **Works** are imported from the project leader's extensive bibliography using the Zotero bibliography tool. The resulting index could be linked to work data from the GND in a second step, though this has not been implemented in the preliminary edition.
 
 #### Referencing Standardized Data
 
@@ -95,19 +95,16 @@ Technically, there are two different use cases for the ODD, the representation a
 
 The TEI Publisher has various standard ODDS pre-installed; the revision mode for annotation also has the form of an ODDS. This ODD has the file name 'annotations.odd' and can simply be selected from a page tab. The annotation editor activated by this can be customized, see the [TEI-Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3).
 
-!!! note "Experiences from the Showcase Edition"
+!!! note "Experiences from the Preliminary Edition"
 
     In order to activate all the required annotations in the edition editor, several attempts, meetings, and rounds of revision were necessary. Among other things, the project has recognized the need to display the digitized text, which is relatively small at the bottom of the screen in the annotation editor's default setting, in a larger format to the right of the annotated text. This means that text-critical annotations or corrections to the transcription, for which a comparison with the facsimile is necessary, can also be added.
-    The customized annotation ODD of the project is publicly available via GitLab:
-    => PASTE PROJECT RESOURCES HERE ![Annotations-Editor TEI Publisher](image-4.png)
+    ![Annotations-Editor TEI Publisher](image-4.png)
 
 The TEI Publisher stores all content annotation data in an **XML Index**, where both standardization data IDs and your own generated data are stored. The use of an additional database is therefore unnecessary.
 
 ### 2.3 Content Annotation in Oxygen with and without Ediarum
 
 After importing the TEI-XML data into the editor, the annotation is carried out using the [ediarum](https://www.ediarum.org) working environment. Ediarum displays TEI-XML data in a similar way to a Word file and has corresponding formatting buttons. Detailed ediarum [documentation](https://www.ediarum.org/docs.html) exists for [setting up](https://www.ediarum.org/docs/set-up/), [configuring](https://github.com/ediarum/ediarum.SKOS.edit?tab=readme-ov-file#installation) and [using](https://www.ediarum.org/docs/ediarum.BASE.manual) the editing environment and is regularly updated by the ediarum team.
-
-=> This point is enriched by experience from the Schwarzenbach project, whereby the use of ediarum is probably limited to very few functions.
 
 ## 4 Limitations
 

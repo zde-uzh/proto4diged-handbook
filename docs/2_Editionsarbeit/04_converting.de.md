@@ -20,11 +20,10 @@ Weil Exporte im TEI XML Format in den verbreiteten Transkriptionstools entweder 
 
 Grundlegend ist [**page2tei**](https://github.com/dariok/page2tei), das PAGE-XML in TEI/XML umwandelt.
 Das grösste Hindernis bei page2tei ist ein TODO bei Tags der Zeilen. Sobald das gelöst ist, kann die eigene Konvertierung als folgender Schritt gemacht werden (Kaskade). Andere editionsspezifische Tags werden in anonyme Blöcke (Tag ab) mit Type-Attribut gesetzt, was bestens weiterverarbeitet werden kann.
+Eine weitere Transformationsmöglichkeit unter dem selben Namen page2tei ist eine [Python-page-to-tei-Lösung](https://github.com/raykyn/page2tei/). Sie wurde für dieses Handbuch nicht getestet.
 
 [**trans2tei**](https://github.com/biblhertz/trans2tei){:target="\_blank"} ist spezifisch auf die PAGE XMLAusgabe aus Transkribus zugeschnitten. Esbeinhaltet alle Schritte vom Export-Zip bis zum TEI-XML und deckt auch die Erkennungen von gedruckten Hervorhebungen mittels Sonderzeichen ab.
 trans2tei zielt auf die Bedürfnisse der Bibliotheca Herziana ab. Für Editionsprojekte ist es am besten einfach eine Inspiration.
-
-=> Hier erschient später das Script proto2tei, das auf die Showcase-Edition zugeschnitten ist.
 
 ## 3. Limitationen
 
@@ -35,4 +34,4 @@ Als Lösung dieses Problems können **manuelle Nachjustierungen** durchgeführt 
 Letztlich können bei genügendem technischem Fachwissen projektspezifische Konvertierungen mithilfe von Pipelines wie [trans2tei](https://github.com/biblhertz/trans2tei){:target="\_blank"} entwickelt werden.
 Basis davon ist [page2tei](https://github.com/dariok/page2tei){:target="\_blank"}, das bereits bei der Exportfunktion von Transkribus zur Verfügung steht.
 
-Edit 30.9.24. Anregung Peter Dängeli: Python-page-to-tei von Ismail Ziegler Prada: https://github.com/raykyn/page2tei/ (oder habt ihr das absichtlich nicht mit drin?)
+
