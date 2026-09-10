@@ -28,6 +28,10 @@ Zimmermann, E., & Baumgartner, R. (2026). Handbuch zur Erstellung einer digitale
 
 Alle Versionen können über die DOI [insert] zitiert werden. Diese DOI steht für alle Versionen und führt stets zur neuesten Version.
 
+## Vorstudien-Edition zum Projekt [PARES](https://pares.hypotheses.org/)
+
+Die Vorstudien-Edition ist als Datensatz und einfache Textpräsentation in folgendem Repositorium der DaSCH-Service-Plattform zugänglich und langfristig gesichert: https://ark.dasch.swiss/ark:/72163/1/0861  
+
 ## Lizenz
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="\_blank"}
