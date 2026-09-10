@@ -26,7 +26,7 @@ Vorbereitende Unterstützung/Begleitung: Selina Galka und Elisabeth Steiner
 
 Zimmermann, E., & Baumgartner, R. (2026). Handbuch zur Erstellung einer digitalen Edition (Version [[Version einfügen]]) [Computer software]. Zenodo. [[DOI einfügen]]
 
-Alle Versionen können über die DOI [insert] zitiert werden. Diese DOI steht für alle Versionen und führt stets zur neuesten Version.
+Alle Versionen können über die DOI [https://doi.org/10.5281/zenodo.22689079](https://doi.org/10.5281/zenodo.22689079) zitiert werden. Diese DOI steht für alle Versionen und führt stets zur neuesten Version.
 
 ## Lizenz
 
