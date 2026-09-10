@@ -1,6 +1,6 @@
 # Imprint
 
-Handbook for Creating a Digital Scholarly Edition - Beta Version
+Handbook for Creating a Digital Scholarly Edition
 
 ## Funding
 
@@ -24,7 +24,9 @@ Preparatory support/accompaniment: Selina Galka and Elisabeth Steiner
 
 ## Citation Recommendation
 
-[copy from Zenodo]
+Zimmermann, E., & Baumgartner, R. (2026). Handbuch zur Erstellung einer digitalen Edition (Version [[insert version]]) [Computer software]. Zenodo. [[insert DOI]]
+
+You can cite all versions by using the DOI [insert]. This DOI represents all versions, and will always resolve to the latest one.
 
 ## License
 

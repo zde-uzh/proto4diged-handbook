@@ -1,5 +1,5 @@
 {
-  "title": "Handbuch zur Erstellung einer digitalen Edition - Beta Version",
+  "title": "Handbuch zur Erstellung einer digitalen Edition",
   "description": "Das Handbuch zur Erstellung von digitalen Editionen wurde mit dem Ziel hergestellt, geisteswissenschaftliche Forschungsprojekte bei der Erstellung digitaler wissenschaftlicher Editionen (Digital Scholarly Editions, DSE) – von der Planung über die Editionsarbeit bis zur Langzeitsicherung, zu untersützen. Es basiert auf Erkenntnissen aus dem Projekt Proto4DigEd (2023–2024), gefördert durch swissuniversities und geleitet von Prof. Dr. Ursula Bähler an der Universität Zürich. Das GitHub-Repository enthält das Handbuch im Markdown-Format, strukturiert für die Verwendung mit MkDocs, einem Static Site Generator für Projekt-Dokumentationen. Die Inhalte sind versioniert und modular aufgebaut, ergänzt durch Konfigurationsdateien wie mkdocs.yml und requirements.txt zur lokalen Installation und Darstellung.",
   "upload_type": "software",
   "license": "CC-BY-4.0",

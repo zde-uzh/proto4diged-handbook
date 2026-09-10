@@ -1,4 +1,4 @@
-site_name: Handbuch zur Erstellung einer digitalen Edition - Beta Version
+site_name: Handbuch zur Erstellung einer digitalen Edition
 site_dir: public
 site_url: https://zde-uzh.github.io/proto4diged-handbook/
 repo_url: https://github.com/zde-uzh/proto4diged-handbook/
@@ -77,7 +77,7 @@ plugins:
         - locale: en
           name: English
           build: true
-          site_name: "Handbook for Creating a Digital Scholarly Edition - Beta Version - Work in Progress"
+          site_name: "Handbook for Creating a Digital Scholarly Edition"
           nav_translations:
             "Einleitung": Introduction
             "1. Planung": 1. Planning

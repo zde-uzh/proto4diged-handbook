@@ -1,6 +1,6 @@
 # Impressum
 
-Handbuch zur Erstellung einer digitalen Edition – Beta
+Handbuch zur Erstellung einer digitalen Edition
 
 ## Funding
 
@@ -24,7 +24,9 @@ Vorbereitende Unterstützung/Begleitung: Selina Galka und Elisabeth Steiner
 
 ## Zitierempfehlung
 
-[von Zenodo kopieren]
+Zimmermann, E., & Baumgartner, R. (2026). Handbuch zur Erstellung einer digitalen Edition (Version [[Version einfügen]]) [Computer software]. Zenodo. [[DOI einfügen]]
+
+Alle Versionen können über die DOI [insert] zitiert werden. Diese DOI steht für alle Versionen und führt stets zur neuesten Version.
 
 ## Lizenz
 
