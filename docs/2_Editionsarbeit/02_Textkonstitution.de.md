@@ -24,7 +24,7 @@ Hierbei handelt es sich um den anstrebenswerten Standard beziehungsweise die _be
 
 Solche öffentliche Datenbanken werden meist von einem Verbund von Gedächtnisinstitutionen betrieben, für die Schweiz z.B. im Kanton Waadt [Patrinum](https://patrinum.ch/?ln=fr){:target="\_blank"} oder in der Deutschschweiz [e-manuscripta](https://www.e-manuscripta.ch){:target="\_blank"}. Dort werden die Bilddaten mit dem [IIIF-Standard](https://www.digitale-edition.at/o:konde.123){:target="\_blank"} zugänglich gemacht. D.h. jedes Dokument erhält ein IIIF-Manifest (das die im Dokument enthaltenen Textzeugen beschreibt) und kann über entsprechende Schnittstellen angesteuert werden.
 
-!!! note "Erfahrung aus der Showcase-Edition"
+!!! note "Erfahrung aus der Vorstudien-Edition"
 
     In der Textkonstitution der exemplarischen Brief-Edition Gaston Paris' konnte auf langjährige Forschungserfahrung und Übersicht über das Korpus zurückgegriffen werden. Unter anderem wurden für ein Vorgängerprojekt alle dort befindlichen Briefe Gaston Paris' von der Französischen Nationalbibliothek digitalisiert und online zur Verfügung gestellt. Deshalb konnten schnell [die relevanten Digitalisate in deren Datenbank Gallica](https://gallica.bnf.fr/ark:/12148/btv1b525187862){:target="\_blank"} zur Weiterverarbeitung heruntergeladen werden.
 

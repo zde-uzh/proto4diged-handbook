@@ -5,8 +5,6 @@ The **purpose of DSE documentation** is not only to provide general, philologica
 DSE documentation is a central component of a DSE, which is why the time of its creation should be recorded in the project plan, along with the **documentation responsibilities** within the project team, starting in the **planning phase**. If possible, one person should take primary responsibility for the documentation, gathering the individual aspects (see below) from the relevant specialists. 
 During the planning phase, it should also be determined **how detailed and in which data format** the documentation needs to be (see below), as the documentation ideally occurs during the work processes themselves, requiring only minimal editorial revision at the end.
 
-In the following sections, we refer in detail to the [Documentation of the Showcase Edition](), which reiterates many of the explanations in this manual (particularly the editorial guidelines regarding transcription, annotation, and commentary).
-
 It should be noted that standardized documentation structures or terms for documentation aspects have only been partially established to date; this sometimes makes it difficult to compare different documentation practices. While standardization would be desirable, this chapter is not intended as a proposal for such a standard, but rather as an attempt to conceptualize documentation in terms of (necessary and desirable) requirements.
 
 ## What Does DSE Documentation Contain?
@@ -14,21 +12,15 @@ It should be noted that standardized documentation structures or terms for docum
 DSE documentation replaces the **editorial commentary** of a printed edition (which typically provides a brief explanation of the basics of text constitution and editorial guidelines) or its **editorial afterword** (which additionally explains the historical background of the edition and philological aspects).
 
 The **edition model** of DSE documentation complements these traditional editorial explanations with its **guidelines for the creation of text-critical and content-related annotations and comments** in TEI/XML. In other words, it clarifies which coding is used for different forms of annotation and commentary in TEI/XML. The DSE is therefore documented not only as an edition (philologically) but also as a code (technically), with these two aspects being inseparably intertwined.
-=> [Edition model of the showcase edition]()
-
 Thus, the DSE documentation also encompasses digital aspects that have no equivalent in print, such as:
 
 -   all **tools involved** and the justification for their choice, ideally with a reference to their own documentation and, if applicable, their possible uses;
-    => [Tool documentation of the showcase edition]()
 
 -   the **origin of the digital resources**, e.g. external IIIF servers/platforms such as [e-manuscripta](https://www.e-manuscripta.ch/) or metadata sources (in addition to the **origin of physical sources**, i.e. the _digitized resources_, e.g. an archive);
-    => [Resource documentation of the showcase edition]()
 
 -   the **data model**, which in turn contains the **format of the data** and the **structuring of metadata**, ideally with information on where to find data standards or where and why it was necessary to deviate from them;
-    => [Data model of the showcase edition]()
 
 -   the **measures for long-term preservation**, both regarding the [_functional edition with front end_](../4_longterm_preservation/02_static_presentation.en.md) and the [_data_archiving_](../4_longterm_preservation/03_archiving_data.en.md) on other platforms with corresponding links to these resources.
-    => [Long-term preservation documentation of the showcase edition]()
 
 ## Accessibility and Presentation
 
@@ -70,7 +62,7 @@ Markdown is a data standard for technical documentation and, therefore, provides
 
 The [documentation of hallernet](https://docs.hallernet.org/){:target="\_blank"} (see above) is Markdown-based and is automatically generated in a CI workflow using a common tool for creating documentation ([VitePress](https://vitepress.dev/){:target="\_blank"}).
 
-Markdown files can ultimately be **published** in various ways. For projects that use the TEI Publisher, it may be useful to publish their Markdown files directly in the Publisher, as explained in more detail in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/about.md?view=div){:target="\_blank"}.
+Markdown files can ultimately be **published** in various ways. For projects that use the TEI Publisher, it may be useful to publish their Markdown files directly in the Publisher, as explained in more detail in the TEI Publisher documentation.
 
 ## Archiving of Documentation
 

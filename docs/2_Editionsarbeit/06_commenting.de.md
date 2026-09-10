@@ -26,16 +26,12 @@ In der klassischen Print-Editorik kennt man drei verschiedene Grundformen des Ko
 
 Von 'Standard-Workflows' wie in den anderen Kapiteln zu Editionsarbeiten kann an dieser Stelle (noch) nicht die Rede sein, da Editionen **sehr unterschiedliche Bedürfnisse** der Stellen-Kommentierung aufweisen und oftmals sogar ganz darauf verzichten. Die Notwendigkeit für Stellenkommentare hat im Vergleich zu Print-Editionen abgenommen, da sich viele heute durch [_inhaltliche Annotationen_](05_semantic_annotation.de.md) ersetzen lassen.
 
-Falls Stellenkommentare erstellt werden, ist jedoch deren 'Verankerung' bzw. Codierung im TEI-XML sehr einheitlich, da sie einfachheitshalber als `<note>` eingefügt werden. => Hier ev. Code-Snippet aus der Showcase-Edition einfügen oder besser direkt mit TEI-XML verlinken.
+Falls Stellenkommentare erstellt werden, ist jedoch deren 'Verankerung' bzw. Codierung im TEI-XML sehr einheitlich, da sie einfachheitshalber als `<note>` eingefügt werden. 
 
-Die Codierung in TEI/XML sagt freilich noch nichts darüber aus, **wie der Stellenkommentar letztlich dargestellt wird**; dies hängt von der Wahl des ODDs und der Technik des Publikationstools ab. Im Falle des TEI Publisher werden Stellenkommentare zurzeit als Endnote unter dem edierten Text dargestellt. Der Endnotenanker im Fliesstext ist (wie etwa aus Word bekannt) so mit der Endnote verknüpft, dass bei Daraufklicken die Seite zur Endnote scrollt. Für die Showcase-Edition haben wir diese Funktion dahingehend erweitert, dass auch ein hover/mouseover-Text erscheint, wenn der Cursor über den Endnotenanker gesteuert wird.
+Die Codierung in TEI/XML sagt freilich noch nichts darüber aus, **wie der Stellenkommentar letztlich dargestellt wird**; dies hängt von der Wahl des ODDs und der Technik des Publikationstools ab. Im Falle des TEI Publisher werden Stellenkommentare zurzeit als Endnote unter dem edierten Text dargestellt. Der Endnotenanker im Fliesstext ist (wie etwa aus Word bekannt) so mit der Endnote verknüpft, dass bei Daraufklicken die Seite zur Endnote scrollt.
 
 ![Kommentierung im TEI Publisher in Endnoten mit TEI-XML](image-5.png)
 
-Da Stellenkommentare auf Seiten der Codierung einfach **als Annotationen zu handhaben** sind, lassen sie sich im TEI-Publisher im Annotations-Editor einfügen. Zurzeit lassen sie sich jedoch mit der Standard-Konfigurierung im Editor nicht löschen, sondern müssen manuell aus der TEI/XML-Datei gelöscht werden. Um nicht zu oft im TEI/XML arbeiten zu müssen, hat sich die Showcase-Edition dafür entschieden, solche Löschungen zunächst mit einer To-Do-Annotation zu markieren und sie später gebündelt durchzuführen.
+Da Stellenkommentare auf Seiten der Codierung einfach **als Annotationen zu handhaben** sind, lassen sie sich im TEI-Publisher im Annotations-Editor einfügen. Zurzeit lassen sie sich jedoch mit der Standard-Konfigurierung im Editor nicht löschen, sondern müssen manuell aus der TEI/XML-Datei gelöscht werden. Um nicht zu oft im TEI/XML arbeiten zu müssen, hat sich die Vorstudien-Edition dafür entschieden, solche Löschungen zunächst mit einer To-Do-Annotation zu markieren und sie später gebündelt durchzuführen.
 
 Zur einheitlichen Anwendung von Stellenkommentaren ist es sinnvoll, diese in Editionsrichtlinien festzuschreiben.
-
-!!! abstract "Showcase-Editionsrichtlinien: Kommentierung"
-    
-    => @ Ursula: Eigentliche Kommentar-Richtlinien haben wir noch nicht festgelegt, das Kommentieren fällt v.a. in Deine Expertise. Warum soll wann was kommentiert werden?

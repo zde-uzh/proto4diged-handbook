@@ -14,23 +14,23 @@ Zum Schluss wird das vorliegende Handbuch-Kapitel auf die Limitationen der verf�
 
 Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtlinien** zu verfolgen, insbesondere hinsichtlich **Transkriptionsumfang** und **diplomatischer Umschrift**, d.h. Deckungsgrad der Abschrift mit dem Original bezüglich sprachlicher und formaler Eigenheiten: Bei Handschriften muss die Frage beantwortet werden, welche Hände, (Sonder-)Zeichen, Text-Eingriffe und Überarbeitungsstufen wie transkribiert werden. Bei Drucken stellt sich zudem die Frage nach druckspezifischen Paratexten wie Seitenzahlen oder Schmutztitel. Das Auszeichnen dieser formalen textualen Aspekte bezeichnet man auch als **textkritische Annotation**, sie kann je nach Tool (s.u.) zusammen mit der Transkription oder erst später zusammen mit der [_inhaltlichen Annotation_](05_semantic_annotation.de.md) erfolgen.
 
-!!! abstract "Showcase-Editionsrichtlinien: Tranksription und textkritische Annotation"
+!!! abstract "Vorstudien-Editionsrichtlinien: Tranksription und textkritische Annotation"
 
-    Die Showcase-Edition versteht sich als hypothetische Vorarbeit zu einer wesentlich größeren Edition der Korrespondenz von Gaston Paris, die ca. 27.000 Seiten umfasst und sich - falls in späteren Projekten umgesetzt - primär an ein **Forschungspublikum** wendet. Da die entwickelten prototypischen Workflows einerseits wissenschaftliche Standards diplomatischer Editionen erfüllen sollen und andererseits im Umfang skalierbar bleiben müssen, konzentriert sie sich auf **größtmögliche Texttreue bei gleichzeitiger Einfachheit textkritischer und inhaltlicher Auszeichnung**.
+    Die Vorstudien-Edition versteht sich als hypothetische Vorarbeit zu einer wesentlich größeren Edition der Korrespondenz von Gaston Paris, die ca. 27.000 Seiten umfasst und sich - falls in späteren Projekten umgesetzt - primär an ein **Forschungspublikum** wendet. Da die entwickelten prototypischen Workflows einerseits wissenschaftliche Standards diplomatischer Editionen erfüllen sollen und andererseits im Umfang skalierbar bleiben müssen, konzentriert sie sich auf **größtmögliche Texttreue bei gleichzeitiger Einfachheit textkritischer und inhaltlicher Auszeichnung**.
 
-    Bei der Transkription hielt sich die Showcase-Edition an folgende **textkritische Grundsätze**:
+    Bei der Transkription hielt sich die Vorstudien-Edition an folgende **textkritische Grundsätze**:
 
     **Umfang**
 
     - **Alle Hände**, d.h. alle unterschiedlichen Handschriften, werden transkribiert.
-        - Hinzufügungen durch **fremde Hände**, d.h. die in den Brief-Metadaten nicht als Urheberhand ausgewiesen sind, werden als solche durch eine texktritische Annotation (s.u., 3.5) kenntlich gemacht.=> Hier Beispiel aus der Showcase-Edition verlinken.
+        - Hinzufügungen durch **fremde Hände**, d.h. die in den Brief-Metadaten nicht als Urheberhand ausgewiesen sind, werden als solche durch eine texktritische Annotation (s.u., 3.5) kenntlich gemacht.
         - Ausnahme: Fremde Hände werden nicht transkribiert, wenn sie Hinzufügungen von **Archiv-Signaturen oder Archiv-Paginierungen** betreffen. Archiv-Signaturen sind stattdessen in den Metadaten enthalten.
 
     - Die Frage nach **textgenetischen Reihenfolgen** (welche Hand welchem Zeitpunkt zugeordnet werden kann) wird nicht während der Transkription durch Sonderzeichen oder Annotationen beantwortet, da die Briefe Gaston Paris' textgenetisch weitgehend 'flach' sind (d.h. kaum eigene oder fremde Überarbeitungsspuren aufweisen). Wo textgenetische Zusammenhänge dargestellt werden müssen, geschieht dies in [_Kommentaren_](06_commenting.de.md).
 
-    - **Vordrucke** (z.B. Briefköpfe von Hotels oder Privatpersonen) auf dem Briefpapier werden in der Regel transkribiert und  als 'Vordrucke' ebenfalls textkritisch annotiert. => Hier Beispiel aus der Showcase-Edition verlinken.
+    - **Vordrucke** (z.B. Briefköpfe von Hotels oder Privatpersonen) auf dem Briefpapier werden in der Regel transkribiert und  als 'Vordrucke' ebenfalls textkritisch annotiert. 
         - Ausnahme 1: Vorgedruckte **Formularzeilen von Postkarten** ('Nom:', 'Prenom:', etc.) werden nicht transkribiert, da sie allen Postkarten eigen sind.
-        - Ausnahme 2: **Postkartenstempel oder Briefmarken** werden nicht transkribiert. Die darin enthaltenen Orts- und Datumsangaben können, falls sie von der Datumslinie des Briefes abweisen, in den Metadaten festgehalten werden. Es gibt jedoch Editionen, die sich zwecks Durchsuchbarkeit der Stempel für deren Auszeichnung entschieden haben, z.B. die [Gotthelf-Ausgabe](=> bei Erscheinen hier Link ergänzen).
+        - Ausnahme 2: **Postkartenstempel oder Briefmarken** werden nicht transkribiert. Die darin enthaltenen Orts- und Datumsangaben können, falls sie von der Datumslinie des Briefes abweisen, in den Metadaten festgehalten werden. Es gibt jedoch Editionen, die sich zwecks Durchsuchbarkeit der Stempel für deren Auszeichnung entschieden haben, z.B. die [Gotthelf-Ausgabe](https://gotthelf-digital.ch/).
 
     **Diplomatische Umschrift**
 
@@ -50,9 +50,9 @@ Wie in Print-Editionen gilt es auch für DSE konsequente **Transkriptionsrichtli
 
 Ein Schritt, der technisch mit der textkritischen und/oder inhaltlichen Annotation zusammenfällt, aber nichts Sichtbares oder Inhaltliches auszeichnet, ist das Erstellen der **Lesefassung**, die der texttreueren diplomatischen Umschrift zur Seite gestellt ist (siehe dazu auch [_Editionsansichten_](../3_presentation/03_edition_views.de.md)). Damit der Text in einer Lesefassung normalisiert dargestellt werden kann, müssen im Falle von fehlerhaften oder veralteten Schreibweisen die Worte mit einer korrekten bzw. modernisierten Wortvariante annotiert werden - was hierbei als fehlerhaft bzw. veraltet verstanden wird, muss im Detail [_dokumentiert_](../3_presentation/04_documentation.de.md) werden.
 
-!!! abstract "Showcase-Editionsrichtlinien: Lesefassung"
+!!! abstract "Vorstudien-Editionsrichtlinien: Lesefassung"
 
-    Da sich die Showcase-Edition der Briefe Gaston Paris' primär an ein wissenschaftliches Publikum richtet, wird von der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Eine solche ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
+    Da sich die Vorstudien-Edition der Briefe Gaston Paris' primär an ein wissenschaftliches Publikum richtet, wird von der Einrichtung einer Lesefassung während der inhaltichen Annotation abgesehen. Eine solche ist jedoch auch nachträglich machbar, da die TEI/XML-Daten auch zu späteren Zeitpunkten mit unterschiedlichen Tools angereichert werden können.
 
 #### Verknüpfung Digitalisat und Transkription
 
@@ -62,7 +62,7 @@ DSE-spezifische Transkriptionsrichtlinien betreffen die **Verknüpfung von Digit
 
     Vorbildhaft für die Verknüpfung von Digitalisat und Transkription für DSE, die den TEI-Publisher verwenden, ist die [Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html){:target="\_blank"} .
 
-    Die Showcase-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher){:target="\_blank"} nachgenutzt.
+    Die Vorstudien-Edition hat sich an dieser Form der Zeilen-Korrespondenz orientiert und den hierfür vorhandenen [Quellcode der Briefedition Alfred Escher](https://github.com/stazh/briefedition-escher){:target="\_blank"} nachgenutzt.
     <figure markdown="span">
 
     ![screenshot Escher](image-3.png){ width="1000" }
@@ -102,7 +102,7 @@ Als Trainingsset für eigene Transkriptionsmodelle empfiehlt Transkribus, wie er
 
 Für Aufbereiten bestehender Transkriptionen in Transkribus stand in der Vergangenheit die Funktion **"text2image"** zur Verfügung, die bestehende Transkriptionen, z.B. aus alten Druck-Editionen, zeilengenau dem Digitalisat zugeordnet hat. Gegenwärtig müssen die Zeilen-Korrespondenzen zu Trainingszwecken manuell hergestellt werden. Ein solches manuelles Einfügen von Transkriptionen in die Trainingsdaten ist nur sinnvoll, wenn der Weg über die Standardmodelle und eine Korrektur nicht möglich ist. Transkribus hat jedoch die Wiedereinführung von "text2image" Ende 2024 in Aussicht gestellt.
 
-!!! note "Erfahrung aus der Showcase-Edition"
+!!! note "Erfahrung aus der Vorstudien-Edition"
 
     Für die Handschrift von Gaston Paris erwies sich das Standardmodell "The Text Titan I" als geeignet, um mithilfe von Korrekturen eine Ground Truth herzustellen, die wiederum das Trainieren eines eigenen Modells erlaubte (siehe nächste Informationsbox). Es handelt sich dabei um ein KI-Modell, das, ähnlich ChatGPT, auf der Transformer-Technologie beruht und herkömmlichen generellen ATR-Modellen, die ältere KI-Technologien nutzen, überlegen ist. Das eigene Training von Transformer-Modellen ist bislang noch auf keinem Transkriptionstool möglich, selbsterstellte ATR-Modelle können trotzdem durch das Training mit projektspezifischer Ground Truth Tansformer-Modelle konkurrenzieren.
 
@@ -117,7 +117,7 @@ Vom wiederholten Training mit derselben Ground Truth unterscheidet sich das **Re
 - Verfügbare Zeit der Projektmitglieder;
 - Zeit, die für das Trainieren gebraucht wird.
 
-!!! note "Erfahrung aus der Showcase-Edition"
+!!! note "Erfahrung aus der Vorstudien-Edition"
 
     Mithilfe von immer größeren Ground Truth Sammlungen (manuell korrigierten Transkriptionen, die wir mit "The Text Titan I" erstellt haben) wurden mehrere Serien von Re-Trainings gemacht; das zweite Modell der zweiten Serie überstieg in gewissen Erkennungsleistungen "The Text Titan I", namentlich in eher aussergewöhnlichen Idiosynkrasien von Gaston Paris' Handschrift. Das allgemeine Modell 'schlug' das eigene jedoch weiterhin in der Erkennung von Zahlen und verschiedener Sprachen.
 
@@ -157,9 +157,9 @@ Transkribus unterscheidet 'Structural Tags' und 'Textual Tags', dies entspricht 
 
 Der Vorteil von Annotationen in Transkriptionstools ist, dass in der ersten, oberflächlichen Auseinandersetzung mit dem Text bereits die wichtigsten formalen Aspekte geklärt werden können. In den nächsten Schritten nach der Konvertierung, der inhaltlichen Annotation und Kommentierung, - die in folgenden Kapiteln primär anhand des TEI Publishers beschrieben werden - können sich die Mitarbeitenden dann verstärkt mit den semantischen Aspekten auseinandersetzen. Ob und wie eingehend mit den einfach zu bedienenden, aber im Konversionsprozess anspruchsvollen Tags der Transkriptionstools gearbeitet werden soll, sollten Projekte möglichst früh abwägen.
 
-!!! note "Erfahrung aus der Showcase-Edition"
+!!! note "Erfahrung aus der Vorstudien-Edition"
 
-    Wir haben uns entschieden, mit 'Structual' und 'Textual' Tags in Transkribus nur textkritische Aspekte auszuzeichnen (siehe Showcase-Editionsrichtlinien oben). In dieser Auszeichnung der Briefe von Gaston Paris halten wir uns an die Element-Namen, die das [deutsche Textarchiv](https://www.deutschestextarchiv.de/){:target="\_blank"} als [Basisformat zur Auszeichnung von Briefen](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"} vorschlägt. Hierfür haben wir z.T. eigene Tags in Transkribus geschaffen und in der Auszeichnung der Textregionen auf dem Digitalisat angewendet: Der Briefkopf ist beispielsweise als die Textregion 'opener' definiert, in dieser Textregion zeichnen wir die Zeile mit Datum und ggfls. Ort als 'dateline' und die Begrüssung ("Mon cher ami") als 'salute' aus. Der Textkörper selbst ist in verschiedene Paragraphen (= 'paragraph') unterteilt.
+    Wir haben uns entschieden, mit 'Structual' und 'Textual' Tags in Transkribus nur textkritische Aspekte auszuzeichnen (siehe Vorstudien-Editionsrichtlinien oben). In dieser Auszeichnung der Briefe von Gaston Paris halten wir uns an die Element-Namen, die das [deutsche Textarchiv](https://www.deutschestextarchiv.de/){:target="\_blank"} als [Basisformat zur Auszeichnung von Briefen](https://deutschestextarchiv.de/doku/basisformat/brief.html){:target="\_blank"} vorschlägt. Hierfür haben wir z.T. eigene Tags in Transkribus geschaffen und in der Auszeichnung der Textregionen auf dem Digitalisat angewendet: Der Briefkopf ist beispielsweise als die Textregion 'opener' definiert, in dieser Textregion zeichnen wir die Zeile mit Datum und ggfls. Ort als 'dateline' und die Begrüssung ("Mon cher ami") als 'salute' aus. Der Textkörper selbst ist in verschiedene Paragraphen (= 'paragraph') unterteilt.
 
     ![alt text](image-1.png)
 
@@ -177,4 +177,4 @@ Auch bei der Anwendung der besten verfügbaren ATR-Modelle kann der Korrekturauf
 ### 4.3 Annotieren in Transkriptionstools?
 
 Auch die Frage, wie viel bereits in PAGE-XML oder ALTO-XML ausgezeichnet werden soll, hängt vom verfügabren technischen Support ab. Uns sind Projekte bekannt, deren Workflow extensive, nicht nur textkritische, sondern auch inhaltliche Annotationen in Transkribus vorsah und aufgrund von Konversionsschwierigkeiten große Verzögerungen und Anpassungen im Workflow hinnehmen mussten. Schon bei Projektbeginn muss deshalb klar werden, **wo welche Auszeichnungen stattfinden** sollen, um die Komplexität der Datenkonversion an die Projektressourcen anzupassen.
-Die Showcase-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [_inhaltliche Annotation_](05_semantic_annotation.de.md) beschrieben.
+Die Vorstudien-Edition hat die Oberfläche des Annotations-Editors so erweitert, dass textkritische Annotationen auch komplett im TEI-Publisher möglich wären. Das Vorgehen ist dabei dasselbe wie von uns für die [_inhaltliche Annotation_](05_semantic_annotation.de.md) beschrieben.

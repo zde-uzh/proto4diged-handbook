@@ -20,10 +20,10 @@ Because exports in TEI XML format are either missing or insufficient in common t
 
 The basic script is [**page2tei**](https://github.com/dariok/page2tei), which converts PAGE-XML into TEI/XML.
 The biggest obstacle with page2tei is a TODO for line tags. Once this is resolved, custom conversion can be done as the next step (cascade). Other edition-specific tags are placed in anonymous blocks (tag ab) with a type attribute, which can be processed effectively.
+Another transformation-tool (that has the same name, page2tei) is a [Python-page-to-tei-solution](https://github.com/raykyn/page2tei/). It has not been tested for this handbook.
 
 [**trans2tei**](https://github.com/biblhertz/trans2tei){:target="\_blank"} is specifically tailored to PAGE XML output from Transkribus. It includes all steps from the export zip to TEI-XML and also covers the recognition of printed highlights using special characters. trans2tei is aimed at the needs of the Bibliotheca Herziana. For edition projects, it is best used simply as inspiration.
 
-=> The proto2tei script, which is tailored to the Showcase edition, will appear here later.
 
 ## 3. Limitations
 

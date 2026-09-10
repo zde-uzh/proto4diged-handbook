@@ -24,7 +24,7 @@ This path represents the ideal standard or _best practice_ of digitization. The 
 
 Such public databases are usually operated by a network of memory institutions, e.g. [Patrinum](https://patrinum.ch/?ln=fr){:target="\_blank"} in the canton of Vaud or [e-manuscripta](https://www.e-manuscripta.ch){:target="\_blank"} in German-speaking Switzerland. There, the image data is made accessible with the [IIIF standard](https://www.digitale-edition.at/o:konde.123){:target="\_blank"}. This means that each document receives a IIIF-Manifest (describing the digitized text witnesses within) and can be retrieved via standardized interfaces.
 
-!!! note "Experience from the Showcase Edition"
+!!! note "Experience from the Preliminary Edition"
 
     In the constitution of texts for the Gaston Paris' exemplary letter edition, it was possible to draw on many years of research experience and comprehensive overview of the corpus. For a previous project, all of Gaston Paris' letters were digitized by the French National Library and made available online. Thus, we were able to quickly download [the relevant digital copies from their Gallica database](https://gallica.bnf.fr/ark:/12148/btv1b525187862){:target="\_blank"} for further processing.
 

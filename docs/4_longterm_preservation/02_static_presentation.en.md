@@ -63,8 +63,6 @@ Additionally, **search functionality is not available** in purely HTML-based pre
 
 HTML-based editions must be designed from the outset with this format in mind. XSLT transformations can be used as a tool for conversion.
 
-==->@How sustainable is an XSLT conversion on the fly in the browser?
-
 ### JSON-Based Presentations
 
 A less extreme approach is using JSON files that contain data equivalent to what would be retrieved from a database interface, with HTML serving only as a format for individual properties.

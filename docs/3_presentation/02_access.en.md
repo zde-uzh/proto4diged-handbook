@@ -33,16 +33,11 @@ In many TEI Publisher editions, the **search field and index menu** (sometimes l
 
 In both scenarios, users should quickly understand what the edition is about and who created it. When designing a website, the entry page should prioritize simplicity and clarity. This plays a key role in ensuring [_accessibility_](../Themen/accessibility.en.md), which we cover in more detail in this handbook.
 
-The TEI Publisher’s entry page can be **customized**, as explained in detail in the [TEI Publisher documentation].
-=> @Reto: I haven’t yet found the relevant documentation.
+The TEI Publisher’s entry page can be **customized**, as explained in detail in the TEI Publisher documentation.
 
-The Showcase Edition also provides its entry page - mostly following the default settings - as source code:
-=> Link to GitHub here once available.
 
 ## Search Functions
 The more complex an edition, the more useful advanced search functions become. While full-text search in the edited text is the primary feature, targeted searches within commentaries, indexes, or bibliographies can also be valuable. A great example is the [edition-humboldt](https://edition-humboldt.de/){:target="\_blank"}, which offers a well-structured selection of search options. However, these additional features may not be necessary for editions with minimal commentary or easily navigable indexes.
-
-=> @Reto: Are there any technical aspects to add to the TEI Publisher?
 
 ## Indexes and Maps
 

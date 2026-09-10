@@ -60,7 +60,7 @@ Beide Tool-Standardlösungen erlauben die **Einbindung von Konnektoren**, d.h. d
 
 Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichnet werden sollen und welche Normdaten (s.u.) hierzu referenziert werden. Es ist beispielsweise nicht sinnvoll, Anreden (z.B. Du/Ihr) in Briefen jedes Mal zu annotieren, v.a. wenn die angesprochene Person mit dem:der Empfänger:in des Briefes identisch ist (diese Information liegt bereits in den Metadaten des Briefes vor). Solche Erwägungen, auch wenn sie trivial erscheinen mögen, sollten ebenfalls in Editionsrichtlinien aufgenommen und den DSE-Nutzenden zur Verfügung gestellt werden.
 
-!!! abstract "Showcase-Editionsrichtlinien: Inhaltliche Annotation"
+!!! abstract "Vorstudien-Editionsrichtlinien: Inhaltliche Annotation"
 
     Das Projekt hat sich dazu entschieden, die drei Kategorien Ort, Person und Werk zu annotieren, da sich diese im Falle der historischen wissenschaftlichen Korrespondenzen von Gaston Paris am besten dazu eignen, das Forschungsnetzwerk des Gelehrten, das im Zentrum der eigenen Forschung der Projektleiterin steht, nachzuvollziehen.
 
@@ -71,7 +71,7 @@ Im Detail sollte erwogen werden, wie oft welche Daten in einem Text ausgezeichne
     Personendaten, die in der GND noch nicht verzeichnet sind, werden über einen Service der GND-Redaktion an der Zentralbibliothek Zürich selbstständig in der GND ergänzt und so verknüpfbar. Dadurch trägt das Projekt zur Verbesserung der GND-Datensätze hinsichtlich französischer/romanistischer Daten bei.
         - Personen werden nicht im Text ausgezeichnet, wenn sie bereits Teil der Metadaten sind (Verfasser:in oder Empfänger:in)
 
-    - **Werke** werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten aus der GND verknüpft werden, dies ist jedoch in der Showcase-Edition nicht umgesetzt.
+    - **Werke** werden aus der umfangreichen Bibliographie der Projektleiterin aus dem Bibliographie-Tool Zotero importiert. Das dadurch entstehende Register könnte in einem zweiten Schritt mit Werkdaten aus der GND verknüpft werden, dies ist jedoch in der Vorstudien-Edition nicht umgesetzt.
 
 #### Referenzierung von Normdaten
 
@@ -95,19 +95,16 @@ Technisch gesehen gibt es zwei verschiedene Anwendungsfälle für das ODD, die D
 
 Der TEI Publisher hat verschiedene Standard-ODDS vorinstalliert; auch der Überarbeitungsmodus zur Annotation hat die Form eines ODDS. Dieses ODD hat den Datei-Namen 'annotations.odd' und kann einfach aus einem Seitenreiter ausgewählt haben. Der dadurch aktivierte Annotations-Editor kann angepasst werden, siehe hierzu die [Dokumentation des TEI-Publishers](https://teipublisher.com/exist/apps/tei-publisher/documentation/configuring-annotation-editor?action=search&view=div&odd=docbook.odd#3.42.13.63.3).
 
-!!! note "Erfahrungen aus der Showcase-Edition"
+!!! note "Erfahrungen aus der Vorstudien-Edition"
 
     Um alle benötigten Annotationen im Editions-Editor zu aktivieren, waren mehrere Versuche, Besprechungen und Überarbeitungsrunden notwendig. Das Projekt hat u.a. die Notwendigkeit erkannt, die Digitalisate, die in der Standard-Einstellung des Annotations-Editors relativ klein am unteren Bildrand platziert ist, rechts des annotierten Textes grösser einzublenden. Somit können auch textkritische Annotationen oder Korrekturen an der Transkription, für die der Vergleich mit dem Faksimile nötig ist, nachgetragen werden.
-    Das angepasste Annotations-ODD des Projektes ist über GitLab öffentlich verfügbar:
-    => HIER PROJEKTRESSOURCEN EINFÜGEN. ![Annotations-Editor TEI Publisher](image-4.png)
+    ![Annotations-Editor TEI Publisher](image-4.png)
 
 Der TEI-Publisher legt alle Daten der inhaltlichen Annotation in einem **XML-Register** an, dort sind sowohl Normdaten-Ids als auch eigene erzeugte hinterlegt. Die Verwendung einer zusätzlichen Datenbank ist deshalb unnötig.
 
 ### 2.3. Die inhaltliche Annotation in Oxygen mit und ohne ediarum
 
 Nach dem Import der TEI-XML-Daten in den Editor wird mithilfe der Arbeitsumgebung [ediarum](https://www.ediarum.org) die Auszeichnung durchgeführt. Ediarum stellt TEI-XML-Daten ähnlich wie eine Word-Datei dar und hat entsprechende Formatierungs-Buttons. Eine ausführliche ediarum-[Dokumentation](https://www.ediarum.org/docs.html) existiert für das [Aufsetzen](https://www.ediarum.org/docs/set-up/), [Konfigurieren](https://github.com/ediarum/ediarum.SKOS.edit?tab=readme-ov-file#installation) und [Verwenden](https://www.ediarum.org/docs/ediarum.BASE.manual) der Editionsumgebung und wird vom ediarum-Team regelmässig ergänzt.
-
-=> Dieser Punkt wird durch Erfahrungen aus dem Schwarzenbach-Projekt angereichert, wobei die Benutzung von ediarum sich voraussichtlich auf sehr wenige Funktionen beschränkt.
 
 ## 4. Limitationen
 
