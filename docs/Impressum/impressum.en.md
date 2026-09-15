@@ -26,7 +26,7 @@ Preparatory support/accompaniment: Selina Galka and Elisabeth Steiner
 
 Zimmermann, E., & Baumgartner, R. (2026). Handbuch zur Erstellung einer digitalen Edition (Version [[insert version]]) [Computer software]. Zenodo. [[insert DOI]]
 
-You can cite all versions by using the DOI [insert]. This DOI represents all versions, and will always resolve to the latest one.
+You can cite all versions by using the DOI [https://doi.org/10.5281/zenodo.22689079](https://doi.org/10.5281/zenodo.22689079). This DOI represents all versions, and will always resolve to the latest one.
 
 ## Preliminary Edition for the [PARES](https://pares.hypotheses.org/) Project
 

@@ -1,5 +1,7 @@
 # Handbuch Proto4DigEd: Prototypische Workflows für digitale wissenschaftliche Editionen (DSE)
 
+[![DOI](https://zenodo.org/badge/1044208410.svg)](https://doi.org/10.5281/zenodo.22689079)
+
 Read this handbook on [GitHub Pages](https://zde-uzh.github.io/proto4diged-handbook).
 
 ## Run mkdocs on your local machine
