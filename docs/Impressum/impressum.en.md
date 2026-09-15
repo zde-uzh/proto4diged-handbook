@@ -30,7 +30,7 @@ You can cite all versions by using the DOI [insert]. This DOI represents all ver
 
 ## Preliminary Edition for the [PARES](https://pares.hypotheses.org/) Project
 
-The Preliminary Edition is available as a dataset and a simple text presentation in the following repository on the DaSCH Service Platform, where it is preserved for the long term: https://ark.dasch.swiss/ark:/72163/1/0861
+The Preliminary Edition is available as a dataset and a simple text presentation in the following repository on the DaSCH Service Platform, where it is preserved for the long term: [ark:/72163/1/0861](https://ark.dasch.swiss/ark:/72163/1/0861)
 
 ## License
 

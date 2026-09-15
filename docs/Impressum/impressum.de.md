@@ -30,7 +30,7 @@ Alle Versionen können über die DOI [insert] zitiert werden. Diese DOI steht f�
 
 ## Vorstudien-Edition zum Projekt [PARES](https://pares.hypotheses.org/)
 
-Die Vorstudien-Edition ist als Datensatz und einfache Textpräsentation in folgendem Repositorium der DaSCH-Service-Plattform zugänglich und langfristig gesichert: https://ark.dasch.swiss/ark:/72163/1/0861  
+Die Vorstudien-Edition ist als Datensatz und einfache Textpräsentation in folgendem Repositorium der DaSCH-Service-Plattform zugänglich und langfristig gesichert: [ark:/72163/1/0861](https://ark.dasch.swiss/ark:/72163/1/0861)
 
 ## Lizenz
 
